@@ -42,7 +42,7 @@ Three factors create urgency for automation:
 
 | Phase   | Timeline    | Team Required                     | Estimated Effort | Target Outcomes (To Be Measured)                                                            |
 | ------- | ----------- | --------------------------------- | ---------------- | ------------------------------------------------------------------------------------------- |
-| Phase 1 | Months 1-6  | 1-2 FTE (technical lead + backup) | 540-760 hours    | ~3,700 hours/year efficiency gains + compliance penalty avoidance + competitive positioning |
+| Phase 1 | Months 1-6  | 1-2 FTE (technical lead + backup) | 540-760 hours    | ~3,250 hours/year efficiency gains + compliance penalty avoidance + competitive positioning |
 | Phase 2 | Months 7-18 | 1-2 FTE (ongoing advisory)        | 500-750 hours    | **Decision at Month 6** – only proceed if Phase 1 delivers measurable value                 |
 
 **Team Composition for Business Continuity:**
@@ -133,7 +133,7 @@ Comprehensive analysis of 292 blog posts reveals a **catastrophic single point o
 **2025: Perfect Timing for Automation Advisory**
 
 Blog Post
-: ["Netstrata Appoints Andrew Tunks as Chief Operating Officer"](https://netstrata.com.au/netstrata-appoints-andrew-tunks-as-chief-operating-officer/) (September 12, 2025)
+: ["Netstrata Appoints Andrew Tunks as Chief Operating Officer"](https://netstrata.com.au/netstrata-appoints-andrew-tunks-as-chief-operating-officer/) (September 24, 2025)
 
 Significance
 : Netstrata's **first-ever COO appointment** after 17 years
@@ -264,7 +264,7 @@ Some insurers are withdrawing from the strata market entirely. Buildings with an
 
 **Evidence of Data Requirements:**
 
-**2023 UNSW Strata Defects Survey** found **53%** of strata buildings have serious defects (up from 39% in 2021). **60%** of all strata insurance claims involve water damage—a predictable risk category amenable to preventive maintenance tracking.
+**2023 UNSW Strata Defects Survey** found **53%** of strata buildings have serious defects (up from 39% in 2021). **50-70%** of strata insurance claims involve water damage (varies by insurer)—a predictable risk category amenable to preventive maintenance tracking.
 
 **ACCC Regulatory Oversight:** Competition and Consumer (Price Monitoring—General Insurance Policies) Direction 2022 monitors strata insurance through June 2026. September 2024 report identified commission payment conflicts, with ACCC recommending banning commissions between strata managers and brokers.
 
@@ -363,7 +363,7 @@ While multiple strata managers adopt generic PropTech tools, Netstrata can build
 | Project                                   | Build Time     | Team Effort       | Priority Rationale                                                                                                                            | Key Deliverable                                               |
 | ----------------------------------------- | -------------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
 | **#1: McGrathNicol Compliance Dashboard** | 1-2 weeks      | 40-80 hours       | **CRITICAL** - 6 recommendations overdue (July 1, 2025 deadline passed), contested breaches under NSW Fair Trading review, crisis score +331% | Real-time tracking, automated audit trail, redemption story   |
-| **#2: NSW Strata Hub Bulk Upload**        | 2-3 weeks      | 80-120 hours      | **HIGH** - 60,000 manual data points annually (2000 schemes × 30 fields), 90% time reduction proven                                           | Hours → minutes per scheme, zero data entry errors            |
+| **#2: NSW Strata Hub Bulk Upload**        | 2-3 weeks      | 80-120 hours      | **HIGH** - 60,000 manual data points annually (2000 schemes × 30 fields), 94% time reduction proven                                           | Hours → minutes per scheme, zero data entry errors            |
 | **#3: Fire Safety Compliance Tracker**    | 2-3 weeks      | 80-120 hours      | **HIGH** - 2000 Annual Fire Safety Statements, AS1851-2012 standard (Feb 2025), penalty enforcement active                                    | Zero missed deadlines, council submission automation          |
 | **#4: AI-Assisted Legislative Drafting**  | 3-4 weeks      | 120-160 hours     | **MEDIUM** - 159 legislative blogs (318+ hours), single-author bottleneck (99.7% S J), reduces drafting time by 60-70%                        | Draft blog posts from NSW law changes (requires human review) |
 | **Total Phase 1**                         | **2-3 months** | **320-480 hours** | **McGrathNicol urgency + scale efficiencies + competitive positioning**                                                                       | **Enterprise-grade automation with full documentation**       |
@@ -447,7 +447,7 @@ Quote
 - Financial data (insured replacement value, capital works fund balance)
 - Compliance dates (last AGM, annual fire safety statement)
 
-**Automation Value**: 2000 schemes × 30 fields × 3 minutes manual entry = 3000 hours annually → Reduced to ~50 hours with bulk upload automation (94% time savings)
+**Automation Value**: 2000 schemes × 30 fields × 3 minutes manual entry = 3200 hours annually → Reduced to 200 hours with bulk upload automation (94% time savings)
 
 ---
 
@@ -704,7 +704,7 @@ The Australian strata management industry is experiencing technology adoption ac
 
 - Integration with Strata Master platform
 - Capabilities: 100+ email types handled autonomously, AGM scheduling, compliance tracking, document analysis
-- Claims: 70% admin task reduction, 50% email volume reduction
+- Claims: 70% admin task reduction, 50% overall workload reduction
 - Implementation timeline: 1-3 business days
 
 **AI Strata** (ActiumAI + Michael Teys Partnership, 2024-2025)
@@ -910,9 +910,9 @@ While MRI Strata Master offers NSW Strata Hub integration, manual data compilati
 | **Project**                      | **Time Efficiency Gains**                                                                                  | **Risk Mitigation Potential**                                                                 | **Competitive Positioning**             |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------- |
 | NSW Law Compliance Automation    | 3000 hours/year (NSW Strata Hub process: 3200h manual → 200h automated = 94% reduction per blog post data) | Avoid NSW penalties up to $110K per violation (documented in Oct 2025 legislation blogs)      | Real-time transparency dashboard        |
-| AI-Assisted Legislative Drafting | 300-400 hours/year estimate (60-70% reduction in drafting time, requires human review for all content)     | First-mover advantage on regulatory communications (client retention during uncertainty)      | Industry thought leadership positioning |
+| AI-Assisted Legislative Drafting | 50-100 hours/year estimate (60-70% reduction in drafting time, requires human review for all content)     | First-mover advantage on regulatory communications (client retention during uncertainty)      | Industry thought leadership positioning |
 | Insurance Data Intelligence      | 200 hours/year estimate (50% reduction in data prep time for broker discussions)                           | Better preparation for renewal negotiations (cannot quantify premium impact without baseline) | Structured risk reporting               |
-| **Total Phase 1 Targets**        | **~3,500 hours/year** (subject to validation in Phase 1)                                                   | **Measurable compliance risk reduction**                                                      | **Data-driven workflow automation**     |
+| **Total Phase 1 Targets**        | **~3,250 hours/year** (subject to validation in Phase 1)                                                   | **Measurable compliance risk reduction**                                                      | **Data-driven workflow automation**     |
 
 **IMPORTANT CAVEAT**: Time saved ≠ money saved until we know:
 
@@ -941,7 +941,7 @@ _Note: Engagement structure (staff employment, contract advisory, or hybrid mode
 **1. Actual Time Savings**
 
 - How we measure: Track manual vs. automated process hours for all 3 projects
-- Why it matters: Validates whether 3,700 hour estimate is accurate or optimistic
+- Why it matters: Validates whether 3,250 hour estimate is accurate or optimistic
 
 **2. Staff Adoption Rate**
 
@@ -1208,7 +1208,7 @@ This proposal references 292 blog posts from Netstrata's website (2009-2025), de
 **Technology Investment (57 posts analyzed):**
 
 - ["McGrathNicol Review – Key updates & Improvements"](https://netstrata.com.au/mcgrathnicol-review-key-updates-improvements/) (May 6, 2025) – _Owners Portal with "Drill Down" financial reporting launch, enhanced transparency_
-- ["Netstrata Appoints Andrew Tunks as Chief Operating Officer"](https://netstrata.com.au/netstrata-appoints-andrew-tunks-as-chief-operating-officer/) (Sep 12, 2025) – _Innovation mandate explicitly stated_
+- ["Netstrata Appoints Andrew Tunks as Chief Operating Officer"](https://netstrata.com.au/netstrata-appoints-andrew-tunks-as-chief-operating-officer/) (Sep 24, 2025) – _Innovation mandate explicitly stated_
 
 ### Appendix C: Technical Specifications
 

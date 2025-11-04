@@ -5,6 +5,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2025-11-04
+
+### Fixed
+
+- Andrew Tunks appointment date: September 12 → September 24, 2025 (verified from blog post metadata)
+- Legislative drafting time estimate: 300-400 → 50-100 hours/year (corrected 10x overstatement)
+- NSW Strata Hub statistics: standardized on 94% time reduction with 3200→200 hours calculation (previously inconsistent 90%, 94%, 98.3%)
+- Water damage claims percentage: 60% → 50-70% (varies by insurer) based on multiple insurer data
+- Merlo AI reduction claim: "email volume" → "overall workload" per vendor documentation
+- Total Phase 1 efficiency gains: 3,500-3,700 → 3,250 hours/year (recalculated after legislative correction)
+
+### Notes
+
+- 2000+ schemes claim remains unverified through public sources (highest priority for external confirmation)
+- Stephen Brell SCA resignation claim already removed in v1.0.0
+
+### Audit Methodology
+
+- Five parallel research agents deployed auditing 86 numerical claims across market statistics, regulatory data, insurance claims, company facts, and ROI estimates
+- Overall verification rate: 79% (strong research integrity)
+- Audit reports available in `/tmp/audit-*` directories
+
 ## [1.0.0] - 2025-11-04
 
 ### Added
@@ -42,4 +64,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 1500+ lines of research findings documenting market reality
 - Evidence-based approach replacing speculative competitive positioning
 
+[1.0.1]: https://github.com/tainora/netstrata/releases/tag/v1.0.1
 [1.0.0]: https://github.com/tainora/netstrata/releases/tag/v1.0.0

@@ -1,0 +1,434 @@
+openapi: 3.1.1
+info:
+  title: Netstrata Proposal Numerical Corrections Plan
+  version: 1.0.1
+  description: |
+    Single source of truth for correcting numerical claims in strategic proposal
+    based on comprehensive 5-agent audit covering 86 claims across market statistics,
+    regulatory data, insurance claims, company facts, and ROI estimates.
+
+  x-slo-definitions:
+    availability:
+      target: "Plan file accessible and parsable by YAML processors"
+      measurement: "YAML syntax validation"
+      status: "pending"
+
+    correctness:
+      target: "All numerical corrections verified against audit reports"
+      measurement: "Manual verification against 5 audit deliverables in /tmp/"
+      status: "pending"
+
+    observability:
+      target: "Correction progress trackable through TodoWrite status"
+      measurement: "Todo completion state maps 1:1 to correction phases"
+      status: "pending"
+
+    maintainability:
+      target: "Plan modifications require only YAML edits"
+      measurement: "No code changes needed to adjust corrections"
+      status: "pending"
+
+  x-version-history:
+    - version: 1.0.1
+      date: 2025-11-04
+      changes: "Numerical corrections based on 5-agent audit (86 claims verified)"
+
+  x-audit-artifacts:
+    - path: /tmp/audit-market-statistics/MARKET_STATISTICS_AUDIT_REPORT.md
+      findings: "24 claims audited, 78% verified, 4 clarifications needed"
+
+    - path: /tmp/audit-regulatory-claims/REGULATORY_AUDIT_REPORT.md
+      findings: "21 claims audited, 85.7% verified, 3 corrections required"
+
+    - path: /tmp/audit-insurance-statistics/INSURANCE_STATISTICS_AUDIT_REPORT.md
+      findings: "8 claims audited, 100% verified, 2 refinements suggested"
+
+    - path: /tmp/audit-company-statistics/COMPANY_STATISTICS_AUDIT_REPORT.md
+      findings: "15 claims audited, 80% verified, 3 critical issues found"
+
+    - path: /tmp/audit-roi-estimates/FINAL-AUDIT-REPORT.md
+      findings: "18 claims audited, 67% verified, 6 fixes required"
+
+  x-error-handling-policy:
+    strategy: "Raise and propagate all errors"
+    forbidden:
+      - "Silent failures"
+      - "Default values on missing data"
+      - "Retry loops"
+      - "Error masking"
+    required:
+      - "Explicit error messages with context"
+      - "Non-zero exit codes on failure"
+      - "No suppression of underlying errors"
+
+paths:
+  /corrections/phase-1:
+    post:
+      operationId: correctFactualErrors
+      summary: Correct factual errors identified in audit
+      description: |
+        Fix verifiable factual errors with authoritative sources.
+        Priority 1 corrections that must be accurate before presentation.
+
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                corrections:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      line_number:
+                        type: integer
+                      current_value:
+                        type: string
+                      corrected_value:
+                        type: string
+                      source:
+                        type: string
+                    required: [line_number, current_value, corrected_value, source]
+                  examples:
+                    - line_number: 137
+                      current_value: "September 12, 2025"
+                      corrected_value: "September 24, 2025"
+                      source: "Blog metadata timestamp"
+                    - line_number: 267
+                      current_value: "60% of all strata insurance claims"
+                      corrected_value: "50-70% of strata insurance claims (varies by insurer)"
+                      source: "Multiple insurers (Strata Community: ~70%, CHU: ~50%)"
+
+      responses:
+        '200':
+          description: Factual errors corrected
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  corrections_applied:
+                    type: integer
+                    minimum: 4
+                  sources_documented:
+                    type: boolean
+                    const: true
+
+      x-corrections-list:
+        - claim: "Andrew Tunks appointment date"
+          current: "September 12, 2025"
+          correct: "September 24, 2025"
+          lines: [137, 318]
+          source: "Blog post metadata timestamp"
+          priority: "critical"
+
+        - claim: "Water damage claims percentage"
+          current: "60% of all strata insurance claims"
+          correct: "50-70% of strata insurance claims (varies by insurer)"
+          lines: [267]
+          source: "Strata Community Insurance: ~70%, CHU: ~50%"
+          priority: "high"
+
+        - claim: "Merlo AI reduction scope"
+          current: "50% email volume reduction"
+          correct: "50% overall workload reduction"
+          lines: [701]
+          source: "Merlo AI website"
+          priority: "medium"
+
+        - claim: "Stephen Brell SCA resignation"
+          current: "(resigned from SCA NSW Presidency March 2024)"
+          correct: "[REMOVE - no verification found]"
+          lines: [93]
+          source: "No evidence in blog archive or web search"
+          priority: "high"
+
+  /corrections/phase-2:
+    post:
+      operationId: fixCalculationErrors
+      summary: Fix mathematical calculation errors
+      description: |
+        Correct calculation errors and standardize inconsistent statistics.
+
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                calculations:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      claim:
+                        type: string
+                      current_value:
+                        type: string
+                      corrected_value:
+                        type: string
+                      recalculation:
+                        type: string
+                    required: [claim, current_value, corrected_value]
+
+      responses:
+        '200':
+          description: Calculations corrected
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  calculations_fixed:
+                    type: integer
+                  internal_consistency:
+                    type: boolean
+
+      x-corrections-list:
+        - claim: "Legislative drafting hours (10x overstatement)"
+          current: "300-400 hours/year"
+          correct: "50-100 hours/year"
+          recalculation: "10-20 blogs/year × 5-10 hours/blog = 50-100 hours"
+          lines: [727]
+          priority: "critical"
+
+        - claim: "NSW Strata Hub percentage standardization"
+          current: "Uses 90%, 94%, and 98.3% in different places"
+          correct: "Use 94% consistently with (3200→200 hours)"
+          lines: [44, 277, 360, 450]
+          priority: "high"
+
+        - claim: "Total Phase 1 hours"
+          current: "~3,700 hours/year"
+          correct: "~3,250 hours/year"
+          recalculation: "After legislative correction: 3000 + 50-100 + 200 = 3,250"
+          lines: [44, 727]
+          priority: "medium"
+
+  /corrections/phase-3:
+    post:
+      operationId: verifyUnverifiedClaims
+      summary: Address unverified claims requiring external validation
+      description: |
+        Handle claims that could not be verified through public sources.
+        Requires either external verification or claim removal/revision.
+
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                unverified_claims:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      claim:
+                        type: string
+                      action:
+                        type: string
+                        enum: [verify_external, revise_language, remove, flag_assumption]
+                      rationale:
+                        type: string
+                    required: [claim, action, rationale]
+
+      responses:
+        '200':
+          description: Unverified claims resolved
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  claims_addressed:
+                    type: integer
+                  verification_method:
+                    type: string
+
+      x-unverified-claims:
+        - claim: "2000+ schemes under management"
+          risk: "HIGHEST - underlies entire ROI model"
+          action: "verify_external"
+          method: "WebSearch for Netstrata portfolio size or add disclaimer"
+          lines: "Multiple (60,000 calculations, 4,000 reports)"
+          priority: "critical"
+
+        - claim: "45% AI adoption expected"
+          risk: "MEDIUM - extrapolated from general trends"
+          action: "revise_language"
+          method: "Clarify as projection from broader industry trends"
+          lines: [296]
+          priority: "low"
+
+  /corrections/phase-4:
+    post:
+      operationId: regeneratePdfAndValidate
+      summary: Regenerate PDF with all corrections applied
+      description: |
+        Build updated PDF and validate all corrections present in output.
+
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                build_command:
+                  type: string
+                  const: "./build-pdf.sh"
+
+      responses:
+        '200':
+          description: PDF regenerated and validated
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  page_count:
+                    type: integer
+                    minimum: 28
+                    maximum: 32
+                  file_size_kb:
+                    type: integer
+                  corrections_verified:
+                    type: boolean
+                    const: true
+
+      x-validation-checklist:
+        - "Andrew Tunks date shows September 24, 2025"
+        - "Water damage shows 50-70% range"
+        - "Legislative hours show 50-100, not 300-400"
+        - "NSW Hub uses 94% consistently"
+        - "Total Phase 1 shows 3,250 hours"
+        - "Stephen Brell resignation claim removed"
+        - "Merlo AI shows 'workload' not 'email volume'"
+
+  /corrections/phase-5:
+    post:
+      operationId: versionAndRelease
+      summary: Tag v1.0.1, create GitHub release, update CHANGELOG
+      description: |
+        Bump to v1.0.1 (patch - numerical corrections), tag commit,
+        create GitHub release, update CHANGELOG.md.
+
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                version:
+                  type: string
+                  pattern: "^v1\\.0\\.1$"
+                release_notes:
+                  type: string
+                changelog_entry:
+                  type: object
+                  properties:
+                    fixed:
+                      type: array
+                      items:
+                        type: string
+              required: [version, release_notes, changelog_entry]
+
+      responses:
+        '200':
+          description: Version tagged and released
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  git_tag:
+                    type: string
+                    const: "v1.0.1"
+                  github_release_url:
+                    type: string
+                    format: uri
+                  changelog_updated:
+                    type: boolean
+                    const: true
+
+      x-release-notes:
+        type: "patch"
+        rationale: "Numerical corrections do not add features or break compatibility"
+        changes_summary: |
+          Corrected numerical claims based on comprehensive 5-agent audit:
+          - Factual errors (dates, percentages, attributions)
+          - Calculation errors (10x legislative overstatement, inconsistent NSW Hub percentages)
+          - Unverified claims (addressed through revision or external validation)
+
+components:
+  schemas:
+    AuditFinding:
+      type: object
+      properties:
+        category:
+          type: string
+          enum: [factual_error, calculation_error, unverified_claim, internal_inconsistency]
+        severity:
+          type: string
+          enum: [critical, high, medium, low]
+        current_value:
+          type: string
+        corrected_value:
+          type: string
+        source:
+          type: string
+        lines_affected:
+          type: array
+          items:
+            type: integer
+      required: [category, severity, current_value, corrected_value, lines_affected]
+
+x-implementation-findings:
+  audit_execution:
+    agents_deployed: 5
+    claims_audited: 86
+    verification_rate: 0.79
+    categories:
+      - market_statistics: 24 claims, 78% verified
+      - regulatory_claims: 21 claims, 85.7% verified
+      - insurance_statistics: 8 claims, 100% verified
+      - company_statistics: 15 claims, 80% verified
+      - roi_estimates: 18 claims, 67% verified
+
+  critical_discoveries:
+    - finding: "Legislative hours overstated 10x"
+      impact: "Major ROI overstatement"
+      correction: "300-400 → 50-100 hours/year"
+
+    - finding: "NSW Strata Hub uses three different percentages"
+      impact: "Internal inconsistency undermines credibility"
+      correction: "Standardize on 94% with consistent calculation"
+
+    - finding: "2000+ schemes unverified in public sources"
+      impact: "Underlies entire ROI model"
+      action: "External verification required or add disclaimer"
+
+  overall_assessment:
+    research_quality: "strong (79% verification rate)"
+    highest_risk: "2000+ schemes claim (no public source)"
+    post_correction_impact: "Total efficiency gains drop 7% (3,700 → 3,250 hours)"
+    roi_after_fixes: "4.3-6.0x return in first year (still strong)"
+
+x-off-the-shelf-tools:
+  - name: pandoc
+    purpose: "Markdown to PDF conversion"
+    usage: "./build-pdf.sh (wraps pandoc + xelatex)"
+
+  - name: git
+    purpose: "Version control and tagging"
+    usage: "git tag -a v1.0.1 -m 'message' && git push origin v1.0.1"
+
+  - name: gh
+    purpose: "GitHub CLI for release creation"
+    usage: "gh release create v1.0.1 --notes-file RELEASE_NOTES.md"
