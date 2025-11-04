@@ -42,7 +42,7 @@ Three factors create urgency for automation:
 
 | Phase   | Timeline    | Team Required                     | Estimated Effort | Target Outcomes (To Be Measured)                                                            |
 | ------- | ----------- | --------------------------------- | ---------------- | ------------------------------------------------------------------------------------------- |
-| Phase 1 | Months 1-6  | 1-2 FTE (technical lead + backup) | 540-760 hours    | ~3,250 hours/year efficiency gains + compliance penalty avoidance + competitive positioning |
+| Phase 1 | Months 1-6  | 1-2 FTE (technical lead + backup) | 540-760 hours    | Thousands of hours/year efficiency gains + compliance penalty avoidance + competitive positioning |
 | Phase 2 | Months 7-18 | 1-2 FTE (ongoing advisory)        | 500-750 hours    | **Decision at Month 6** – only proceed if Phase 1 delivers measurable value                 |
 
 **Team Composition for Business Continuity:**
@@ -79,7 +79,7 @@ Quote
 : "These reforms represent the most significant changes to NSW strata law in recent years"
 
 Automation Opportunity
-: With 2000+ schemes under management, six-month reporting represents 4000 manual reports annually. Automating report generation, compliance tracking, and deadline management becomes operationally essential.
+: With a large portfolio of schemes under management, six-monthly reporting represents thousands of manual reports annually. Automating report generation, compliance tracking, and deadline management becomes operationally essential.
 
 ---
 
@@ -190,7 +190,7 @@ Blog Post
 - Commission model scrutinized during McGrathNicol review
 - Margin compression forcing operational efficiency focus
 
-**Automation Opportunity**: Extract and structure insurance data from 16 years of records (2000+ schemes). Identify buildings with risk factors (claims history, building defects, fire safety compliance issues) to support broker discussions and prioritize maintenance work. Reduces data preparation time by 50%.
+**Automation Opportunity**: Extract and structure insurance data from 16 years of records across their portfolio. Identify buildings with risk factors (claims history, building defects, fire safety compliance issues) to support broker discussions and prioritize maintenance work. Reduces data preparation time by 50%.
 
 ---
 
@@ -226,10 +226,10 @@ The Australian strata management industry is undergoing transformation driven by
 
 NSW Government established **$8.4 million** Strata and Property Services Taskforce (2025) with penalties up to **$110,000** for strata manager disclosure breaches. Real enforcement occurred: Result Strata Management Pty Ltd and General Manager Michael Lee permanently disqualified in 2025, demonstrating career-ending consequences for non-compliance.
 
-**For Netstrata's 2000+ Schemes:**
+**For Netstrata's Portfolio:**
 
-- **4,000 six-monthly reports** annually (manual process cannot scale)
-- **60,000+ NSW Strata Hub data points** (2000 schemes × 30 fields × annual submission)
+- **Thousands of six-monthly reports** annually (manual process cannot scale)
+- **Tens of thousands of NSW Strata Hub data points** (30 fields per scheme × annual submission for entire portfolio)
 - **Electronic records with 7-year retention** = thousands of documents requiring secure storage and 10-day retrieval capability
 
 **Automation Opportunity**: Compliance is now legal requirement. NSW Strata Hub bulk upload automation and six-monthly report generation transform regulatory burden into operational efficiency.
@@ -268,7 +268,7 @@ Some insurers are withdrawing from the strata market entirely. Buildings with an
 
 **ACCC Regulatory Oversight:** Competition and Consumer (Price Monitoring—General Insurance Policies) Direction 2022 monitors strata insurance through June 2026. September 2024 report identified commission payment conflicts, with ACCC recommending banning commissions between strata managers and brokers.
 
-**For Netstrata's 2000+ Schemes:**
+**For Netstrata's Portfolio:**
 
 - Annual renewal documentation for all schemes (manual compilation unsustainable at scale)
 - Data systems that demonstrate proactive risk management yield better premium negotiation outcomes
@@ -327,11 +327,11 @@ Netstrata has consistently invested in digital infrastructure:
 
 While multiple strata managers adopt generic PropTech tools, Netstrata can build **proprietary intelligence** leveraging advantages competitors cannot replicate:
 
-- **2000+ schemes under management** = unique training dataset
+- **Large portfolio** = unique training dataset
 - **16 years of operational data** = predictive modeling advantage
 - **Award-winning risk management reputation** + technology = industry leadership positioning
 
-**Automation Opportunity:** Transform compliance burdens (NSW Strata Hub reporting, six-monthly reports, McGrathNicol audit trails) and insurance pressures (data-driven risk documentation) into competitive advantages through systems built specifically for Netstrata's 2000-scheme operational context.
+**Automation Opportunity:** Transform compliance burdens (NSW Strata Hub reporting, six-monthly reports, McGrathNicol audit trails) and insurance pressures (data-driven risk documentation) into competitive advantages through systems built specifically for Netstrata's operational context.
 
 ---
 
@@ -363,8 +363,8 @@ While multiple strata managers adopt generic PropTech tools, Netstrata can build
 | Project                                   | Build Time     | Team Effort       | Priority Rationale                                                                                                                            | Key Deliverable                                               |
 | ----------------------------------------- | -------------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
 | **#1: McGrathNicol Compliance Dashboard** | 1-2 weeks      | 40-80 hours       | **CRITICAL** - 6 recommendations overdue (July 1, 2025 deadline passed), contested breaches under NSW Fair Trading review, crisis score +331% | Real-time tracking, automated audit trail, redemption story   |
-| **#2: NSW Strata Hub Bulk Upload**        | 2-3 weeks      | 80-120 hours      | **HIGH** - 60,000 manual data points annually (2000 schemes × 30 fields), 94% time reduction proven                                           | Hours → minutes per scheme, zero data entry errors            |
-| **#3: Fire Safety Compliance Tracker**    | 2-3 weeks      | 80-120 hours      | **HIGH** - 2000 Annual Fire Safety Statements, AS1851-2012 standard (Feb 2025), penalty enforcement active                                    | Zero missed deadlines, council submission automation          |
+| **#2: NSW Strata Hub Bulk Upload**        | 2-3 weeks      | 80-120 hours      | **HIGH** - Tens of thousands of manual data points annually (30 fields per scheme), 94% time reduction proven                                           | Hours → minutes per scheme, zero data entry errors            |
+| **#3: Fire Safety Compliance Tracker**    | 2-3 weeks      | 80-120 hours      | **HIGH** - Portfolio-wide Annual Fire Safety Statements, AS1851-2012 standard (Feb 2025), penalty enforcement active                                    | Zero missed deadlines, council submission automation          |
 | **#4: AI-Assisted Legislative Drafting**  | 3-4 weeks      | 120-160 hours     | **MEDIUM** - 159 legislative blogs (318+ hours), single-author bottleneck (99.7% S J), reduces drafting time by 60-70%                        | Draft blog posts from NSW law changes (requires human review) |
 | **Total Phase 1**                         | **2-3 months** | **320-480 hours** | **McGrathNicol urgency + scale efficiencies + competitive positioning**                                                                       | **Enterprise-grade automation with full documentation**       |
 
@@ -447,7 +447,7 @@ Quote
 - Financial data (insured replacement value, capital works fund balance)
 - Compliance dates (last AGM, annual fire safety statement)
 
-**Automation Value**: 2000 schemes × 30 fields × 3 minutes manual entry = 3200 hours annually → Reduced to 200 hours with bulk upload automation (94% time savings)
+**Automation Value**: Portfolio-wide deployment: 30 fields per scheme × 3 minutes manual entry = thousands of hours annually → Reduced to hundreds of hours with bulk upload automation (94% time savings)
 
 ---
 
@@ -610,7 +610,7 @@ Key Insight
 
 - **Data preparation**: 50% reduction in time spent gathering building data for brokers
 - **Early identification**: 90-day advance notice allows time for maintenance interventions
-- **Structured reporting**: Consistent risk factor summaries across 2000+ schemes
+- **Structured reporting**: Consistent risk factor summaries across entire portfolio
 
 **Client Value**: Better preparation for broker discussions. Cannot quantify premium savings without baseline data.
 
@@ -736,7 +736,7 @@ While multiple platforms offer generic automation, Netstrata possesses unique as
 
 **Portfolio Scale:**
 
-**2000+ schemes under management** creates dataset advantages:
+**Large-scale portfolio** creates dataset advantages:
 
 - Larger data volume than most competitors enables more accurate predictive modeling
 - Portfolio-wide pattern recognition (insurance risk, building defect trends, maintenance optimization) competitors with 500-1000 schemes cannot replicate
@@ -804,7 +804,7 @@ Several automation opportunities remain unaddressed by generic platforms, creati
 
 **Insurance Risk Prediction:**
 
-No existing platform offers predictive analytics for 20%+ premium increases. Netstrata's 16-year dataset across 2000+ schemes enables:
+No existing platform offers predictive analytics for 20%+ premium increases. Netstrata's 16-year dataset across their portfolio enables:
 
 - Identification of premium increase leading indicators (defect types, claims patterns, building characteristics)
 - 90-day advance warnings for renewal preparation
@@ -836,10 +836,10 @@ No generic platform addresses organizational remediation tracking. Netstrata-spe
 
 **Bulk Compliance Reporting:**
 
-While MRI Strata Master offers NSW Strata Hub integration, manual data compilation for 2000+ schemes creates automation opportunity:
+While MRI Strata Master offers NSW Strata Hub integration, manual data compilation for large-scale portfolios creates automation opportunity:
 
 - Bulk upload tool generating CSV files from existing systems
-- 60,000 annual data points (2000 schemes × 30 fields) processed in hours instead of weeks
+- Tens of thousands of annual data points (30 fields per scheme) processed in hours instead of weeks
 - Zero data entry errors through validation automation
 
 ---
@@ -909,10 +909,10 @@ While MRI Strata Master offers NSW Strata Hub integration, manual data compilati
 
 | **Project**                      | **Time Efficiency Gains**                                                                                  | **Risk Mitigation Potential**                                                                 | **Competitive Positioning**             |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------- |
-| NSW Law Compliance Automation    | 3000 hours/year (NSW Strata Hub process: 3200h manual → 200h automated = 94% reduction per blog post data) | Avoid NSW penalties up to $110K per violation (documented in Oct 2025 legislation blogs)      | Real-time transparency dashboard        |
-| AI-Assisted Legislative Drafting | 50-100 hours/year estimate (60-70% reduction in drafting time, requires human review for all content)     | First-mover advantage on regulatory communications (client retention during uncertainty)      | Industry thought leadership positioning |
+| NSW Law Compliance Automation    | Thousands of hours/year (NSW Strata Hub: 94% time reduction through bulk upload automation) | Avoid NSW penalties up to $110K per violation (documented in Oct 2025 legislation blogs)      | Real-time transparency dashboard        |
+| AI-Assisted Legislative Drafting | 50-100 hours/year estimate (60-70% reduction in drafting time, requires human review for all content)      | First-mover advantage on regulatory communications (client retention during uncertainty)      | Industry thought leadership positioning |
 | Insurance Data Intelligence      | 200 hours/year estimate (50% reduction in data prep time for broker discussions)                           | Better preparation for renewal negotiations (cannot quantify premium impact without baseline) | Structured risk reporting               |
-| **Total Phase 1 Targets**        | **~3,250 hours/year** (subject to validation in Phase 1)                                                   | **Measurable compliance risk reduction**                                                      | **Data-driven workflow automation**     |
+| **Total Phase 1 Targets**        | **Thousands of hours/year** (subject to validation in Phase 1)                                                   | **Measurable compliance risk reduction**                                                      | **Data-driven workflow automation**     |
 
 **IMPORTANT CAVEAT**: Time saved ≠ money saved until we know:
 
@@ -941,7 +941,7 @@ _Note: Engagement structure (staff employment, contract advisory, or hybrid mode
 **1. Actual Time Savings**
 
 - How we measure: Track manual vs. automated process hours for all 3 projects
-- Why it matters: Validates whether 3,250 hour estimate is accurate or optimistic
+- Why it matters: Validates efficiency gain estimates against real-world performance
 
 **2. Staff Adoption Rate**
 
@@ -1002,7 +1002,7 @@ _Note: Engagement structure (staff employment, contract advisory, or hybrid mode
 ### Month 5-6: Refinement & Scaling
 
 - **Week 13-16**: User feedback integration, bug fixes, performance optimization
-- **Week 17-20**: Portfolio-wide rollout (2000+ schemes)
+- **Week 17-20**: Portfolio-wide rollout
 - **Week 21-24**: Training sessions for strata managers, documentation finalization
 - **Deliverable**: Full automation suite operational across all schemes
 
@@ -1136,7 +1136,7 @@ I'm open to whatever structure works best for Netstrata:
 
 **What I AM Proposing:**
 
-- Building proprietary intelligence systems leveraging Netstrata's unique 2000-scheme dataset
+- Building proprietary intelligence systems leveraging Netstrata's unique portfolio dataset
 - Human-AI partnership using Anthropic's Claude Code CLI to solve documented operational challenges
 - Ongoing engagement (monthly/quarterly) ensuring automation evolves with business needs
 - Proof-of-value approach: demonstrate results before scaling commitment

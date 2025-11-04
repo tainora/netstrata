@@ -5,6 +5,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.2] - 2025-11-04
+
+### Changed
+
+- Removed unverified "2000+ schemes" claim throughout proposal (no public verification found)
+- Replaced specific portfolio size claims with conservative qualitative language ("large portfolio", "extensive portfolio", "portfolio-wide")
+- Updated ROI calculations from absolute numbers to ranges ("thousands of hours/year" instead of "3,250 hours/year")
+- Revised NSW Strata Hub efficiency claims to avoid overpromising (removed "60,000 data points" → "tens of thousands of data points")
+- Updated Fire Safety compliance language to "portfolio-wide" instead of "2000 Annual Fire Safety Statements"
+
+### Rationale
+
+Portfolio size verification attempts:
+- Web searches found conflicting data: 1,000 buildings (2024 external source), 1,250 buildings (2021), 800 schemes (2022)
+- No authoritative public source confirms "2000+ schemes"
+- Conservative approach: avoid overpromising by using qualitative descriptors instead of unverified specific numbers
+
+### Impact
+
+- PDF size: 131KB, 31 pages (unchanged)
+- Business case remains strong: 94% time reduction percentages retained (these are based on process efficiency, not portfolio size)
+- All efficiency claims now verifiable per-scheme rather than dependent on total portfolio size
+
 ## [1.0.1] - 2025-11-04
 
 ### Fixed
@@ -64,5 +87,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 1500+ lines of research findings documenting market reality
 - Evidence-based approach replacing speculative competitive positioning
 
+[1.0.2]: https://github.com/tainora/netstrata/releases/tag/v1.0.2
 [1.0.1]: https://github.com/tainora/netstrata/releases/tag/v1.0.1
 [1.0.0]: https://github.com/tainora/netstrata/releases/tag/v1.0.0
