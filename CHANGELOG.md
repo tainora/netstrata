@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2025-11-04
 
 ### Added
+
 - Evidence-based industry evolution analysis (Section 1.5) with three converging external pressures: regulatory mandate, insurance market pressure, client expectations
 - Technology adoption benchmarks section (Section IV) documenting AI-powered platforms in Australian strata market
 - Netstrata's proprietary data advantage framework (2000+ schemes, 16 years operational data)
@@ -16,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Parallel research artifacts documenting competitive landscape, technology trends, RegTech compliance, insurance automation drivers
 
 ### Changed
+
 - Replaced competitive blindspot narrative with balanced industry context analysis
 - Updated table heading from "Competitive Blindspot" to "Industry Technology Adoption" with factual market statistics
 - Revised language from fear-based to opportunity-based throughout proposal
@@ -26,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changed "organizational vulnerability" to "operational continuity risk"
 
 ### Removed
+
 - Exaggerated competitive threat language throughout proposal
 - "PropTech Arms Race" framing in competitive context section
 - "Threat assessment" analysis for individual competitors
@@ -34,6 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Research Methodology
+
 - Four parallel research agents deployed investigating: PropTech competitive landscape, technology adoption trends, RegTech compliance automation, insurance industry automation drivers
 - 1500+ lines of research findings documenting market reality
 - Evidence-based approach replacing speculative competitive positioning

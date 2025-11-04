@@ -1,12 +1,12 @@
 [ERROR] file:///Users/terryli/own/netstrata/blogs/owners_covid_19_update_and_message/email%C2%A0admin@netstrata.com.au | Cannot find file: File not found. Check if file exists and path is correct
 {
-  "total": 587,
+  "total": 597,
   "successful": 13,
   "unknown": 0,
   "unsupported": 0,
   "timeouts": 0,
   "redirects": 0,
-  "excludes": 573,
+  "excludes": 583,
   "errors": 1,
   "cached": 0,
   "success_map": {},

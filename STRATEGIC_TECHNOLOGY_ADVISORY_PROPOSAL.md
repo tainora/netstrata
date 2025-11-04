@@ -205,16 +205,19 @@ The Australian strata management industry is undergoing transformation driven by
 **NSW 2025 Reforms Timeline:**
 
 **July 1, 2025**: Phase 2 reforms took effect
+
 - Electronic record storage requirements (7-year retention, 10-day production deadline)
 - Six-monthly reporting to owners corporations (doubled from annual frequency)
 - Committee member training mandates with automatic removal for non-completion
 
 **October 27, 2025**: Phase 3 reforms now active
+
 - Financial hardship provisions required in all levy notices
 - Building manager disclosure obligations expanded
 - NSW Fair Trading enforcement powers increased
 
 **April 1, 2026**: Phase 4 approaching
+
 - Developer certification requirements for multi-storey schemes
 - Initial maintenance schedule tracking
 - 10-year capital works plan status monitoring
@@ -238,11 +241,13 @@ NSW Government established **$8.4 million** Strata and Property Services Taskfor
 **Premium Increases Timeline:**
 
 **2023-2024**: Industry-wide premium pressure
+
 - 15-20% annual increases for schemes with clean records
 - 30%+ increases for schemes with claims history
 - Buildings with unresolved defects faced most severe increases
 
 **2025**: Conditional relief emerging
+
 - Well-maintained properties in low-risk locations: stable or reduced premiums
 - Schemes with unresolved defects or poor claims history: continued high increases
 
@@ -311,6 +316,7 @@ These competitors aren't threats—they're **benchmarks** demonstrating what mod
 **Netstrata's Technology Foundation:**
 
 Netstrata has consistently invested in digital infrastructure:
+
 - **2018:** Macquarie Bank integration for financial operations
 - **2020:** Virtual meeting capabilities during COVID
 - **2024:** Electronic records management (NSW mandate compliance)
@@ -695,20 +701,24 @@ The Australian strata management industry is experiencing technology adoption ac
 **AI-Powered Platforms in Production:**
 
 **Merlo AI** (2021, MRI Software)
+
 - Integration with Strata Master platform
 - Capabilities: 100+ email types handled autonomously, AGM scheduling, compliance tracking, document analysis
 - Claims: 70% admin task reduction, 50% email volume reduction
 - Implementation timeline: 1-3 business days
 
 **AI Strata** (ActiumAI + Michael Teys Partnership, 2024-2025)
+
 - Focus: Compliance-oriented AI agents for rule-bound tasks
 - Capabilities: Digital audit trails, automated workflow execution, analytics for maintenance and budget reviews
 - Target: 368,000+ Australian strata schemes
 
 **Stratagic** (NSW-focused)
+
 - Capabilities: Text chat agents (summarize quotes/reports <30 seconds), email assistants (sorting, categorization, drafting 24/7), StrataKoala NSW legislation integration
 
 **Intellistrata** (12+ years experience, ISO 27001:2022 certified)
+
 - Capabilities: AI email composition, Strata Act Q&A, invoice digitization, smart budgeting, virtual assistants
 
 **Additional Platforms:** Strack (accounting reconciliation, compliance tasks, digital AGM), MYBOS (smart workflows, automated servicing, audit trails—680K+ users, 2,800+ buildings)
@@ -727,6 +737,7 @@ While multiple platforms offer generic automation, Netstrata possesses unique as
 **Portfolio Scale:**
 
 **2000+ schemes under management** creates dataset advantages:
+
 - Larger data volume than most competitors enables more accurate predictive modeling
 - Portfolio-wide pattern recognition (insurance risk, building defect trends, maintenance optimization) competitors with 500-1000 schemes cannot replicate
 - Cross-scheme insights inform proactive interventions at scale
@@ -734,6 +745,7 @@ While multiple platforms offer generic automation, Netstrata possesses unique as
 **Historical Data Depth:**
 
 **16 years of operational data** (2009-2025) provides:
+
 - Long-term trend analysis for insurance premium cycles (identified 3-4 year patterns)
 - Building aging patterns and predictive maintenance opportunities
 - Legislative change impact analysis across multiple reform cycles
@@ -741,6 +753,7 @@ While multiple platforms offer generic automation, Netstrata possesses unique as
 **Technology Foundation Already Established:**
 
 Netstrata's existing infrastructure investments create integration advantages:
+
 - **2018:** Macquarie Bank integration (financial data infrastructure)
 - **2020:** Virtual meeting capabilities (client engagement platform)
 - **2024:** Electronic records management (compliance foundation)
@@ -758,23 +771,28 @@ Netstrata's existing infrastructure investments create integration advantages:
 Understanding where existing platforms demonstrate capabilities clarifies where automation delivers client value:
 
 **Email and Communication Automation:**
+
 - Merlo AI handles 100+ email types autonomously (24/7 responsiveness)
 - Stratagic email assistants provide sorting, categorization, drafting
 - **Benchmark**: Clients expect immediate acknowledgment of inquiries
 
 **AGM and Meeting Management:**
+
 - Multiple platforms automate scheduling, agenda generation, minutes compilation
 - **Benchmark**: Virtual meetings and electronic voting now baseline expectations
 
 **Compliance Tracking:**
+
 - AI Strata digital audit trails, Intellistrata compliance automation
 - **Benchmark**: Real-time compliance status visibility expected
 
 **Document Classification:**
+
 - Intellistrata invoice digitization, Merlo document analysis
 - **Benchmark**: Instant document retrieval with metadata search
 
 **Financial Reporting:**
+
 - MYBOS automated reconciliation, Strack payment reminders
 - **Benchmark**: Real-time financial transparency via owner portals
 
@@ -787,6 +805,7 @@ Several automation opportunities remain unaddressed by generic platforms, creati
 **Insurance Risk Prediction:**
 
 No existing platform offers predictive analytics for 20%+ premium increases. Netstrata's 16-year dataset across 2000+ schemes enables:
+
 - Identification of premium increase leading indicators (defect types, claims patterns, building characteristics)
 - 90-day advance warnings for renewal preparation
 - Structured broker discussion materials demonstrating proactive risk management
@@ -794,6 +813,7 @@ No existing platform offers predictive analytics for 20%+ premium increases. Net
 **Building Defects Intelligence:**
 
 While platforms track defects reactively, none provide portfolio-wide pattern recognition. Netstrata's scale enables:
+
 - Common defect identification across building types/ages
 - Preventive maintenance recommendations based on portfolio patterns
 - Warranty expiration tracking and strategic remediation timing
@@ -801,6 +821,7 @@ While platforms track defects reactively, none provide portfolio-wide pattern re
 **Legislative Update Translation:**
 
 Existing platforms provide compliance tracking but not legislative content generation. Netstrata's 159 blog posts demonstrate domain expertise that can be automated:
+
 - AI-assisted drafting from NSW law changes to client-friendly explanations
 - 24-48 hour turnaround establishing thought leadership
 - Multiple audience versions (owners, committees, managers) from single legislative source
@@ -808,6 +829,7 @@ Existing platforms provide compliance tracking but not legislative content gener
 **McGrathNicol Compliance Transparency:**
 
 No generic platform addresses organizational remediation tracking. Netstrata-specific system demonstrates:
+
 - Automated audit trails for all compliance actions
 - Real-time progress visibility for NSW Fair Trading if requested
 - Transformation of regulatory scrutiny into transparency positioning
@@ -815,6 +837,7 @@ No generic platform addresses organizational remediation tracking. Netstrata-spe
 **Bulk Compliance Reporting:**
 
 While MRI Strata Master offers NSW Strata Hub integration, manual data compilation for 2000+ schemes creates automation opportunity:
+
 - Bulk upload tool generating CSV files from existing systems
 - 60,000 annual data points (2000 schemes × 30 fields) processed in hours instead of weeks
 - Zero data entry errors through validation automation
@@ -1088,7 +1111,7 @@ _Note: Engagement structure (staff employment, contract advisory, or hybrid mode
 
 ## X. Personal Note: Integrity & Long-Term Alignment
 
-I want to be transparent about the unique context of this proposal. Ted Middleton is my mother's partner of 20+ years, making this both a business opportunity and a personal commitment to helping protect what he's built over 27 years.
+I want to be transparent about the unique context of this proposal. Ted Middleton is my mother's partner of 15+ years, making this both a business opportunity and a personal commitment to helping protect what he's built over 27 years.
 
 **My Commitments:**
 
@@ -1132,19 +1155,19 @@ This proposal is informed by comprehensive research into privacy-preserving data
 
 > **⚠️ Private Repository Access Notice**: The research repository is **private** and requires authentication. To request access, please contact Terry Li (see Contact Information section) with your GitHub username or preferred email address for repository invitation.
 
-[^privacy-research]: Complete research synthesis available at [https://github.com/tainora/netstrata/tree/main/research/privacy-preserving-automation](https://github.com/tainora/netstrata/tree/main/research/privacy-preserving-automation) *(Private repository - Access by invitation only)*
+[^privacy-research]: Complete research synthesis available at [https://github.com/tainora/netstrata/tree/main/research/privacy-preserving-automation](https://github.com/tainora/netstrata/tree/main/research/privacy-preserving-automation) _(Private repository - Access by invitation only)_
 
-[^differential-privacy]: Differential privacy research findings: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/differential-privacy-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/differential-privacy-research.md)
+[^differential-privacy]: Differential privacy research findings: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/differential-privacy-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/differential-privacy-research.md) _(Private repository - Access by invitation only)_
 
-[^metadata-monitoring]: Metadata monitoring research findings: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/metadata-monitoring-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/metadata-monitoring-research.md)
+[^metadata-monitoring]: Metadata monitoring research findings: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/metadata-monitoring-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/metadata-monitoring-research.md) _(Private repository - Access by invitation only)_
 
-[^data-minimization]: Data minimization research findings: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/data-minimization-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/data-minimization-research.md)
+[^data-minimization]: Data minimization research findings: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/data-minimization-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/data-minimization-research.md) _(Private repository - Access by invitation only)_
 
-[^zero-trust]: Zero-trust security research findings: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/zero-trust-security-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/zero-trust-security-research.md)
+[^zero-trust]: Zero-trust security research findings: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/zero-trust-security-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/zero-trust-security-research.md) _(Private repository - Access by invitation only)_
 
-[^anomaly-detection]: Anomaly detection research findings: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/anomaly-detection-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/anomaly-detection-research.md)
+[^anomaly-detection]: Anomaly detection research findings: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/anomaly-detection-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/anomaly-detection-research.md) _(Private repository - Access by invitation only)_
 
-[^privacy-tools]: Open source privacy tools research findings: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/open-source-privacy-tools-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/open-source-privacy-tools-research.md)
+[^privacy-tools]: Open source privacy tools research findings: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/open-source-privacy-tools-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/open-source-privacy-tools-research.md) _(Private repository - Access by invitation only)_
 
 ---
 
