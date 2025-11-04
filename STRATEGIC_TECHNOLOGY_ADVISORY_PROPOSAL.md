@@ -150,9 +150,9 @@ Significance
 **Technology Investment Precedent:**
 
 Blog Post
-: "Revolutionising Strata Management – Introducing Drill Down" [*Blog post no longer available online*] (May 22, 2025)
+: ["McGrathNicol Review – Key updates & Improvements"](https://netstrata.com.au/mcgrathnicol-review-key-updates-improvements/) (May 6, 2025)
 
-**First Proprietary Technology Launch in 16 Years:**
+**First Proprietary Technology Launch Announcement:**
 
 - Described as "revolutionary," "industry leading," "exclusive to Netstrata"
 - First time Netstrata positions technology as competitive advantage
@@ -178,18 +178,13 @@ Blog Post
 **Current Crisis Severity (2023-2025):**
 
 Blog Post
-: "How We Can Help Strata Schemes Prepare for the 2024 Insurance Renewal Season" [*Blog post no longer available online*] (December 6, 2023)
+: ["Navigating Rising Strata Insurance Premiums: Challenges and Strategies"](https://netstrata.com.au/navigating-rising-strata-insurance-premiums-challenges-and-strategies/) (December 5, 2023)
 
-    - **Key Quote**: "Premiums have been increasing substantially (**20% or more annually**), and there's a scarcity of insurers specialising in NSW strata."
+    - **Key Quote**: "Increases of **20% or more annually** and limited renewal quotes can be frustrating. These challenges stem from evolving difficulties in securing insurance for strata schemes."
     - "Rate increases are frustrating for all"
     - "Insurers pulling back from strata market"
     - "Buildings with high claims or building defects face increased premiums and excesses"
-
-Blog Post
-: "Preparing for 2025 Strata Insurance Renewals" [*Blog post no longer available online*] (October 30, 2024)
-
-- **Quote**: "Budget for 15-20% increase minimum"
-- Netstrata recommending clients "shift away from commission-based fee structures" (reduces their own revenue)
+    - Netstrata recommending clients "shift away from commission-based fee structures" (reduces their own revenue)
 
 **Financial Pressure Context:**
 
@@ -511,7 +506,7 @@ Ongoing Maintenance
 **Evidence-Based Justification:**
 
 Blog Post
-: "How We Can Help Strata Schemes Prepare for the 2024 Insurance Renewal Season" [*Blog post no longer available online*] (December 6, 2023)
+: ["Navigating Rising Strata Insurance Premiums: Challenges and Strategies"](https://netstrata.com.au/navigating-rising-strata-insurance-premiums-challenges-and-strategies/) (December 5, 2023)
 
 Key Insight
 : "Buildings that have sustained high value or high frequency claims, or buildings with unresolved building defects can face increased premiums and excesses."
@@ -1010,7 +1005,7 @@ This proposal references 292 blog posts from Netstrata's website (2009-2025), de
 **McGrathNicol Review:**
 
 - ["McGrathNicol Review: Key Updates & Improvements"](https://netstrata.com.au/mcgrathnicol-review-key-updates-improvements/) (May 15, 2025)
-- "Independent Review of Netstrata: Setting the Record Straight" [*Blog post no longer available online*] (Feb 26, 2025)
+- ["Netstrata Independent Review"](https://netstrata.com.au/independentreview/) (Feb 26, 2025)
 
 **NSW Government Tools:**
 
@@ -1018,14 +1013,12 @@ This proposal references 292 blog posts from Netstrata's website (2009-2025), de
 
 **Insurance Crisis (53 posts analyzed):**
 
-- "How We Can Help Strata Schemes Prepare for the 2024 Insurance Renewal Season" [*Blog post no longer available online*] (Dec 6, 2023) – _20%+ annual premium increases documented_
-- "Preparing for 2025 Strata Insurance Renewals" [*Blog post no longer available online*] (Oct 30, 2024) – _Budget 15-20% minimum recommended_
+- ["Navigating Rising Strata Insurance Premiums: Challenges and Strategies"](https://netstrata.com.au/navigating-rising-strata-insurance-premiums-challenges-and-strategies/) (Dec 5, 2023) – _20%+ annual premium increases documented_
 
 **Technology Investment (57 posts analyzed):**
 
-- "Revolutionising Strata Management – Introducing Drill Down" [*Blog post no longer available online*] (May 22, 2025) – _Owners Portal launch demonstrating tech investment priority_
+- ["McGrathNicol Review – Key updates & Improvements"](https://netstrata.com.au/mcgrathnicol-review-key-updates-improvements/) (May 6, 2025) – _Owners Portal with "Drill Down" financial reporting launch, industry-leading transparency_
 - ["Netstrata Appoints Andrew Tunks as Chief Operating Officer"](https://netstrata.com.au/netstrata-appoints-andrew-tunks-as-chief-operating-officer/) (Sep 12, 2025) – _Innovation mandate explicitly stated_
-- "New Options for Virtual and Hybrid AGMs" [*Blog post no longer available online*] (Dec 8, 2021) – _50% more owner attendance in virtual meetings_
 
 ### Appendix B: Technical Specifications
 
