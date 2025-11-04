@@ -1,0 +1,36 @@
+# How to Prepare for the 2025 NSW Strata Law Changes
+
+**Date:** 2025-10-27T05:46:33+00:00
+**Author:** S J
+**Source:** https://netstrata.com.au/how-to-prepare-for-the-2025-nsw-strata-law-changes/
+
+---
+
+From 27 October 2025, a suite of new NSW strata law reforms will come into effect, changing how owners corporations, committees and building managers operate. These changes are aimed at improving fairness, accountability and transparency in strata living.
+
+#### 1. Financial Hardship Support for Owners
+
+Every strata levy notice will need to include a Financial Hardship Information Statement. This statement explains support options available to owners who may be struggling to pay levies, and translated versions are available in ten languages.
+
+#### 2. Fairer Debt Repayment and Payment Plans
+
+Committees must consider any owner’s request for a payment plan, using the new standard NSW Fair Trading form. Payment plans can be refused only if accepting them would leave the scheme’s funds insufficient.Requests must be replied to within 28 days, and no additional fees can be charged for submitting one. While a payment plan is in place, debt recovery cannot proceed, giving owners a fair chance to catch up.When repayments are made, funds must now be applied to the oldest overdue levies first, then to interest, and finally to recovery costs.
+
+#### 3. Reinforcing the Duty to Repair and Maintain Common Property
+
+Owners corporations must continue to uphold their obligation to repair and maintain common property, but NSW Fair Trading will now have expanded enforcement powers. These include issuing compliance notices, requiring documentation, or entering enforceable undertakings where necessary.Schemes are encouraged to complete a Strata Building Health Check to assess their current condition and maintenance readiness.
+
+#### 4. Strengthened Duties for Building Managers
+
+Building managers will have clearer legal duties to act in the best interests of the owners corporation and exercise due diligence in matters of safety, maintenance and repairs. They must also disclose any financial benefits or relationships that could present a conflict of interest.
+
+#### 5. Easier Path to Change or End Management Agreements
+
+If a strata or building manager breaches the law or fails to act appropriately, the owners corporation can apply to NCAT to terminate or vary the agreement.Preparing Your SchemeOwners corporations and committees should:
+
+- Review levy notice templates and ensure the hardship statement will be included from 27 October 2025.
+- Familiarise themselves with the new payment plan request process.
+- Ensure repair and maintenance programs are up to date and compliant.
+- Discuss the reforms with their strata and building managers to ensure everyone is aligned.
+
+These updates reflect NSW’s ongoing focus on creating a fairer and more sustainable strata sector.At Netstrata, we’re already helping our clients prepare for these changes, from updating levy processes to reviewing management agreements. If your committee would like guidance, get in touch with our team today.

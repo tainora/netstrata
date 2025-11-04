@@ -1,0 +1,31 @@
+# Common Property to Repair and Maintain
+
+**Date:** 2013-09-17T03:52:18+00:00
+**Author:** S J
+**Source:** https://netstrata.com.au/common-property-to-repair-and-maintain/
+
+---
+
+In a ruling that’s sure to have significant implications for Owners Corporations in NSW and may have a precedent effect throughout Australia, the NSW Appeals Court recently determined that an Owners Corporation is only required to maintain and repair common property not modernise or upgrade the shared space when new technology and infrastructure becomes available.
+
+Strata scheme members are welcome to urge their Strata Committee to implement changes that enhance the property, however as a result of the ruling; these suggestions can now be legally rejected.
+
+This latest decision is the end to a dispute that started in 2006 when an owner of a fast food restaurant in the Hunter Connection, a commercial strata property under Wynyard Station, sub-divided his lot with the purpose of opening three hot food outlets. The City of Sydney Council granted the subdivision request with the condition that each lot would be appropriately ventilated to extract cooking fumes.
+
+The owner applied to his Owners Corporation to connect the lots to the existing exhaust ventilation system. While this was physically possible, the system was already operating at its full capacity. The only solution would be to increase the capacity of the unit. Owing to the cost and potential disruption to other retail outlets in the scheme, the Owners Corporation rejected the application.
+
+Originally the Supreme Court found in favour of the restaurant owner citing Section 62 of the Strata Schemes Management Act, which states that, “An owners corporation must renew or replace any fixtures or fittings comprised in the common property and any personal property vested in the owners corporation.”
+
+However in making this new determination, Judge Barrett said, “Replacement is a large concept. If a modest single-bulb light fitting is removed and a grand crystal chandelier is installed in its place, the former has obviously been replaced by the latter. There is also replacement if a substantial brick wall is erected on a site previously occupied by a flimsy brushwood fence. Replacement connotes no more than the installation of one thing in the place of another to achieve functional equivalence… anything amounting to alteration or addition for the purpose of improving or enhancing is beyond the concept of renewal or replacement…”
+
+In essence repairs and maintenance need only be like for like.
+
+For our part, we support harmonious communal living and if advancements in technology and infrastructure become available that enhance the enjoyment of strata living for individual lot owners, then we would urge Owners Corporation to consider, budgets permitting, implementing such changes.
+
+For more information on how this court ruling affects your property, contact your Strata Manager at Netstrata.
+
+### Subscribe to our newsletter
+
+By signing up to our monthly newsletter, you’ll be the first to get the latest news and updates from our team.
+
+[SUBSCRIBE](https://netstrata.com.au/subscribe/)

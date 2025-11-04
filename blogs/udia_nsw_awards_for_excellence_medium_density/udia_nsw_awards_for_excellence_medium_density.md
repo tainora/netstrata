@@ -1,0 +1,17 @@
+# UDIA NSW Awards for Excellence – Medium Density
+
+**Date:** 2010-08-23T00:06:00+00:00
+**Author:** S J
+**Source:** https://netstrata.com.au/udia-nsw-awards-for-excellence-medium-density/
+
+---
+
+Netstrata was very proud to be associated with the Urban Development Institute of Australia’s Awards for Excellence. Netstrata were proud to sponsor the Award for Medium Density Development.
+
+[IMAGE_0]
+
+This award recognises medium density development projects of all sizes and configurations with special attention given to innovative design solutions on urban infill and renewal sites.
+
+Congratulations to Pierre Abrahamse and the team at Australand for winning this prestigious award for their Pavilions on the Park project in St Leonards. Pavilions is a boutique residential development featuring a modern and contemporary design being designed by acclaimed architects Allen Jack + Cottier, providing a design reinforcing the existing special form of the area.
+
+Netstrata is pleased to support quality developments like the winners Pavilions on the Park, through the provision of professional strata management services. Our vision is to ensure that the quality handed over to the new owners is maintained long after completion. This is achieved by the strata manager working with and providing effective and proactive residential strata management solutions.

@@ -1,0 +1,11 @@
+# Franklin Covey
+
+**Date:** 2010-07-25T22:59:53+00:00
+**Author:** S J
+**Source:** https://netstrata.com.au/franklin-covey/
+
+---
+
+Some of our staff attended the Franklin Covey Course on Great Leaders, Great Teams and Great Results in Melbourne last week. The course was founded by international best seller Stephen Covey author of 7 Habits of Highly Effective People. The course was centred around “The Whole Person Paradigm recognising that human beings are not things that must be motivated and controlled. Instead, people are four-dimensional – body, heart, mind and spirit. When people are treated as whole people, they volunteer their highest efforts and energies.
+
+The course was thoroughly enjoyed by our staff, turning upside down some popular management thought and they look forward to sharing their new knowledge with the Netstrata team to further assist our vision of strata management excellence.

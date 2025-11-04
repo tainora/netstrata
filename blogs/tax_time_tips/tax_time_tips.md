@@ -1,0 +1,41 @@
+# Tax Time Tips
+
+**Date:** 2025-07-01T06:35:41+00:00
+**Author:** S J
+**Source:** https://netstrata.com.au/tax-time-tips/
+
+---
+
+As the new financial year begins, many of us turn our minds to the inevitable task of lodging a tax return. Strata schemes are generally required to prepare a tax return, even if they don’t pay any tax.
+
+From a tax perspective, strata schemes are considered a public company that manages a business and therefore are required to submit an income tax return.
+
+So what are typical examples of taxable income that a strata scheme might receive?
+
+The most common income is interest on money that’s invested usually with a bank. Strata schemes might also receive income from inspection fees paid by prospective property owners or certificate fees. There could also be rent earned on common property.
+
+Levies paid by owners are not considered taxable income because they’re classified as mutual income – the entity can’t make a profit from itself.
+
+Standard deductions could include fees charged by Strata Managers and other expenses directly related to the taxable income.
+
+A tax return may not be required if the strata scheme didn’t receive any assessable income. In this situation, you’re still required to notify the ATO through a non-lodgement advice. However, you may prefer to still lodge a tax return noting that income wasn’t generated.
+
+The Australian Taxation Office website has further information on completing a return for a  strata scheme.
+
+Owners that rent out their strata-titled apartment are also required to declare the rental income regardless of whether the property is positively or negatively geared.
+
+There are common dedications that owners could claim. These include strata fees and levies, repairs and maintenance on the property, management fees and legal expenses, and interest paid on the mortgage. Owners should keep receipts of all expenses.
+
+If you use a reputable managing agent, they’ll generally issue a statement for the financial year that outlines the income and the expenses incurred on your apartment. And if you prepare the tax return online yourself, the interface steps through the appropriate line items relatively easily.
+
+The Australian Taxation Office website has more detail on the tax obligations of residential rental properties.
+
+Rather than scrambling to collate all the information in July, it’s always best that all the documentation is kept up to date so that it’s straight forward to complete the tax return.
+
+If you have any further questions about your tax obligations, please contact your Strata Manager at Netstrata, your tax agent or your property accountant.
+
+### Subscribe to our newsletter
+
+By signing up to our monthly newsletter, you’ll be the first to get the latest news and updates from our team.
+
+[SUBSCRIBE](https://netstrata.com.au/subscribe/)

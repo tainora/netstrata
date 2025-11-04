@@ -1,0 +1,31 @@
+# What to Know About Using Your Garage for Storage
+
+**Date:** 2021-03-12T06:31:45+00:00
+**Author:** S J
+**Source:** https://netstrata.com.au/using-your-garage-for-storage/
+
+---
+
+While apartment-living offers many great advantages, storage space may be an issue. The garage provides an obvious and easy solution to storing that camping tent, snorkel gear or fold-up bed you only use every year or so. But what are the regulations around using the garage for storage and what do you need to consider?
+
+The first step to understanding what you can and can’t do in your garage is to check the by-laws for the scheme. If any restrictions have been placed on the use of the garages, then there’ll be a by-law with the details. Some schemes may have enacted a by-law that allows for garages to be only used for motor and other vehicles.
+
+Generally speaking, the garage space is part of your lot and therefore you own the space within the garage in the same way as you own the space within your kitchen, living room and bathroom. If there aren’t any by-law restrictions, whatever goods you’d like to store in the garage is your decision – whether that be a car, an inflatable jumping castle or a second-hand couch.
+
+An additional complexity may arise if you’d like to construct storage shelves. If the shelves are completely free-standing, then there shouldn’t be any issues. However, you’d like to build shelves as a fixture to the wall, then you may need approval from either the strata committee or the owners corporation.
+
+If you are storing goods in the garage, it’s a good idea to ensure that your home and contents insurance covers items in the garage in the unlikely event of theft, or damage due to fire or water.
+
+Needless to say, an owner that decides to use their garage exclusively for storage but then parks their car in a visitor’s spot, would be breaking another by-law. Similarly, if a garage that’s crammed full of personal items is left open then the owner may be exposing themselves to by-laws that affect the appearance of the lot – in the same way as if your balcony was completely chockers and others can see it.
+
+Garages can’t be used to sleep in because they’re not classified as habitable areas. There are safety issues with living in a garage and there are most likely Council regulations also. So just because you store a couch in the garage doesn’t mean that entitles you to sleep on it.
+
+You may consider renting out your garage. Unless your strata scheme has a by-law restricting the ability to rent a garage to a third-party then there’s nothing to prevent you from doing so. If the person renting the space uses your garage for storage, then you’ll need to work through the same considerations as if you’re using it for storage. You may consider formalising the arrangement with a Parking Space Lease. In the lease you could add a clause that restricts the use of the garage to only motor vehicles.
+
+If you have any questions around the use of a garage, please contact your Strata Manager at Netstrata.
+
+### Subscribe to our newsletter
+
+By signing up to our monthly newsletter, you’ll be the first to get the latest news and updates from our team.
+
+[SUBSCRIBE](https://netstrata.com.au/subscribe/)

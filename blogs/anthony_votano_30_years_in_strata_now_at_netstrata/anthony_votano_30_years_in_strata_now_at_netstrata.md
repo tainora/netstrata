@@ -1,0 +1,21 @@
+# Anthony Votano: 30 Years of Leadership in Strata Management, Now at Netstrata
+
+**Date:** 2025-09-04T06:47:21+00:00
+**Author:** S J
+**Source:** https://netstrata.com.au/anthony-votano-30-years-in-strata-now-at-netstrata/
+
+---
+
+This November marks a remarkable milestone for Anthony Votano, 30 years in the strata industry. Since starting in 1995, Anthony has established himself as one of the most experienced and respected professionals in the field, with a reputation built on integrity, leadership, and client care.
+
+Over the course of his career, Anthony has grown portfolios from hundreds of buildings to thousands of lots, all while cultivating a workplace culture renowned for long staff retention and genuine care for people.
+
+His achievements have been recognised across the industry. Anthony is a winner of the SCA/CHU Essay Award for Excellence and played a key role in guiding his previous firm to finalist status in the 2024 SCA/CHU Awards for Excellence in the Large Strata Firm category. He has also contributed to key industry publications, including Strata from the Ground Up and The Families of Strata, providing valuable insights into legislation and the evolution of strata living.
+
+Anthony’s professional credentials include being a Class 1 Licensed Strata Managing Agent and Registered Tax Agent. He holds a Bachelor of Commerce and an Associate Diploma of Accounting, and from 2001 to 2010 he educated future professionals in Trust Accounting at the Institute of Strata Title Management.
+
+Beyond the boardroom, Anthony is a passionate advocate for positive mental health and wellbeing. He believes in regular check-ins with friends, colleagues, and clients, and brings this people-first approach into his leadership style. At home, he is a devoted father to three daughters, and outside of work he enjoys restoring old cars, camping and quad biking, and collecting mid-century design pieces.
+
+At Netstrata, Anthony brings with him not just decades of strata expertise, but also values-driven leadership built on authenticity, empathy, and a commitment to long-term industry sustainability. His arrival strengthens our team and ensures that his past and future clients alike will benefit from his hands-on approach to client relationships and strata solutions.
+
+If you have worked with Anthony before, you will know the calibre of professionalism and care he brings to strata management. We are proud to welcome him to Netstrata and look forward to supporting our communities together under his leadership.

@@ -1,0 +1,27 @@
+# When there is not a Lot in Common
+
+**Date:** 2013-06-04T02:59:40+00:00
+**Author:** S J
+**Source:** https://netstrata.com.au/when-there-is-not-a-lot-in-common/
+
+---
+
+When you buy into a strata building you are, in fact, purchasing a ‘lot.’ Think of your lot as your own, small component of the larger strata plan. Typically, a lot will comprise an apartment or commercial suite and, where applicable, parking spaces and/or an outdoor area of some description.
+
+Everything outside your lot is Common property. From your external walls to the hallway outside your front door to the courtyard and driveway, the Common areas are those that all residents and occupants have equal access to. And when you think of strata services, they typically apply to the Common areas as opposed to individual lots.
+
+In general, owners are solely responsible for the upkeep and maintenance of their own individual lots. In the case of new buildings – where building or appliance warranties are often concerned – strata management companies may deal with individual lot owners, but by and large owners are responsible for their own individual lots. When it comes to dealing with major strata management matters, your Owners Corporation will represent you.
+
+The Owners Corporation is the body that owners are automatically admitted to upon purchasing a lot in a strata plan. Being an owner entitles you to a share in the Owners Corporation and, therefore, a say in everything from determining your preferred provider of strata management services to who gets to use the visitor parking.
+
+The Owners Corporation – or Body Corporate as it is more commonly known – has five key areas of responsibility.
+
+Strata Plan Insurance
+Maintenance of the Building and Common property
+Financing the Strata Plan
+Maintenance of the Strata By-laws
+Record keeping
+
+And, therefore, it is perfectly correct that when people think of strata management they tend to think of who it is that provides for the care of the Common areas. The strata manager appoints the cleaners responsible for maintaining your courtyards and hallways. And the strata manager is the one who arranges repairs to Common property. Importantly, the strata manager also arranges insurance for the building. However, owners should note that the strata insurance does not cover their individual lot and that home and contents insurance is highly recommended.
+
+An established provider of strata services in Sydney, Wollongong and Newcastle, Netstrata has been managing strata plans for over 18 years.

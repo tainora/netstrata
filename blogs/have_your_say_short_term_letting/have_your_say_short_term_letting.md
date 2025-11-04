@@ -1,0 +1,37 @@
+# Have Your Say on Short Term Letting
+
+**Date:** 2017-07-31T06:30:07+00:00
+**Author:** S J
+**Source:** https://netstrata.com.au/have-your-say-short-term-letting/
+
+---
+
+The short-term letting industry has not just caused significant disruption to the traditional accommodation business model, but has also forced owners corporations to re-evaluate the impact that websites such as Airbnb and Stayz have had on their strata lifestyle and community.
+
+The Sydney Morning Herald recently covered the issues applying an irritation index to measure community’s views towards tourism.
+
+There is clearly a need for governments to provide a framework that allows both the facilitation of this new sharing economy while minimising the disruption to local communities. In NSW exactly what that framework should be is now up for discussion.
+
+In July, the NSW Government released a Short-term Holiday Letting in NSW Options Paper.
+
+The Minister for Planning and Housing Anthony Roberts and the Minister for Innovation and Better Regulation, Matt Kean wrote in the foreword to the paper, “The NSW Government… is committed to providing the best regulatory framework for short-term holiday letting. It is important to get the settings right, which is why we are releasing this Options Paper to have an in-depth discussion. We want to work through the detail of various options before any formal process is commenced.”
+
+The paper discusses options including self-regulation, strata regulation, planning regulation and registration.
+
+Industry self-regulation would focus on a code of conduct, complaints management, education, and monitoring and reporting. On the other hand, strata schemes could change their by-laws to manage visitor behaviour, seek compensation for adverse effects or prohibit short term holiday letting.
+
+At a planning level, regulations could be put in place to limit the length of stay, number of bedrooms and the number of days per year. The government also has the option to make short term holiday letting companies register their service so that they meet an acceptable standard of operation for safety and amenities.
+
+The government is seeking a response to the ideas raised in the paper. Appendix 1 has questions and also has an area for general responses. Submissions are welcome until 31 October 2017 by email to STHL@planning.nsw.gov.au.
+
+After considering the feedback received, the government will then decide on the next steps – whether that’s putting in a regulatory approach and making any changes to legislation.
+
+At Netstrata, we urge everyone connected with strata living to put their views forward. At the core of a strata scheme is a strong sense of community and we wouldn’t want anything to jeopardise harmonious strata living.
+
+If you have any questions around the options paper or short term letting, contact your Strata Manager at Netstrata.
+
+### Subscribe to our newsletter
+
+By signing up to our monthly newsletter, you’ll be the first to get the latest news and updates from our team.
+
+[SUBSCRIBE](https://netstrata.com.au/subscribe/)

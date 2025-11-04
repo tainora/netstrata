@@ -1,0 +1,16 @@
+# Home values flat in April 2010
+
+**Date:** 2010-06-02T10:31:51+00:00
+**Author:** S J
+**Source:** https://netstrata.com.au/home-values-flat-in-april-2010/
+
+---
+
+Home values flat in April as heat comes out of Australia’s housing market
+Housing markets outside the capital cities record no growth in 2010
+
+Based on the industry-respected RP Data-Rismark Hedonic Home Value Index, which uses the nation’s largest sales database combined with the most sophisticated index technology, Australia’s capital city housing markets recorded virtually no capital gains in the month of April, with home values up just 0.2 per cent (0.3 per cent seasonally adjusted).
+
+The slowdown in capital growth comes on the back of 16 months of strong rises in home values. The anemic growth in April also contrasts strikingly with the market’s circa one per cent per month capital gains since the start of 2009.
+
+Across Australian capital cities, home values were 11.9 per cent higher in the 12 months to April 2010.

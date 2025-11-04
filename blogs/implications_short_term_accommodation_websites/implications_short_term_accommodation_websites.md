@@ -1,0 +1,33 @@
+# The wider implications of short-term accommodation websites on strata schemes
+
+**Date:** 2014-11-21T02:05:48+00:00
+**Author:** S J
+**Source:** https://netstrata.com.au/implications-short-term-accommodation-websites/
+
+---
+
+Since launching in 2007, the short-term accommodation website, Airbnb has been a major disruptor to the hospitality industry. Travellers have the ability to reserve a room in private dwellings direct with the owner – sometimes it might be a spare bedroom while in other examples it might be an entire apartment or house.
+
+The benefit for the property owner is revenue – they can generally attract a higher per night price than they would for longer term arrangements and they can also choose to keep the room/property vacant if they wish.
+
+The Sydney Morning Herald recently published an article discussing the insurance implications on property owners who use websites to let their property or spare bedrooms to travellers. The contents within the lot may not be covered under standard home and contents insurance policies which could leave owners exposed without their knowledge. Also reported by Sydney’s leading news outlet was that damage associated with increased use of the common area facilities has led to some Owners Corporations attempting to prevent owners within their plan from advertising on such websites as Airbnb.
+
+The article stated, “An apartment building in Rushcutters Bay is understood to be moving to ban the use of Airbnb, its communal swimming pool inundated with weekend revellers making the most of its proximity to Kings Cross’ nightlife.”
+
+As a property owner within a strata scheme, it’s important to remember that you are responsible for all guests who visit or stay within your lot. This includes noise levels and their behaviour both in the common areas and within the apartment. If they generate noise which disturbs other lot owners’ enjoyment of their property then you can be held accountable – regardless of whether they’re paying to be there or not.
+
+Furthermore if common property is damaged by guests who visit or stay within your lot, then again you are responsible.
+
+Here at Netstrata, we see the issue lying with the inherent nature of such sites as Airbnb. The tenants are invariably only interested in short-term accommodation and might be in a traveller/party frame of mind. This is in direct contrast to six-month or 12-month tenanted apartments – where the lot is rented as the home of a tenant.
+
+If an Owners Corporation is keen to pass a by-law that prevents lot owners from listing their apartments on traveller focused accommodation websites then they are entitled to do so should there be a majority in favour of such a by-law. In essence the by-law would preclude all tenancy arrangements that are less than three months in duration.
+
+Once passed, it would then be up to the Owners Corporation to enforce the by-law and take the necessary action to ensure compliance. Presumably because of the public nature of these websites, it would be easy to identify perpetrators by doing a quick search for the property on the actual site.
+
+For more information on prohibiting short-term leasing or the impact of guest accommodation within your scheme, contact your Strata Manager at Netstrata.
+
+### Subscribe to our newsletter
+
+By signing up to our monthly newsletter, you’ll be the first to get the latest news and updates from our team.
+
+[SUBSCRIBE](https://netstrata.com.au/subscribe/)

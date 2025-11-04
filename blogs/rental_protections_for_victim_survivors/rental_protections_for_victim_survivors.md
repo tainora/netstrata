@@ -1,0 +1,39 @@
+# Rental Protections for Victim Survivors
+
+**Date:** 2025-10-30T06:06:26+00:00
+**Author:** S J
+**Source:** https://netstrata.com.au/rental-protections-for-victim-survivors/
+
+---
+
+Victim-survivors of domestic violence in New South Wales will now have stronger rights and greater security when it comes to their housing, following the passage of landmark rental reforms through the NSW Parliament.
+
+The new legislation, introduced in October 2025, closes long-standing gaps that have often left those escaping violence facing financial penalty, exposure, or the impossible choice between safety and a roof over their heads. By rewriting the rules of rental law, the NSW Government is helping survivors rebuild their lives with dignity, privacy, and control.
+
+For many people experiencing domestic violence, leaving an unsafe home has never been as simple as walking out the door. Until now, the system could unintentionally compound trauma. Victim-survivors were often required to personally notify co-tenants or perpetrators when ending a lease. Others risked losing bond money or being blacklisted on tenancy databases because of damage linked to the violence they endured. Even something as seemingly minor as a property photo could reveal personal belongings online, putting safety at risk.
+
+The reforms passed by Parliament directly address these barriers. Victim-survivors will no longer need to tell co-tenants when they leave a shared tenancy; that responsibility will now fall to the landlord or agent once the person has safely vacated. They will also have the right to change the locks immediately, without first seeking the landlord’s permission.
+
+Minister for Better Regulation and Fair Trading Anoulack Chanthivong said the reforms were about creating a rental system that reflects lived reality rather than bureaucracy.
+
+“For too long, rental laws didn’t reflect the realities facing domestic violence victim-survivors across NSW. Today, that changes,” he said.
+
+“With these reforms the Minns Labor Government has sent a clear message to victim-survivors that we have heard you, and we support you.”
+
+“This is about removing barriers that have kept people trapped in unsafe living situations and replacing them with practical, compassionate protections which put safety first.”
+
+Privacy protections have been strengthened too. When landlords or real-estate agents take photos or videos to advertise a property, they must ensure that no identifying items belonging to a victim-survivor are visible. The legislation also clarifies how survivors can recover their share of a bond and ensures they are not held liable for property damage that occurred because of domestic violence. In addition, unfair listings on tenancy databases will be easier to challenge and remove, reducing the long-term housing consequences that so often follow a crisis.
+
+Jodie Harrison, Minister for the Prevention of Domestic Violence and Sexual Assault, said the reforms would help people make the decision to leave unsafe situations without fear of losing their homes or their stability.
+
+“Often victim-survivors have to make the impossible choice between safety and a home. These reforms make sure they won’t have to anymore,” she said.
+
+NSW Rental Commissioner Trina Jones emphasised the importance of clarity and confidence for those navigating the rental market after leaving a violent household.
+
+“These reforms give victim-survivors the confidence and clarity they need to leave unsafe homes without fear or financial penalty,” she said.
+
+The new laws were developed following extensive consultation led by NSW Fair Trading, which engaged more than 400 individuals and 40 organisations across the housing, legal, and community sectors. That collaboration ensured the measures are practical, survivor-informed, and capable of addressing the most common barriers to safe housing.
+
+These reforms form part of a broader government commitment to improving housing security and strengthening responses to domestic and family violence across New South Wales. For renters, advocates, and property professionals alike, they represent a meaningful step toward a more compassionate and equitable system.
+
+The NSW Government website has more information on the protections for victim-survivors in rental properties.

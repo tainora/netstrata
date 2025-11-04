@@ -1,0 +1,34 @@
+# Debt Recovery Reforms
+
+**Date:** 2025-05-29T07:32:24+00:00
+**Author:** S J
+**Source:** https://netstrata.com.au/debt-recovery-reforms/
+
+---
+
+In a move designed to strike an appropriate balance between the financial security of a strata scheme and a compassionate approach towards financial hardship, the NSW state government changes towards debt recovery are now in effect.
+
+It is now a requirement that all strata levy notices must include information for how owners can seek assistance for financial hardship. The contact details for the National Debt Helpline, a free, confidential and independent financial counselling service, must be included on the notice.
+
+No longer do payment plans require the approval of the owners corporation. Strata Committees are empowered to commence a payment plan with an owner in financial hardship. And all payment plan requests must be considered by schemes and, unless there is a justifiable reason, the scheme must allow the owner to enter into a plan.
+
+Schemes are now required to give more notice when they’re going to commence debt recovery. Previously it was 21 days and now it’s 30 days.
+
+To recover debt recovery costs such as paying for the services of a debt collection agency, the strata scheme now needs a court or tribunal order. The scheme also needs to have offered the owner a payment plan before these costs can be recovered.
+
+And overdue payments must first apply to the strata levies, followed by interest and debt recovery costs.
+
+These changes are part of a much broader suite being rolled out by the state government; they’re based on recommendations outlined in the 2021 statutory review of strata laws.
+
+The NSW Government website has information on what owners should do if they’re struggling to pay their strata levies.
+
+Here is the NSW Government advice on what to do.
+
+- Approach your strata committee or strata managing agent as soon as possible to discuss available options if you can’t pay your strata levies on time.
+- Overdue levies may attract interest charges or debt recovery action, so it’s important to act early.
+- Contact the National Debt Helpline on 1800 007 007 straight away if you receive court documents or letters of demand about unpaid strata levies.
+- If you have a dispute about your strata levies, it may be suitable for free Fair Trading mediation
+
+It’s best that owners and strata committees have an open conversation about the payment of levies and financial hardship. Timely payment of levies is important for the smooth running of the strata scheme and on-going maintenance of the communal areas. By alerting the strata committees early about financial hardship, owners and scheme can work together towards an acceptable solution.
+
+If you have any questions about the debt recovery changes, please contact your Strata Manager at Netstrata.

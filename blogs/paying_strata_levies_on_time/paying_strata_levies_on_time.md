@@ -1,0 +1,35 @@
+# The Importance of Paying Strata Levies on time
+
+**Date:** 2017-01-03T03:35:29+00:00
+**Author:** S J
+**Source:** https://netstrata.com.au/paying-strata-levies-on-time/
+
+---
+
+When buying a strata-titled property, you’ll be required to pay quarterly strata levies – which provide the principle source of funding for the scheme.
+
+There’s usually an administrative fund levy, which goes towards the day-to-day cost of running the scheme and maintaining the common property. Many schemes also have a sinking fund levy that goes towards larger maintenance projects and unforseen emergencies. From time to time, there could also be a special one-off levy designed for a specific project.
+
+The levy amounts are generally reviewed each year when the budget is calculated and then approved at the Annual General Meeting. The levy amount is in proportion to the apartment entitlement of each owner. There is no recourse for owners to dispute the levy amount throughout the year.
+
+The majority of owners in strata schemes pay their levies promptly and efficiently each quarter. It’s easy to receive the levy notice by email or standard mail, and then to pay the levy through an electronic transfer or through more traditional methods.
+
+For owners who miss the deadline for paying a strata levy, there are legal mechanisms in place for the collection of outstanding fees. The Strata Schemes Management Act 2015 says, “The Tribunal may order the owner of a lot in the strata scheme, or other person, to pay a contribution that is payable by the owner or other person under this Act that is not paid at the end of 1 month after it becomes due and payable, together with any interest payable on that unpaid contribution and the reasonable expenses of the owners corporation incurred in recovering those amounts.”
+
+When levies go into arrears after one month, the Owners Corporation can authorise the managing agent to appoint a debt collection agency, obtain legal advice and/or retain legal representation to recover not just the unpaid levy contributions but also interest and legal costs.
+
+At Netstrata, we recommend that levies in arrears are collected immediately rather than allowing them to mount up. It’s much easier to collect a smaller levy amount than a significant debt that’s been allowed to accumulate.
+
+As an owner, if you’re under financial stress and you identify that you won’t be able to meet your obligations, it’s best to notify the Strata Committee before the levies are due so that an appropriate solution can be devised.
+
+At the extreme, bankruptcy proceedings can commence to recover the debt.
+
+Property owners who do the right thing and pay their levies on time unfairly support those who don’t pay promptly. Unpaid debt places extra pressure on cash flow and can trigger the need for special levies. It also impacts the managing agent’s ability to properly administer and maintain the strata scheme and the common areas on the property.
+
+If you have any questions around strata levies, contact your Managing Agent at Netstrata.
+
+### Subscribe to our newsletter
+
+By signing up to our monthly newsletter, you’ll be the first to get the latest news and updates from our team.
+
+[SUBSCRIBE](https://netstrata.com.au/subscribe/)

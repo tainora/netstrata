@@ -1,0 +1,31 @@
+# Come in and feel the noise: landlords to pay for rowdy tenants
+
+**Date:** 2011-05-09T12:03:53+00:00
+**Author:** S J
+**Source:** https://netstrata.com.au/come-in-and-feel-the-noise-landlords-to-pay-for-rowdy-tenants/
+
+---
+
+Photocopies sticky-taped to city lamp posts offering dirt-cheap, shared-room rentals in luxury apartments could soon be a thing of the past after a landmark court ruling.
+
+Previously, landlords who crammed partying backpackers and students into houses and apartments could ignore complaints about noise, passing them back to tenants who changed so often no one could be held responsible. But in a game-changing move, a noise-abatement order has been served on the owners, rather than their tenants, of a Double Bay apartment. The downstairs neighbours had complained for years of noise and disturbance.
+
+Anyone breaching a noise-abatement order can face fines of up to $5500 as well as charges of contempt of court that could lead to jail terms.
+
+For Jean Whittlam, 71, and her son Anthony, 41, the noise-abatement order marks the end of a five-year battle with the owners of the apartment above their flat in New South Head Road, Double Bay.
+
+“We’ve been told this is the first time anything like this has ever happened,” said Mr Whittlam, who said the upstairs flat had been run as a backpacker flophouse. “It’s great… It gives all of us hope.”
+
+Landlords John and Sarah Hanna, who own more than 100 properties in the eastern suburbs, denied the allegation.
+
+“It’s an insult to call the tenants of this flat backpackers,” Mrs Hanna, 76, said. “They were educated people from good families who just happened to be English and Irish.”
+
+However, Jean Whittlam claimed in court that the Hannas’ tenants were often shouting and singing at night, slamming doors, playing soccer at 2am, swearing, partying and playing loud music.
+
+The Hannas’ lawyer disputed that the owners could limit the noise because they did not live in the apartment, but the magistrate, Harriet Grahame, ruled they were responsible because they could control who they leased the apartment to, for how long and, if necessary, make physical changes to the property to decrease noise.
+
+Colin Grace, of Grace Lawyers, whose firm represented the Whittlams, said this was a landmark decision. “It means if a landlord has been told about a problem with their tenants but does nothing about it they effectively ‘adopt’ the problem and are responsible for it.”
+
+Recent changes in the tenancy laws allowing landlords to demand written consent before tenants can sublet mean owners have even less excuse for not knowing who lives in a property.
+
+SMH 7th May 2011

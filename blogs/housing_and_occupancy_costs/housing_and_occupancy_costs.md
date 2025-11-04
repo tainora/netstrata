@@ -1,0 +1,33 @@
+# Housing and Occupancy Costs
+
+**Date:** 2012-12-13T10:51:20+00:00
+**Author:** S J
+**Source:** https://netstrata.com.au/housing-and-occupancy-costs/
+
+---
+
+The Last week the ABS released the results of their 2009/10 Housing and Occupancy Costs Survey which had some very interesting findings pertinent to the housing market.
+
+Last week the Australian Bureau of Statistics released detailed results of their Housing and Occupancy Costs Survey for the 2009/10 financial year. The release has lots of good quality data relating to the household sector with the most significant finding being that renters pay a larger proportion of their income on housing costs than those with a mortgage.
+
+The average housing costs in 2009-10 were lowest for owners without a mortgage who paid an average of $35/week in housing costs, ranging from $30/week in Tasmania to $44/week in the Australian Capital Territory. As these owners have paid off their homes, these costs are likely to relate to: rates, electricity, utilities charges and maintenance costs. Across the nation, owners without a mortgage were spending just 3.0% of their gross income on housing costs.
+
+Owners with a mortgage were paying $408/week in housing costs with $35/week attributable to occupancy costs and $373/week dedicated to paying the mortgage. Mortgage holders in Tasmania paid the lowest amount ($279/week) while mortgagees in the Northern Territory paid the greatest amount each week ($486). Across the nation, owners with a mortgage were spending 18.0% of their gross income on housing costs.
+
+Renters were typically paying $275/week towards their housing costs in 2009/10 across the country. The occupancy costs for renters are likely to be lower than those for mortgagees or those who fully own their home as rates and utilities are generally paid by the property owners. On a state-by-state basis there were much wider variations in these costs ranging from $178/week in Tasmania to $323/week in the Australian Capital Territory. Across the nation, renters were spending 20% of their gross income on housing costs which is a greater proportion being spent than those with a mortgage.
+
+The survey results also showed that the vast majority of Australian’s were living in a house which they either owned outright (32.6%) or had a mortgage on (36.2%). Although 28.7% of homes were being rented, the figure ranged from 25.0% in Tasmania (the country’s most affordable housing market) to 39.5% with the Northern Territory.
+
+Focusing on household characteristics, one family households account for the largest proportion of all households at 70.6% across the county. Interestingly, couples with dependent children (26.3%) and couples only (26.2%) account for an almost equivalent proportion of all households. Lone person households account for almost a quarter of all households (24.5%) while group households (3.3%) and multiple family households (1.7%) account for a small overall proportion.
+
+Detached houses are still the dominant dwelling type across the country, accounting for 78.6% of stock with semi-detached properties (10.4%) and units (10.7%) each accounting for around 10% of overall housing stock. Separate houses are least prevalent in New South Wales (73.7%) and most prevalent in Western Australia (86.0%).
+
+Across the nation and across all ownership types, just 5.5% of households are paying more than 50% of their gross income on housing costs. Without delving deeper into the results you’d anticipate that this would be the result of owners with a mortgage however, only 6.9% of owners with a mortgage spend more than 50% of their income on housing costs compared with 9.1% of renters.
+
+Most measures of mortgage stress suggest that if you are spending more than 30% of your take home income on your mortgage you are in mortgage stress. The results of this survey suggest that in June of last year 23% of home owners were in a position of mortgage stress.
+
+The results of this survey are quite interesting and it is disappointing that the ABS only undertakes the survey every two years. The most interesting finding is that renters are paying a larger proportion of their income towards their housing costs than those with a mortgage. This is reflective of the fact that mortgagees are typically earning more than those renting but it also highlights that as mortgage holders pay down their debt they are probably looking to refinance to pay less on their mortgage. This would have been increasingly occurring over the past 12 months with the volume of refinance commitments rising substantially.
+
+The other particularly important finding which is inter-related was the fact that the vast majority of owners with a mortgage were paying less than 25% of their income on their housing costs (66.4%). On the other hand, only 6.9% of mortgage holders were spending more than 50% of their income on housing costs.
+
+Thank you to R P Data for this Article

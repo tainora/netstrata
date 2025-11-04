@@ -1,0 +1,71 @@
+# Strata Meetings
+
+**Date:** 2017-12-01T04:38:07+00:00
+**Author:** S J
+**Source:** https://netstrata.com.au/strata-meetings/
+
+---
+
+Like most other corporations, an owner’s corporation can only make decisions by passing resolutions at either a general meeting or at a strata committee meeting.
+
+The different types of meetings include:
+
+- First Annual General Meeting
+- Annual General Meetings
+- Extraordinary General Meeting
+- Strata Committee Meeting
+
+### The First Annual General Meeting
+
+The original owner must hold the first Annual General Meeting within 2 months of the end of the initial period, that is, when one-third of the total unit entitlements have been sold.
+
+The notice of the first Annual General Meeting must be served on each owner and each first mortgagee and covenant chargee shown on the strata roll. This must be done at least 14 days before the scheduled date of the meeting.
+
+### Annual General Meetings
+
+After the first Annual General Meeting, the next Annual General Meeting must be held between 11 to 13 months after the date of the first Annual General Meeting.
+
+A notice of a general meeting must be sent to all owners shown on the Strata Roll at least 7 days before the scheduled date of the meeting.
+
+### Voting at General Meetings
+
+[IMAGE_0]
+
+You are entitled to vote at a general meeting in person, if you are:
+
+- a company nominee of a corporation shown on the strata roll as the owner
+- an appointed proxy
+- an owner/mortgagee or covenant chargee of a lot shown on the strata roll.
+
+Furthermore to be able to vote at a general meeting you must be financial as at the date that the notice for the meeting was sent out. This means that your levies must be up to date and also any other outstanding amount must also be paid, which includes, special levies, penalty interest and debt collection costs.
+
+### Quorum
+
+There must be a quorum at a general meeting before any motion can be voted on. A quorum is:
+
+one-quarter of the people entitled to vote, or
+a sufficient number of owners entitled to vote holding one-quarter or more of the total unit entitlements.
+
+If a quorum is not present within 30 minutes of the scheduled start time, the meeting must be adjourned for at least 7 days. The Chairperson presiding sets the date and time for the adjourned meeting.
+
+### How to call a general meeting or have an item included on the agenda
+
+A general meeting may be called when a request in writing is signed by lot owners whose total unit entitlement equal at least one-quarter of the aggregate unit entitlements for a strata scheme or by majority vote of the strata committee.
+
+Any person entitled to vote at a general meeting can request for a motion to be put on the agenda for a general meeting. Written notice must be given to the secretary. The secretary must put the motion on the agenda for the next general meeting.
+
+### Owner Participation
+
+Netstrata encourages owners to attend meetings and participate in the affairs of their building.
+
+Strata Schemes depend heavily upon owner participation to function correctly.
+
+The active involvement of owners will assist in creating a peaceful and harmonious environment for owners and occupants to reside and to effectively protect and enhance the assets of the owners corporation.
+
+If owners are unable to attend meetings we recommend that they consider the appointment of a proxy to ensure that their vote is counted.
+
+### Subscribe to our newsletter
+
+By signing up to our monthly newsletter, you’ll be the first to get the latest news and updates from our team.
+
+[SUBSCRIBE](https://netstrata.com.au/subscribe/)

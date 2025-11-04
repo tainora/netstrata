@@ -1,0 +1,58 @@
+# Top 10 tips for avoiding strata strife
+
+**Date:** 2010-02-05T04:26:11+00:00
+**Author:** S J
+**Source:** https://netstrata.com.au/top-10-tips-for-avoiding-strata-strife/
+
+---
+
+On the Office of Fair Trading website the Minister for Fair Trading Virginia Judge today urged residents of strata schemes to follow 10 tips to avoid potential problems with their neighbours, which would also make the jobs of strata managers less stressful.
+
+Ms Judge said requests for mediation in strata disputes had risen from 1,273 in 2008 to 1,405 in 2009 – an increase of almost 10 per cent.
+
+“Complaints last year ranged from the ordinary to the off-the-wall,” Ms Judge said.
+
+“You can understand differences of opinion over processes – but some behaviour is just peculiar.”
+
+Some of the more unusual complaints received by Fair Trading last year included:
+
+- a long-running and personal feud between neighbours peaking with one positioning what the adjoining owner described as an “evil-looking effigy” in his courtyard so that it stared directly into his bedroom
+- a complaint made against an owner whose large dogs and particularly noisy pet geese were disturbing other owners resulting in threats that the geese would help save his weekly dog food bill, and
+- high rise residential tower residents dropping tables, chairs, lit cigarettes and dirty nappies onto the pavement outside the ground level café and shops.
+
+Ms Judge said the good news was that while there was an increase in mediation requests last year, they represent a tiny fraction of the State’s 65,000 strata schemes.
+
+“People want to get along. Whether you live in a unit, a duplex or a house, being happy in your home and having a sense of community is so important,” she said.
+
+“Exercising commonsense and your responsibilities as well as your rights will help avoid frayed nerves.”
+
+Ms Judge said the most common bugbears were associated with alterations to common property, breaches of by-laws, relationships with managing agents and meeting procedures.
+
+“Fair Trading is always on hand to help and has a proven track record in helping strata residents,” she said.
+
+“More than half of annual requests for help are either resolved during that first phone call or the caller chooses not to proceed further.
+
+“Of the matters that do proceed, Fair Trading successfully mediates 70 percent, with the remainder adjudicated by the Consumer, Trader and Tenancy Tribunal (CTTT).”
+
+Ms Judge said NSW Fair Trading’s Top 10 Tips for Strata Living include the following:
+
+Get involved – Decisions are made at meetings so get involved. Make your vote count. Use your proxy if you can’t attend.
+Know the rules – read Fair Trading’s “Strata Living” publication which outlines strata management requirements. see [https://www.netstrata.com.au/useful-links/](https://www.netstrata.com.au/useful-links/)
+Looks are deceiving – get approvals before altering common property. It doesn’t matter that it’s your courtyard, if it’s common property, it’s owned by everyone.
+What will the neighbours think? – be mindful of others. Noise can be annoying – as is taking up visitor parking with your vehicles.
+Protect your investment – maintain common property. If it’s getting run down, put up a motion at a meeting for specific works to be done.
+Talk first – talk to your neighbours if there is a problem. They may not realise their actions are causing a nuisance.
+It’s your strata scheme – your strata managing agent works for you. If you’re not happy with their performance, have a meeting and vote to instruct them on how you want them to manage your scheme.
+If you don’t like it, change it – by-laws are there to guide the behaviour of owners and tenants. If the by-laws aren’t working, change them. You do this by putting a motion with the new by-law to a general meeting, getting over 75 per cent to vote for it, then registering the by-law at the Land and Property Management Authority.
+Don’t let it fester – pursue by-law breaches. If talking has not resolved a by-law breach, contact your strata committee or strata managing agent to issue a Notice to Comply with a By-law. This can lead to a fine of up to $550. You may also want to apply for mediation.
+Be flexible – there may be times you need to give a little more leeway to accommodate different personalities.
+
+More information can be found in the following document or call 13 32 20. http://www.fairtrading.nsw.gov.au/biz_res/ftweb/pdfs/About_us/Think_smart_newsletter_February_2010.pdf
+
+If your strata scheme needs help then one of our strata managers may be right for you. For an obligation free quote do not hesitate to contact our Business Development Manager Jeremy Stone on 02 8567 6408. Putting management back into strata.
+
+### Subscribe to our newsletter
+
+By signing up to our monthly newsletter, you’ll be the first to get the latest news and updates from our team.
+
+[SUBSCRIBE](https://netstrata.com.au/subscribe/)

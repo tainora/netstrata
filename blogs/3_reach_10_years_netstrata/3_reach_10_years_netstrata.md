@@ -1,0 +1,17 @@
+# 3 reach 10 at Netstrata
+
+**Date:** 2010-05-10T23:59:58+00:00
+**Author:** S J
+**Source:** https://netstrata.com.au/3-reach-10-years-netstrata/
+
+---
+
+[IMAGE_0]
+
+Last Friday Netstrata celebrated the  anniversary’s of Sandie Garcia, Michelle Zrno and Samantha Antipas having been with the company for 10 years. Netstrata knows they are only as great as the people they employ, and are proud to have 3 of their team reach the milestone of a decade with the organisation.
+
+[IMAGE_1]
+
+Our social club arranged a fantastic surprise celebration at the Blakehurst Bowling Club where a fantastic dinner was enjoyed by all. Sandie, Michelle and Samantha were presented with awards for long service and some gifts from Swarovski.
+
+[IMAGE_2]

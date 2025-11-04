@@ -1,0 +1,23 @@
+# Holly Westcott Presents on Strata Law at the Essentials of Property Law Course
+
+**Date:** 2024-09-24T07:41:08+00:00
+**Author:** S J
+**Source:** https://netstrata.com.au/holly-westcott-presents-on-strata-law/
+
+---
+
+We’re proud to share that Holly Westcott, one of Netstrata’s most experienced and respected new strata development consultants, recently presented at the “Essentials of Property Law” course, where she shared her extensive knowledge on Strata Law. Holly is widely recognised across the industry for her exceptional expertise in guiding property owners through the complexities of strata development, ensuring they achieve the best outcomes for their future owners through correct titling strategies.
+
+The “Essentials of Property Law” course covers a comprehensive range of topics in property development law and brought together experts from various fields to educate developers, builders, planners, and project managers on the legal intricacies involved in property development. Holly’s session on Strata Law was a standout, providing valuable insights into the nuances of Building Management Committees (BMCs), strata, community, and other forms of group title ownerships.
+
+Drawing on her extensive experience, Holly discussed real-world examples of different title structures, emphasising the importance of selecting the right strategy for each project. She also explored the potential risks associated with different title structures and offered practical advice on how to manage these risks effectively. Attendees gained a deeper understanding of how the correct titling strategies can ensure the smooth management of strata schemes, benefiting not only developers but also future property owners.
+
+Holly’s presentation included a high-level discussion on the strata reforms that have been introduced, providing attendees with up-to-date information on recent changes in the industry. Her ability to break down complex legal concepts into practical, actionable advice made her session incredibly valuable for all participants.
+
+At Netstrata, we take pride in having Holly as part of our team, and her contribution to this course further solidifies her position as a leader in the field of new strata developments. If you’re looking for expert guidance on strata development, titling strategies, or managing new projects, Holly Westcott and the team at Netstrata are here to assist.
+
+### Subscribe to our newsletter
+
+By signing up to our monthly newsletter, you’ll be the first to get the latest news and updates from our team.
+
+[SUBSCRIBE](https://netstrata.com.au/subscribe/)

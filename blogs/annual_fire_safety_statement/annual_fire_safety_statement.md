@@ -1,0 +1,32 @@
+# Annual Fire Safety Statement
+
+**Date:** 2016-12-18T23:26:36+00:00
+**Author:** S J
+**Source:** https://netstrata.com.au/annual-fire-safety-statement/
+
+---
+
+Fire safety is too important to take short cuts; you can never predict when you’ll need the fire protection systems in your building. A fire has the potential to put the lives of the residents at risk, as well as cause damage to both strata and personal property.
+
+At Netstrata, we believe in taking a proactive approach to the maintenance of the fire systems in buildings that we manage. As such, we appoint a suitably qualified fire expert to act on our behalf, who would be responsible for the fire safety measures that are installed in both the common areas of the Strata Scheme as well as within individual apartments. These measures are tested and maintained to specific standards.
+
+As part of regular maintenance, there is a legislative requirement on many buildings to lodge an Annual Fire Safety Statement with the local council, as well as display the statement on the Strata notice board. This statement is effectively the “signing off” of the building by the fire contractor for the Strata Scheme, confirming that the fire measures in place meet the relevant standards. Regulation 175 of the Environmental Planning and Assessment Act 1979 (NSW) features the pertinent clause.
+
+An annual fire safety statement is a statement issued by or on behalf of the owner of a building to the effect that:
+
+a. each essential fire safety measure specified in the statement has been assessed by a properly qualified person and was found, when it was assessed, to be capable of performing:
+
+i. in the case of an essential fire safety measure applicable by virtue of a fire safety schedule, to a standard no less than that specified in the schedule, or
+ii. in the case of an essential fire safety measure applicable otherwise than by virtue of a fire safety schedule, to a standard no less than that to which the measure was originally designed and implemented, and
+
+b. the building has been inspected by a properly qualified person and was found, when it was inspected, to be in a condition
+
+It is important to note that the Annual Fire Safety Statement should only be completed and signed by the appointed fire contractor. Members of the owner’s corporation, the strata committee members and Strata Managers do not hold the relevant qualifications and should therefore not confirm that the fire safety measures are in good working order. As a Strata Manager, we cannot give assurances that the fire services have been maintained, tested and met the necessary requirements because this is not our field of expertise.
+
+If you have any further questions regarding fire safety or the annual fire safety statement, do not hesitate to contact your Strata Manager at Netstrata.
+
+### Subscribe to our newsletter
+
+By signing up to our monthly newsletter, you’ll be the first to get the latest news and updates from our team.
+
+[SUBSCRIBE](https://netstrata.com.au/subscribe/)
