@@ -762,7 +762,7 @@ Netstrata's existing infrastructure investments create integration advantages:
 
 **Brand Reputation:**
 
-27-year operating history with industry awards establishes trust foundation. Technology investment during McGrathNicol review period demonstrates commitment to operational improvement.
+29-year operating history with industry awards establishes trust foundation (founded 1996). Technology investment during McGrathNicol review period demonstrates commitment to operational improvement.
 
 ---
 
@@ -1111,7 +1111,7 @@ _Note: Engagement structure (staff employment, contract advisory, or hybrid mode
 
 ## X. Personal Note: Integrity & Long-Term Alignment
 
-I want to be transparent about the unique context of this proposal. Ted Middleton is my mother's partner of 15+ years, making this both a business opportunity and a personal commitment to helping protect what he's built over 27 years.
+I want to be transparent about the unique context of this proposal. Ted Middleton is my mother's partner of 15+ years, making this both a business opportunity and a personal commitment to helping protect the company he founded in 1996.
 
 **My Commitments:**
 
@@ -1123,6 +1123,7 @@ I want to be transparent about the unique context of this proposal. Ted Middleto
 **Engagement Approach:**
 
 I'm open to whatever structure works best for Netstrata:
+
 - **Advisory contract** (proof-of-value phase with clear deliverables)
 - **Employment** (becoming part of the team if mutual fit demonstrated)
 - **Hybrid model** (contract-to-hire with evaluation milestones)
