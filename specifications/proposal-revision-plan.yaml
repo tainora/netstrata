@@ -1,0 +1,434 @@
+openapi: 3.1.1
+info:
+  title: Netstrata Proposal Revision Plan
+  version: 0.1.0
+  description: |
+    Single source of truth for revising strategic proposal based on competitive
+    landscape research findings. Replaces exaggerated competitor blindspot narrative
+    with evidence-based industry evolution analysis.
+
+  x-slo-definitions:
+    availability:
+      target: "Plan file accessible and parsable by YAML processors"
+      measurement: "yamllint validation passes"
+
+    correctness:
+      target: "All research findings accurately reflected in revision tasks"
+      measurement: "Manual verification against 4 research deliverables in /tmp/"
+
+    observability:
+      target: "Revision progress trackable through TodoWrite status"
+      measurement: "Todo completion state maps 1:1 to plan phases"
+
+    maintainability:
+      target: "Plan modifications require only YAML edits"
+      measurement: "No code changes needed to adjust scope/priorities"
+
+  x-version-history:
+    - version: 0.1.0
+      date: 2025-11-04
+      changes: "Initial plan provisioning based on parallel research completion"
+
+  x-research-artifacts:
+    - path: /tmp/proptech-competition-research/PROPTECH_COMPETITIVE_LANDSCAPE.md
+      findings: "7 AI-powered competitors identified, $5B market, 15% adoption rate"
+
+    - path: /tmp/strata-technology-trends/TECHNOLOGY_ADOPTION_TRENDS_RESEARCH.md
+      findings: "48% residents aged 20-39, 59.1% dissatisfied with communication, 15% using AI"
+
+    - path: /tmp/regtech-compliance-research/NSW-STRATA-REGTECH-COMPLIANCE-RESEARCH.md
+      findings: "$8.4M enforcement taskforce, $110K penalties, July 1 2025 deadline passed"
+
+    - path: /tmp/insurance-automation-drivers/insurance-pressure-research-findings.md
+      findings: "15-30% premium increases, 53% buildings with defects, ACCC monitoring"
+
+paths:
+  /revision/phase-1:
+    post:
+      operationId: replaceCompetitiveBlindspost
+      summary: Replace Section 1.5 competitive blindspot with industry evolution
+      description: |
+        Rewrite Section 1.5 from "Competitive Blindspot: Zero Awareness" to
+        "Industry Evolution: Three Converging Pressures" using research findings.
+
+      requestBody:
+        required: true
+        content:
+          text/markdown:
+            schema:
+              type: object
+              properties:
+                section_number:
+                  type: string
+                  const: "1.5"
+
+                new_title:
+                  type: string
+                  const: "Industry Evolution: Three Converging Pressures Creating Automation Urgency"
+
+                subsections:
+                  type: array
+                  items:
+                    type: string
+                  enum:
+                    - "Regulatory Mandate (External Pressure #1)"
+                    - "Insurance Market Crisis (External Pressure #2)"
+                    - "Client Expectations Shifting (External Pressure #3)"
+                    - "Why This Matters for Netstrata"
+
+              required: [section_number, new_title, subsections]
+
+      responses:
+        '200':
+          description: Section replaced, word count 800-1000
+          content:
+            text/markdown:
+              schema:
+                type: object
+                properties:
+                  word_count:
+                    type: integer
+                    minimum: 800
+                    maximum: 1000
+
+                  sources_cited:
+                    type: array
+                    items:
+                      type: string
+                    minItems: 8
+
+      x-acceptance-criteria:
+        - "No promotional language (enhanced, revolutionary, cutting-edge)"
+        - "All statistics sourced from research artifacts"
+        - "Tone: opportunity-based, not fear-based"
+        - "Ted Middleton not portrayed as oblivious"
+
+  /revision/phase-2:
+    post:
+      operationId: reviseCompetitiveContext
+      summary: Revise Section IV from threat-based to benchmark-based
+      description: |
+        Update "Competitive Context: The PropTech Arms Race" to evidence-based
+        analysis of industry benchmarks and Netstrata's proprietary advantages.
+
+      requestBody:
+        required: true
+        content:
+          text/markdown:
+            schema:
+              type: object
+              properties:
+                section_number:
+                  type: string
+                  const: "IV"
+
+                new_title:
+                  type: string
+                  const: "Industry Context: Technology Adoption Benchmarks"
+
+                subsections:
+                  type: array
+                  items:
+                    type: string
+                  enum:
+                    - "Technology Adoption in Australian Strata (2024-2025)"
+                    - "Netstrata's Proprietary Data Advantage"
+                    - "Areas Where Competitors Set Benchmarks"
+                    - "Areas Where Netstrata Can Lead"
+
+              required: [section_number, new_title, subsections]
+
+      responses:
+        '200':
+          description: Section revised with balanced analysis
+          content:
+            text/markdown:
+              schema:
+                type: object
+                properties:
+                  competitor_count:
+                    type: integer
+                    minimum: 5
+                    description: "Named competitors with verifiable capabilities"
+
+                  netstrata_advantages:
+                    type: array
+                    items:
+                      type: string
+                    minItems: 3
+                    description: "Unique strengths competitors cannot replicate"
+
+      x-acceptance-criteria:
+        - "Competitors acknowledged, not exaggerated as threats"
+        - "Netstrata's 2000-scheme dataset positioned as advantage"
+        - "Technology framed as industry evolution, not arms race"
+
+  /revision/phase-3:
+    post:
+      operationId: updateLanguageThroughout
+      summary: Remove fear-based language throughout entire proposal
+      description: |
+        Search and replace fear-based terms with opportunity-based alternatives
+        across all sections.
+
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                replacements:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      find:
+                        type: string
+                      replace:
+                        type: string
+                  examples:
+                    - find: "catastrophic blindspot"
+                      replace: "industry evolution opportunity"
+                    - find: "vulnerable to disruption"
+                      replace: "positioned to lead transformation"
+                    - find: "PropTech threat"
+                      replace: "technology adoption benchmark"
+                    - find: "competitive disadvantage"
+                      replace: "proprietary intelligence advantage"
+
+      responses:
+        '200':
+          description: Language updated across proposal
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  instances_replaced:
+                    type: integer
+                    minimum: 8
+
+                  sections_affected:
+                    type: array
+                    items:
+                      type: string
+
+      x-acceptance-criteria:
+        - "No fear-based language remains"
+        - "Tone consistent: data-driven, opportunity-focused"
+        - "Ted Middleton's judgment respected throughout"
+
+  /revision/phase-4:
+    post:
+      operationId: regeneratePdfAndValidate
+      summary: Regenerate PDF and validate formatting maintained
+      description: |
+        Build PDF with revised content, verify table spacing unchanged,
+        page count within acceptable range.
+
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                build_command:
+                  type: string
+                  const: "./build-pdf.sh"
+
+      responses:
+        '200':
+          description: PDF generated and validated
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  page_count:
+                    type: integer
+                    minimum: 25
+                    maximum: 28
+                    description: "Page count should remain stable"
+
+                  file_size_kb:
+                    type: integer
+                    minimum: 115
+                    maximum: 125
+
+                  table_spacing:
+                    type: string
+                    enum: ["unchanged", "verified"]
+
+              required: [page_count, file_size_kb, table_spacing]
+
+      x-acceptance-criteria:
+        - "PDF builds without errors"
+        - "Table spacing parameters unchanged (arraystretch 1.2, extrarowheight 4pt)"
+        - "No new LaTeX warnings introduced"
+
+  /revision/phase-5:
+    post:
+      operationId: versionAndRelease
+      summary: Tag version, create GitHub release, update changelog
+      description: |
+        Bump to v1.0.0 (stable proposal ready for review), tag commit,
+        create GitHub release, regenerate CHANGELOG.md.
+
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                version:
+                  type: string
+                  pattern: "^v1\\.0\\.0$"
+
+                release_notes:
+                  type: string
+                  description: "Factual summary of revisions without promotional language"
+
+                changelog_entry:
+                  type: object
+                  properties:
+                    added:
+                      type: array
+                      items:
+                        type: string
+                    changed:
+                      type: array
+                      items:
+                        type: string
+                    removed:
+                      type: array
+                      items:
+                        type: string
+
+              required: [version, release_notes, changelog_entry]
+
+      responses:
+        '200':
+          description: Version tagged and released
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  git_tag:
+                    type: string
+                    const: "v1.0.0"
+
+                  github_release_url:
+                    type: string
+                    format: uri
+
+                  changelog_updated:
+                    type: boolean
+                    const: true
+
+              required: [git_tag, github_release_url, changelog_updated]
+
+      x-acceptance-criteria:
+        - "Git tag created: v1.0.0"
+        - "GitHub release published with research artifact references"
+        - "CHANGELOG.md follows Keep a Changelog format"
+        - "No promotional language in commit messages or release notes"
+
+components:
+  schemas:
+    ResearchFinding:
+      type: object
+      properties:
+        source:
+          type: string
+          description: "Research deliverable file path"
+
+        key_statistic:
+          type: string
+          description: "Primary data point extracted"
+
+        strategic_implication:
+          type: string
+          description: "How this finding changes proposal narrative"
+
+      required: [source, key_statistic, strategic_implication]
+
+    RevisionTask:
+      type: object
+      properties:
+        phase:
+          type: integer
+          minimum: 1
+          maximum: 5
+
+        status:
+          type: string
+          enum: [pending, in_progress, completed]
+
+        dependencies:
+          type: array
+          items:
+            type: integer
+          description: "Phase numbers that must complete before this phase"
+
+        acceptance_met:
+          type: boolean
+          description: "All x-acceptance-criteria satisfied"
+
+      required: [phase, status, acceptance_met]
+
+x-implementation-findings:
+  parallel_research_completion:
+    timestamp: "2025-11-04T12:35:00Z"
+    agents_deployed: 4
+    deliverables_created: 4
+    total_research_lines: 1500
+    key_discovery: "Competitive blindspot narrative factually incorrect - 7 AI competitors identified"
+
+  proposal_exaggerations_identified:
+    - claim: "Zero competitor awareness (4 mentions in 292 posts)"
+      reality: "Public blog strategy ≠ internal awareness, legitimate not to name competitors"
+
+    - claim: "Catastrophic vulnerability to PropTech disruption"
+      reality: "Industry-wide evolution, Netstrata already investing (Owners Portal, COO appointment)"
+
+    - claim: "Must respond or lose market share"
+      reality: "Regulatory pressure + insurance crisis + client expectations = external drivers"
+
+  recommended_narrative_shift:
+    from: "Fear-based competitive threat positioning"
+    to: "Opportunity-based industry evolution with proprietary data advantages"
+    rationale: "Ted Middleton is family - integrity and respect required, not manipulation"
+
+x-off-the-shelf-tools:
+  - name: yamllint
+    purpose: "Validate plan file YAML syntax"
+    usage: "yamllint specifications/proposal-revision-plan.yaml"
+
+  - name: pandoc
+    purpose: "Markdown to PDF conversion"
+    usage: "./build-pdf.sh (wraps pandoc + xelatex)"
+
+  - name: gh
+    purpose: "GitHub CLI for release creation"
+    usage: "gh release create v1.0.0 --notes-file RELEASE_NOTES.md"
+
+  - name: git
+    purpose: "Version control and tagging"
+    usage: "git tag -a v1.0.0 -m 'message' && git push origin v1.0.0"
+
+x-error-handling-policy:
+  strategy: "Raise and propagate all errors"
+  forbidden:
+    - "try/except with pass"
+    - "Default values on missing data"
+    - "Retry loops"
+    - "Silent failure handling"
+
+  required:
+    - "Explicit error messages with context"
+    - "Exit codes non-zero on failure"
+    - "No masking of underlying errors"
