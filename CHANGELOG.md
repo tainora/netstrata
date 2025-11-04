@@ -5,6 +5,39 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.6] - 2025-11-04
+
+### Changed
+
+- More aggressive table compacting to prevent page breaks:
+  - Row spacing reduced: arraystretch 1.2 → 1.0 (17% tighter)
+  - Cell padding reduced: extrarowheight 4pt → 2pt (50% less padding)
+  - Column spacing reduced: tabcolsep 10pt → 6pt (40% narrower columns)
+
+### Rationale
+
+User feedback: "As you can see, the table is still crossovering two pages"
+
+Previous attempt (v1.0.5) used needspace package and increased penalties, but didn't reduce table physical height. This version makes tables significantly more compact to fit on single pages.
+
+### Technical Details
+
+**Spacing parameter changes**:
+
+- `\\renewcommand{\\arraystretch}{1.0}` (was 1.2) - Tighter line spacing within cells
+- `\\setlength{\\extrarowheight}{2pt}` (was 4pt) - Less padding at top of cells
+- `\\setlength{\\tabcolsep}{6pt}` (was 10pt) - Narrower column spacing
+
+**Combined effect**: Approximately 20-25% reduction in table height, making most tables fit on single page.
+
+**Trade-off**: Tables are denser but still readable. Professional appearance maintained through booktabs package.
+
+### Impact
+
+- PDF: 32 pages, 134KB (unchanged page count)
+- Tables now more compact and more likely to stay on single page
+- "Key Findings from Comprehensive Analysis" table should no longer break across pages
+
 ## [1.0.5] - 2025-11-04
 
 ### Added
@@ -26,6 +59,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Technical Details
 
 **Table handling improvements**:
+
 - `\usepackage{needspace}` - Ensures minimum space before starting table
 - `\LTchunksize=100` - Processes more rows together before considering page break
 - `\widowpenalty=10000` and `\clubpenalty=10000` - Discourages orphaned lines
@@ -195,6 +229,7 @@ Portfolio size verification attempts:
 - 1500+ lines of research findings documenting market reality
 - Evidence-based approach replacing speculative competitive positioning
 
+[1.0.6]: https://github.com/tainora/netstrata/releases/tag/v1.0.6
 [1.0.5]: https://github.com/tainora/netstrata/releases/tag/v1.0.5
 [1.0.4]: https://github.com/tainora/netstrata/releases/tag/v1.0.4
 [1.0.3]: https://github.com/tainora/netstrata/releases/tag/v1.0.3
