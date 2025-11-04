@@ -1120,17 +1120,25 @@ I want to be transparent about the unique context of this proposal. Ted Middleto
 3. **Pilot-Before-Scale**: Proof-of-value model minimizes risk – you evaluate results at every phase before committing further
 4. **Long-Term Orientation**: Family connection means I'm incentivized for Netstrata's sustained success, not contract maximization
 
+**Engagement Approach:**
+
+I'm open to whatever structure works best for Netstrata:
+- **Advisory contract** (proof-of-value phase with clear deliverables)
+- **Employment** (becoming part of the team if mutual fit demonstrated)
+- **Hybrid model** (contract-to-hire with evaluation milestones)
+
 **What I'm NOT Proposing:**
 
-- This is not a job application (no employment request)
-- This is not a one-time software development project (no "build and disappear")
-- This is not a favor based on personal relationship (market-rate expertise, discounted for proof-of-value phase)
+- Not a one-time software development project (no "build and disappear")
+- Not a favor based on personal relationship (market-rate expertise, proof-of-value validates worth)
+- Not forcing a specific engagement structure (flexibility on contract vs. employment vs. hybrid)
 
 **What I AM Proposing:**
 
-- Strategic Technology Advisory relationship focused on future-proofing Netstrata against PropTech disruption
-- Human-AI partnership leveraging Anthropic's Claude Code CLI to solve documented operational challenges
-- Ongoing monthly/quarterly engagement ensuring automation evolves with business needs
+- Building proprietary intelligence systems leveraging Netstrata's unique 2000-scheme dataset
+- Human-AI partnership using Anthropic's Claude Code CLI to solve documented operational challenges
+- Ongoing engagement (monthly/quarterly) ensuring automation evolves with business needs
+- Proof-of-value approach: demonstrate results before scaling commitment
 
 ---
 
