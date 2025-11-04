@@ -1,15 +1,19 @@
 % Better table row spacing for PDF generation
 \usepackage{booktabs}
-\renewcommand{\arraystretch}{2.2}
 
-% Add extra padding to table cells
+% IMPORTANT: Keep arraystretch low to avoid excessive spacing WITHIN cells
+\renewcommand{\arraystretch}{1.0}
+
+% Add padding at TOP and BOTTOM of cells (space BETWEEN rows, not within content)
 \usepackage{array}
-\setlength{\extrarowheight}{8pt}
+\setlength{\extrarowheight}{10pt}
+\setlength{\belowrulesep}{8pt}
+\setlength{\aboverulesep}{8pt}
 
 % Better spacing for longtable (used by Pandoc)
 \usepackage{longtable}
-\setlength{\LTpre}{18pt}
-\setlength{\LTpost}{18pt}
+\setlength{\LTpre}{20pt}
+\setlength{\LTpost}{20pt}
 
 % Alternating row colors for better readability
 \usepackage{colortbl}
@@ -17,5 +21,12 @@
 \definecolor{lightgray}{gray}{0.95}
 \definecolor{tableheader}{gray}{0.90}
 
-% Add subtle spacing between columns
+% Add spacing between columns (not rows)
 \setlength{\tabcolsep}{12pt}
+
+% Make table rules more visible for better row demarcation
+\setlength{\heavyrulewidth}{1.2pt}
+\setlength{\lightrulewidth}{0.5pt}
+
+% Add space around midrules (between data rows)
+\setlength{\cmidrulewidth}{0.3pt}
