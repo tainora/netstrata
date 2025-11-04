@@ -5,6 +5,39 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.5] - 2025-11-04
+
+### Added
+
+- Contact information section with complete details:
+  - Email: amonic@gmail.com
+  - Phone: +1 604 300 8878
+  - LinkedIn: https://www.linkedin.com/in/terrylica/
+- LaTeX table page break prevention improvements:
+  - needspace package for intelligent table placement
+  - Increased LTchunksize to 100 (process more rows before considering breaks)
+  - Widow/orphan penalties set to 10000 (discourage awkward breaks)
+
+### Changed
+
+- Improved table-spacing.tex to better handle table page breaks
+- Tables now less likely to split awkwardly across pages (though large tables may still split if needed)
+
+### Technical Details
+
+**Table handling improvements**:
+- `\usepackage{needspace}` - Ensures minimum space before starting table
+- `\LTchunksize=100` - Processes more rows together before considering page break
+- `\widowpenalty=10000` and `\clubpenalty=10000` - Discourages orphaned lines
+
+**Note**: longtable (used by Pandoc) is designed to break across pages for tables longer than one page. The settings now make LaTeX try harder to keep tables together, but very long tables will still break (which is correct behavior).
+
+### Impact
+
+- PDF: 32 pages, 134KB (unchanged size)
+- Proposal now includes complete contact information for follow-up
+- Tables have better page break behavior (less likely to split awkwardly)
+
 ## [1.0.4] - 2025-11-04
 
 ### Changed
@@ -19,15 +52,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 **What I Bring:**
+
 - Technology & AI expertise (production-grade automation, modern Python, AI/LLM integration)
 - Rapid prototyping capabilities
 - Data-driven approach
 
 **What I'm Still Learning:**
+
 - Honest acknowledgment: "I don't have deep domain knowledge in real estate or strata management"
 - Recognition that IT without domain expertise is not valuable
 
 **My Learning Commitment:**
+
 - Industry training and strata management certifications
 - Company onboarding to learn systems and processes
 - Personal time investment in regulatory frameworks, insurance dynamics, building management
@@ -36,6 +72,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Rationale
 
 User feedback: Balance confidence with humility—don't sound cocky or presumptuous
+
 - "Protect the company" sounds too presumptuous (implies I know better than the founder)
 - "Future-proof and competitive" is more accurate (technology helping company adapt to industry evolution)
 - Need to be honest about domain knowledge gaps (AI/technology expertise alone is insufficient)
@@ -158,6 +195,7 @@ Portfolio size verification attempts:
 - 1500+ lines of research findings documenting market reality
 - Evidence-based approach replacing speculative competitive positioning
 
+[1.0.5]: https://github.com/tainora/netstrata/releases/tag/v1.0.5
 [1.0.4]: https://github.com/tainora/netstrata/releases/tag/v1.0.4
 [1.0.3]: https://github.com/tainora/netstrata/releases/tag/v1.0.3
 [1.0.2]: https://github.com/tainora/netstrata/releases/tag/v1.0.2

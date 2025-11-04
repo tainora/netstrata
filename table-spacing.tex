@@ -28,3 +28,18 @@
 \usepackage{colortbl}
 \usepackage{xcolor}
 \definecolor{lightgray}{gray}{0.96}
+
+% Page break control for tables
+\usepackage{needspace}
+
+% Discourage page breaks within tables
+% Increase chunk size to process more rows before considering page break
+\LTchunksize=100
+
+% Keep table captions with table content
+\setlength{\LTcapwidth}{\textwidth}
+
+% Discourage page breaks immediately before or after tables
+% by increasing penalties around table environments
+\widowpenalty=10000
+\clubpenalty=10000

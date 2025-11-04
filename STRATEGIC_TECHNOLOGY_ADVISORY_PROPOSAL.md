@@ -1261,13 +1261,13 @@ This proposal references 292 blog posts from Netstrata's website (2009-2025), de
 **Terry Li**
 
 Email
-: [Your Email]
+: amonic@gmail.com
 
 Phone
-: [Your Phone]
+: +1 604 300 8878
 
 LinkedIn
-: [Your LinkedIn]
+: https://www.linkedin.com/in/terrylica/
 
 Availability
 : Immediate start for proof-of-concept phase
