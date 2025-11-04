@@ -5,6 +5,32 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.3] - 2025-11-04
+
+### Changed
+
+- Reframed from "business opportunity" to "career opportunity" in Personal Note section
+- Repositioned engagement options with **employment as primary preference** (was listed third, now first)
+- Updated engagement approach to emphasize joining the team with company resources and support
+- Added explicit acknowledgment of need for company systems access, data, and staff collaboration
+- Revised "What I AM Proposing" to lead with "Joining Netstrata" rather than external consulting positioning
+- Updated cost note to clarify employment is primary preference with consulting as flexible alternative
+
+### Rationale
+
+User feedback: This is primarily a **career opportunity** (employment-focused), not an external business/consulting engagement:
+- Need company support and resources to be effective
+- Employment is the main focus, not consulting
+- Open to both employment and consultancy, but employment preferred
+- Collaborative role requiring internal access, not vendor relationship
+
+### Impact
+
+- PDF: 32 pages (was 31), 132KB
+- Positioning now accurately reflects employment-first intent
+- Language acknowledges collaborative nature and need for company support
+- Maintains flexibility for consulting if employment isn't the right fit
+
 ## [1.0.2] - 2025-11-04
 
 ### Changed
@@ -18,6 +44,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Rationale
 
 Portfolio size verification attempts:
+
 - Web searches found conflicting data: 1,000 buildings (2024 external source), 1,250 buildings (2021), 800 schemes (2022)
 - No authoritative public source confirms "2000+ schemes"
 - Conservative approach: avoid overpromising by using qualitative descriptors instead of unverified specific numbers
@@ -87,6 +114,7 @@ Portfolio size verification attempts:
 - 1500+ lines of research findings documenting market reality
 - Evidence-based approach replacing speculative competitive positioning
 
+[1.0.3]: https://github.com/tainora/netstrata/releases/tag/v1.0.3
 [1.0.2]: https://github.com/tainora/netstrata/releases/tag/v1.0.2
 [1.0.1]: https://github.com/tainora/netstrata/releases/tag/v1.0.1
 [1.0.0]: https://github.com/tainora/netstrata/releases/tag/v1.0.0

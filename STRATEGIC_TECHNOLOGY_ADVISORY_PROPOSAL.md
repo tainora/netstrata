@@ -40,10 +40,10 @@ Three factors create urgency for automation:
 
 **Resource Requirements & Measurement Approach:**
 
-| Phase   | Timeline    | Team Required                     | Estimated Effort | Target Outcomes (To Be Measured)                                                            |
-| ------- | ----------- | --------------------------------- | ---------------- | ------------------------------------------------------------------------------------------- |
+| Phase   | Timeline    | Team Required                     | Estimated Effort | Target Outcomes (To Be Measured)                                                                  |
+| ------- | ----------- | --------------------------------- | ---------------- | ------------------------------------------------------------------------------------------------- |
 | Phase 1 | Months 1-6  | 1-2 FTE (technical lead + backup) | 540-760 hours    | Thousands of hours/year efficiency gains + compliance penalty avoidance + competitive positioning |
-| Phase 2 | Months 7-18 | 1-2 FTE (ongoing advisory)        | 500-750 hours    | **Decision at Month 6** – only proceed if Phase 1 delivers measurable value                 |
+| Phase 2 | Months 7-18 | 1-2 FTE (ongoing advisory)        | 500-750 hours    | **Decision at Month 6** – only proceed if Phase 1 delivers measurable value                       |
 
 **Team Composition for Business Continuity:**
 
@@ -363,8 +363,8 @@ While multiple strata managers adopt generic PropTech tools, Netstrata can build
 | Project                                   | Build Time     | Team Effort       | Priority Rationale                                                                                                                            | Key Deliverable                                               |
 | ----------------------------------------- | -------------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
 | **#1: McGrathNicol Compliance Dashboard** | 1-2 weeks      | 40-80 hours       | **CRITICAL** - 6 recommendations overdue (July 1, 2025 deadline passed), contested breaches under NSW Fair Trading review, crisis score +331% | Real-time tracking, automated audit trail, redemption story   |
-| **#2: NSW Strata Hub Bulk Upload**        | 2-3 weeks      | 80-120 hours      | **HIGH** - Tens of thousands of manual data points annually (30 fields per scheme), 94% time reduction proven                                           | Hours → minutes per scheme, zero data entry errors            |
-| **#3: Fire Safety Compliance Tracker**    | 2-3 weeks      | 80-120 hours      | **HIGH** - Portfolio-wide Annual Fire Safety Statements, AS1851-2012 standard (Feb 2025), penalty enforcement active                                    | Zero missed deadlines, council submission automation          |
+| **#2: NSW Strata Hub Bulk Upload**        | 2-3 weeks      | 80-120 hours      | **HIGH** - Tens of thousands of manual data points annually (30 fields per scheme), 94% time reduction proven                                 | Hours → minutes per scheme, zero data entry errors            |
+| **#3: Fire Safety Compliance Tracker**    | 2-3 weeks      | 80-120 hours      | **HIGH** - Portfolio-wide Annual Fire Safety Statements, AS1851-2012 standard (Feb 2025), penalty enforcement active                          | Zero missed deadlines, council submission automation          |
 | **#4: AI-Assisted Legislative Drafting**  | 3-4 weeks      | 120-160 hours     | **MEDIUM** - 159 legislative blogs (318+ hours), single-author bottleneck (99.7% S J), reduces drafting time by 60-70%                        | Draft blog posts from NSW law changes (requires human review) |
 | **Total Phase 1**                         | **2-3 months** | **320-480 hours** | **McGrathNicol urgency + scale efficiencies + competitive positioning**                                                                       | **Enterprise-grade automation with full documentation**       |
 
@@ -907,12 +907,12 @@ While MRI Strata Master offers NSW Strata Hub integration, manual data compilati
 
 **Measurable Outcomes (What We Can Track in Phase 1):**
 
-| **Project**                      | **Time Efficiency Gains**                                                                                  | **Risk Mitigation Potential**                                                                 | **Competitive Positioning**             |
-| -------------------------------- | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------- |
-| NSW Law Compliance Automation    | Thousands of hours/year (NSW Strata Hub: 94% time reduction through bulk upload automation) | Avoid NSW penalties up to $110K per violation (documented in Oct 2025 legislation blogs)      | Real-time transparency dashboard        |
-| AI-Assisted Legislative Drafting | 50-100 hours/year estimate (60-70% reduction in drafting time, requires human review for all content)      | First-mover advantage on regulatory communications (client retention during uncertainty)      | Industry thought leadership positioning |
-| Insurance Data Intelligence      | 200 hours/year estimate (50% reduction in data prep time for broker discussions)                           | Better preparation for renewal negotiations (cannot quantify premium impact without baseline) | Structured risk reporting               |
-| **Total Phase 1 Targets**        | **Thousands of hours/year** (subject to validation in Phase 1)                                                   | **Measurable compliance risk reduction**                                                      | **Data-driven workflow automation**     |
+| **Project**                      | **Time Efficiency Gains**                                                                             | **Risk Mitigation Potential**                                                                 | **Competitive Positioning**             |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------- |
+| NSW Law Compliance Automation    | Thousands of hours/year (NSW Strata Hub: 94% time reduction through bulk upload automation)           | Avoid NSW penalties up to $110K per violation (documented in Oct 2025 legislation blogs)      | Real-time transparency dashboard        |
+| AI-Assisted Legislative Drafting | 50-100 hours/year estimate (60-70% reduction in drafting time, requires human review for all content) | First-mover advantage on regulatory communications (client retention during uncertainty)      | Industry thought leadership positioning |
+| Insurance Data Intelligence      | 200 hours/year estimate (50% reduction in data prep time for broker discussions)                      | Better preparation for renewal negotiations (cannot quantify premium impact without baseline) | Structured risk reporting               |
+| **Total Phase 1 Targets**        | **Thousands of hours/year** (subject to validation in Phase 1)                                        | **Measurable compliance risk reduction**                                                      | **Data-driven workflow automation**     |
 
 **IMPORTANT CAVEAT**: Time saved ≠ money saved until we know:
 
@@ -930,7 +930,7 @@ While MRI Strata Master offers NSW Strata Hub integration, manual data compilati
 - Automated monitoring and alerting systems
 - Backup/recovery procedures tested and documented
 
-_Note: Engagement structure (staff employment, contract advisory, or hybrid model) and compensation to be discussed based on Netstrata's preferences and budget constraints._
+_Note: Employment is the primary preference (joining the team with company resources and support). Consulting arrangement remains flexible if employment isn't the right fit. Compensation to be discussed based on Netstrata's budget constraints and role scope._
 
 ### 6.2 Phase 2: Measured Approach & Future Expansion
 
@@ -1111,7 +1111,7 @@ _Note: Engagement structure (staff employment, contract advisory, or hybrid mode
 
 ## X. Personal Note: Integrity & Long-Term Alignment
 
-I want to be transparent about the unique context of this proposal. Ted Middleton is my mother's partner of 15+ years, making this both a business opportunity and a personal commitment to helping protect the company he founded in 1996.
+I want to be transparent about the unique context of this proposal. Ted Middleton is my mother's partner of 15+ years, making this both a career opportunity and a personal commitment to helping protect the company he founded in 1996.
 
 **My Commitments:**
 
@@ -1122,23 +1122,25 @@ I want to be transparent about the unique context of this proposal. Ted Middleto
 
 **Engagement Approach:**
 
-I'm open to whatever structure works best for Netstrata:
+I'm primarily seeking employment with Netstrata, with flexibility on the path:
 
-- **Advisory contract** (proof-of-value phase with clear deliverables)
-- **Employment** (becoming part of the team if mutual fit demonstrated)
-- **Hybrid model** (contract-to-hire with evaluation milestones)
+- **Employment** (joining the team directly, recognizing I'll need company resources and support)
+- **Contract-to-hire** (prove value first, then transition to employment if mutual fit)
+- **Advisory contract** (if employment isn't the right fit, remain flexible for consulting arrangement)
 
 **What I'm NOT Proposing:**
 
 - Not a one-time software development project (no "build and disappear")
 - Not a favor based on personal relationship (market-rate expertise, proof-of-value validates worth)
-- Not forcing a specific engagement structure (flexibility on contract vs. employment vs. hybrid)
+- Not expecting to operate independently (recognize I'll need access to company systems, data, and staff collaboration)
 
 **What I AM Proposing:**
 
-- Building proprietary intelligence systems leveraging Netstrata's unique portfolio dataset
-- Human-AI partnership using Anthropic's Claude Code CLI to solve documented operational challenges
-- Ongoing engagement (monthly/quarterly) ensuring automation evolves with business needs
+- Joining Netstrata to build proprietary intelligence systems (employment preferred, consulting flexible)
+- Working collaboratively with the team using company resources and systems access
+- Leveraging Netstrata's unique portfolio dataset and operational knowledge
+- Human-AI partnership using Anthropic's Claude Code CLI to solve documented challenges
+- Long-term commitment ensuring automation evolves with business needs (not a short-term project)
 - Proof-of-value approach: demonstrate results before scaling commitment
 
 ---
