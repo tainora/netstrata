@@ -270,13 +270,13 @@ Timeline analysis reveals **all technology investments are crisis-driven:**
 
 **Project Overview - Prioritized by Urgency × Impact × Feasibility:**
 
-| Project                                   | Build Time     | Team Effort       | Priority Rationale                                                                                                                            | Key Deliverable                                             |
-| ----------------------------------------- | -------------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| **#1: McGrathNicol Compliance Dashboard** | 1-2 weeks      | 40-80 hours       | **CRITICAL** - 6 recommendations overdue (July 1, 2025 deadline passed), contested breaches under NSW Fair Trading review, crisis score +331% | Real-time tracking, automated audit trail, redemption story |
-| **#2: NSW Strata Hub Bulk Upload**        | 2-3 weeks      | 80-120 hours      | **HIGH** - 60,000 manual data points annually (2000 schemes × 30 fields), 90% time reduction proven                                           | Hours → minutes per scheme, zero data entry errors          |
-| **#3: Fire Safety Compliance Tracker**    | 2-3 weeks      | 80-120 hours      | **HIGH** - 2000 Annual Fire Safety Statements, AS1851-2012 standard (Feb 2025), penalty enforcement active                                    | Zero missed deadlines, council submission automation        |
-| **#4: AI-Assisted Legislative Drafting**  | 3-4 weeks      | 120-160 hours     | **MEDIUM** - 159 legislative blogs (318+ hours), single-author bottleneck (99.7% S J), reduces drafting time by 60-70%                         | Draft blog posts from NSW law changes (requires human review) |
-| **Total Phase 1**                         | **2-3 months** | **320-480 hours** | **McGrathNicol urgency + scale efficiencies + competitive positioning**                                                                       | **Enterprise-grade automation with full documentation**     |
+| Project                                   | Build Time     | Team Effort       | Priority Rationale                                                                                                                            | Key Deliverable                                               |
+| ----------------------------------------- | -------------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| **#1: McGrathNicol Compliance Dashboard** | 1-2 weeks      | 40-80 hours       | **CRITICAL** - 6 recommendations overdue (July 1, 2025 deadline passed), contested breaches under NSW Fair Trading review, crisis score +331% | Real-time tracking, automated audit trail, redemption story   |
+| **#2: NSW Strata Hub Bulk Upload**        | 2-3 weeks      | 80-120 hours      | **HIGH** - 60,000 manual data points annually (2000 schemes × 30 fields), 90% time reduction proven                                           | Hours → minutes per scheme, zero data entry errors            |
+| **#3: Fire Safety Compliance Tracker**    | 2-3 weeks      | 80-120 hours      | **HIGH** - 2000 Annual Fire Safety Statements, AS1851-2012 standard (Feb 2025), penalty enforcement active                                    | Zero missed deadlines, council submission automation          |
+| **#4: AI-Assisted Legislative Drafting**  | 3-4 weeks      | 120-160 hours     | **MEDIUM** - 159 legislative blogs (318+ hours), single-author bottleneck (99.7% S J), reduces drafting time by 60-70%                        | Draft blog posts from NSW law changes (requires human review) |
+| **Total Phase 1**                         | **2-3 months** | **320-480 hours** | **McGrathNicol urgency + scale efficiencies + competitive positioning**                                                                       | **Enterprise-grade automation with full documentation**       |
 
 **Evidence Base:** Priorities derived from comprehensive analysis of 292 blog posts (2009-2025) across 8 research perspectives: timeline patterns (crisis identification), sentiment analysis (McGrathNicol +331% spike), competitive intelligence (PropTech blindspot), operational insights (single-author bottleneck), legal/regulatory (6 overdue recommendations), financial pressures (margin compression), client pain points, and technology adoption patterns (reactive history).
 
@@ -716,12 +716,12 @@ AI automation + transparency focus = differentiates from competitors selling gen
 
 **Measurable Outcomes (What We Can Track in Phase 1):**
 
-| **Project**                   | **Time Efficiency Gains**                                                                                  | **Risk Mitigation Potential**                                                            | **Competitive Positioning**                                           |
-| ----------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
-| NSW Law Compliance Automation | 3000 hours/year (NSW Strata Hub process: 3200h manual → 200h automated = 94% reduction per blog post data) | Avoid NSW penalties up to $110K per violation (documented in Oct 2025 legislation blogs) | Real-time transparency dashboard |
-| AI-Assisted Legislative Drafting | 300-400 hours/year estimate (60-70% reduction in drafting time, requires human review for all content)  | First-mover advantage on regulatory communications (client retention during uncertainty) | Industry thought leadership positioning                               |
-| Insurance Data Intelligence      | 200 hours/year estimate (50% reduction in data prep time for broker discussions)                    | Better preparation for renewal negotiations (cannot quantify premium impact without baseline) | Structured risk reporting         |
-| **Total Phase 1 Targets**     | **~3,500 hours/year** (subject to validation in Phase 1)                                                   | **Measurable compliance risk reduction**                                 | **Data-driven workflow automation**  |
+| **Project**                      | **Time Efficiency Gains**                                                                                  | **Risk Mitigation Potential**                                                                 | **Competitive Positioning**             |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------- |
+| NSW Law Compliance Automation    | 3000 hours/year (NSW Strata Hub process: 3200h manual → 200h automated = 94% reduction per blog post data) | Avoid NSW penalties up to $110K per violation (documented in Oct 2025 legislation blogs)      | Real-time transparency dashboard        |
+| AI-Assisted Legislative Drafting | 300-400 hours/year estimate (60-70% reduction in drafting time, requires human review for all content)     | First-mover advantage on regulatory communications (client retention during uncertainty)      | Industry thought leadership positioning |
+| Insurance Data Intelligence      | 200 hours/year estimate (50% reduction in data prep time for broker discussions)                           | Better preparation for renewal negotiations (cannot quantify premium impact without baseline) | Structured risk reporting               |
+| **Total Phase 1 Targets**        | **~3,500 hours/year** (subject to validation in Phase 1)                                                   | **Measurable compliance risk reduction**                                                      | **Data-driven workflow automation**     |
 
 **IMPORTANT CAVEAT**: Time saved ≠ money saved until we know:
 
@@ -943,7 +943,9 @@ I want to be transparent about the unique context of this proposal. Ted Middleto
 
 ---
 
-## X. Research Methodology & Privacy-Preserving Architecture
+## XI. Appendices
+
+### Appendix A: Research Methodology & Privacy-Preserving Architecture
 
 This proposal is informed by comprehensive research into privacy-preserving data engineering practices[^privacy-research] conducted specifically for Netstrata's operational context. Six parallel research perspectives investigated:
 
@@ -976,9 +978,7 @@ This proposal is informed by comprehensive research into privacy-preserving data
 
 ---
 
-## XI. Appendices
-
-### Appendix A: Blog Post Citation Index
+### Appendix B: Blog Post Citation Index
 
 This proposal references 292 blog posts from Netstrata's website (2009-2025), demonstrating evidence-based recommendations grounded in publicly documented operational challenges and strategic priorities.
 
@@ -1008,7 +1008,7 @@ This proposal references 292 blog posts from Netstrata's website (2009-2025), de
 - ["McGrathNicol Review – Key updates & Improvements"](https://netstrata.com.au/mcgrathnicol-review-key-updates-improvements/) (May 6, 2025) – _Owners Portal with "Drill Down" financial reporting launch, enhanced transparency_
 - ["Netstrata Appoints Andrew Tunks as Chief Operating Officer"](https://netstrata.com.au/netstrata-appoints-andrew-tunks-as-chief-operating-officer/) (Sep 12, 2025) – _Innovation mandate explicitly stated_
 
-### Appendix B: Technical Specifications
+### Appendix C: Technical Specifications
 
 **System Architecture Diagrams**: [To be provided during implementation phase]
 
@@ -1016,7 +1016,7 @@ This proposal references 292 blog posts from Netstrata's website (2009-2025), de
 
 **Security & Compliance Documentation**: [Full Australian Privacy Principles compliance framework to be delivered]
 
-### Appendix C: Case Studies & References
+### Appendix D: Case Studies & References
 
 **Production Systems Deployed:**
 

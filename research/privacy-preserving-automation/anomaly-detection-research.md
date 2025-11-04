@@ -34,12 +34,12 @@ Statistical methods detect anomalies by identifying data points that deviate sig
 
 ### Method Comparison
 
-| Method | Strengths | Use Case | Netstrata Application |
-|--------|-----------|----------|----------------------|
-| **Z-Score** | Simple, interpretable, well-understood | Normally distributed data | Daily insurance premium revenue monitoring |
-| **IQR (Interquartile Range)** | Robust to outliers, works with skewed data | Non-normal distributions | Compliance submission volume tracking |
-| **Rolling Window Z-Score** | Time-aware, captures seasonality | Seasonal patterns | Monthly maintenance cost aggregates |
-| **Modified Z-Score** | Median-based, extremely robust | Heavily skewed data | Weekly complaint count patterns |
+| Method                        | Strengths                                  | Use Case                  | Netstrata Application                      |
+| ----------------------------- | ------------------------------------------ | ------------------------- | ------------------------------------------ |
+| **Z-Score**                   | Simple, interpretable, well-understood     | Normally distributed data | Daily insurance premium revenue monitoring |
+| **IQR (Interquartile Range)** | Robust to outliers, works with skewed data | Non-normal distributions  | Compliance submission volume tracking      |
+| **Rolling Window Z-Score**    | Time-aware, captures seasonality           | Seasonal patterns         | Monthly maintenance cost aggregates        |
+| **Modified Z-Score**          | Median-based, extremely robust             | Heavily skewed data       | Weekly complaint count patterns            |
 
 ### Test Results (Synthetic Data)
 
@@ -58,6 +58,7 @@ Detection Results:
 ```
 
 **Consensus Anomalies** (detected by all 4 methods):
+
 - 2023-07-20: $90,000 (spike)
 - 2024-02-05: $15,000 (drop)
 
@@ -87,6 +88,7 @@ Time-series forecasting predicts future values based on historical aggregated pa
 ### Prophet (Facebook's Forecasting Tool)
 
 **Advantages**:
+
 - Handles seasonality automatically (daily, weekly, yearly)
 - Robust to missing data and outliers
 - Provides uncertainty intervals (95% confidence bands)
@@ -94,6 +96,7 @@ Time-series forecasting predicts future values based on historical aggregated pa
 - Detects trend changes automatically
 
 **Test Results** (60 months of aggregated insurance premium data):
+
 ```
 Prophet Forecast Accuracy:
 - MAE (Mean Absolute Error): $45,767.70
@@ -111,12 +114,14 @@ Prophet Forecast Accuracy:
 ### ARIMA (AutoRegressive Integrated Moving Average)
 
 **Advantages**:
+
 - Simpler model, faster training
 - Works well for stationary time series
 - Good for short-term forecasts (1-3 months)
 - Lower computational cost
 
 **Test Results** (same dataset):
+
 ```
 ARIMA(1,1,1) Forecast Accuracy:
 - MAE: $124,538.91
@@ -152,6 +157,7 @@ if predicted_growth > alert_threshold_pct:
 ```
 
 **Business Value**:
+
 - **3-6 month early warning** for budget planning
 - **Proactive stakeholder communication** before crises
 - **Data-driven decision making** with quantified uncertainty
@@ -166,6 +172,7 @@ if predicted_growth > alert_threshold_pct:
 **Overview**: DBSCAN identifies clusters based on density and automatically labels outliers (anomalies) as points that don't belong to any cluster.
 
 **Advantages**:
+
 - No need to specify number of clusters in advance
 - Automatically identifies outliers (label -1)
 - Works well with arbitrary cluster shapes
@@ -175,6 +182,7 @@ if predicted_growth > alert_threshold_pct:
 ### Test Results (2000 Strata Schemes)
 
 **Dataset**: Aggregated scheme-level metrics
+
 - Average insurance premium per unit
 - Building age (years)
 - Number of units
@@ -197,6 +205,7 @@ Anomaly Characteristics (vs Normal):
 ```
 
 **Top High-Risk Scheme**:
+
 - Scheme ID: SCHEME_1924
 - Premium: $17,443/unit
 - Building Age: 56 years
@@ -237,6 +246,7 @@ PCA Explained Variance:
 ### Google Analytics Anomaly Detection
 
 **How It Works**:
+
 - **Bayesian State-Space Model**: Applied to historic data to predict future datapoints
 - **Training Period**: 90 days for daily anomalies, 32 weeks for weekly anomalies
 - **Dual Detection Methods**:
@@ -244,6 +254,7 @@ PCA Explained Variance:
   2. **Segment-Based Detection**: Uses PCA to detect cross-metric anomalies
 
 **Aggregation Process**:
+
 1. Identify dimensions and metrics for PCA
 2. Create segments based on dimension values
 3. Normalize metrics by number of users within segment
@@ -255,17 +266,20 @@ PCA Explained Variance:
 ### AWS CloudWatch Anomaly Detection
 
 **How It Works**:
+
 - **Machine Learning Algorithms**: Continuously analyze metrics and determine normal baselines
 - **Training**: Uses up to 2 weeks of historical data (minimum 3 days recommended)
 - **Anomaly Band**: Upper and lower confidence bands based on statistical models
 - **Adaptive Learning**: Re-trains models when metrics evolve or have sudden changes
 
 **Aggregated Metrics Support**:
+
 - Supports **metric math expressions** (aggregations and transformations)
 - Can create anomaly detection models on aggregated custom metrics
 - Handles seasonal, spiky, or sparse data patterns
 
 **Use Cases**:
+
 - Server CPU utilization (aggregated across instances)
 - API request volume (total requests per minute)
 - Database connection counts (aggregated pool metrics)
@@ -275,6 +289,7 @@ PCA Explained Variance:
 ### Enterprise GitHub Security Anomaly Detection
 
 **Approach**:
+
 - **Data Aggregation**: User activity aggregated per month (61,261 user feature sets)
 - **Feature Engineering**: Frequency of actions (public-key creation, token creation, repository clones)
 - **Detection Method**: Isolation Forest algorithm on monthly behavioral aggregates
@@ -295,11 +310,13 @@ PCA Explained Variance:
 **Alert Threshold**: >10% predicted increase
 
 **Business Value**:
+
 - **$500K-$1M annual savings** through proactive broker negotiation
 - **3-6 month early warning** for budget planning
 - **Stakeholder confidence** through data-driven communication
 
 **Implementation**:
+
 ```python
 # Aggregate monthly premium data
 monthly_premiums = df.groupby('month')['premium'].sum()
@@ -324,11 +341,13 @@ if forecast['yhat'].tail(6).mean() > current_avg * 1.10:
 **Alert Threshold**: Predicted volume < 80% of required submissions
 
 **Business Value**:
+
 - **Zero missed deadlines** (avoids $110K penalties)
 - **Proactive scheme engagement** 2-4 weeks before deadlines
 - **Resource allocation optimization** for compliance team
 
 **Anomaly Detection**: Z-Score on daily submission counts
+
 - Sudden drops indicate schemes falling behind
 - Sudden spikes indicate batch processing (verify data quality)
 
@@ -339,11 +358,13 @@ if forecast['yhat'].tail(6).mean() > current_avg * 1.10:
 **Alert Threshold**: ±3σ from rolling mean OR DBSCAN outlier
 
 **Business Value**:
+
 - **$200K-$400K annual savings** through early intervention
 - **Predictive maintenance** instead of reactive repairs
 - **Budget variance reduction** by 15-20%
 
 **Use Cases**:
+
 - Identify schemes with unusually high emergency repair costs
 - Detect seasonal patterns (e.g., storm damage clusters)
 - Flag schemes for preventive maintenance review
@@ -351,6 +372,7 @@ if forecast['yhat'].tail(6).mean() > current_avg * 1.10:
 ### 4. Building Defect Risk Profiling
 
 **Data Source**: Aggregated scheme-level metrics
+
 - Building age
 - Average maintenance cost per unit
 - Claim frequency
@@ -360,11 +382,13 @@ if forecast['yhat'].tail(6).mean() > current_avg * 1.10:
 **Risk Stratification**: High-risk (DBSCAN anomalies), Medium-risk (outer cluster), Low-risk (inner cluster)
 
 **Business Value**:
+
 - **Proactive insurance engagement** for high-risk schemes
 - **Targeted inspection scheduling** (prioritize high-risk)
 - **Portfolio risk transparency** for stakeholders
 
 **Implementation**:
+
 ```python
 # Aggregate scheme features
 features = ['building_age', 'avg_maintenance_cost', 'claim_frequency']
@@ -386,11 +410,13 @@ high_risk = df[df['risk_profile'] == -1]  # DBSCAN anomalies
 **Alert Threshold**: Actual volume outside 95% prediction interval
 
 **Business Value**:
+
 - **Early identification of systemic issues** (e.g., contractor problems)
 - **Proactive stakeholder communication** before escalation
 - **Service quality monitoring** without manual review
 
 **Categories to Monitor**:
+
 - Repairs/maintenance complaints
 - Insurance-related complaints
 - Compliance/legal complaints
@@ -403,26 +429,28 @@ high_risk = df[df['risk_profile'] == -1]  # DBSCAN anomalies
 **Alert Threshold**: ±2σ from 7-day rolling mean
 
 **Business Value**:
+
 - **Compliance monitoring** for June 2024 electronic records mandate
 - **Data quality assurance** (sudden spikes = potential bulk upload errors)
 - **Capacity planning** for document processing team
 
 **Anomaly Scenarios**:
+
 - Spike: Bulk upload (verify classification accuracy)
 - Drop: System outage or scheme disengagement
 - Sustained increase: New legislative requirement compliance
 
 ### Total Estimated Value
 
-| Opportunity | Annual ROI | Confidence |
-|-------------|------------|------------|
-| Insurance premium prediction | $500K-$1M | High |
-| Compliance deadline forecasting | $200K-$400K (penalty avoidance) | Very High |
-| Maintenance cost anomaly detection | $200K-$400K | High |
-| Building defect risk profiling | $300K-$600K (insurance savings) | Medium |
-| Complaint volume trend analysis | $100K-$200K (retention) | Medium |
-| Document classification pipeline | $50K-$100K (efficiency) | High |
-| **TOTAL** | **$1.35M-$2.7M** | **Portfolio-wide** |
+| Opportunity                        | Annual ROI                      | Confidence         |
+| ---------------------------------- | ------------------------------- | ------------------ |
+| Insurance premium prediction       | $500K-$1M                       | High               |
+| Compliance deadline forecasting    | $200K-$400K (penalty avoidance) | Very High          |
+| Maintenance cost anomaly detection | $200K-$400K                     | High               |
+| Building defect risk profiling     | $300K-$600K (insurance savings) | Medium             |
+| Complaint volume trend analysis    | $100K-$200K (retention)         | Medium             |
+| Document classification pipeline   | $50K-$100K (efficiency)         | High               |
+| **TOTAL**                          | **$1.35M-$2.7M**                | **Portfolio-wide** |
 
 **Note**: These estimates assume implementation across Netstrata's 2000+ scheme portfolio.
 
@@ -435,6 +463,7 @@ high_risk = df[df['risk_profile'] == -1]  # DBSCAN anomalies
 **Objective**: Demonstrate value with minimal infrastructure
 
 **Deliverables**:
+
 1. **Insurance Premium Dashboard**
    - Historical data visualization
    - Prophet 6-month forecast with confidence intervals
@@ -454,12 +483,14 @@ high_risk = df[df['risk_profile'] == -1]  # DBSCAN anomalies
    - **Demo Data**: Anonymized scheme-level aggregates
 
 **Technology Stack**:
+
 - **Python**: `uv` + PEP 723 inline dependencies
 - **Libraries**: Prophet, scikit-learn, pandas, matplotlib
 - **Deployment**: FastAPI + Streamlit dashboard
 - **Monitoring**: Telegram bot integration (existing infrastructure)
 
 **Success Criteria**:
+
 - POCs demonstrate 90%+ time savings on specific processes
 - Forecasts achieve <5% MAPE on historical data
 - Stakeholders can interpret visualizations without training
@@ -467,12 +498,14 @@ high_risk = df[df['risk_profile'] == -1]  # DBSCAN anomalies
 ### Phase 2: Production Deployment (Months 2-3)
 
 **Infrastructure**:
+
 - **Database**: PostgreSQL for time-series data
 - **Automation**: Scheduled jobs (daily/weekly/monthly)
 - **Alerting**: Telegram bot + email notifications
 - **Visualization**: Streamlit dashboard with role-based access
 
 **Data Pipeline**:
+
 1. **Extraction**: Aggregate data from existing systems (Macquarie, Strata Hub)
 2. **Transformation**: Calculate features (rolling means, counts, rates)
 3. **Loading**: Store in time-series database
@@ -481,6 +514,7 @@ high_risk = df[df['risk_profile'] == -1]  # DBSCAN anomalies
 6. **Alerting**: Trigger notifications on threshold breaches
 
 **Monitoring**:
+
 - Model performance metrics (MAE, RMSE, MAPE)
 - Forecast accuracy tracking
 - Alert false positive/negative rates
@@ -489,18 +523,21 @@ high_risk = df[df['risk_profile'] == -1]  # DBSCAN anomalies
 ### Phase 3: Portfolio Scaling (Months 4-6)
 
 **Expansion**:
+
 - Apply models across all 2000+ schemes
 - Implement risk stratification (high/medium/low)
 - Integrate with insurance renewal workflows
 - Build executive reporting dashboards
 
 **Advanced Features**:
+
 - **Multi-variate forecasting**: Combine insurance + maintenance + complaints
 - **Causal analysis**: Identify drivers of anomalies (e.g., weather, regulations)
 - **Scenario planning**: "What-if" analysis for budget planning
 - **API integration**: Expose predictions to other systems
 
 **Continuous Improvement**:
+
 - A/B testing of different models
 - Hyperparameter tuning based on production performance
 - Stakeholder feedback integration
@@ -640,4 +677,4 @@ uv run test_dbscan.py
 
 **End of Report**
 
-*All code demonstrations, visualizations, and data are located in `/tmp/anomaly-detection/`*
+_All code demonstrations, visualizations, and data are located in `/tmp/anomaly-detection/`_

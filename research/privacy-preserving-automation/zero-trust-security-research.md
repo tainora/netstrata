@@ -11,6 +11,7 @@
 This report provides comprehensive research on zero-trust security architectures and least-privilege access patterns for automation systems. The findings demonstrate that modern zero-trust implementations require a fundamental shift from perimeter-based security to identity-centric, continuously verified access control with automated policy enforcement.
 
 **Key Recommendations for Netstrata:**
+
 - Implement scope-limited API keys with 30-90 day rotation cycles
 - Deploy Doppler or HashiCorp Vault for centralized secrets management
 - Enable comprehensive audit logging with SIEM integration
@@ -46,14 +47,17 @@ Zero trust operates on the principle that no entity—whether inside or outside 
 ### 1.4 Architectural Components
 
 **Policy Engine (PE)**
+
 - Makes access decisions using policy rules, risk scores, identity verification, and telemetry data
 - Evaluates trust continuously based on real-time context
 
 **Policy Administrator (PA)**
+
 - Translates Policy Engine decisions into actionable controls
 - Executes allow/deny/route decisions
 
 **Policy Enforcement Point (PEP)**
+
 - Acts as the "bouncer" between users and services
 - Applies access decisions at the network/application boundary
 - Terminates unauthorized sessions immediately
@@ -61,18 +65,21 @@ Zero trust operates on the principle that no entity—whether inside or outside 
 ### 1.5 Implementation Maturity Stages
 
 **Stage 1: Traditional (Perimeter-Based)**
+
 - Static network boundaries
 - VPN-based remote access
 - Coarse-grained access controls
 - Annual credential rotation
 
 **Stage 2: Advanced (Initial Zero Trust)**
+
 - Identity-aware proxies
 - Multi-factor authentication (MFA)
 - Some microsegmentation
 - Quarterly credential rotation
 
 **Stage 3: Optimal (Full Zero Trust)**
+
 - Continuous authentication and authorization
 - Dynamic microsegmentation with automated policy enforcement
 - AI-driven risk assessment
@@ -98,6 +105,7 @@ Zero trust operates on the principle that no entity—whether inside or outside 
 **Solution:** Granular scoping with permission boundaries
 
 **Best Practices:**
+
 - **Separate keys per service** - Never use single administrative API key for multiple applications
 - **Read-only by default** - Only grant write permissions when explicitly required
 - **Resource-specific scoping** - Limit access to specific datasets, projects, or environments
@@ -106,6 +114,7 @@ Zero trust operates on the principle that no entity—whether inside or outside 
 - **Rate limiting** - Enforce usage quotas to prevent abuse and cap financial/system damage if leaked
 
 **Example (Algolia API Keys):**
+
 ```
 {
   "acl": ["search"],                    // Read-only search permission
@@ -119,21 +128,23 @@ Zero trust operates on the principle that no entity—whether inside or outside 
 
 **Why Migrate from API Keys to OAuth2:**
 
-| Feature | Static API Keys | OAuth2 Tokens |
-|---------|----------------|---------------|
-| Expiration | Manual or never | Automatic (minutes to hours) |
-| Scope Control | All-or-nothing access | Fine-grained per request |
-| Revocation | Difficult, high impact | Easy, minimal blast radius |
-| Audit Trail | Weak (key-level only) | Strong (per-token, per-request) |
-| M2M Support | Poor (requires user seats) | Native (service accounts) |
+| Feature       | Static API Keys            | OAuth2 Tokens                   |
+| ------------- | -------------------------- | ------------------------------- |
+| Expiration    | Manual or never            | Automatic (minutes to hours)    |
+| Scope Control | All-or-nothing access      | Fine-grained per request        |
+| Revocation    | Difficult, high impact     | Easy, minimal blast radius      |
+| Audit Trail   | Weak (key-level only)      | Strong (per-token, per-request) |
+| M2M Support   | Poor (requires user seats) | Native (service accounts)       |
 
 **OAuth2 Scope Design Principles:**
+
 - **Business area separation** - Divide APIs by functional domains (e.g., `schemes:read`, `insurance:write`)
 - **Data sensitivity levels** - Separate PII access from operational data (`owners:pii`, `schemes:metadata`)
 - **Incremental authorization** - Request minimum scopes initially, expand only when needed
 - **Hierarchical scopes** - Use dot notation for granularity (`schemes.financials.read` vs `schemes.read`)
 
 **Example (Netstrata Automation):**
+
 ```
 # McGrathNicol compliance dashboard bot
 scopes: ["compliance:read", "recommendations:read", "audit_trail:write"]
@@ -154,6 +165,7 @@ scopes: ["blog:write", "legislation:read"]
 **Modern Approach:** Generate unique credentials on-demand with automatic expiration
 
 **Implementation (HashiCorp Vault):**
+
 ```yaml
 # Application requests database access
 POST /v1/database/creds/netstrata-readonly
@@ -169,6 +181,7 @@ POST /v1/database/creds/netstrata-readonly
 ```
 
 **Benefits:**
+
 - Zero standing credentials
 - Unique credentials per application session
 - Automatic cleanup (no manual revocation)
@@ -181,6 +194,7 @@ POST /v1/database/creds/netstrata-readonly
 **Solution:** Dedicated service accounts with restricted permissions
 
 **Best Practices:**
+
 - **One service account per automation** - `netstrata-bot-telegram`, `netstrata-compliance-dashboard`
 - **No human login** - Disable interactive authentication, API access only
 - **Automatic credential rotation** - Force rotation every 30-90 days
@@ -188,6 +202,7 @@ POST /v1/database/creds/netstrata-readonly
 - **Immutable audit logs** - Every service account action logged with tamper-proof timestamps
 
 **Example (Netstrata Telegram Bot):**
+
 ```yaml
 service_account: netstrata-telegram-bot
 permissions:
@@ -195,12 +210,12 @@ permissions:
   - read_scheme_metadata
   - notify_stakeholders
 restrictions:
-  network: ["203.0.113.0/24"]           # Bot server IP range only
+  network: ["203.0.113.0/24"] # Bot server IP range only
   rate_limit: 1000_requests_per_hour
   rotation_interval: 60_days
 audit:
   log_level: verbose
-  retention: 7_years                    # Compliance requirement
+  retention: 7_years # Compliance requirement
 ```
 
 ---
@@ -214,12 +229,14 @@ audit:
 **Architecture:** Self-hosted, infrastructure-as-code friendly
 
 **Best For:**
+
 - Large enterprises requiring total control
 - Multi-cloud deployments with complex compliance needs
 - Organizations with dedicated security operations teams
 - Air-gapped or hybrid cloud environments
 
 **Key Features:**
+
 - Dynamic secrets generation for databases, AWS, SSH
 - Multiple authentication backends (Kubernetes, LDAP, OIDC, AppRole)
 - Fine-grained HCL-based policy system
@@ -227,6 +244,7 @@ audit:
 - Encryption-as-a-service (transit secrets engine)
 
 **Complexity Trade-offs:**
+
 - Requires infrastructure management (storage, HA, backups)
 - Steep learning curve for policy language
 - Operational overhead for upgrades and maintenance
@@ -239,12 +257,14 @@ audit:
 **Architecture:** SaaS-based, zero infrastructure
 
 **Best For:**
+
 - Developer-first teams needing rapid iteration
 - Startups/SMBs without dedicated security teams
 - CI/CD-heavy workflows requiring API-first access
 - Organizations prioritizing ease of use over maximum configurability
 
 **Key Features:**
+
 - Automatic sync to AWS Secrets Manager, Azure Key Vault, Kubernetes
 - Native integrations for Vercel, Heroku, GitHub Actions
 - Branch-based environments (dev/staging/prod isolation)
@@ -253,6 +273,7 @@ audit:
 - Audit logs with SIEM integration
 
 **Limitations:**
+
 - Less flexibility than Vault for custom secret engines
 - SaaS dependency (requires internet connectivity)
 - Higher cost at scale compared to self-hosted solutions
@@ -261,13 +282,13 @@ audit:
 
 #### AWS Secrets Manager vs Azure Key Vault
 
-| Feature | AWS Secrets Manager | Azure Key Vault |
-|---------|-------------------|-----------------|
-| Auto-rotation | Native (Lambda-based) | Manual (requires Azure Functions + Event Grid) |
-| Integration | AWS services only | Azure services + multi-cloud via APIs |
-| Pricing | $0.40/secret/month + $0.05/10K API calls | $0.03/transaction (10K transactions) |
-| Compliance | SOC 2, PCI DSS, HIPAA | ISO 27001, GDPR, SOC 2 |
-| Best Use Case | AWS-native architectures | Azure-native or multi-cloud with Azure backbone |
+| Feature       | AWS Secrets Manager                      | Azure Key Vault                                 |
+| ------------- | ---------------------------------------- | ----------------------------------------------- |
+| Auto-rotation | Native (Lambda-based)                    | Manual (requires Azure Functions + Event Grid)  |
+| Integration   | AWS services only                        | Azure services + multi-cloud via APIs           |
+| Pricing       | $0.40/secret/month + $0.05/10K API calls | $0.03/transaction (10K transactions)            |
+| Compliance    | SOC 2, PCI DSS, HIPAA                    | ISO 27001, GDPR, SOC 2                          |
+| Best Use Case | AWS-native architectures                 | Azure-native or multi-cloud with Azure backbone |
 
 **2025 Recommendation:** Use cloud provider secrets managers for single-cloud deployments, Doppler/Vault for multi-cloud or vendor-neutral architectures.
 
@@ -276,6 +297,7 @@ audit:
 #### Rotation Frequency Guidelines
 
 **Industry Standards (2025):**
+
 - **Database credentials:** 30-90 days (PCI DSS: 90 days maximum)
 - **API keys (third-party integrations):** 60-90 days
 - **Service account keys:** 30-60 days
@@ -294,6 +316,7 @@ audit:
 #### Automated Rotation Implementation
 
 **AWS Secrets Manager (Lambda-based):**
+
 ```python
 # Lambda function triggered by Secrets Manager rotation event
 def lambda_handler(event, context):
@@ -320,6 +343,7 @@ def lambda_handler(event, context):
 ```
 
 **Azure Key Vault (Event Grid + Function):**
+
 ```yaml
 # 30 days before expiration, Key Vault publishes event
 event:
@@ -337,13 +361,14 @@ function:
 ```
 
 **Doppler (Native Auto-Rotation):**
+
 ```yaml
 # Configuration in Doppler dashboard
 secret: NETSTRATA_DB_PASSWORD
 rotation:
   enabled: true
   interval: 30_days
-  strategy: dual_write      # Write both old and new during transition
+  strategy: dual_write # Write both old and new during transition
   sync_targets:
     - kubernetes_secret: netstrata-db-creds
     - aws_secrets_manager: netstrata/prod/db
@@ -358,6 +383,7 @@ rotation:
 **Solution:** Overlap period where both old and new credentials are valid.
 
 **Implementation:**
+
 ```
 Time 0:   Old credential active, new credential generated
 Time +5m: Both old and new credentials valid (dual-write mode)
@@ -366,6 +392,7 @@ Time +2h: Old credential revoked, new credential becomes sole authority
 ```
 
 **Example (Database Password Rotation):**
+
 ```sql
 -- Step 1: Create new user with same permissions
 CREATE USER 'app_v2' IDENTIFIED BY 'new_password';
@@ -381,18 +408,20 @@ DROP USER 'app_v1';
 
 **71% of organizations fail to rotate secrets within recommended intervals**
 **73% of secrets vaults contain misconfigurations leading to breaches**
-*(Source: Industry security studies, 2025)*
+_(Source: Industry security studies, 2025)_
 
 #### Common Anti-Patterns
 
 **❌ Single Admin Key for All Services**
+
 ```yaml
 # INSECURE: One API key with unlimited access
 NETSTRATA_MASTER_KEY: "sk_live_abc123..."
-permissions: ["*"]  # Full admin access to everything
+permissions: ["*"] # Full admin access to everything
 ```
 
 **✅ Scoped Keys per Service**
+
 ```yaml
 # SECURE: Separate keys with minimal permissions
 COMPLIANCE_DASHBOARD_KEY: "sk_compliance_xyz789..."
@@ -412,6 +441,7 @@ permissions: ["schemes:read", "schemes:metadata:write"]
 **Solution:** Centralized secrets management with just-in-time access
 
 **Doppler Workflow (Recommended for Netstrata):**
+
 ```bash
 # Developers never see production secrets locally
 $ doppler run --project netstrata --config production -- python bot.py
@@ -421,6 +451,7 @@ $ doppler run --project netstrata --config production -- python bot.py
 ```
 
 **HashiCorp Vault Workflow (Enterprise Alternative):**
+
 ```bash
 # Service account authenticates with short-lived Kubernetes token
 $ vault login -method=kubernetes role=netstrata-telegram-bot
@@ -442,6 +473,7 @@ lease_duration  3600s
 ### 4.1 Comprehensive Audit Requirements
 
 **What to Log:**
+
 - Authentication attempts (success and failure)
 - Authorization decisions (granted, denied, policy evaluated)
 - Secrets access (who, what, when, from where)
@@ -451,6 +483,7 @@ lease_duration  3600s
 - Privilege escalations (temporary admin access, justification)
 
 **Compliance Standards:**
+
 - **PCI DSS:** 10.1 - Audit trail for all system components
 - **SOC 2:** CC7.2 - Monitoring of access and activity logs
 - **GDPR:** Article 30 - Records of processing activities
@@ -459,12 +492,14 @@ lease_duration  3600s
 ### 4.2 SIEM Integration Architecture
 
 **Security Information and Event Management (SIEM) Benefits:**
+
 - Centralized log aggregation from multiple sources
 - Real-time correlation of security events
 - Automated alerting on suspicious patterns
 - Audit-ready reports for compliance audits
 
 **Log Sources for Netstrata Automation:**
+
 ```
 Telegram Bot → JSON logs → Fluentd → Elasticsearch → Kibana
                 ↓
@@ -476,6 +511,7 @@ Application logs → Structured JSON → SIEM correlation engine
 ```
 
 **Real-Time Alerting Rules:**
+
 ```yaml
 # Failed authentication spike
 rule: "Failed API Key Attempts"
@@ -503,6 +539,7 @@ action: "Log justification + Time-bound auto-revoke after 4 hours"
 **Quarterly Access Reviews (Minimum):**
 
 **Automated Review Process:**
+
 ```python
 # Generate access review report every 90 days
 def generate_access_review():
@@ -529,6 +566,7 @@ def generate_access_review():
 ```
 
 **Access Review Questions:**
+
 - Does this account still need access? (30% of service accounts become obsolete)
 - Are permissions still appropriate? (40% have excessive privileges)
 - Has the account been used in the last 90 days? (Inactive accounts should be disabled)
@@ -536,6 +574,7 @@ def generate_access_review():
 - Are credentials rotated within policy timeframe? (Compliance requirement)
 
 **Just-in-Time (JIT) Access Alternative:**
+
 ```yaml
 # Instead of permanent admin access, request temporary elevation
 request:
@@ -565,6 +604,7 @@ enforcement:
 **GitHub:** https://github.com/hashicorp/vault
 
 **Core Capabilities:**
+
 - Dynamic secrets generation (databases, AWS, GCP, Azure, SSH)
 - Encryption-as-a-service (transit secrets engine)
 - Identity-based access with fine-grained policies
@@ -572,12 +612,14 @@ enforcement:
 - Audit logging (every operation logged)
 
 **Netstrata Use Cases:**
+
 - Generate temporary database credentials for McGrathNicol compliance dashboard
 - Encrypt sensitive client data (owner PII, financial records) before storing in S3
 - Rotate API keys for third-party PropTech integrations every 60 days
 - Provide Telegram bot with time-limited AWS credentials (4-hour leases)
 
 **Deployment Architecture:**
+
 ```yaml
 # Kubernetes deployment (recommended for production)
 vault:
@@ -609,6 +651,7 @@ vault:
 ```
 
 **Policy Example:**
+
 ```hcl
 # Policy for McGrathNicol compliance dashboard bot
 path "database/creds/readonly" {
@@ -631,6 +674,7 @@ path "aws/creds/s3-upload-only" {
 **Website:** https://www.doppler.com
 
 **Core Capabilities:**
+
 - Branch-based environments (dev/staging/prod)
 - Automatic sync to AWS, Azure, GCP, Kubernetes
 - Native CI/CD integrations (GitHub Actions, GitLab CI)
@@ -639,12 +683,14 @@ path "aws/creds/s3-upload-only" {
 - Audit logs with SIEM export
 
 **Netstrata Use Cases:**
+
 - Centralized secret management for all automation projects
 - Sync Telegram bot credentials to Kubernetes secrets automatically
 - Branch-based testing: `doppler run --config=staging -- pytest`
 - Compliance-ready audit logs for NSW regulations
 
 **Implementation:**
+
 ```bash
 # Install Doppler CLI
 $ brew install dopplerhq/cli/doppler
@@ -662,6 +708,7 @@ $ doppler run --project netstrata --config production -- python telegram_bot.py
 ```
 
 **Kubernetes Integration:**
+
 ```yaml
 # Doppler Kubernetes Operator syncs secrets automatically
 apiVersion: secrets.doppler.com/v1alpha1
@@ -675,7 +722,6 @@ spec:
   managedSecret:
     name: telegram-bot-secrets
     namespace: automation
-
 # Results in Kubernetes secret:
 # kubectl get secret telegram-bot-secrets -o yaml
 # TELEGRAM_BOT_TOKEN: NzEyMzQ1Njc4O...
@@ -690,6 +736,7 @@ spec:
 **GitHub:** https://github.com/spiffe/spire
 
 **Core Capabilities:**
+
 - Zero-trust workload authentication
 - X.509-SVID certificates for mTLS
 - Dynamic attestation (verify workload identity before issuing credentials)
@@ -697,10 +744,12 @@ spec:
 - Short-lived certificates (1-hour default)
 
 **Why SPIFFE for Netstrata:**
+
 - Traditional authentication: "This pod has a valid token" (network-based trust)
 - SPIFFE authentication: "This specific Python process on this specific Kubernetes pod has passed attestation and is authorized to access scheme data" (workload identity)
 
 **Architecture:**
+
 ```
 SPIRE Server (control plane)
   ↓
@@ -714,15 +763,15 @@ Workload uses SVID for mTLS to database, APIs, other services
 ```
 
 **Example: Telegram Bot with SPIFFE Identity**
+
 ```yaml
 # SPIRE registration entry for Telegram bot
 spire-server entry create \
-  -spiffeID spiffe://netstrata.com.au/telegram-bot \
-  -parentID spiffe://netstrata.com.au/k8s-node \
-  -selector k8s:ns:automation \
-  -selector k8s:sa:telegram-bot \
-  -selector k8s:pod-label:app:telegram-bot
-
+-spiffeID spiffe://netstrata.com.au/telegram-bot \
+-parentID spiffe://netstrata.com.au/k8s-node \
+-selector k8s:ns:automation \
+-selector k8s:sa:telegram-bot \
+-selector k8s:pod-label:app:telegram-bot
 # Bot receives short-lived X.509 certificate:
 # Subject: spiffe://netstrata.com.au/telegram-bot
 # Validity: 1 hour (auto-renewed by SPIRE Agent)
@@ -730,6 +779,7 @@ spire-server entry create \
 ```
 
 **Benefits Over Static API Keys:**
+
 - No long-lived credentials stored in environment variables
 - Automatic rotation (hourly by default)
 - Cryptographically verifiable workload identity
@@ -743,6 +793,7 @@ spire-server entry create \
 **GitHub:** https://github.com/cilium/cilium
 
 **Core Capabilities:**
+
 - Layer 3/4 and Layer 7 network policies
 - Identity-based security (SPIFFE integration)
 - Transparent encryption (WireGuard or IPsec)
@@ -750,12 +801,14 @@ spire-server entry create \
 - Hubble observability (flow visualization)
 
 **Zero-Trust Features:**
+
 - **Microsegmentation:** Isolate workloads by identity, not IP addresses
 - **mTLS encryption:** All pod-to-pod traffic encrypted automatically
 - **Policy enforcement:** Block unauthorized communication at kernel level
 - **Observability:** Real-time flow logs for audit compliance
 
 **Example: Netstrata Automation Network Policies**
+
 ```yaml
 # Allow Telegram bot to access PostgreSQL (Layer 4 policy)
 apiVersion: cilium.io/v2
@@ -801,6 +854,7 @@ spec:
 ```
 
 **Performance (2025 Benchmarks):**
+
 - **mTLS overhead:** 99% latency increase (vs 166% for Istio with sidecars)
 - **Throughput:** 10 Gbps+ per node (eBPF kernel bypass)
 - **CPU usage:** <5% per node for typical workloads
@@ -813,18 +867,21 @@ spec:
 **GitHub:** https://github.com/istio/istio
 
 **Core Capabilities:**
+
 - Automatic mTLS between services
 - Fine-grained traffic management (retries, timeouts, circuit breakers)
 - Observability (distributed tracing, metrics)
 - Authorization policies (L7 access control)
 
 **Zero-Trust Features:**
+
 - **Default mTLS:** All service-to-service traffic encrypted automatically
 - **Service identity:** Each workload gets unique certificate from Istio CA
 - **Authorization policies:** Deny-by-default with explicit allow rules
 - **Audit logging:** Every request logged for compliance
 
 **Example: Netstrata Microservices Security**
+
 ```yaml
 # Require mTLS for all services in automation namespace
 apiVersion: security.istio.io/v1beta1
@@ -858,6 +915,7 @@ spec:
 ```
 
 **Istio vs Cilium:**
+
 - **Istio:** More mature Layer 7 features (traffic splitting, canary deployments)
 - **Cilium:** Lower overhead (eBPF vs sidecars), better performance for Layer 3/4
 - **Recommendation:** Use both (Cilium for CNI, Istio for advanced service mesh features)
@@ -869,17 +927,20 @@ spec:
 ### 6.1 Current State Analysis
 
 **Existing Infrastructure (from CLAUDE.md):**
+
 - Telegram bot with launchd + watchexec supervision
 - Doppler for credential management (`claude-config/dev`)
 - Python automation scripts with inline dependencies (PEP 723)
 - Auto-reload enabled (100ms debounce)
 
 **Security Strengths:**
+
 - Credentials not hardcoded (Doppler integration)
 - Supervision chain ensures bot restarts on crashes
 - Auto-reload isolates code changes from credential leaks
 
 **Security Gaps:**
+
 - Single Doppler environment (`dev`) - no prod/staging separation
 - No documented API key scoping strategy
 - No automatic credential rotation policy
@@ -891,6 +952,7 @@ spec:
 **Phase 1: Foundational Security (Weeks 1-4)**
 
 **1. Implement Environment Separation**
+
 ```bash
 # Current (insecure):
 $ doppler run --config dev -- python telegram_bot.py
@@ -905,15 +967,16 @@ $ doppler run --project netstrata --config production -- python telegram_bot.py
 ```
 
 **2. Scope-Limited API Keys**
+
 ```yaml
 # Separate Telegram bot tokens per environment
-TELEGRAM_BOT_TOKEN_DEV: "123456789:AAH..."      # Test bot, no access to production
-TELEGRAM_BOT_TOKEN_PROD: "987654321:AAB..."    # Production bot, no dev access
+TELEGRAM_BOT_TOKEN_DEV: "123456789:AAH..." # Test bot, no access to production
+TELEGRAM_BOT_TOKEN_PROD: "987654321:AAB..." # Production bot, no dev access
 
 # Separate API keys per automation project
-CLAUDE_API_KEY_COMPLIANCE: "sk-ant-compliance..."  # Read compliance data only
-CLAUDE_API_KEY_BLOG: "sk-ant-blog..."             # Write blog posts only
-CLAUDE_API_KEY_NSW_HUB: "sk-ant-nsw..."           # NSW Strata Hub access only
+CLAUDE_API_KEY_COMPLIANCE: "sk-ant-compliance..." # Read compliance data only
+CLAUDE_API_KEY_BLOG: "sk-ant-blog..." # Write blog posts only
+CLAUDE_API_KEY_NSW_HUB: "sk-ant-nsw..." # NSW Strata Hub access only
 
 # Database credentials (readonly vs readwrite)
 DATABASE_URL_READONLY: "postgresql://readonly_user:..."
@@ -921,6 +984,7 @@ DATABASE_URL_READWRITE: "postgresql://readwrite_user:..."
 ```
 
 **3. Automatic Credential Rotation**
+
 ```yaml
 # Doppler rotation policy
 secrets:
@@ -940,11 +1004,12 @@ secrets:
     rotation:
       enabled: true
       interval: 30_days
-      strategy: dual_write  # Zero-downtime rotation
+      strategy: dual_write # Zero-downtime rotation
       notification: "#security-alerts"
 ```
 
 **4. Comprehensive Audit Logging**
+
 ```python
 # Structured logging for all bot operations
 import structlog
@@ -987,6 +1052,7 @@ def handle_workflow_request(user_id, workflow_name):
 **Phase 2: Advanced Security (Months 2-3)**
 
 **5. Microsegmentation with Cilium**
+
 ```yaml
 # Isolate Telegram bot from other workloads
 apiVersion: cilium.io/v2
@@ -1003,38 +1069,39 @@ spec:
   egress:
     # Allow Telegram API
     - toFQDNs:
-      - matchPattern: "api.telegram.org"
+        - matchPattern: "api.telegram.org"
       toPorts:
         - ports:
-          - port: "443"
-            protocol: TCP
+            - port: "443"
+              protocol: TCP
 
     # Allow Claude API
     - toFQDNs:
-      - matchPattern: "api.anthropic.com"
+        - matchPattern: "api.anthropic.com"
       toPorts:
         - ports:
-          - port: "443"
-            protocol: TCP
+            - port: "443"
+              protocol: TCP
 
     # Allow PostgreSQL (internal)
     - toEndpoints:
-      - matchLabels:
-          app: postgresql
+        - matchLabels:
+            app: postgresql
       toPorts:
         - ports:
-          - port: "5432"
-            protocol: TCP
+            - port: "5432"
+              protocol: TCP
 
     # Deny all other egress by default
 
   # Ingress: Only allow Kubernetes API for health checks
   ingress:
     - fromEntities:
-      - health
+        - health
 ```
 
 **6. Dynamic Secrets with HashiCorp Vault**
+
 ```python
 # Instead of long-lived database credentials, request temporary access
 import hvac
@@ -1068,6 +1135,7 @@ def get_database_connection():
 ```
 
 **7. SPIFFE Workload Identity**
+
 ```yaml
 # SPIRE registration for Telegram bot
 apiVersion: spire.spiffe.io/v1alpha1
@@ -1090,6 +1158,7 @@ spec:
 **Phase 3: Enterprise Security (Months 4-6)**
 
 **8. Just-in-Time (JIT) Admin Access**
+
 ```python
 # Instead of permanent admin credentials, request temporary elevation
 from netstrata_security import request_jit_access
@@ -1114,6 +1183,7 @@ def emergency_fix_scheme_metadata(scheme_id):
 ```
 
 **9. Behavioral Anomaly Detection**
+
 ```python
 # UEBA (User and Entity Behavior Analytics) integration
 from netstrata_security import detect_anomalies
@@ -1135,6 +1205,7 @@ def execute_workflow(workflow_name, user_id):
 ```
 
 **10. Compliance Automation**
+
 ```yaml
 # Automated compliance checks (run daily)
 compliance_checks:
@@ -1163,19 +1234,20 @@ compliance_checks:
 
 **Which Secrets Manager for Netstrata?**
 
-| Requirement | Doppler | Vault | AWS Secrets Manager |
-|-------------|---------|-------|---------------------|
-| **Team size** | 1-5 developers | ✅ Best | ✅ Good | ✅ Good |
-| **Deployment** | SaaS only | ✅ Best (self-hosted) | N/A (AWS managed) | N/A (AWS managed) |
-| **Multi-cloud** | ✅ Best (cloud-agnostic) | ✅ Best | ❌ AWS only |
-| **Dynamic secrets** | ❌ No | ✅ Best (native) | ✅ Good (Lambda-based) |
-| **Auto-rotation** | ✅ Best (zero config) | ⚠️ Manual setup | ✅ Good (Lambda functions) |
-| **CI/CD integration** | ✅ Best (GitHub Actions) | ⚠️ Good | ⚠️ Good |
-| **Learning curve** | ✅ Easy (1 day) | ❌ Steep (1-2 weeks) | ✅ Easy (2-3 days) |
-| **Cost** | $0 (free tier) → $30/user/mo | $0 (open source) | $0.40/secret/mo |
-| **Audit logging** | ✅ Built-in + SIEM export | ✅ Built-in + SIEM export | ✅ CloudTrail integration |
+| Requirement           | Doppler                      | Vault                     | AWS Secrets Manager        |
+| --------------------- | ---------------------------- | ------------------------- | -------------------------- | ----------------- |
+| **Team size**         | 1-5 developers               | ✅ Best                   | ✅ Good                    | ✅ Good           |
+| **Deployment**        | SaaS only                    | ✅ Best (self-hosted)     | N/A (AWS managed)          | N/A (AWS managed) |
+| **Multi-cloud**       | ✅ Best (cloud-agnostic)     | ✅ Best                   | ❌ AWS only                |
+| **Dynamic secrets**   | ❌ No                        | ✅ Best (native)          | ✅ Good (Lambda-based)     |
+| **Auto-rotation**     | ✅ Best (zero config)        | ⚠️ Manual setup           | ✅ Good (Lambda functions) |
+| **CI/CD integration** | ✅ Best (GitHub Actions)     | ⚠️ Good                   | ⚠️ Good                    |
+| **Learning curve**    | ✅ Easy (1 day)              | ❌ Steep (1-2 weeks)      | ✅ Easy (2-3 days)         |
+| **Cost**              | $0 (free tier) → $30/user/mo | $0 (open source)          | $0.40/secret/mo            |
+| **Audit logging**     | ✅ Built-in + SIEM export    | ✅ Built-in + SIEM export | ✅ CloudTrail integration  |
 
 **Recommendation for Netstrata:**
+
 - **Phase 1 (Now):** Continue using Doppler (already deployed, developer-friendly)
 - **Phase 2 (6-12 months):** Migrate to Vault if dynamic secrets needed (database credential rotation)
 - **Phase 3 (12+ months):** Add SPIFFE/SPIRE for workload identity if adopting microservices
@@ -1183,6 +1255,7 @@ compliance_checks:
 ### 6.4 Incident Response Playbook
 
 **Scenario 1: API Key Leaked in GitHub**
+
 ```
 Detection:
   - GitHub secret scanning alert
@@ -1200,6 +1273,7 @@ Recovery time: < 5 minutes (automated rotation)
 ```
 
 **Scenario 2: Telegram Bot Credentials Compromised**
+
 ```
 Detection:
   - Bot sending messages without user approval
@@ -1218,6 +1292,7 @@ Recovery time: < 10 minutes
 ```
 
 **Scenario 3: Database Breach (Worst Case)**
+
 ```
 Detection:
   - SIEM alert: Unusual SQL query patterns
@@ -1241,36 +1316,42 @@ Legal obligations: NSW Privacy Act requires breach notification within 30 days
 ## 7. Implementation Roadmap for Netstrata
 
 ### Week 1-2: Quick Wins
+
 - [ ] Separate Doppler environments (dev/staging/production)
 - [ ] Implement scope-limited API keys for each automation project
 - [ ] Enable structured logging (JSON format for SIEM ingestion)
 - [ ] Document current credentials inventory (what exists, who has access)
 
 ### Week 3-4: Credential Rotation
+
 - [ ] Enable automatic rotation in Doppler (60-90 day cycles)
 - [ ] Create rotation notification channel in Slack
 - [ ] Test dual-write rotation for database credentials
 - [ ] Document incident response playbook
 
 ### Month 2: Audit & Compliance
+
 - [ ] Set up centralized logging (Fluentd/Elasticsearch/Kibana)
 - [ ] Implement audit log retention (7 years for NSW compliance)
 - [ ] Create quarterly access review workflow
 - [ ] Generate compliance reports (API key age, last used, scopes)
 
 ### Month 3: Network Security
+
 - [ ] Deploy Cilium CNI with network policies
 - [ ] Implement microsegmentation for Telegram bot
 - [ ] Enable encrypted communication (mTLS) between services
 - [ ] Test network isolation (verify unauthorized access blocked)
 
 ### Month 4-6: Advanced Security
+
 - [ ] Migrate to dynamic secrets (Vault for database credentials)
 - [ ] Implement SPIFFE/SPIRE for workload identity
 - [ ] Deploy behavioral anomaly detection (UEBA)
 - [ ] Achieve SOC 2 Type I audit readiness
 
 ### Success Metrics
+
 - **Credential age:** 100% of secrets rotated within policy timeframe (30-90 days)
 - **Audit coverage:** 100% of API calls logged and retained for 7 years
 - **Incident response:** < 5 minutes to revoke compromised credentials
@@ -1282,6 +1363,7 @@ Legal obligations: NSW Privacy Act requires breach notification within 30 days
 ## 8. References & Further Reading
 
 ### Official Standards
+
 - **NIST SP 800-207:** Zero Trust Architecture (2020)
   https://csrc.nist.gov/pubs/sp/800/207/final
 
@@ -1295,6 +1377,7 @@ Legal obligations: NSW Privacy Act requires breach notification within 30 days
   https://www.cisa.gov/zero-trust-maturity-model
 
 ### Industry Best Practices
+
 - **OAuth 2.0 Scopes Best Practices** (Curity, 2025)
   https://curity.io/resources/learn/scope-best-practices/
 
@@ -1305,6 +1388,7 @@ Legal obligations: NSW Privacy Act requires breach notification within 30 days
   https://www.akeyless.io/blog/mastering-secure-secrets-akeylesss-guide-to-automated-credential-rotation/
 
 ### Open Source Tools
+
 - **HashiCorp Vault:** https://github.com/hashicorp/vault
 - **Doppler:** https://www.doppler.com
 - **SPIFFE/SPIRE:** https://github.com/spiffe/spire
@@ -1312,6 +1396,7 @@ Legal obligations: NSW Privacy Act requires breach notification within 30 days
 - **Istio:** https://github.com/istio/istio
 
 ### Real-World Implementations
+
 - **Microsoft Zero Trust Journey**
   https://www.microsoft.com/insidetrack/blog/implementing-a-zero-trust-security-model-at-microsoft/
 
@@ -1322,6 +1407,7 @@ Legal obligations: NSW Privacy Act requires breach notification within 30 days
   https://cloudsecurityalliance.org/blog/2025/03/18/from-risk-to-revenue-with-zero-trust-ai
 
 ### Compliance & Legal
+
 - **PCI DSS 8.3.2:** Secret Rotation Requirements
 - **SOC 2 CC7.2:** Monitoring of Access Logs
 - **GDPR Article 30:** Records of Processing Activities
@@ -1368,6 +1454,7 @@ Legal obligations: NSW Privacy Act requires breach notification within 30 days
 ## Appendix B: Netstrata-Specific Threat Model
 
 ### Assets to Protect
+
 1. **Client PII:** Owner names, addresses, contact information (GDPR/Privacy Act compliance)
 2. **Financial Data:** Scheme budgets, levy payments, insurance claims (PCI DSS if processing payments)
 3. **Building Data:** Defect reports, maintenance records, fire safety compliance
@@ -1375,6 +1462,7 @@ Legal obligations: NSW Privacy Act requires breach notification within 30 days
 5. **Proprietary Algorithms:** Insurance risk prediction models, compliance automation logic
 
 ### Threat Actors
+
 1. **External Attackers:** Ransomware gangs targeting real estate firms (increasing trend 2024-2025)
 2. **Insider Threats:** Disgruntled employees with legitimate access (20% of breaches)
 3. **Supply Chain:** Compromised PropTech vendors or open-source dependencies
@@ -1382,6 +1470,7 @@ Legal obligations: NSW Privacy Act requires breach notification within 30 days
 5. **Competitors:** Industrial espionage for proprietary automation systems
 
 ### Attack Vectors
+
 1. **Credential Theft:** Phishing, leaked API keys in GitHub, stolen Doppler tokens
 2. **Supply Chain Injection:** Malicious PyPI packages in automation scripts
 3. **Network Exploitation:** Lateral movement after initial compromise
@@ -1389,13 +1478,14 @@ Legal obligations: NSW Privacy Act requires breach notification within 30 days
 5. **Insider Abuse:** Legitimate user accessing data beyond need-to-know
 
 ### Mitigation Strategies (Mapped to Zero-Trust Principles)
-| Threat | Zero-Trust Control | Implementation |
-|--------|-------------------|----------------|
-| Credential theft | Time-limited tokens | OAuth2 with 1-hour expiration |
-| Lateral movement | Microsegmentation | Cilium network policies |
-| Insider abuse | Least privilege | Scope-limited API keys per service |
-| Supply chain | SBOM + attestation | `uv` lock files + SPIFFE workload identity |
-| Data exfiltration | DLP + audit logs | SIEM alerting on bulk downloads |
+
+| Threat            | Zero-Trust Control  | Implementation                             |
+| ----------------- | ------------------- | ------------------------------------------ |
+| Credential theft  | Time-limited tokens | OAuth2 with 1-hour expiration              |
+| Lateral movement  | Microsegmentation   | Cilium network policies                    |
+| Insider abuse     | Least privilege     | Scope-limited API keys per service         |
+| Supply chain      | SBOM + attestation  | `uv` lock files + SPIFFE workload identity |
+| Data exfiltration | DLP + audit logs    | SIEM alerting on bulk downloads            |
 
 ---
 
@@ -1404,30 +1494,36 @@ Legal obligations: NSW Privacy Act requires breach notification within 30 days
 ### Security Investment Costs (Annual)
 
 **Doppler SaaS (5 developers):**
+
 - Free tier: $0/year (sufficient for current Netstrata scale)
 - Team plan: $180/year ($3/user/month × 5 users × 12 months)
 
 **HashiCorp Vault (Self-Hosted):**
+
 - Open source: $0 (infrastructure costs only)
 - Kubernetes cluster: $500/year (3 × t3.small EC2 instances)
 - Operational overhead: ~8 hours/month ($5,000/year at $50/hour)
 
 **SPIFFE/SPIRE (Open Source):**
+
 - Software: $0 (CNCF graduated project)
 - Kubernetes integration: Included with Vault/Cilium
 - Implementation: 40 hours ($2,000 one-time cost)
 
 **Cilium CNI (Open Source):**
+
 - Software: $0 (replaces existing Kubernetes CNI)
 - No additional infrastructure costs
 - Implementation: 20 hours ($1,000 one-time cost)
 
 **SIEM (ELK Stack):**
+
 - Self-hosted Elasticsearch: $1,200/year (storage + compute)
 - Managed alternative (AWS OpenSearch): $3,000/year
 - Log retention (7 years): $500/year (S3 Glacier)
 
 **Total Annual Cost:**
+
 - **Minimal (Doppler + self-hosted tools):** ~$2,200/year
 - **Recommended (Doppler + ELK + Vault):** ~$7,000/year
 - **Enterprise (Managed services):** ~$15,000/year
@@ -1435,17 +1531,20 @@ Legal obligations: NSW Privacy Act requires breach notification within 30 days
 ### Risk Mitigation Value
 
 **Average Cost of Data Breach (2025):**
+
 - **SMB (< 500 employees):** $2.98 million per breach (IBM Security Report)
 - **Real estate sector:** Higher than average due to PII concentration
 - **Netstrata-specific:** 2000+ schemes × 50 owners/scheme = 100,000 individuals' PII
 
 **Avoided Costs with Zero-Trust Implementation:**
+
 - **Reduced breach probability:** 40% reduction (microsegmentation limits lateral movement)
 - **Faster incident response:** 5 minutes vs 287 days average detection time (IBM)
 - **Compliance fines avoided:** NSW penalties up to $110K per violation
 - **Reputation protection:** McGrathNicol review demonstrated vulnerability to trust damage
 
 **ROI Calculation:**
+
 - **Investment:** $7,000/year (recommended configuration)
 - **Risk mitigation:** $2.98M × 40% reduction = $1.19M expected value
 - **ROI:** 169x return on investment

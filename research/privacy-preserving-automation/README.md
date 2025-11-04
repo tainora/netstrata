@@ -7,7 +7,7 @@
 
 ## Research Question
 
-*"How can Netstrata automation deliver meaningful strategic value based on publicly available information when real ROI requires access to internal operational data—without creating privacy risks or single points of failure?"*
+_"How can Netstrata automation deliver meaningful strategic value based on publicly available information when real ROI requires access to internal operational data—without creating privacy risks or single points of failure?"_
 
 ---
 
@@ -16,9 +16,11 @@
 This directory contains comprehensive research from 6 parallel investigations into privacy-preserving data engineering:
 
 ### 1. [Differential Privacy Research](differential-privacy-research.md)
+
 **Focus**: Privacy-preserving analytics using differential privacy, k-anonymity, and aggregation-only approaches
 
 **Key Findings**:
+
 - Production techniques from Apple, Google, US Census Bureau
 - ε=1.0 differential privacy adds only 0.17% error
 - 80-90% of insights achievable with 10% of privacy risk
@@ -29,9 +31,11 @@ This directory contains comprehensive research from 6 parallel investigations in
 ---
 
 ### 2. [Metadata Monitoring Research](metadata-monitoring-research.md)
+
 **Focus**: Metadata-based monitoring systems that provide operational insights WITHOUT accessing payload data
 
 **Key Findings**:
+
 - 80-90% of operational problems detectable from metadata alone
 - Four Golden Signals framework (Google SRE)
 - OpenTelemetry, Prometheus, Grafana production implementations
@@ -42,9 +46,11 @@ This directory contains comprehensive research from 6 parallel investigations in
 ---
 
 ### 3. [Data Minimization Research](data-minimization-research.md)
+
 **Focus**: GDPR-compliant data minimization strategies and privacy-by-design architectures
 
 **Key Findings**:
+
 - 5 core architectural patterns (edge aggregation, ephemeral processing, stateless analysis)
 - Organizations achieve 90%+ value with <10% data collection
 - Real-world case studies from healthcare, finance, federated learning
@@ -55,9 +61,11 @@ This directory contains comprehensive research from 6 parallel investigations in
 ---
 
 ### 4. [Zero-Trust Security Research](zero-trust-security-research.md)
+
 **Focus**: Zero-trust architectures and least-privilege access patterns for automation systems
 
 **Key Findings**:
+
 - NIST SP 800-207 zero-trust principles
 - Scope-limited API keys vs "god mode" credentials
 - Dynamic secrets with 1-hour expiration (vs 90-day static passwords)
@@ -69,9 +77,11 @@ This directory contains comprehensive research from 6 parallel investigations in
 ---
 
 ### 5. [Anomaly Detection Research](anomaly-detection-research.md)
+
 **Focus**: Privacy-preserving anomaly detection and predictive alerting using aggregated data
 
 **Key Findings**:
+
 - 4 statistical methods tested (Z-Score, IQR, Rolling Window, Modified Z-Score)
 - Time-series forecasting: Prophet (2.59% MAPE), ARIMA (7.04% MAPE)
 - DBSCAN clustering: 192/2000 high-risk schemes detected (9.6%)
@@ -83,9 +93,11 @@ This directory contains comprehensive research from 6 parallel investigations in
 ---
 
 ### 6. [Open Source Privacy Tools Research](open-source-privacy-tools-research.md)
+
 **Focus**: Open source privacy-preserving technologies integrable with Anthropic's Claude Code CLI
 
 **Key Findings**:
+
 - Evaluated 7 tools: OpenDP, diffprivlib, Presidio, PipelineDP, SEAL, PySyft, Tumult
 - Recommended: IBM diffprivlib (easiest), OpenDP (fastest), Presidio (PII detection)
 - 4 Claude Code CLI integration patterns (PEP 723, Telegram bot, FastAPI, launchd)
@@ -111,6 +123,7 @@ This directory contains comprehensive research from 6 parallel investigations in
 ### Real-World Production Validation
 
 These techniques are battle-tested at massive scale:
+
 - **Apple**: 100M+ iOS devices (differential privacy, ε=4.0)
 - **Google Chrome**: Billions of users (RAPPOR protocol, ε=2.0)
 - **US Census 2020**: 330M people (ε=19.61)
@@ -130,14 +143,14 @@ Netstrata Internal Systems (Strata Master, NSW Hub)
 
 ### Netstrata-Specific Applications
 
-| Use Case | Privacy Technique | Annual ROI |
-|----------|-------------------|------------|
-| McGrathNicol Compliance Dashboard | Metadata-only tracking | $110K+ (penalties avoided) |
-| Insurance Premium Early Warning | Aggregation + DP (ε=1.0) | $500K-1M (proactive intervention) |
-| NSW Strata Hub Bulk Upload | Ephemeral processing | $200K (90% time savings) |
-| Predictive Maintenance | K-anonymity clustering | $300K (anomaly detection) |
-| Legislative Update Automation | Edge aggregation | $150K (80% faster) |
-| **TOTAL PORTFOLIO VALUE** | **Multiple techniques** | **$1.26M-2.76M annually** |
+| Use Case                          | Privacy Technique        | Annual ROI                        |
+| --------------------------------- | ------------------------ | --------------------------------- |
+| McGrathNicol Compliance Dashboard | Metadata-only tracking   | $110K+ (penalties avoided)        |
+| Insurance Premium Early Warning   | Aggregation + DP (ε=1.0) | $500K-1M (proactive intervention) |
+| NSW Strata Hub Bulk Upload        | Ephemeral processing     | $200K (90% time savings)          |
+| Predictive Maintenance            | K-anonymity clustering   | $300K (anomaly detection)         |
+| Legislative Update Automation     | Edge aggregation         | $150K (80% faster)                |
+| **TOTAL PORTFOLIO VALUE**         | **Multiple techniques**  | **$1.26M-2.76M annually**         |
 
 ### Implementation Roadmap
 
@@ -156,16 +169,19 @@ Netstrata Internal Systems (Strata Master, NSW Hub)
 **"Operational intelligence without compromising privacy"**
 
 ### For Ted Middleton (Founder/Chairman)
+
 - Protect company reputation post-McGrathNicol
 - Technology moat against PropTech competitors
 - First strata manager with differential privacy implementation
 
 ### For Andrew Tunks (COO)
+
 - Operational efficiency mandate fulfilled
 - Continuous improvement through privacy-safe metrics
 - Innovation leadership in strata management
 
 ### Competitive Advantage
+
 **No strata management competitor uses differential privacy.** Netstrata would be the first to implement mathematically-guaranteed privacy protection while enabling transparent aggregate reporting.
 
 ---
