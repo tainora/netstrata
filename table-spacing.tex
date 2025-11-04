@@ -1,0 +1,16 @@
+% Better table row spacing for PDF generation
+\usepackage{booktabs}
+\renewcommand{\arraystretch}{1.8}
+
+% Add extra padding to table cells
+\usepackage{array}
+\setlength{\extrarowheight}{5pt}
+
+% Better spacing for longtable (used by Pandoc)
+\usepackage{longtable}
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{0pt}
+
+% Add subtle horizontal rules between rows
+\usepackage{colortbl}
+\definecolor{lightgray}{gray}{0.9}
