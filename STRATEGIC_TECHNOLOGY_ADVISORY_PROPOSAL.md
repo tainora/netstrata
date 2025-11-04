@@ -1111,14 +1111,33 @@ _Note: Employment is the primary preference (joining the team with company resou
 
 ## X. Personal Note: Integrity & Long-Term Alignment
 
-I want to be transparent about the unique context of this proposal. Ted Middleton is my mother's partner of 15+ years, making this both a career opportunity and a personal commitment to helping protect the company he founded in 1996.
+I want to be transparent about the unique context of this proposal. Ted Middleton is my mother's partner of 15+ years, making this both a career opportunity and a personal commitment to helping ensure the company he founded in 1996 remains future-proof and competitive as the industry evolves.
+
+**What I Bring:**
+
+- **Technology & AI expertise**: Production-grade automation systems, modern Python tooling, AI/LLM integration
+- **Rapid prototyping**: Building working solutions quickly to validate ideas before scaling investment
+- **Data-driven approach**: Every recommendation based on publicly available information (blog posts), not relationship leverage
+
+**What I'm Still Learning:**
+
+I want to be honest about my knowledge gaps. While I have strong technology skills, **I don't have deep domain knowledge in real estate or strata management**. Information technology without vertical domain expertise is not valuable—the domain knowledge is the foundation.
+
+**My Learning Commitment:**
+
+- **Industry training**: Willing to complete strata management courses and certifications
+- **Company onboarding**: Learn Netstrata's systems, processes, and operational context
+- **Continuing education**: Invest personal time in understanding regulatory frameworks, insurance dynamics, building management
+- **Collaborative learning**: Work alongside experienced strata managers to understand real-world pain points
+
+Technology is only valuable when it solves actual business problems. I'm committed to investing the time needed to understand the strata management domain deeply enough to build automation that genuinely helps.
 
 **My Commitments:**
 
-1. **Objective Value Delivery**: Every recommendation is data-driven, based on publicly available information (blog posts), not relationship leverage
-2. **No Hype or Overselling**: I will recommend against automation if it doesn't serve business strategy – integrity over billable hours
-3. **Pilot-Before-Scale**: Proof-of-value model minimizes risk – you evaluate results at every phase before committing further
-4. **Long-Term Orientation**: Family connection means I'm incentivized for Netstrata's sustained success, not contract maximization
+1. **Objective Value Delivery**: No hype or overselling—I will recommend against automation if it doesn't serve business strategy
+2. **Pilot-Before-Scale**: Proof-of-value model minimizes risk—you evaluate results at every phase before committing further
+3. **Long-Term Orientation**: Family connection means I'm incentivized for Netstrata's sustained success, not contract maximization
+4. **Intellectual Humility**: Acknowledge what I don't know and invest in learning rather than pretending expertise
 
 **Engagement Approach:**
 

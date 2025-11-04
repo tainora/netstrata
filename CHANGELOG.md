@@ -5,6 +5,49 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.4] - 2025-11-04
+
+### Changed
+
+- Replaced "protect the company" with "ensure the company remains future-proof and competitive as the industry evolves"
+- Restructured Personal Note section with "What I Bring" / "What I'm Still Learning" / "My Learning Commitment" format
+- Added explicit acknowledgment of **domain knowledge gaps** in real estate and strata management
+- Added commitment to industry training, certifications, and continuing education
+- Emphasized that **"Information technology without vertical domain expertise is not valuable—the domain knowledge is the foundation"**
+- Added new commitment: **"Intellectual Humility"** (acknowledge what I don't know and invest in learning rather than pretending expertise)
+
+### Added
+
+**What I Bring:**
+- Technology & AI expertise (production-grade automation, modern Python, AI/LLM integration)
+- Rapid prototyping capabilities
+- Data-driven approach
+
+**What I'm Still Learning:**
+- Honest acknowledgment: "I don't have deep domain knowledge in real estate or strata management"
+- Recognition that IT without domain expertise is not valuable
+
+**My Learning Commitment:**
+- Industry training and strata management certifications
+- Company onboarding to learn systems and processes
+- Personal time investment in regulatory frameworks, insurance dynamics, building management
+- Collaborative learning with experienced strata managers
+
+### Rationale
+
+User feedback: Balance confidence with humility—don't sound cocky or presumptuous
+- "Protect the company" sounds too presumptuous (implies I know better than the founder)
+- "Future-proof and competitive" is more accurate (technology helping company adapt to industry evolution)
+- Need to be honest about domain knowledge gaps (AI/technology expertise alone is insufficient)
+- Domain knowledge is the foundation—willing to invest personal time to learn
+
+### Impact
+
+- PDF: 32 pages, 134KB (added learning commitment content)
+- Tone: Confident in technology skills, humble about domain gaps
+- Positioning: Expert technologist committed to learning strata management domain
+- Credibility: Honest about limitations rather than overstating expertise
+
 ## [1.0.3] - 2025-11-04
 
 ### Changed
@@ -19,6 +62,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Rationale
 
 User feedback: This is primarily a **career opportunity** (employment-focused), not an external business/consulting engagement:
+
 - Need company support and resources to be effective
 - Employment is the main focus, not consulting
 - Open to both employment and consultancy, but employment preferred
@@ -114,6 +158,7 @@ Portfolio size verification attempts:
 - 1500+ lines of research findings documenting market reality
 - Evidence-based approach replacing speculative competitive positioning
 
+[1.0.4]: https://github.com/tainora/netstrata/releases/tag/v1.0.4
 [1.0.3]: https://github.com/tainora/netstrata/releases/tag/v1.0.3
 [1.0.2]: https://github.com/tainora/netstrata/releases/tag/v1.0.2
 [1.0.1]: https://github.com/tainora/netstrata/releases/tag/v1.0.1
