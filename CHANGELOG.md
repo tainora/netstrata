@@ -12,12 +12,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 **Removed Manual References Section** (lines 1287-1322)
 
 **Issue**: The document had both:
+
 1. Manual "References" section with numbered list duplicating all citations
 2. Pandoc footnote definitions at bottom (`[^footnote-id]:`)
 
 **Solution**: Removed manual duplication entirely. Pandoc automatically collects and displays all `[^footnote-id]` definitions - no manual References section needed.
 
 **Benefits**:
+
 - Single source of truth for all citations (DRY principle)
 - No risk of References section becoming outdated
 - Reduced document length (43 → 41 pages)
@@ -31,12 +33,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed - COMPREHENSIVE FACTUAL VERIFICATION
 
 **Critical Corrections**:
+
 1. Knowledge gaps section: Clarified that CRM data systems, financial analysis, ML forecasting are STRENGTHS (not gaps). Gap is real estate/strata domain knowledge
 2. Corrected 368,000 strata schemes → 340,000 (verified with UNSW City Futures 2020 data)
 3. Corrected Claude Sonnet 4.5 "January 2025" → "September 2025" release date
 4. Removed unverified 15%/45% AI adoption claims (no authoritative source found)
 
 **Added 13 New Footnote Citations with URLs**:
+
 1. [^strata-defects-2023]: NSW Government - 53% defects, up from 39% in 2021
 2. [^water-damage-claims]: CHU Insurance & SCI - 50-70% of claims involve water damage
 3. [^apartment-demographics-2024]: UNSW research - 48% of residents aged 20-39

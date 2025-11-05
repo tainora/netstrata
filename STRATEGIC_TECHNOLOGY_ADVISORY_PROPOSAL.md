@@ -12,7 +12,7 @@ date: November 3, 2025
 
 # Executive Summary
 
-Ted, I'm proposing a strategic technology advisory engagement to help Netstrata deploy AI-powered automation for the operational priorities you've documented through your blog communications. Over recent weeks, I've studied your 292 blog posts (2009-2025) to understand where automation could provide the most value. This proposal focuses on three areas where I believe I can help: McGrathNicol compliance tracking, NSW regulatory reporting automation, and insurance risk intelligence.
+Ted, I'm proposing a strategic technology advisory engagement to help Netstrata deploy AI-powered automation for the operational priorities you've documented through your blog communications. Over the past few days, I've studied your 292 blog posts (2009-2025) to understand where automation could provide the most value. This proposal focuses on three areas where I believe I can help: McGrathNicol compliance tracking, NSW regulatory reporting automation, and insurance risk intelligence.
 
 ### What I Can Do For Netstrata
 
@@ -683,8 +683,6 @@ The Australian strata management industry is experiencing technology adoption ac
 - **$5 billion**[^proptech-market-2024] PropTech and Real Estate Platforms market (Australia, 2024)
 - **340,000+**[^strata-schemes-australia] strata schemes nationwide
 
-
-
 ### AI-Powered Platforms in Production
 
 **Merlo AI** (2021, MRI Software)
@@ -1283,6 +1281,8 @@ This proposal is based on comprehensive analysis of 292 publicly available blog 
 **Research Methodology**: AI-assisted content analysis using Claude Code CLI, systematic blog post categorization, linguistic pattern recognition, and temporal trend analysis. All findings independently verifiable through provided citations.
 
 ---
+
+\theendnotes
 
 [^andrew-tunks-coo]: ["Netstrata Appoints Andrew Tunks as Chief Operating Officer"](https://netstrata.com.au/netstrata-appoints-andrew-tunks-as-chief-operating-officer/) (September 24, 2025)
 

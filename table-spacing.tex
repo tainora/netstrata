@@ -73,3 +73,18 @@
 % Optional: Add spacing between ToC entries for better readability
 % \setlength{\cftbeforesecskip}{6pt}
 % \setlength{\cftbeforesubsecskip}{3pt}
+
+% ==============================================================================
+% Endnotes Configuration
+% ==============================================================================
+% Problem: Footnotes not appearing in PDF output
+% Solution: Convert all footnotes to endnotes that appear at document end
+
+\usepackage{endnotes}
+
+% Convert all footnotes to endnotes
+\let\footnote=\endnote
+
+% Customize endnote formatting
+\renewcommand{\notesname}{References}  % Change "Notes" to "References"
+\renewcommand{\enotesize}{\footnotesize}  % Smaller font for endnotes
