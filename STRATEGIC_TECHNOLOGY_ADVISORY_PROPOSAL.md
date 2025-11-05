@@ -61,25 +61,15 @@ _Note: Engagement structure (contract/employee/hybrid) to be determined based on
 
 ### 1.1 Regulatory Compliance Acceleration
 
-**Evidence from Netstrata Communications:**
+New reforms came into effect October 27, 2025, with additional changes scheduled for April 1, 2026.[^nsw-law-2025] These reforms represent "the most significant changes to NSW strata law in recent years,"[^nsw-law-changes-2025] introducing:
 
-Blog Post
-: ["How to Prepare for the 2025 NSW Strata Law Changes"](https://netstrata.com.au/how-to-prepare-for-the-2025-nsw-strata-law-changes/) (October 27, 2025)
+- Six-month reporting to owners corporations (doubled from annual frequency)
+- Financial hardship provisions in all levy notices
+- Enhanced building manager disclosure obligations
+- NSW Fair Trading expanded enforcement powers
+- Penalties up to $11,000 + $220/day for non-compliance[^nsw-law-2025]
 
-Key Finding
-: New reforms came into effect October 27, 2025, with additional changes April 1, 2026
-
-Documented New Requirements
-: - Six-month reporting to owners corporations (doubled from annual) - Financial hardship provisions in all levy notices - Enhanced building manager disclosure obligations - NSW Fair Trading expanded enforcement powers - Penalties up to $11,000 + $220/day for non-compliance
-
-Blog Post
-: ["NSW Strata Law Changes 2025 – What Owners and Committees Need to Know"](https://netstrata.com.au/nsw-strata-law-changes-2025-what-owners-and-committees-need-to-know/) (October 15, 2025)
-
-Quote
-: "These reforms represent the most significant changes to NSW strata law in recent years"
-
-Automation Opportunity
-: With a large portfolio of schemes under management, six-monthly reporting represents thousands of manual reports annually. Automating report generation, compliance tracking, and deadline management becomes operationally essential.
+**Automation Opportunity:** With a large portfolio of schemes under management, six-monthly reporting represents thousands of manual reports annually. Automating report generation, compliance tracking, and deadline management becomes operationally essential.
 
 ---
 
@@ -98,10 +88,7 @@ The McGrathNicol review represents Netstrata's **biggest reputational crisis in 
 
 **Current Status (Critical):**
 
-- **Blog Post**: ["McGrathNicol Review: Key Updates & Improvements"](https://netstrata.com.au/mcgrathnicol-review-key-updates-improvements/) (May 15, 2025)
-- **Progress**: 16 of 22 recommendations completed by May 2025
-- **OVERDUE**: 6 recommendations pending (July 1, 2025 deadline has passed)
-- **Unresolved**: Contested breaches still under NSW Fair Trading review
+16 of 22 recommendations completed by May 2025,[^mcgrathnicol-may-2025] with 6 recommendations pending past the July 1, 2025 deadline. Contested breaches remain under NSW Fair Trading review.
 
 **Historical Context (Not a 2024 Crisis):**
 Comprehensive timeline analysis reveals McGrathNicol has been a **13-year sustained transparency effort** (25 posts from 2010-2025), not a recent crisis. However, 2024-2025 represents the acute phase requiring immediate remediation.
@@ -147,16 +134,7 @@ Significance
 
 **Technology Investment Precedent:**
 
-Blog Post
-: ["McGrathNicol Review – Key updates & Improvements"](https://netstrata.com.au/mcgrathnicol-review-key-updates-improvements/) (May 6, 2025)
-
-**First Proprietary Technology Launch Announcement:**
-
-- Netstrata's first major proprietary technology investment
-- Focus on financial transparency and client access to data
-- Launched during McGrathNicol recovery period (strategic investment under pressure)
-
-**Automation Opportunity**: Netstrata has demonstrated willingness to invest in technology infrastructure under pressure (Owners Portal launched May 2025, COO appointed September 2025). Current momentum creates opportunity for AI automation advisory before internal capabilities develop or processes calcify.
+Netstrata launched its first major proprietary technology (Owners Portal) in May 2025 during the McGrathNicol recovery period,[^mcgrathnicol-may-2025] demonstrating willingness to invest in technology infrastructure under pressure. With the COO appointed September 2025, current momentum creates opportunity for AI automation advisory before internal capabilities develop or processes calcify.
 
 ---
 
@@ -175,14 +153,7 @@ Blog Post
 
 **Current Crisis Severity (2023-2025):**
 
-Blog Post
-: ["Navigating Rising Strata Insurance Premiums: Challenges and Strategies"](https://netstrata.com.au/navigating-rising-strata-insurance-premiums-challenges-and-strategies/) (December 5, 2023)
-
-    - **Key Quote**: "Increases of **20% or more annually** and limited renewal quotes can be frustrating. These challenges stem from evolving difficulties in securing insurance for strata schemes."
-    - "Rate increases are frustrating for all"
-    - "Insurers pulling back from strata market"
-    - "Buildings with high claims or building defects face increased premiums and excesses"
-    - Netstrata recommending clients "shift away from commission-based fee structures" (reduces their own revenue)
+Netstrata reports "increases of 20% or more annually" with insurers pulling back from the strata market.[^insurance-premiums-2023] Buildings with high claims or defects face increased premiums and excesses, and Netstrata is recommending clients "shift away from commission-based fee structures" (reducing their own revenue).
 
 **Financial Pressure Context:**
 
@@ -434,11 +405,7 @@ Ongoing Maintenance
 
 **Evidence-Based Justification:**
 
-Blog Post
-: ["Strata Hub – A New Tool for Strata Schemes"](https://netstrata.com.au/strata-hub/) (September 29, 2022)
-
-Quote
-: "Schemes must provide information within three months of their AGM each year... The Strata Hub collects essential information to assist scheme planning and future policy development."
+The NSW Strata Hub requires schemes to provide information within three months of their AGM each year, collecting essential information for scheme planning and policy development.[^strata-hub-2022]
 
 **Documented Fields Required (30+ per scheme):**
 
@@ -1293,3 +1260,17 @@ Status
 This proposal is based on comprehensive analysis of 292 publicly available blog posts from netstrata.com.au (2009-2025). All claims are grounded in documented evidence and cited with specific URLs and dates. No confidential or proprietary information was used in the preparation of this document.
 
 **Research Methodology**: AI-assisted content analysis using Claude Code CLI, systematic blog post categorization, linguistic pattern recognition, and temporal trend analysis. All findings independently verifiable through provided citations.
+
+---
+
+## References
+
+[^nsw-law-2025]: ["How to Prepare for the 2025 NSW Strata Law Changes"](https://netstrata.com.au/how-to-prepare-for-the-2025-nsw-strata-law-changes/) (October 27, 2025)
+
+[^nsw-law-changes-2025]: ["NSW Strata Law Changes 2025 – What Owners and Committees Need to Know"](https://netstrata.com.au/nsw-strata-law-changes-2025-what-owners-and-committees-need-to-know/) (October 15, 2025)
+
+[^mcgrathnicol-may-2025]: ["McGrathNicol Review: Key Updates & Improvements"](https://netstrata.com.au/mcgrathnicol-review-key-updates-improvements/) (May 15, 2025)
+
+[^insurance-premiums-2023]: ["Navigating Rising Strata Insurance Premiums: Challenges and Strategies"](https://netstrata.com.au/navigating-rising-strata-insurance-premiums-challenges-and-strategies/) (December 5, 2023)
+
+[^strata-hub-2022]: ["Strata Hub – A New Tool for Strata Schemes"](https://netstrata.com.au/strata-hub/) (September 29, 2022)

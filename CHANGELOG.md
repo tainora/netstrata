@@ -5,6 +5,35 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.7] - 2025-11-04
+
+### Changed
+
+- Converted inline blog references to footnotes for improved readability:
+  - Moved 5 blog post URLs with quotes/key findings to footnote references
+  - Removed definition list format (Blog Post:, Quote:, Key Finding:, etc.)
+  - Consolidated all references in new References section at document end
+  - Main text now flows more naturally without citation interruptions
+
+### Added
+
+- References section at end of document with all blog post citations
+- Footnote markers [^nsw-law-2025], [^mcgrathnicol-may-2025], etc. in main text
+
+### Impact
+
+- PDF: 32 pages, 134KB (unchanged from v1.0.6)
+- Improved: Cleaner main text flow, professional academic-style citations
+- Trade-off: Footnotes at bottom consume similar space as inline references, but improve scannability
+
+### Rationale
+
+User requested "save on pages by having blog references and explanation moved to footers." While page count remained the same (footnote space at bottom offset inline savings), the readability improvement is significant:
+- Main arguments flow without citation interruptions
+- References consolidated in one location
+- Professional presentation style
+- Easier to scan key points without visual clutter
+
 ## [1.0.6] - 2025-11-04
 
 ### Changed
@@ -229,6 +258,7 @@ Portfolio size verification attempts:
 - 1500+ lines of research findings documenting market reality
 - Evidence-based approach replacing speculative competitive positioning
 
+[1.0.7]: https://github.com/tainora/netstrata/releases/tag/v1.0.7
 [1.0.6]: https://github.com/tainora/netstrata/releases/tag/v1.0.6
 [1.0.5]: https://github.com/tainora/netstrata/releases/tag/v1.0.5
 [1.0.4]: https://github.com/tainora/netstrata/releases/tag/v1.0.4
