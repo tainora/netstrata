@@ -5,6 +5,46 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.8] - 2025-11-04
+
+### Removed
+
+- Unverified "first-ever COO appointment after 17 years" claim (blog post doesn't confirm "first-ever")
+- Fabricated hour estimates: 40-80, 80-120, 120-160, 540-760, 500-750 hours
+- Fabricated efficiency percentages: 50%, 60-70%, 94% time reduction
+- Fabricated cost estimates: $4,000-$6,000 pilot cost
+- Fabricated timeline estimates: 24-48 hours, 2-3 hours, 3-6 months
+- Fabricated scale estimates: 50-100 schemes, 60,000 data points
+- Unsourced competitor claims: 70% admin reduction (Merlo AI)
+
+### Changed
+
+- Replaced specific hour/percentage claims with qualitative language ("reduced time", "significant savings")
+- Andrew Tunks COO description now accurately reflects blog post content (17+ years at Netstrata, not company age)
+- All claims now grounded in blog post sources or marked as qualitative assessments
+
+### Added
+
+- Footnote reference for Andrew Tunks COO appointment blog post
+
+### Impact
+
+- PDF: 31 pages, 133KB (**1 page reduction from v1.0.7**)
+- Improved: All numerical claims now verifiable or removed
+- Accuracy: Eliminated fabricated estimates and projections
+
+### Rationale
+
+User feedback: "don't easily specify any numbers especially projected ones if they are not grounded from fact"
+
+**Problem identified**: Many numbers were estimates/projections presented as facts:
+- "60,000 NSW Strata Hub data points annually" - NO SOURCE
+- "94% time reduction" - calculated from fabricated 3 minutes/scheme claim
+- "540-760 hours" - pure estimate
+- "50%", "60-70%" reduction claims - unsourced projections
+
+**Solution**: Removed all unverified numbers, replaced with qualitative language. Only kept numbers directly from blog posts or marked as estimates.
+
 ## [1.0.7] - 2025-11-04
 
 ### Changed
@@ -29,6 +69,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Rationale
 
 User requested "save on pages by having blog references and explanation moved to footers." While page count remained the same (footnote space at bottom offset inline savings), the readability improvement is significant:
+
 - Main arguments flow without citation interruptions
 - References consolidated in one location
 - Professional presentation style
@@ -258,6 +299,7 @@ Portfolio size verification attempts:
 - 1500+ lines of research findings documenting market reality
 - Evidence-based approach replacing speculative competitive positioning
 
+[1.0.8]: https://github.com/tainora/netstrata/releases/tag/v1.0.8
 [1.0.7]: https://github.com/tainora/netstrata/releases/tag/v1.0.7
 [1.0.6]: https://github.com/tainora/netstrata/releases/tag/v1.0.6
 [1.0.5]: https://github.com/tainora/netstrata/releases/tag/v1.0.5
