@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.14] - 2025-11-04
+
+### Fixed
+
+- Removed "Competitive Blindspot" table row containing fear-based language (this row was supposed to be removed in v1.0.0 but was overlooked)
+- Removed unverified company reference ":Different" - web search found no evidence this company exists in Australian PropTech/strata management space
+- Added FTE (Full-Time Equivalent) acronym explanation on first use - previously appeared without context
+
+### Impact
+
+- Cleaner, more professional presentation without competitive fear-mongering
+- All company references now verified and factual
+- Resource planning terminology now accessible to all readers
+
 ## [1.0.13] - 2025-11-04
 
 ### Fixed

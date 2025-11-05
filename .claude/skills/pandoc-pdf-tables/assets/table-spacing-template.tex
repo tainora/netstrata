@@ -1,0 +1,91 @@
+% Professional PDF Table Spacing Templates
+% Choose the configuration that best fits your needs
+
+% ============================================================================
+% CONFIGURATION: COMPACT (Default - Prevents Page Breaks)
+% ============================================================================
+% Best for: Tables that need to stay on single pages
+% Trade-off: Denser appearance, less breathing room
+% Height reduction: ~20-25% vs moderate spacing
+
+% Better table row spacing for PDF generation
+\usepackage{booktabs}
+
+% More compact spacing to fit tables on single page
+\renewcommand{\arraystretch}{1.0}
+
+% Minimal extra padding at top of cells
+\usepackage{array}
+\setlength{\extrarowheight}{2pt}
+
+% Let booktabs handle spacing around rules with default values
+% (toprule, midrule, bottomrule have built-in spacing)
+
+% Space before and after entire table
+\usepackage{longtable}
+\setlength{\LTpre}{8pt}
+\setlength{\LTpost}{12pt}
+
+% Compact column spacing to fit tables on one page
+\setlength{\tabcolsep}{6pt}
+
+% Thicker rules for better visual separation between rows
+\setlength{\heavyrulewidth}{1.0pt}
+\setlength{\lightrulewidth}{0.4pt}
+\setlength{\cmidrulewidth}{0.4pt}
+
+% Colors for potential alternating rows
+\usepackage{colortbl}
+\usepackage{xcolor}
+\definecolor{lightgray}{gray}{0.96}
+
+% Page break control for tables
+\usepackage{needspace}
+
+% Discourage page breaks within tables
+% Increase chunk size to process more rows before considering page break
+\LTchunksize=100
+
+% Keep table captions with table content
+\setlength{\LTcapwidth}{\textwidth}
+
+% Discourage page breaks immediately before or after tables
+% by increasing penalties around table environments
+\widowpenalty=10000
+\clubpenalty=10000
+
+
+% ============================================================================
+% ALTERNATIVE: MODERATE (Balanced)
+% ============================================================================
+% Best for: General-purpose documents balancing readability and compactness
+% Trade-off: Balanced - good readability, reasonable page breaks
+% Uncomment below and comment out COMPACT section to use
+
+% \renewcommand{\arraystretch}{1.2}
+% \setlength{\extrarowheight}{4pt}
+% \setlength{\tabcolsep}{10pt}
+
+
+% ============================================================================
+% ALTERNATIVE: LOOSE (Maximum Readability)
+% ============================================================================
+% Best for: Reports prioritizing readability over page count
+% Trade-off: Most readable but tables likely to break across pages
+% Uncomment below and comment out COMPACT section to use
+
+% \renewcommand{\arraystretch}{1.3}
+% \setlength{\extrarowheight}{6pt}
+% \setlength{\tabcolsep}{12pt}
+
+
+% ============================================================================
+% ALTERNATIVE: MINIMAL (Maximum Compactness)
+% ============================================================================
+% Best for: Fitting very large tables on single pages
+% Trade-off: Dense appearance, may feel cramped
+% Uncomment below and comment out COMPACT section to use
+
+% \renewcommand{\arraystretch}{0.9}
+% \setlength{\extrarowheight}{1pt}
+% \setlength{\tabcolsep}{4pt}

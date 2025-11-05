@@ -3,11 +3,11 @@
 
 | Status         | Count |
 |----------------|-------|
-| 🔍 Total       | 597   |
-| ✅ Successful  | 13    |
+| 🔍 Total       | 622   |
+| ✅ Successful  | 21    |
 | ⏳ Timeouts    | 0     |
 | 🔀 Redirected  | 0     |
-| 👻 Excluded    | 583   |
+| 👻 Excluded    | 600   |
 | ❓ Unknown     | 0     |
 | 🚫 Errors      | 1     |
 | ⛔ Unsupported | 0     |
