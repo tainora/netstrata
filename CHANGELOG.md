@@ -5,6 +5,46 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.11] - 2025-11-04
+
+### Added
+
+- Table of Contents (ToC) at beginning of PDF with automatic page number generation
+- ToC includes main sections (level 2 headings) and subsections (level 3 headings) for comprehensive navigation
+- Pandoc `--toc` flag integration with depth control and custom title
+
+### Technical Implementation
+
+**Pandoc flags added to build-pdf.sh**:
+
+```bash
+--toc                              # Enable automatic ToC generation
+--toc-depth=3                      # Include h2, h3 headings (main sections + subsections)
+-V toc-title="Table of Contents"   # Custom ToC title
+```
+
+**ToC Structure**:
+
+- Level 2 (##): Main sections like "I. Strategic Context: Why Now?"
+- Level 3 (###): Subsections like "1.1 Regulatory Compliance Acceleration"
+- Automatic page number generation with dot leaders
+- Hyperlinked entries for PDF navigation
+
+### Impact
+
+- PDF: 34 pages (+1 from v1.0.10), 142KB (+6KB)
+- Navigation: Comprehensive ToC with 37+ subsections for easy reference
+- Professional: Standard academic/business document format
+- Accessibility: Readers can quickly locate specific topics
+
+### Rationale
+
+User request: "How to add ToC most idiomatically based on our current structure. Search online for more information."
+
+**Research findings**: Pandoc's `--toc` flag is the idiomatic approach for automatic ToC generation, following industry standards for technical documentation.
+
+**Depth choice**: `--toc-depth=3` includes both main sections and subsections, providing detailed navigation without overwhelming with level 4 detail headers (118 converted in v1.0.10).
+
 ## [1.0.10] - 2025-11-04
 
 ### Changed
@@ -16,16 +56,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Technical Implementation
 
 **Method**: Used sed for automated conversion:
+
 ```bash
 sed 's/^\*\*\(.*\):\*\*$/#### \1/' file.md
 ```
 
 **Pattern matched**:
+
 - Lines starting with `**`
 - Followed by any text
 - Ending with `:**` (standalone on their own line)
 
 **Preserved as bold** (not converted):
+
 - Inline labels: `**Automation Opportunity:** text continues...`
 - Date markers: `**July 1, 2025**: description`
 - Paragraph labels: `**Analysis**: findings...`
@@ -360,6 +403,7 @@ Portfolio size verification attempts:
 - 1500+ lines of research findings documenting market reality
 - Evidence-based approach replacing speculative competitive positioning
 
+[1.0.11]: https://github.com/tainora/netstrata/releases/tag/v1.0.11
 [1.0.10]: https://github.com/tainora/netstrata/releases/tag/v1.0.10
 [1.0.9]: https://github.com/tainora/netstrata/releases/tag/v1.0.9
 [1.0.8]: https://github.com/tainora/netstrata/releases/tag/v1.0.8
