@@ -30,7 +30,7 @@ Three factors create urgency for automation:
 
 | Discovery                           | Evidence                                                          | Strategic Implication                                                        |
 | ----------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| **Scale Breaking Manual Processes** | NSW Strata Hub: 30+ fields per scheme, portfolio-wide deployment | Single-author bottleneck (S J = 99.7% of 292 posts)                          |
+| **Scale Breaking Manual Processes** | NSW Strata Hub: 30+ fields per scheme, portfolio-wide deployment  | Single-author bottleneck (S J = 99.7% of 292 posts)                          |
 | **McGrathNicol Review Status**      | 331% spike in defensive language (Feb 2025)                       | 6 recommendations overdue, contested breaches under NSW Fair Trading review  |
 | **Competitive Blindspot**           | Only 4 competitor mentions in 16 years                            | Zero awareness of PropTech disruption (AI Strata, MRI, :Different)           |
 | **Insurance Crisis Cyclical**       | 74 posts over 16 years, 20%+ increases                            | Peaks every 3-4 years (2014, 2017, 2019, 2025) - predictive opportunity      |
@@ -40,10 +40,10 @@ Three factors create urgency for automation:
 
 **Resource Requirements & Measurement Approach:**
 
-| Phase   | Timeline    | Team Required                     | Target Outcomes (To Be Measured)                                                                  |
-| ------- | ----------- | --------------------------------- | ------------------------------------------------------------------------------------------------- |
-| Phase 1 | Months 1-6  | 1-2 FTE (technical lead + backup) | Efficiency gains + compliance penalty avoidance + competitive positioning                         |
-| Phase 2 | Months 7-18 | 1-2 FTE (ongoing advisory)        | **Decision at Month 6** – only proceed if Phase 1 delivers measurable value                       |
+| Phase   | Timeline    | Team Required                     | Target Outcomes (To Be Measured)                                            |
+| ------- | ----------- | --------------------------------- | --------------------------------------------------------------------------- |
+| Phase 1 | Months 1-6  | 1-2 FTE (technical lead + backup) | Efficiency gains + compliance penalty avoidance + competitive positioning   |
+| Phase 2 | Months 7-18 | 1-2 FTE (ongoing advisory)        | **Decision at Month 6** – only proceed if Phase 1 delivers measurable value |
 
 **Team Composition for Business Continuity:**
 
@@ -273,7 +273,7 @@ These competitors aren't threats—they're **benchmarks** demonstrating what mod
 
 ---
 
-#### Why This Matters for Netstrata
+### Why This Matters for Netstrata
 
 **Netstrata's Technology Foundation:**
 
@@ -322,13 +322,13 @@ While multiple strata managers adopt generic PropTech tools, Netstrata can build
 
 **Project Overview - Prioritized by Urgency × Impact × Feasibility:**
 
-| Project                                   | Build Time       | Priority Rationale                                                                                                                    | Key Deliverable                                               |
-| ----------------------------------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| **#1: McGrathNicol Compliance Dashboard** | Weeks            | **CRITICAL** - 6 recommendations overdue (July 1, 2025 deadline passed), contested breaches under NSW Fair Trading review            | Real-time tracking, automated audit trail, redemption story   |
-| **#2: NSW Strata Hub Bulk Upload**        | Weeks            | **HIGH** - 30+ fields per scheme, portfolio-wide deployment, manual data entry burden                                                 | Automated bulk upload, reduced data entry time                |
-| **#3: Fire Safety Compliance Tracker**    | Weeks            | **HIGH** - Portfolio-wide Annual Fire Safety Statements, AS1851-2012 standard (Feb 2025), penalty enforcement active                 | Zero missed deadlines, council submission automation          |
-| **#4: AI-Assisted Legislative Drafting**  | Weeks            | **MEDIUM** - 159 legislative blogs documented, single-author bottleneck (99.7% S J), AI-assisted drafting reduces manual effort      | Draft blog posts from NSW law changes (requires human review) |
-| **Total Phase 1**                         | **Months** | **McGrathNicol urgency + scale efficiencies + competitive positioning**                                                               | **Enterprise-grade automation with full documentation**       |
+| Project                                   | Build Time | Priority Rationale                                                                                                              | Key Deliverable                                               |
+| ----------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| **#1: McGrathNicol Compliance Dashboard** | Weeks      | **CRITICAL** - 6 recommendations overdue (July 1, 2025 deadline passed), contested breaches under NSW Fair Trading review       | Real-time tracking, automated audit trail, redemption story   |
+| **#2: NSW Strata Hub Bulk Upload**        | Weeks      | **HIGH** - 30+ fields per scheme, portfolio-wide deployment, manual data entry burden                                           | Automated bulk upload, reduced data entry time                |
+| **#3: Fire Safety Compliance Tracker**    | Weeks      | **HIGH** - Portfolio-wide Annual Fire Safety Statements, AS1851-2012 standard (Feb 2025), penalty enforcement active            | Zero missed deadlines, council submission automation          |
+| **#4: AI-Assisted Legislative Drafting**  | Weeks      | **MEDIUM** - 159 legislative blogs documented, single-author bottleneck (99.7% S J), AI-assisted drafting reduces manual effort | Draft blog posts from NSW law changes (requires human review) |
+| **Total Phase 1**                         | **Months** | **McGrathNicol urgency + scale efficiencies + competitive positioning**                                                         | **Enterprise-grade automation with full documentation**       |
 
 **Evidence Base:** Priorities derived from comprehensive analysis of 292 blog posts (2009-2025) across 8 research perspectives: timeline patterns (crisis identification), sentiment analysis (McGrathNicol +331% spike), competitive intelligence (PropTech blindspot), operational insights (single-author bottleneck), legal/regulatory (6 overdue recommendations), financial pressures (margin compression), client pain points, and technology adoption patterns (reactive history).
 

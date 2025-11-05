@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.9] - 2025-11-04
+
+### Fixed
+
+- Heading spacing: Changed "Why This Matters for Netstrata" from level 4 (####) to level 3 (###) for better visual separation from following bold text in PDF
+
+### Impact
+
+- PDF: 31 pages, 133KB (unchanged from v1.0.8)
+- Improved: Better heading hierarchy and spacing in PDF output
+
+### Rationale
+
+User feedback: "Why This Matters for Netstrata Netstrata's Technology Foundation: failed to have separate lines?"
+
+Level 4 headings (####) were rendering too close to bold text below them in the PDF, making them appear to run together. Changed to level 3 (###) for clearer visual separation.
+
 ## [1.0.8] - 2025-11-04
 
 ### Removed
@@ -38,6 +55,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 User feedback: "don't easily specify any numbers especially projected ones if they are not grounded from fact"
 
 **Problem identified**: Many numbers were estimates/projections presented as facts:
+
 - "60,000 NSW Strata Hub data points annually" - NO SOURCE
 - "94% time reduction" - calculated from fabricated 3 minutes/scheme claim
 - "540-760 hours" - pure estimate
@@ -299,6 +317,7 @@ Portfolio size verification attempts:
 - 1500+ lines of research findings documenting market reality
 - Evidence-based approach replacing speculative competitive positioning
 
+[1.0.9]: https://github.com/tainora/netstrata/releases/tag/v1.0.9
 [1.0.8]: https://github.com/tainora/netstrata/releases/tag/v1.0.8
 [1.0.7]: https://github.com/tainora/netstrata/releases/tag/v1.0.7
 [1.0.6]: https://github.com/tainora/netstrata/releases/tag/v1.0.6
