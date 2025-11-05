@@ -35,10 +35,10 @@ Three factors create urgency for automation:
 
 ### Resource Requirements & Measurement Approach
 
-| Phase   | Timeline    | Team Required                           | Target Outcomes (To Be Measured)                                            |
-| ------- | ----------- | --------------------------------------- | --------------------------------------------------------------------------- |
-| Phase 1 | Months 1-6  | 1-2 FTE[^fte] (technical lead + backup) | Efficiency gains + compliance penalty avoidance + competitive positioning   |
-| Phase 2 | Months 7-18 | 1-2 FTE (ongoing advisory)              | **Decision at Month 6** – only proceed if Phase 1 delivers measurable value |
+| Phase | Timeline    | Team Required                           | Target Outcomes (To Be Measured)                                            |
+| ----- | ----------- | --------------------------------------- | --------------------------------------------------------------------------- |
+| 1     | Months 1-6  | 1-2 FTE[^fte] (technical lead + backup) | Efficiency gains + compliance penalty avoidance + competitive positioning   |
+| 2     | Months 7-18 | 1-2 FTE (ongoing advisory)              | **Decision at Month 6** – only proceed if Phase 1 delivers measurable value |
 
 [^fte]: **FTE** = Full-Time Equivalent. A staffing metric where 1 FTE represents one person working full-time (40 hours/week).
 
