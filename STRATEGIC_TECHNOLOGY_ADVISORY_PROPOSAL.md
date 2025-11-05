@@ -41,10 +41,9 @@ This is an ongoing advisory partnership, not a one-time project delivery:
 
 | Phase | Timeline    | Team Required                           | Success Criteria                                                                        |
 | ----- | ----------- | --------------------------------------- | --------------------------------------------------------------------------------------- |
-| 1     | Months 1-6  | 1-2 FTE[^fte] (technical lead + backup) | Measurable efficiency gains + compliance risk reduction + transparent progress tracking |
+| 1     | Months 1-6  | 1-2 FTE[@fte] (technical lead + backup) | Measurable efficiency gains + compliance risk reduction + transparent progress tracking |
 | 2     | Months 7-18 | 1-2 FTE (ongoing advisory)              | **Decision at Month 6** – only proceed if Phase 1 delivers value you can measure        |
 
-[^fte]: **FTE** = Full-Time Equivalent. A staffing metric where 1 FTE represents one person working full-time (40 hours/week).
 
 I'll build working prototypes first - no promises of $10M ROI or transformation guarantees. We'll measure results in Phase 1, and you decide whether to continue based on actual value delivered.
 
@@ -56,13 +55,13 @@ This proposal comes from a unique context: Ted is my mother's long-term partner,
 
 ## Regulatory Compliance Acceleration
 
-New reforms came into effect October 27, 2025, with additional changes scheduled for April 1, 2026.[^nsw-law-2025][^nsw-april-2026-reforms] These reforms represent "the most significant changes to NSW strata law in recent years,"[^nsw-law-changes-2025] introducing:
+New reforms came into effect October 27, 2025, with additional changes scheduled for April 1, 2026.[@nsw-law-2025][@nsw-april-2026-reforms] These reforms represent "the most significant changes to NSW strata law in recent years,"[@nsw-law-changes-2025] introducing:
 
 - Six-month reporting to owners corporations (doubled from annual frequency)
 - Financial hardship provisions in all levy notices
 - Enhanced building manager disclosure obligations
 - NSW Fair Trading expanded enforcement powers
-- Penalties up to $11,000 + $220/day for non-compliance[^nsw-law-2025]
+- Penalties up to $11,000 + $220/day for non-compliance[@nsw-law-2025]
 
 **How I Can Help:** With your portfolio size, six-monthly reporting represents thousands of manual reports annually. Automating report generation, compliance tracking, and deadline management becomes operationally essential.
 
@@ -72,7 +71,7 @@ New reforms came into effect October 27, 2025, with additional changes scheduled
 
 ### Progress and Opportunity
 
-You've made substantial progress on the McGrathNicol review: 16 of 22 recommendations completed by May 2025,[^mcgrathnicol-may-2025] demonstrating meaningful commitment to operational improvement. Six recommendations remain under implementation past the July 1, 2025 target date, with ongoing discussions with NSW Fair Trading regarding specific findings.
+You've made substantial progress on the McGrathNicol review: 16 of 22 recommendations completed by May 2025,[@mcgrathnicol-may-2025] demonstrating meaningful commitment to operational improvement. Six recommendations remain under implementation past the July 1, 2025 target date, with ongoing discussions with NSW Fair Trading regarding specific findings.
 
 This presents an opportunity to demonstrate transparency leadership through systematic compliance tracking.
 
@@ -99,7 +98,7 @@ Organizations that respond to regulatory reviews with systematic improvement inf
 
 ### Current Status and Progress
 
-In 2024, you commissioned McGrathNicol to conduct an independent review of operations, resulting in 22 recommendations. By May 2025, you completed 16 of these recommendations,[^mcgrathnicol-may-2025] demonstrating substantive commitment to operational excellence.
+In 2024, you commissioned McGrathNicol to conduct an independent review of operations, resulting in 22 recommendations. By May 2025, you completed 16 of these recommendations,[@mcgrathnicol-may-2025] demonstrating substantive commitment to operational excellence.
 
 Six recommendations remain under implementation past the July 1, 2025 target date, with contested breaches currently under NSW Fair Trading review. This presents an opportunity to demonstrate transparency leadership through systematic tracking and documentation.
 
@@ -149,13 +148,13 @@ Comprehensive analysis of 292 blog posts reveals a **content creation sustainabi
 
 **2025: Perfect Timing for Automation Advisory**
 
-Andrew Tunks appointed COO in September 2025[^andrew-tunks-coo] with explicit mandate for "operational efficiency, continuous improvement, and supporting innovation across the business." With 17+ years at Netstrata, he has deep knowledge of operational pain points and built the internal Learning & Development division.
+Andrew Tunks appointed COO in September 2025[@andrew-tunks-coo] with explicit mandate for "operational efficiency, continuous improvement, and supporting innovation across the business." With 17+ years at Netstrata, he has deep knowledge of operational pain points and built the internal Learning & Development division.
 
 **This is your primary contact point for automation advisory.**
 
 ### Technology Investment Precedent
 
-you launched its first major proprietary technology (Owners Portal) in May 2025 during the McGrathNicol recovery period,[^mcgrathnicol-may-2025] demonstrating willingness to invest in technology infrastructure under pressure. With the COO appointed September 2025, current momentum creates opportunity for AI automation advisory before internal capabilities develop or processes calcify.
+you launched its first major proprietary technology (Owners Portal) in May 2025 during the McGrathNicol recovery period,[@mcgrathnicol-may-2025] demonstrating willingness to invest in technology infrastructure under pressure. With the COO appointed September 2025, current momentum creates opportunity for AI automation advisory before internal capabilities develop or processes calcify.
 
 ---
 
@@ -174,7 +173,7 @@ you launched its first major proprietary technology (Owners Portal) in May 2025 
 
 ### Current Crisis Severity (2023-2025)
 
-Netstrata reports "increases of 20% or more annually" with insurers pulling back from the strata market.[^insurance-premiums-2023] Buildings with high claims or defects face increased premiums and excesses, and Netstrata is recommending clients "shift away from commission-based fee structures" (reducing their own revenue).
+Netstrata reports "increases of 20% or more annually" with insurers pulling back from the strata market.[@insurance-premiums-2023] Buildings with high claims or defects face increased premiums and excesses, and Netstrata is recommending clients "shift away from commission-based fee structures" (reducing their own revenue).
 
 ### Financial Pressure Context
 
@@ -208,7 +207,7 @@ The Australian strata management industry is undergoing transformation driven by
 - Building manager disclosure obligations expanded
 - NSW Fair Trading enforcement powers increased
 
-**April 1, 2026**[^nsw-april-2026-reforms]: Phase 4 approaching
+**April 1, 2026**[@nsw-april-2026-reforms]: Phase 4 approaching
 
 - Developer certification requirements for multi-storey schemes
 - Initial maintenance schedule tracking
@@ -216,7 +215,7 @@ The Australian strata management industry is undergoing transformation driven by
 
 ### Enforcement Reality
 
-NSW Government established **$8.4 million** Strata and Property Services Taskforce (2025) with penalties up to **$110,000** for strata manager disclosure breaches. Real enforcement occurred: Result Strata Management Pty Ltd and General Manager Michael Lee permanently disqualified in 2025[^result-strata-disqualified], demonstrating career-ending consequences for non-compliance.
+NSW Government established **$8.4 million** Strata and Property Services Taskforce (2025) with penalties up to **$110,000** for strata manager disclosure breaches. Real enforcement occurred: Result Strata Management Pty Ltd and General Manager Michael Lee permanently disqualified in 2025[@result-strata-disqualified], demonstrating career-ending consequences for non-compliance.
 
 ### For Your Portfolio
 
@@ -256,9 +255,9 @@ Some insurers are withdrawing from the strata market entirely. Buildings with an
 
 ### Evidence of Data Requirements
 
-**2023 UNSW Strata Defects Survey** found **53%** of strata buildings have serious defects (up from 39% in 2021)[^strata-defects-2023]. **50-70%** of strata insurance claims involve water damage[^water-damage-claims] (varies by insurer)—a predictable risk category amenable to preventive maintenance tracking.
+**2023 UNSW Strata Defects Survey** found **53%** of strata buildings have serious defects (up from 39% in 2021)[@strata-defects-2023]. **50-70%** of strata insurance claims involve water damage[@water-damage-claims] (varies by insurer)—a predictable risk category amenable to preventive maintenance tracking.
 
-**ACCC Regulatory Oversight:** Competition and Consumer (Price Monitoring—General Insurance Policies) Direction 2022 monitors strata insurance through June 2026. September 2024 report[^accc-sept-2024] identified commission payment conflicts, with ACCC recommending banning commissions between strata managers and brokers.
+**ACCC Regulatory Oversight:** Competition and Consumer (Price Monitoring—General Insurance Policies) Direction 2022 monitors strata insurance through June 2026. September 2024 report[@accc-sept-2024] identified commission payment conflicts, with ACCC recommending banning commissions between strata managers and brokers.
 
 ### For Your Portfolio
 
@@ -274,13 +273,13 @@ Some insurers are withdrawing from the strata market entirely. Buildings with an
 
 ### Demographics
 
-**48%** of apartment residents are aged 20-39 years[^apartment-demographics-2024] (digital natives). This demographic expects property management services to match the responsiveness and transparency of banking, retail, and technology industries.
+**48%** of apartment residents are aged 20-39 years[@apartment-demographics-2024] (digital natives). This demographic expects property management services to match the responsiveness and transparency of banking, retail, and technology industries.
 
 **2024 Owner Survey Results** (761 respondents):
 
-- **59.1%** frustrated by slow communication and lack of timely updates[^strata-owner-survey-2024]
-- **26.5%** demand greater transparency in decision-making processes[^strata-owner-survey-2024]
-- **27.2%** desire stronger leadership and proactive advice from strata managers[^strata-owner-survey-2024]
+- **59.1%** frustrated by slow communication and lack of timely updates[@strata-owner-survey-2024]
+- **26.5%** demand greater transparency in decision-making processes[@strata-owner-survey-2024]
+- **27.2%** desire stronger leadership and proactive advice from strata managers[@strata-owner-survey-2024]
 
 ### Technology Adoption Benchmarks
 
@@ -291,7 +290,7 @@ Some insurers are withdrawing from the strata market entirely. Buildings with an
 
 Australia's PropTech and Real Estate Platforms market valued at **$5 billion** (2024). Multiple platforms now offer AI-driven automation:
 
-- **Merlo AI**: Integrated with MRI Strata Master, claims 70% admin task reduction[^merlo-ai-claims]
+- **Merlo AI**: Integrated with MRI Strata Master, claims 70% admin task reduction[@merlo-ai-claims]
 - **AI Strata**: ActiumAI partnership targeting compliance workflows and digital audit trails
 - **Stratagic**: NSW-focused with text chat agents and email assistants
 - **Intellistrata**: AI email composition, Strata Act Q&A, invoice digitization (ISO 27001:2022 certified)
@@ -400,7 +399,7 @@ Ongoing Maintenance
    - Payment plan request tracking (28-day SLA enforcement)
    - Building manager disclosure workflow automation
 
-3. **April 1, 2026 Readiness Dashboard**[^nsw-april-2026-reforms]
+3. **April 1, 2026 Readiness Dashboard**[@nsw-april-2026-reforms]
    - Developer certification requirements for multi-storey schemes
    - Initial maintenance schedule (IMS) tracking
    - 10-year capital works plan status monitoring
@@ -425,7 +424,7 @@ Ongoing Maintenance
 
 ### Evidence-Based Justification
 
-The NSW Strata Hub requires schemes to provide information within three months of their AGM each year, collecting essential information for scheme planning and policy development.[^strata-hub-2022]
+The NSW Strata Hub requires schemes to provide information within three months of their AGM each year, collecting essential information for scheme planning and policy development.[@strata-hub-2022]
 
 ### Documented Fields Required (30+ per scheme)
 
@@ -609,10 +608,10 @@ Key Insight
 
 ### Competitive Advantages Over Generic AI Platforms
 
-1. **Context Window**: 200,000 tokens[^claude-context-window] = can process entire legislative bills, analyze multiple blog posts simultaneously
+1. **Context Window**: 200,000 tokens[@claude-context-window] = can process entire legislative bills, analyze multiple blog posts simultaneously
 2. **Reasoning Capability**: Claude Sonnet 4.5 (September 2025 release) demonstrates superior reasoning for complex compliance logic
 3. **Tool Use**: Native integration with code execution, web scraping, API calls within single workflow
-4. **Safety & Reliability**: Anthropic's Constitutional AI approach[^constitutional-ai] reduces hallucination risk in compliance-critical applications
+4. **Safety & Reliability**: Anthropic's Constitutional AI approach[@constitutional-ai] reduces hallucination risk in compliance-critical applications
 
 ### Production Reliability
 
@@ -680,8 +679,8 @@ The Australian strata management industry is experiencing technology adoption ac
 
 ### Market Scale
 
-- **$5 billion**[^proptech-market-2024] PropTech and Real Estate Platforms market (Australia, 2024)
-- **340,000+**[^strata-schemes-australia] strata schemes nationwide
+- **$5 billion**[@proptech-market-2024] PropTech and Real Estate Platforms market (Australia, 2024)
+- **340,000+**[@strata-schemes-australia] strata schemes nationwide
 
 ### AI-Powered Platforms in Production
 
@@ -696,7 +695,7 @@ The Australian strata management industry is experiencing technology adoption ac
 
 - Focus: Compliance-oriented AI agents for rule-bound tasks
 - Capabilities: Digital audit trails, automated workflow execution, analytics for maintenance and budget reviews
-- Target: 340,000+[^strata-schemes-australia] Australian strata schemes
+- Target: 340,000+[@strata-schemes-australia] Australian strata schemes
 
 **Stratagic** (NSW-focused)
 
@@ -710,8 +709,8 @@ The Australian strata management industry is experiencing technology adoption ac
 
 ### RegTech Market Growth
 
-- **$316 million** (2024) → **$1.41 billion** (2033) projected[^regtech-australia-2024]
-- **18.10% CAGR**[^regtech-australia-2024] driven by compliance mandates and audit obligations
+- **$316 million** (2024) → **$1.41 billion** (2033) projected[@regtech-australia-2024]
+- **18.10% CAGR**[@regtech-australia-2024] driven by compliance mandates and audit obligations
 
 ---
 
@@ -1085,7 +1084,7 @@ _Note: Employment is the primary preference (joining the team with company resou
 - Industry-leading transparency through automated compliance dashboards
 - Rapid legislative update response times through AI-assisted content generation
 - Predictive intelligence protecting clients from insurance shocks
-- Technology-enabled service delivery matching client expectations (48%[^apartment-demographics-2024] younger demographics demanding digital-first experiences)
+- Technology-enabled service delivery matching client expectations (48%[@apartment-demographics-2024] younger demographics demanding digital-first experiences)
 
 ### Competitive Positioning
 
@@ -1154,14 +1153,14 @@ I'm primarily seeking employment with Netstrata, with flexibility on the path:
 
 ## Appendix A: Research Methodology & Privacy-Preserving Architecture
 
-This proposal is informed by comprehensive research into privacy-preserving data engineering practices[^privacy-research] conducted specifically for your operational context. Six parallel research perspectives investigated:
+This proposal is informed by comprehensive research into privacy-preserving data engineering practices[@privacy-research] conducted specifically for your operational context. Six parallel research perspectives investigated:
 
-1. **Differential Privacy** – Mathematical noise injection (ε=1.0) for 0.17% accuracy loss with 100% privacy guarantee[^differential-privacy]
-2. **Metadata Monitoring** – 80-90% operational insights from timestamps/counts only (no payload data)[^metadata-monitoring]
-3. **Data Minimization** – GDPR-compliant architectures achieving 90%+ value with <10% data collection[^data-minimization]
-4. **Zero-Trust Security** – NIST SP 800-207 principles, scope-limited credentials, 40% breach reduction[^zero-trust]
-5. **Anomaly Detection** – Privacy-safe predictive alerting using aggregated data only[^anomaly-detection]
-6. **Open Source Tools** – Production-grade privacy technologies (OpenDP, diffprivlib, Presidio)[^privacy-tools]
+1. **Differential Privacy** – Mathematical noise injection (ε=1.0) for 0.17% accuracy loss with 100% privacy guarantee[@differential-privacy]
+2. **Metadata Monitoring** – 80-90% operational insights from timestamps/counts only (no payload data)[@metadata-monitoring]
+3. **Data Minimization** – GDPR-compliant architectures achieving 90%+ value with <10% data collection[@data-minimization]
+4. **Zero-Trust Security** – NIST SP 800-207 principles, scope-limited credentials, 40% breach reduction[@zero-trust]
+5. **Anomaly Detection** – Privacy-safe predictive alerting using aggregated data only[@anomaly-detection]
+6. **Open Source Tools** – Production-grade privacy technologies (OpenDP, diffprivlib, Presidio)[@privacy-tools]
 
 **Key Discovery**: Modern privacy engineering enables 80-90% of strategic insights using only 10% of traditional data exposure through aggregation-only architectures and differential privacy techniques validated by Apple (100M+ devices), Google Chrome (billions of users), and US Census 2020 (330M people).
 
@@ -1171,19 +1170,6 @@ This proposal is informed by comprehensive research into privacy-preserving data
 
 > **⚠️ Private Repository Access Notice**: The research repository is **private** and requires authentication. To request access, please contact Terry Li (see Contact Information section) with your GitHub username or preferred email address for repository invitation.
 
-[^privacy-research]: Complete research synthesis available at [https://github.com/tainora/netstrata/tree/main/research/privacy-preserving-automation](https://github.com/tainora/netstrata/tree/main/research/privacy-preserving-automation) _(Private repository - Access by invitation only)_
-
-[^differential-privacy]: Differential privacy research findings: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/differential-privacy-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/differential-privacy-research.md) _(Private repository - Access by invitation only)_
-
-[^metadata-monitoring]: Metadata monitoring research findings: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/metadata-monitoring-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/metadata-monitoring-research.md) _(Private repository - Access by invitation only)_
-
-[^data-minimization]: Data minimization research findings: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/data-minimization-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/data-minimization-research.md) _(Private repository - Access by invitation only)_
-
-[^zero-trust]: Zero-trust security research findings: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/zero-trust-security-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/zero-trust-security-research.md) _(Private repository - Access by invitation only)_
-
-[^anomaly-detection]: Anomaly detection research findings: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/anomaly-detection-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/anomaly-detection-research.md) _(Private repository - Access by invitation only)_
-
-[^privacy-tools]: Open source privacy tools research findings: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/open-source-privacy-tools-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/open-source-privacy-tools-research.md) _(Private repository - Access by invitation only)_
 
 ---
 
@@ -1280,44 +1266,3 @@ This proposal is based on comprehensive analysis of 292 publicly available blog 
 
 **Research Methodology**: AI-assisted content analysis using Claude Code CLI, systematic blog post categorization, linguistic pattern recognition, and temporal trend analysis. All findings independently verifiable through provided citations.
 
----
-
-\theendnotes
-
-[^andrew-tunks-coo]: ["Netstrata Appoints Andrew Tunks as Chief Operating Officer"](https://netstrata.com.au/netstrata-appoints-andrew-tunks-as-chief-operating-officer/) (September 24, 2025)
-
-[^nsw-law-2025]: ["How to Prepare for the 2025 NSW Strata Law Changes"](https://netstrata.com.au/how-to-prepare-for-the-2025-nsw-strata-law-changes/) (October 27, 2025)
-
-[^nsw-law-changes-2025]: ["NSW Strata Law Changes 2025 – What Owners and Committees Need to Know"](https://netstrata.com.au/nsw-strata-law-changes-2025-what-owners-and-committees-need-to-know/) (October 15, 2025)
-
-[^mcgrathnicol-may-2025]: ["McGrathNicol Review: Key Updates & Improvements"](https://netstrata.com.au/mcgrathnicol-review-key-updates-improvements/) (May 15, 2025)
-
-[^insurance-premiums-2023]: ["Navigating Rising Strata Insurance Premiums: Challenges and Strategies"](https://netstrata.com.au/navigating-rising-strata-insurance-premiums-challenges-and-strategies/) (December 5, 2023)
-
-[^strata-hub-2022]: ["Strata Hub – A New Tool for Strata Schemes"](https://netstrata.com.au/strata-hub/) (September 29, 2022)
-
-[^strata-defects-2023]: NSW Government Building Commission, ["Research on serious building defects in NSW strata communities"](https://www.nsw.gov.au/departments-and-agencies/building-commission/building-and-construction-resources/research-on-serious-building-defects-nsw-strata-communities) (2023) - 53% of buildings have serious defects, up from 39% in 2021
-
-[^water-damage-claims]: CHU Insurance reports 50%+ and Strata Community Insurance reports 70% of strata claims involve water damage. Sources: [CHU Insurance](https://chu.com.au/news/residential-strata-insurance-6-common-claims-and-how-to-avoid-them) and [Strata Community Insurance](https://stratacare.com.au/strata-community-insurance-water-damage-can-be-avoided/)
-
-[^apartment-demographics-2024]: UNSW research by Professor Hazel Easthope found 48% of apartment residents are aged 20-39. Source: [Smart Property Investment](https://www.smartpropertyinvestment.com.au/hotspots/21342-who-lives-in-apartments)
-
-[^strata-owner-survey-2024]: Premium Strata 2024 Owner Survey (761 respondents): 59.1% frustrated by slow communication, 26.5% demand transparency, 27.2% desire stronger leadership. Source: [Premium Strata](https://premiumstrata.com.au/2024-strata-survey/)
-
-[^proptech-market-2024]: Australia PropTech and Real Estate Platforms Market valued at USD $5 billion (2024). Source: [Ken Research](https://www.kenresearch.com/australia-proptech-and-real-estate-platforms-market)
-
-[^merlo-ai-claims]: Merlo AI claims to automate up to 70% of administrative work through MRI Strata Master integration. Source: [MRI Software](https://info-apac.mrisoftware.com/strata-master-merlo-ai-integration)
-
-[^strata-schemes-australia]: 340,601 strata schemes across Australia (2020 Australasian Strata Insights Report). Source: [UNSW City Futures](https://cityfutures.ada.unsw.edu.au/documents/504/Strata_Scheme_Size_by_State_and_Territory.pdf)
-
-[^regtech-australia-2024]: Australia RegTech market: USD $316M (2024) → USD $1.41B (2033), 18.10% CAGR. Source: [IMARC Group](https://www.imarcgroup.com/australia-regtech-market)
-
-[^result-strata-disqualified]: Result Strata Management Pty Ltd and General Manager Michael Lee permanently disqualified by NSW Fair Trading (May 9, 2025). Source: [NSW Fair Trading](https://www.nsw.gov.au/departments-and-agencies/fair-trading/news/licences-cancelled-to-protect-strata-consumers)
-
-[^accc-sept-2024]: ACCC Insurance Monitoring Report (September 2024) identified commission payment conflicts. Source: [ACCC Report](https://www.accc.gov.au/system/files/accc-insurance-monitoring-report-september-2024.pdf)
-
-[^nsw-april-2026-reforms]: From April 1, 2026, developers must have initial maintenance schedules prepared in standard form and certified by independent surveyors for multi-storey schemes. Source: [LookUpStrata](https://www.lookupstrata.com.au/nsw-changes-strata-27-october-2025-1-april-2026/)
-
-[^claude-context-window]: Claude Sonnet 4.5 supports 200,000 token context window (standard). Source: [Anthropic Documentation](https://docs.claude.com/en/docs/build-with-claude/context-windows)
-
-[^constitutional-ai]: Anthropic's Constitutional AI framework aims to reduce hallucinations through ethical alignment principles. Independent verification limited. Source: [Anthropic Documentation](https://docs.claude.com/en/docs/test-and-evaluate/strengthen-guardrails/reduce-hallucinations)

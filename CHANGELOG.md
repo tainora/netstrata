@@ -5,6 +5,112 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.23] - 2025-11-04
+
+### Changed - PROFESSIONAL BIBLIOGRAPHY SYSTEM
+
+**Migrated from Pandoc footnotes to BibTeX bibliography** for academic/professional standard
+
+**Previous approach** (Pandoc footnotes):
+```markdown
+[^andrew-tunks-coo]: [Netstrata Appoints Andrew Tunks...](https://...)
+[^strata-defects-2023]: [Research on serious building defects...](https://...)
+```
+
+**New approach** (BibTeX):
+```bibtex
+@online{andrew-tunks-coo,
+  title = {Netstrata Appoints Andrew Tunks as Chief Operating Officer},
+  url = {https://netstrata.com.au/...},
+  date = {2025-09-24},
+  organization = {Netstrata}
+}
+```
+
+**Citations in text**: `[@cite-key]` instead of `[^footnote-id]`
+
+### Added
+
+- **references.bib**: Professional BibTeX bibliography file with 27 entries
+  - Entry types: `@online`, `@techreport`, `@report`, `@misc`
+  - Structured fields: title, author, organization, year, url, note
+  - Standard academic citation format
+
+- **build-pdf.sh**: Updated Pandoc flags
+  - Added `--citeproc` for automatic bibliography generation
+  - Added `--bibliography=references.bib` to reference citation database
+
+### Removed
+
+- All manual footnote definitions from markdown (27 definitions eliminated)
+- Duplicate reference information scattered throughout document
+
+### Technical Implementation
+
+**Build script changes**:
+```bash
+pandoc STRATEGIC_TECHNOLOGY_ADVISORY_PROPOSAL.md \
+  --citeproc \
+  --bibliography=references.bib \
+  # ... other flags
+```
+
+**Markdown citation conversion**:
+- `[^andrew-tunks-coo]` → `[@andrew-tunks-coo]`
+- `[^strata-defects-2023]` → `[@strata-defects-2023]`
+- All 27 citations converted systematically
+
+**BibTeX entry types used**:
+- `@online`: Web articles and blog posts (majority of citations)
+- `@techreport`: Government/academic technical reports
+- `@report`: Industry market research reports
+- `@misc`: Miscellaneous definitions (e.g., FTE acronym)
+
+### Benefits
+
+1. **Professional Standard**: BibTeX is industry/academic standard for bibliography management
+2. **True DRY Principle**: Single source of truth (`references.bib`), no duplication in markdown
+3. **Easier Maintenance**: Update citations in one place, automatically formatted in PDF
+4. **Consistent Formatting**: Pandoc's citeproc ensures uniform citation style
+5. **Flexibility**: Can easily change citation style (APA, Chicago, IEEE, etc.) via CSL files
+6. **Machine-Readable**: Structured bibliography data in standard format
+
+### Impact
+
+- PDF: 42 pages (up from 41), 168KB
+- Bibliography: Professionally formatted with consistent style
+- Maintenance: Zero manual footnote definition maintenance required
+- Citations: All 27 references now in single BibTeX file
+- Scalability: Easy to add new citations without touching markdown content
+
+### Rationale
+
+User observation: "is the markdown reference dry enough? We are necessarily having the same thing set over and over again... We don't need additional reference section."
+
+**Problem with Pandoc footnotes**: Each citation required two pieces of information in markdown:
+1. Citation marker in text: `[^footnote-id]`
+2. Definition at bottom: `[^footnote-id]: Full citation text with URL...`
+
+**Solution**: BibTeX separates content (markdown) from bibliography (references.bib). Citations in text (`[@cite-key]`) automatically pull from structured database. Pandoc generates formatted bibliography at document end.
+
+**User confirmation**: "yes, if BibTeX is more professional" - Confirmed BibTeX adoption for professional/academic standard.
+
+## [1.0.22] - 2025-11-04
+
+### Fixed
+
+- Timeline accuracy: "Over recent weeks" → "Over the past few days" in Executive Summary
+- User studied blog content for days, not weeks
+
+### Impact
+
+- PDF: 41 pages, 166KB (unchanged from v1.0.21)
+- Accurate representation of research timeline
+
+### Rationale
+
+User feedback: "I've studied for a couple of days only, not weeks."
+
 ## [1.0.21] - 2025-11-04
 
 ### Changed - DRY PRINCIPLE APPLIED

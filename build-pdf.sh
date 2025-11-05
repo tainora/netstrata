@@ -12,6 +12,8 @@ pandoc STRATEGIC_TECHNOLOGY_ADVISORY_PROPOSAL.md \
   --toc \
   --toc-depth=3 \
   --number-sections \
+  --citeproc \
+  --bibliography=references.bib \
   -V mainfont="DejaVu Sans" \
   -V geometry:landscape \
   -V geometry:margin=1in \
