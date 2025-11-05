@@ -5,6 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.21] - 2025-11-04
+
+### Changed - DRY PRINCIPLE APPLIED
+
+**Removed Manual References Section** (lines 1287-1322)
+
+**Issue**: The document had both:
+1. Manual "References" section with numbered list duplicating all citations
+2. Pandoc footnote definitions at bottom (`[^footnote-id]:`)
+
+**Solution**: Removed manual duplication entirely. Pandoc automatically collects and displays all `[^footnote-id]` definitions - no manual References section needed.
+
+**Benefits**:
+- Single source of truth for all citations (DRY principle)
+- No risk of References section becoming outdated
+- Reduced document length (43 → 41 pages)
+- Idiomatic Pandoc/LaTeX approach
+- Easier maintenance
+
+**Technical Note**: Considered using LaTeX `endnotes` package for automatic collection, but Pandoc's native footnote handling already provides this functionality. No additional LaTeX packages needed.
+
 ## [1.0.20] - 2025-11-04
 
 ### Fixed - COMPREHENSIVE FACTUAL VERIFICATION

@@ -1284,42 +1284,6 @@ This proposal is based on comprehensive analysis of 292 publicly available blog 
 
 ---
 
-# References
-
-## Blog Post Citations
-
-1. **Andrew Tunks COO Appointment**: ["Netstrata Appoints Andrew Tunks as Chief Operating Officer"](https://netstrata.com.au/netstrata-appoints-andrew-tunks-as-chief-operating-officer/) (September 24, 2025)
-
-2. **NSW Law 2025 Preparation**: ["How to Prepare for the 2025 NSW Strata Law Changes"](https://netstrata.com.au/how-to-prepare-for-the-2025-nsw-strata-law-changes/) (October 27, 2025)
-
-3. **NSW Law Changes 2025**: ["NSW Strata Law Changes 2025 – What Owners and Committees Need to Know"](https://netstrata.com.au/nsw-strata-law-changes-2025-what-owners-and-committees-need-to-know/) (October 15, 2025)
-
-4. **McGrathNicol Review Update**: ["McGrathNicol Review: Key Updates & Improvements"](https://netstrata.com.au/mcgrathnicol-review-key-updates-improvements/) (May 15, 2025)
-
-5. **Insurance Premiums 2023**: ["Navigating Rising Strata Insurance Premiums: Challenges and Strategies"](https://netstrata.com.au/navigating-rising-strata-insurance-premiums-challenges-and-strategies/) (December 5, 2023)
-
-6. **Strata Hub 2022**: ["Strata Hub – A New Tool for Strata Schemes"](https://netstrata.com.au/strata-hub/) (September 29, 2022)
-
-## Privacy Research Citations
-
-7. **Privacy Research Synthesis**: Complete research available at [https://github.com/tainora/netstrata/tree/main/research/privacy-preserving-automation](https://github.com/tainora/netstrata/tree/main/research/privacy-preserving-automation) _(Private repository - Access by invitation only)_
-
-8. **Differential Privacy Research**: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/differential-privacy-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/differential-privacy-research.md) _(Private repository)_
-
-9. **Metadata Monitoring Research**: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/metadata-monitoring-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/metadata-monitoring-research.md) _(Private repository)_
-
-10. **Data Minimization Research**: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/data-minimization-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/data-minimization-research.md) _(Private repository)_
-
-11. **Zero-Trust Security Research**: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/zero-trust-security-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/zero-trust-security-research.md) _(Private repository)_
-
-12. **Anomaly Detection Research**: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/anomaly-detection-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/anomaly-detection-research.md) _(Private repository)_
-
-13. **Open Source Privacy Tools Research**: [https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/open-source-privacy-tools-research.md](https://github.com/tainora/netstrata/blob/main/research/privacy-preserving-automation/open-source-privacy-tools-research.md) _(Private repository)_
-
----
-
-**Note**: Footnote citations appear at the bottom of pages throughout this document. This References section provides a consolidated list of all sources.
-
 [^andrew-tunks-coo]: ["Netstrata Appoints Andrew Tunks as Chief Operating Officer"](https://netstrata.com.au/netstrata-appoints-andrew-tunks-as-chief-operating-officer/) (September 24, 2025)
 
 [^nsw-law-2025]: ["How to Prepare for the 2025 NSW Strata Law Changes"](https://netstrata.com.au/how-to-prepare-for-the-2025-nsw-strata-law-changes/) (October 27, 2025)
