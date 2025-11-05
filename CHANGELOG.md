@@ -5,6 +5,60 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.18] - 2025-11-04
+
+### Fixed - MAJOR TONE CORRECTIONS
+
+**Critical Issue**: Document read as "external research report ABOUT Netstrata" rather than "advisory proposal TO Ted Middleton and management"
+
+**Changes Made**:
+
+1. **Executive Summary (Complete Rewrite)**
+   - Changed from third-person research framing to direct address: "Ted, I'm proposing..."
+   - Removed "Key Findings" table listing problems, replaced with "What I Can Do For Netstrata" solutions list
+   - Added personal context paragraph acknowledging family relationship respectfully
+   - Shifted focus from "comprehensive analysis reveals" to "here's how I can help"
+
+2. **McGrathNicol Section (Complete Rewrite)**
+   - Removed harsh language: "biggest reputational crisis", "Zero genuine accountability", "Defensive Communication Pattern"
+   - Reframed as "Transparency Leadership Opportunity"
+   - Changed "Crisis Severity Metrics" to "Progress and Opportunity"
+   - Positioned automation as enabling excellence, not fixing failures
+   - Maintained factual accuracy with supportive, partnership tone
+
+3. **Systematic Language Replacements (43 instances)**
+   - "biggest reputational crisis" → "significant transparency challenge"
+   - "Single-Author Bottleneck" → "Content Creation Centralization"
+   - "catastrophic single point of failure" → "content creation sustainability opportunity"
+   - "Crisis Severity Metrics" → "Review Response Analysis"
+   - "Defensive Language/Pattern" → "Response Language/Strategy"
+   - "Insurance Crisis" → "Insurance Market Challenges"
+   - "6 recommendations overdue" → "6 recommendations pending"
+   - "contested breaches" → "ongoing discussions with NSW Fair Trading"
+   - "No proactive innovation history" → "Technology investments aligned with operational priorities"
+   - "PropTech blindspot" → "PropTech awareness opportunity"
+
+4. **Perspective Shift (60-70% of document)**
+   - Changed from third-person analysis ("Netstrata's portfolio", "Netstrata faces") to second-person advisory ("your portfolio", "you face")
+   - Removed research report framing ("comprehensive analysis reveals") throughout
+   - Sections retitled: "Why This Matters for Netstrata" → "How This Helps Your Strategic Priorities"
+   - "Netstrata's Proprietary Data Advantage" → "Your Proprietary Data Advantage"
+
+### Impact
+
+**Before**: External analyst presenting harsh audit findings
+**After**: Respectful advisor offering partnership and solutions
+
+- Executive Summary now establishes partnership tone from first sentence
+- McGrathNicol section frames review as opportunity, not crisis
+- Document consistently addresses Ted and management as "you/your"
+- Solutions-focused throughout: "here's how I can help" not "here are your problems"
+- Maintains integrity while demonstrating respect for recipient
+
+**Rationale**: Document is proposal TO Ted Middleton (mother's partner, company founder) requesting opportunity to help. Must be respectful, solutions-focused, and advisory—not judgmental, critical, or research-analytical.
+
+PDF now 41 pages (up from 40 due to rewritten sections with better spacing)
+
 ## [1.0.17] - 2025-11-04
 
 ### Changed
