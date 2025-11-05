@@ -5,6 +5,81 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.12] - 2025-11-04
+
+### Added
+
+- Automatic section numbering using Pandoc `--number-sections` flag
+- YAML front matter for document metadata (title, author, date)
+- Elevated "Why This Matters for Netstrata" from subsection to dedicated main section
+
+### Changed
+
+- Removed ALL manual numbering (Roman numerals I-XII and Arabic numerals 1.1-9.3)
+- Converted document title from Markdown heading to YAML metadata
+- Restructured section hierarchy: "Why This Matters" now appears as Section 3 (between Strategic Context and Proposed Solutions)
+
+### Technical Implementation
+
+**Pandoc automatic numbering**:
+```bash
+--number-sections  # Automatically numbers all headings
+```
+
+**YAML front matter**:
+```yaml
+---
+title: Strategic Technology Advisory Proposal for Netstrata
+author: Terry Li
+date: November 3, 2025
+---
+```
+
+**Heading structure changes**:
+- Removed manual numbers from markdown (## I. Title → ## Title)
+- Pandoc generates numbers automatically (1, 1.1, 1.1.1, etc.)
+- Consistent numbering without manual maintenance burden
+
+### Impact
+
+- PDF: 39 pages (+5 from v1.0.11), 158KB (+16KB)
+- Maintainability: Zero manual number tracking required
+- Consistency: Pandoc ensures correct sequential numbering
+- Structure: "Why This Matters" now properly positioned as major section
+- Professional: Standard academic/technical document numbering
+
+### Rationale
+
+User feedback: "It doesn't seem correct to be using manual numbering of those Roman numbers as well as the numerical number. Is there auto numbering scheme or system that automatically generate?"
+
+**Problem with manual numbering**:
+- Prone to errors when reordering sections
+- Requires manual updates across entire document
+- Inconsistent numbering (I., II., III. vs 1.1, 2.1, 3.1)
+- Maintenance burden
+
+**Solution**: Pandoc's `--number-sections` flag automatically generates hierarchical numbering from markdown heading levels, eliminating manual number tracking.
+
+### Document Structure
+
+**Before v1.0.12**:
+```
+I. Strategic Context
+  1.1 Subsection
+II. Proposed Solutions
+  2.1 Subsection
+```
+
+**After v1.0.12**:
+```
+1 Executive Summary
+2 Strategic Context
+  2.1 Subsection
+3 Why This Matters for Netstrata
+4 Proposed Solutions
+  4.1 Subsection
+```
+
 ## [1.0.11] - 2025-11-04
 
 ### Added
@@ -403,6 +478,7 @@ Portfolio size verification attempts:
 - 1500+ lines of research findings documenting market reality
 - Evidence-based approach replacing speculative competitive positioning
 
+[1.0.12]: https://github.com/tainora/netstrata/releases/tag/v1.0.12
 [1.0.11]: https://github.com/tainora/netstrata/releases/tag/v1.0.11
 [1.0.10]: https://github.com/tainora/netstrata/releases/tag/v1.0.10
 [1.0.9]: https://github.com/tainora/netstrata/releases/tag/v1.0.9

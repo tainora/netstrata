@@ -11,6 +11,7 @@ pandoc STRATEGIC_TECHNOLOGY_ADVISORY_PROPOSAL.md \
   --pdf-engine=xelatex \
   --toc \
   --toc-depth=3 \
+  --number-sections \
   -V mainfont="DejaVu Sans" \
   -V geometry:landscape \
   -V geometry:margin=1in \
