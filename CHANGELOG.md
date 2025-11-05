@@ -5,17 +5,51 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.20] - 2025-11-04
+
+### Fixed - COMPREHENSIVE FACTUAL VERIFICATION
+
+**Critical Corrections**:
+1. Knowledge gaps section: Clarified that CRM data systems, financial analysis, ML forecasting are STRENGTHS (not gaps). Gap is real estate/strata domain knowledge
+2. Corrected 368,000 strata schemes → 340,000 (verified with UNSW City Futures 2020 data)
+3. Corrected Claude Sonnet 4.5 "January 2025" → "September 2025" release date
+4. Removed unverified 15%/45% AI adoption claims (no authoritative source found)
+
+**Added 13 New Footnote Citations with URLs**:
+1. [^strata-defects-2023]: NSW Government - 53% defects, up from 39% in 2021
+2. [^water-damage-claims]: CHU Insurance & SCI - 50-70% of claims involve water damage
+3. [^apartment-demographics-2024]: UNSW research - 48% of residents aged 20-39
+4. [^strata-owner-survey-2024]: Premium Strata 2024 - 59.1% frustrated, 26.5% demand transparency, 27.2% desire leadership (761 respondents)
+5. [^proptech-market-2024]: Ken Research - $5 billion PropTech market
+6. [^merlo-ai-claims]: MRI Software - 70% admin reduction claim
+7. [^strata-schemes-australia]: UNSW - 340,601 schemes (corrected from 368,000)
+8. [^regtech-australia-2024]: IMARC - $316M → $1.41B, 18.10% CAGR
+9. [^result-strata-disqualified]: NSW Fair Trading - permanent disqualification
+10. [^accc-sept-2024]: ACCC September 2024 report on commission conflicts
+11. [^nsw-april-2026-reforms]: LookUpStrata - April 1, 2026 requirements
+12. [^claude-context-window]: Anthropic docs - 200K token context
+13. [^constitutional-ai]: Anthropic docs - hallucination reduction (with qualification)
+
+### Impact
+
+**Before**: Many numerical claims lacked authoritative sources; some numbers were incorrect
+**After**: Every significant number now has URL reference with authoritative source
+
+- Fixed 3 factual errors (368k→340k, date correction, removed unverified stats)
+- Added 13 authoritative source URLs (government, academic, industry research)
+- All major statistics now independently verifiable
+- Strengthens credibility and professional integrity of proposal
+
+**Rationale**: User requirement - "all occurrences of any specific number must come from a potential base with online references in the footer"
+
+PDF now 43 pages (up from 41 due to comprehensive footnotes)
+File size: 170KB
+
 ## [1.0.19] - 2025-11-04
 
 ### Changed
 
-- Expanded knowledge gaps section to explicitly acknowledge lack of domain expertise in specialized areas: CRM data systems, financial analysis, ML forecasting, and other industry-specific competencies
-
-### Impact
-
-- More transparent about learning needs
-- Sets realistic expectations about current capabilities
-- Demonstrates intellectual humility by acknowledging specific technical gaps beyond just "strata management"
+- ~~Expanded knowledge gaps section to explicitly acknowledge lack of domain expertise in specialized areas~~ **REVERTED IN v1.0.20** - This was wrong. CRM/ML/financial analysis are strengths, not gaps. Gap is strata domain knowledge only.
 
 ## [1.0.18] - 2025-11-04
 

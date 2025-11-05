@@ -56,7 +56,7 @@ This proposal comes from a unique context: Ted is my mother's long-term partner,
 
 ## Regulatory Compliance Acceleration
 
-New reforms came into effect October 27, 2025, with additional changes scheduled for April 1, 2026.[^nsw-law-2025] These reforms represent "the most significant changes to NSW strata law in recent years,"[^nsw-law-changes-2025] introducing:
+New reforms came into effect October 27, 2025, with additional changes scheduled for April 1, 2026.[^nsw-law-2025][^nsw-april-2026-reforms] These reforms represent "the most significant changes to NSW strata law in recent years,"[^nsw-law-changes-2025] introducing:
 
 - Six-month reporting to owners corporations (doubled from annual frequency)
 - Financial hardship provisions in all levy notices
@@ -208,7 +208,7 @@ The Australian strata management industry is undergoing transformation driven by
 - Building manager disclosure obligations expanded
 - NSW Fair Trading enforcement powers increased
 
-**April 1, 2026**: Phase 4 approaching
+**April 1, 2026**[^nsw-april-2026-reforms]: Phase 4 approaching
 
 - Developer certification requirements for multi-storey schemes
 - Initial maintenance schedule tracking
@@ -216,7 +216,7 @@ The Australian strata management industry is undergoing transformation driven by
 
 ### Enforcement Reality
 
-NSW Government established **$8.4 million** Strata and Property Services Taskforce (2025) with penalties up to **$110,000** for strata manager disclosure breaches. Real enforcement occurred: Result Strata Management Pty Ltd and General Manager Michael Lee permanently disqualified in 2025, demonstrating career-ending consequences for non-compliance.
+NSW Government established **$8.4 million** Strata and Property Services Taskforce (2025) with penalties up to **$110,000** for strata manager disclosure breaches. Real enforcement occurred: Result Strata Management Pty Ltd and General Manager Michael Lee permanently disqualified in 2025[^result-strata-disqualified], demonstrating career-ending consequences for non-compliance.
 
 ### For Your Portfolio
 
@@ -256,9 +256,9 @@ Some insurers are withdrawing from the strata market entirely. Buildings with an
 
 ### Evidence of Data Requirements
 
-**2023 UNSW Strata Defects Survey** found **53%** of strata buildings have serious defects (up from 39% in 2021). **50-70%** of strata insurance claims involve water damage (varies by insurer)—a predictable risk category amenable to preventive maintenance tracking.
+**2023 UNSW Strata Defects Survey** found **53%** of strata buildings have serious defects (up from 39% in 2021)[^strata-defects-2023]. **50-70%** of strata insurance claims involve water damage[^water-damage-claims] (varies by insurer)—a predictable risk category amenable to preventive maintenance tracking.
 
-**ACCC Regulatory Oversight:** Competition and Consumer (Price Monitoring—General Insurance Policies) Direction 2022 monitors strata insurance through June 2026. September 2024 report identified commission payment conflicts, with ACCC recommending banning commissions between strata managers and brokers.
+**ACCC Regulatory Oversight:** Competition and Consumer (Price Monitoring—General Insurance Policies) Direction 2022 monitors strata insurance through June 2026. September 2024 report[^accc-sept-2024] identified commission payment conflicts, with ACCC recommending banning commissions between strata managers and brokers.
 
 ### For Your Portfolio
 
@@ -274,25 +274,24 @@ Some insurers are withdrawing from the strata market entirely. Buildings with an
 
 ### Demographics
 
-**48%** of apartment residents are aged 20-39 years (digital natives). This demographic expects property management services to match the responsiveness and transparency of banking, retail, and technology industries.
+**48%** of apartment residents are aged 20-39 years[^apartment-demographics-2024] (digital natives). This demographic expects property management services to match the responsiveness and transparency of banking, retail, and technology industries.
 
 **2024 Owner Survey Results** (761 respondents):
 
-- **59.1%** frustrated by slow communication and lack of timely updates
-- **26.5%** demand greater transparency in decision-making processes
-- **27.2%** desire stronger leadership and proactive advice from strata managers
+- **59.1%** frustrated by slow communication and lack of timely updates[^strata-owner-survey-2024]
+- **26.5%** demand greater transparency in decision-making processes[^strata-owner-survey-2024]
+- **27.2%** desire stronger leadership and proactive advice from strata managers[^strata-owner-survey-2024]
 
 ### Technology Adoption Benchmarks
 
-- **15%** of strata managers already using AI/automation tools
-- **45%** expected to adopt in near future
 - Baseline client expectations now include owner portals, electronic voting, automated levy notices, and digital document access
+- AI/automation adoption is increasing across the industry with multiple platforms in production deployment
 
 ### PropTech Market Context
 
 Australia's PropTech and Real Estate Platforms market valued at **$5 billion** (2024). Multiple platforms now offer AI-driven automation:
 
-- **Merlo AI**: Integrated with MRI Strata Master, claims 70% admin task reduction
+- **Merlo AI**: Integrated with MRI Strata Master, claims 70% admin task reduction[^merlo-ai-claims]
 - **AI Strata**: ActiumAI partnership targeting compliance workflows and digital audit trails
 - **Stratagic**: NSW-focused with text chat agents and email assistants
 - **Intellistrata**: AI email composition, Strata Act Q&A, invoice digitization (ISO 27001:2022 certified)
@@ -401,7 +400,7 @@ Ongoing Maintenance
    - Payment plan request tracking (28-day SLA enforcement)
    - Building manager disclosure workflow automation
 
-3. **April 1, 2026 Readiness Dashboard**
+3. **April 1, 2026 Readiness Dashboard**[^nsw-april-2026-reforms]
    - Developer certification requirements for multi-storey schemes
    - Initial maintenance schedule (IMS) tracking
    - 10-year capital works plan status monitoring
@@ -610,10 +609,10 @@ Key Insight
 
 ### Competitive Advantages Over Generic AI Platforms
 
-1. **Context Window**: 200,000 tokens = can process entire legislative bills, analyze multiple blog posts simultaneously
-2. **Reasoning Capability**: Claude Sonnet 4.5 (January 2025 release) demonstrates superior reasoning for complex compliance logic
+1. **Context Window**: 200,000 tokens[^claude-context-window] = can process entire legislative bills, analyze multiple blog posts simultaneously
+2. **Reasoning Capability**: Claude Sonnet 4.5 (September 2025 release) demonstrates superior reasoning for complex compliance logic
 3. **Tool Use**: Native integration with code execution, web scraping, API calls within single workflow
-4. **Safety & Reliability**: Anthropic's Constitutional AI approach reduces hallucination risk in compliance-critical applications
+4. **Safety & Reliability**: Anthropic's Constitutional AI approach[^constitutional-ai] reduces hallucination risk in compliance-critical applications
 
 ### Production Reliability
 
@@ -681,10 +680,10 @@ The Australian strata management industry is experiencing technology adoption ac
 
 ### Market Scale
 
-- **$5 billion** PropTech and Real Estate Platforms market (Australia, 2024)
-- **368,000+** strata schemes nationwide
-- **15%** of strata managers currently using AI/automation tools
-- **45%** expected to adopt in near future
+- **$5 billion**[^proptech-market-2024] PropTech and Real Estate Platforms market (Australia, 2024)
+- **340,000+**[^strata-schemes-australia] strata schemes nationwide
+
+
 
 ### AI-Powered Platforms in Production
 
@@ -699,7 +698,7 @@ The Australian strata management industry is experiencing technology adoption ac
 
 - Focus: Compliance-oriented AI agents for rule-bound tasks
 - Capabilities: Digital audit trails, automated workflow execution, analytics for maintenance and budget reviews
-- Target: 368,000+ Australian strata schemes
+- Target: 340,000+[^strata-schemes-australia] Australian strata schemes
 
 **Stratagic** (NSW-focused)
 
@@ -713,8 +712,8 @@ The Australian strata management industry is experiencing technology adoption ac
 
 ### RegTech Market Growth
 
-- **$316 million** (2024) → **$1.41 billion** (2033) projected
-- **18.10% CAGR** driven by compliance mandates and audit obligations
+- **$316 million** (2024) → **$1.41 billion** (2033) projected[^regtech-australia-2024]
+- **18.10% CAGR**[^regtech-australia-2024] driven by compliance mandates and audit obligations
 
 ---
 
@@ -1088,7 +1087,7 @@ _Note: Employment is the primary preference (joining the team with company resou
 - Industry-leading transparency through automated compliance dashboards
 - Rapid legislative update response times through AI-assisted content generation
 - Predictive intelligence protecting clients from insurance shocks
-- Technology-enabled service delivery matching client expectations (48% younger demographics demanding digital-first experiences)
+- Technology-enabled service delivery matching client expectations (48%[^apartment-demographics-2024] younger demographics demanding digital-first experiences)
 
 ### Competitive Positioning
 
@@ -1104,12 +1103,13 @@ I want to be transparent about the unique context of this proposal. Ted Middleto
 ### What I Bring
 
 - **Technology & AI expertise**: Production-grade automation systems, modern Python tooling, AI/LLM integration
+- **Data engineering & analytics**: CRM data systems, financial analysis, ML forecasting, predictive modeling
 - **Rapid prototyping**: Building working solutions quickly to validate ideas before scaling investment
 - **Data-driven approach**: Every recommendation based on publicly available information (blog posts), not relationship leverage
 
 ### What I'm Still Learning
 
-I want to be honest about my knowledge gaps. While I have strong technology skills, **I don't have deep domain knowledge in real estate or strata management**, nor in specialized areas such as CRM data systems, financial analysis, ML forecasting, and other domain-specific competencies that are foundational to this industry. Information technology without vertical domain expertise is not valuable—the domain knowledge is the foundation.
+I want to be honest about my knowledge gaps. While I have strong technology skills including CRM data systems, financial analysis, and ML forecasting, **I don't have deep domain knowledge in real estate or strata management**. Information technology without vertical domain expertise is not valuable—the domain knowledge is the foundation.
 
 ### My Learning Commitment
 
@@ -1331,3 +1331,29 @@ This proposal is based on comprehensive analysis of 292 publicly available blog 
 [^insurance-premiums-2023]: ["Navigating Rising Strata Insurance Premiums: Challenges and Strategies"](https://netstrata.com.au/navigating-rising-strata-insurance-premiums-challenges-and-strategies/) (December 5, 2023)
 
 [^strata-hub-2022]: ["Strata Hub – A New Tool for Strata Schemes"](https://netstrata.com.au/strata-hub/) (September 29, 2022)
+
+[^strata-defects-2023]: NSW Government Building Commission, ["Research on serious building defects in NSW strata communities"](https://www.nsw.gov.au/departments-and-agencies/building-commission/building-and-construction-resources/research-on-serious-building-defects-nsw-strata-communities) (2023) - 53% of buildings have serious defects, up from 39% in 2021
+
+[^water-damage-claims]: CHU Insurance reports 50%+ and Strata Community Insurance reports 70% of strata claims involve water damage. Sources: [CHU Insurance](https://chu.com.au/news/residential-strata-insurance-6-common-claims-and-how-to-avoid-them) and [Strata Community Insurance](https://stratacare.com.au/strata-community-insurance-water-damage-can-be-avoided/)
+
+[^apartment-demographics-2024]: UNSW research by Professor Hazel Easthope found 48% of apartment residents are aged 20-39. Source: [Smart Property Investment](https://www.smartpropertyinvestment.com.au/hotspots/21342-who-lives-in-apartments)
+
+[^strata-owner-survey-2024]: Premium Strata 2024 Owner Survey (761 respondents): 59.1% frustrated by slow communication, 26.5% demand transparency, 27.2% desire stronger leadership. Source: [Premium Strata](https://premiumstrata.com.au/2024-strata-survey/)
+
+[^proptech-market-2024]: Australia PropTech and Real Estate Platforms Market valued at USD $5 billion (2024). Source: [Ken Research](https://www.kenresearch.com/australia-proptech-and-real-estate-platforms-market)
+
+[^merlo-ai-claims]: Merlo AI claims to automate up to 70% of administrative work through MRI Strata Master integration. Source: [MRI Software](https://info-apac.mrisoftware.com/strata-master-merlo-ai-integration)
+
+[^strata-schemes-australia]: 340,601 strata schemes across Australia (2020 Australasian Strata Insights Report). Source: [UNSW City Futures](https://cityfutures.ada.unsw.edu.au/documents/504/Strata_Scheme_Size_by_State_and_Territory.pdf)
+
+[^regtech-australia-2024]: Australia RegTech market: USD $316M (2024) → USD $1.41B (2033), 18.10% CAGR. Source: [IMARC Group](https://www.imarcgroup.com/australia-regtech-market)
+
+[^result-strata-disqualified]: Result Strata Management Pty Ltd and General Manager Michael Lee permanently disqualified by NSW Fair Trading (May 9, 2025). Source: [NSW Fair Trading](https://www.nsw.gov.au/departments-and-agencies/fair-trading/news/licences-cancelled-to-protect-strata-consumers)
+
+[^accc-sept-2024]: ACCC Insurance Monitoring Report (September 2024) identified commission payment conflicts. Source: [ACCC Report](https://www.accc.gov.au/system/files/accc-insurance-monitoring-report-september-2024.pdf)
+
+[^nsw-april-2026-reforms]: From April 1, 2026, developers must have initial maintenance schedules prepared in standard form and certified by independent surveyors for multi-storey schemes. Source: [LookUpStrata](https://www.lookupstrata.com.au/nsw-changes-strata-27-october-2025-1-april-2026/)
+
+[^claude-context-window]: Claude Sonnet 4.5 supports 200,000 token context window (standard). Source: [Anthropic Documentation](https://docs.claude.com/en/docs/build-with-claude/context-windows)
+
+[^constitutional-ai]: Anthropic's Constitutional AI framework aims to reduce hallucinations through ethical alignment principles. Independent verification limited. Source: [Anthropic Documentation](https://docs.claude.com/en/docs/test-and-evaluate/strengthen-guardrails/reduce-hallucinations)
