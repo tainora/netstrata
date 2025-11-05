@@ -19,6 +19,18 @@
 % Compact column spacing to fit tables on one page
 \setlength{\tabcolsep}{6pt}
 
+% ==============================================================================
+% Reduce Table Font Size
+% ==============================================================================
+% Automatically use smaller font for all table content (Pandoc generates longtables)
+% Options: \small (~90%), \footnotesize (~80%), \scriptsize (~70%), \tiny (~50%)
+
+\usepackage{etoolbox}
+\AtBeginEnvironment{longtable}{\small}
+
+% Note: This affects table content only, not captions
+% To also reduce caption size, add: \usepackage[font=small]{caption}
+
 % Thicker rules for better visual separation between rows
 \setlength{\heavyrulewidth}{1.0pt}
 \setlength{\lightrulewidth}{0.4pt}

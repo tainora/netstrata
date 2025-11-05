@@ -5,6 +5,35 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.15] - 2025-11-04
+
+### Added
+
+- Automatic table font size reduction using idiomatic LaTeX pattern
+- All table content now uses `\small` font (~90% of normal size) for better space efficiency
+
+### Technical Implementation
+
+**Added to table-spacing.tex:**
+```latex
+\usepackage{etoolbox}
+\AtBeginEnvironment{longtable}{\small}
+```
+
+**Idiomatic pattern:** Uses `etoolbox` package's `\AtBeginEnvironment` hook to automatically apply smaller font to all Pandoc-generated longtables without modifying markdown or requiring per-table customization.
+
+**Customization options:**
+- `\small` (~90%) - Current setting, subtle reduction
+- `\footnotesize` (~80%) - Moderate reduction
+- `\scriptsize` (~70%) - Significant reduction
+- `\tiny` (~50%) - Very small
+
+### Impact
+
+- Better table density without sacrificing readability
+- More content fits per page (especially tables with many columns)
+- Captions remain at normal size for hierarchy
+
 ## [1.0.14] - 2025-11-04
 
 ### Fixed
