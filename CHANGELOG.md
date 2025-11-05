@@ -5,6 +5,49 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.10] - 2025-11-04
+
+### Changed
+
+- Converted 118 bold section headers to proper Markdown level 4 headings (####)
+- Preserved 43 inline bold labels (paragraph labels, dates, emphasis)
+- Used programmatic sed approach for safe, consistent conversion
+
+### Technical Implementation
+
+**Method**: Used sed for automated conversion:
+```bash
+sed 's/^\*\*\(.*\):\*\*$/#### \1/' file.md
+```
+
+**Pattern matched**:
+- Lines starting with `**`
+- Followed by any text
+- Ending with `:**` (standalone on their own line)
+
+**Preserved as bold** (not converted):
+- Inline labels: `**Automation Opportunity:** text continues...`
+- Date markers: `**July 1, 2025**: description`
+- Paragraph labels: `**Analysis**: findings...`
+- Mid-text emphasis
+
+### Impact
+
+- PDF: 33 pages (+2 from v1.0.9), 136KB
+- Improved: Proper heading hierarchy throughout document
+- Converted: 118 section headers now use `####` instead of bold
+- Better: PDF table of contents now includes all section headers
+- Semantic: Document structure now machine-readable
+
+### Rationale
+
+User feedback: "I would appreciate if you can choose the most safest way to do it programmatically... make sure the layout would still stay the same while I don't easily use bolding unless it's really necessary"
+
+**Before**: Bold text (`**Text:**`) used for both emphasis AND structure
+**After**: Headings (`#### Text`) for structure, bold for emphasis only
+
+**Page increase explanation**: Headings have more vertical spacing than bold text (by design for readability). +2 pages is expected and improves document navigation.
+
 ## [1.0.9] - 2025-11-04
 
 ### Fixed
@@ -317,6 +360,7 @@ Portfolio size verification attempts:
 - 1500+ lines of research findings documenting market reality
 - Evidence-based approach replacing speculative competitive positioning
 
+[1.0.10]: https://github.com/tainora/netstrata/releases/tag/v1.0.10
 [1.0.9]: https://github.com/tainora/netstrata/releases/tag/v1.0.9
 [1.0.8]: https://github.com/tainora/netstrata/releases/tag/v1.0.8
 [1.0.7]: https://github.com/tainora/netstrata/releases/tag/v1.0.7
