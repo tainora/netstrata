@@ -5,6 +5,41 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.13] - 2025-11-04
+
+### Fixed
+
+- Table of Contents spacing: Multi-digit subsection numbers (2.5.10, 2.5.11, etc.) no longer overlap with section titles
+
+### Technical Implementation
+
+**Added to table-spacing.tex using tocloft package:**
+
+```latex
+\usepackage{tocloft}
+\setlength{\cftsecnumwidth}{2.5em}      % Section numbers (1, 2, 3)
+\setlength{\cftsubsecnumwidth}{3.5em}   % Subsection numbers (2.1, 2.5.10)
+\setlength{\cftsubsubsecnumwidth}{4.5em} % Subsubsection numbers (2.5.10.1)
+```
+
+**Problem:** Default LaTeX allocates only 2.3em for subsection numbers, causing overlap when subsection numbers reach double digits (e.g., "2.5.10").
+
+**Solution:** Use `tocloft` package to increase allocated width to 3.5em, providing adequate space for all subsection number lengths.
+
+### Impact
+
+- PDF: 40 pages (+1 from v1.0.12), 161KB (+3KB)
+- ToC: Proper spacing for all section numbers, including multi-digit subsections
+- Readability: Improved ToC navigation without text overlap
+
+### Rationale
+
+User observation: "2.5.10, 2.5.11, 2.5.12, 2.5.13 jamming too close with the title"
+
+**Root cause:** LaTeX default ToC formatting doesn't account for subsection numbers with 2+ digits after the dot (e.g., "2.5.10" = 6 characters).
+
+**Research:** Investigated idiomatic LaTeX patterns via Stack Exchange and official documentation. The `tocloft` package is the standard solution for ToC spacing customization.
+
 ## [1.0.12] - 2025-11-04
 
 ### Added
@@ -22,11 +57,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Technical Implementation
 
 **Pandoc automatic numbering**:
+
 ```bash
 --number-sections  # Automatically numbers all headings
 ```
 
 **YAML front matter**:
+
 ```yaml
 ---
 title: Strategic Technology Advisory Proposal for Netstrata
@@ -36,6 +73,7 @@ date: November 3, 2025
 ```
 
 **Heading structure changes**:
+
 - Removed manual numbers from markdown (## I. Title → ## Title)
 - Pandoc generates numbers automatically (1, 1.1, 1.1.1, etc.)
 - Consistent numbering without manual maintenance burden
@@ -53,6 +91,7 @@ date: November 3, 2025
 User feedback: "It doesn't seem correct to be using manual numbering of those Roman numbers as well as the numerical number. Is there auto numbering scheme or system that automatically generate?"
 
 **Problem with manual numbering**:
+
 - Prone to errors when reordering sections
 - Requires manual updates across entire document
 - Inconsistent numbering (I., II., III. vs 1.1, 2.1, 3.1)
@@ -63,6 +102,7 @@ User feedback: "It doesn't seem correct to be using manual numbering of those Ro
 ### Document Structure
 
 **Before v1.0.12**:
+
 ```
 I. Strategic Context
   1.1 Subsection
@@ -71,6 +111,7 @@ II. Proposed Solutions
 ```
 
 **After v1.0.12**:
+
 ```
 1 Executive Summary
 2 Strategic Context
@@ -478,6 +519,7 @@ Portfolio size verification attempts:
 - 1500+ lines of research findings documenting market reality
 - Evidence-based approach replacing speculative competitive positioning
 
+[1.0.13]: https://github.com/tainora/netstrata/releases/tag/v1.0.13
 [1.0.12]: https://github.com/tainora/netstrata/releases/tag/v1.0.12
 [1.0.11]: https://github.com/tainora/netstrata/releases/tag/v1.0.11
 [1.0.10]: https://github.com/tainora/netstrata/releases/tag/v1.0.10
