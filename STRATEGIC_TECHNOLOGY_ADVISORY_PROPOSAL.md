@@ -39,10 +39,10 @@ Your recent initiatives create natural alignment for automation investment:
 
 This is an ongoing advisory partnership, not a one-time project delivery:
 
-| Phase | Timeline    | Team Required                           | Success Criteria                                                            |
-| ----- | ----------- | --------------------------------------- | --------------------------------------------------------------------------- |
+| Phase | Timeline    | Team Required                           | Success Criteria                                                                        |
+| ----- | ----------- | --------------------------------------- | --------------------------------------------------------------------------------------- |
 | 1     | Months 1-6  | 1-2 FTE[^fte] (technical lead + backup) | Measurable efficiency gains + compliance risk reduction + transparent progress tracking |
-| 2     | Months 7-18 | 1-2 FTE (ongoing advisory)              | **Decision at Month 6** – only proceed if Phase 1 delivers value you can measure |
+| 2     | Months 7-18 | 1-2 FTE (ongoing advisory)              | **Decision at Month 6** – only proceed if Phase 1 delivers value you can measure        |
 
 [^fte]: **FTE** = Full-Time Equivalent. A staffing metric where 1 FTE represents one person working full-time (40 hours/week).
 
@@ -81,6 +81,7 @@ This presents an opportunity to demonstrate transparency leadership through syst
 **Challenge**: Tracking 22 recommendations across multiple operational areas requires manual coordination, making it difficult to demonstrate progress systematically to regulators.
 
 **Solution**: McGrathNicol Compliance Dashboard provides:
+
 - Real-time recommendation status tracking
 - Automated audit trails showing completion dates and evidence
 - Progress reporting capabilities for NSW Fair Trading reviews
@@ -105,6 +106,7 @@ Six recommendations remain under implementation past the July 1, 2025 target dat
 ### The Compliance Demonstration Challenge
 
 Reviews of this nature generate substantial documentation requirements:
+
 - Multiple stakeholder communications (NSW Fair Trading, clients, industry bodies)
 - Ongoing progress tracking across departments
 - Audit trail maintenance for regulatory oversight
@@ -117,6 +119,7 @@ Reviews of this nature generate substantial documentation requirements:
 Rather than viewing regulatory oversight as purely defensive, Netstrata can establish new industry standards for transparency and accountability. Organizations that respond to reviews with systematic improvement often emerge with enhanced reputation and operational capabilities.
 
 **Automation Opportunity:** Build a McGrathNicol Compliance Dashboard that:
+
 - Tracks remaining 6 recommendations with automated status updates
 - Maintains comprehensive audit trails for all remediation activities
 - Provides real-time visibility to NSW Fair Trading if requested
@@ -349,13 +352,13 @@ While multiple strata managers adopt generic PropTech tools, you can build **pro
 
 ### Project Overview - Prioritized by Urgency × Impact × Feasibility
 
-| Project                                   | Build Time | Priority Rationale                                                                                                              | Key Deliverable                                               |
-| ----------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| **#1: McGrathNicol Compliance Dashboard** | Weeks      | **HIGH** - 6 recommendations in progress, opportunity for transparency leadership demonstration                                  | Real-time tracking, automated audit trail, transparency positioning |
-| **#2: NSW Strata Hub Bulk Upload**        | Weeks      | **HIGH** - 30+ fields per scheme, portfolio-wide deployment, manual data entry burden                                           | Automated bulk upload, reduced data entry time                |
-| **#3: Fire Safety Compliance Tracker**    | Weeks      | **HIGH** - Portfolio-wide Annual Fire Safety Statements, AS1851-2012 standard (Feb 2025), penalty enforcement active            | Zero missed deadlines, council submission automation          |
-| **#4: AI-Assisted Legislative Drafting**  | Weeks      | **MEDIUM** - 159 legislative blogs documented, content creation centralization (99.7% S J), AI-assisted drafting reduces manual effort | Draft blog posts from NSW law changes (requires human review) |
-| **Total Phase 1**                         | **Months** | **McGrathNicol urgency + scale efficiencies + competitive positioning**                                                         | **Enterprise-grade automation with full documentation**       |
+| Project                                   | Build Time | Priority Rationale                                                                                                                     | Key Deliverable                                                     |
+| ----------------------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| **#1: McGrathNicol Compliance Dashboard** | Weeks      | **HIGH** - 6 recommendations in progress, opportunity for transparency leadership demonstration                                        | Real-time tracking, automated audit trail, transparency positioning |
+| **#2: NSW Strata Hub Bulk Upload**        | Weeks      | **HIGH** - 30+ fields per scheme, portfolio-wide deployment, manual data entry burden                                                  | Automated bulk upload, reduced data entry time                      |
+| **#3: Fire Safety Compliance Tracker**    | Weeks      | **HIGH** - Portfolio-wide Annual Fire Safety Statements, AS1851-2012 standard (Feb 2025), penalty enforcement active                   | Zero missed deadlines, council submission automation                |
+| **#4: AI-Assisted Legislative Drafting**  | Weeks      | **MEDIUM** - 159 legislative blogs documented, content creation centralization (99.7% S J), AI-assisted drafting reduces manual effort | Draft blog posts from NSW law changes (requires human review)       |
+| **Total Phase 1**                         | **Months** | **McGrathNicol urgency + scale efficiencies + competitive positioning**                                                                | **Enterprise-grade automation with full documentation**             |
 
 **Evidence Base:** Priorities derived from comprehensive analysis of 292 blog posts (2009-2025) across 8 research perspectives: timeline patterns (operational priorities), content analysis (McGrathNicol transparency opportunity), competitive intelligence (PropTech benchmarks), operational insights (content creation centralization), legal/regulatory (6 recommendations in progress), financial pressures (margin compression), client pain points, and technology adoption patterns (reactive history).
 
@@ -1106,7 +1109,7 @@ I want to be transparent about the unique context of this proposal. Ted Middleto
 
 ### What I'm Still Learning
 
-I want to be honest about my knowledge gaps. While I have strong technology skills, **I don't have deep domain knowledge in real estate or strata management**. Information technology without vertical domain expertise is not valuable—the domain knowledge is the foundation.
+I want to be honest about my knowledge gaps. While I have strong technology skills, **I don't have deep domain knowledge in real estate or strata management**, nor in specialized areas such as CRM data systems, financial analysis, ML forecasting, and other domain-specific competencies that are foundational to this industry. Information technology without vertical domain expertise is not valuable—the domain knowledge is the foundation.
 
 ### My Learning Commitment
 
