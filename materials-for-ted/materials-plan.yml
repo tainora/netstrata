@@ -1,9 +1,9 @@
 ---
-version: "1.9.1"
+version: "1.9.2"
 plan_name: "materials-for-ted-employment-opportunity"
 created: "2025-11-09"
-updated: "2025-11-10T16:30:00"
-status: "usage_attestation_added"
+updated: "2025-11-10T17:00:00"
+status: "factual_corrections_complete"
 purpose: "Employment application materials for Ted Middleton / Cheryl Williams (HR) review - AI-augmented development with demonstration-first approach and formal strategic framework"
 
 # Single Source of Truth for Ted employment materials
@@ -101,7 +101,7 @@ content_specifications:
       - position: "Largest organically-grown NSW, 2000+ schemes"
       - business_model: "Multiple divisions (strata, insurance, law, accounting, trade, valuations)"
       - recent_context: "McGrathNicol review, insurance crisis, regulatory reforms"
-      - leadership: "Stephen Brell (MD), Andrew Tunks (COO), Helen (CFO), Tom Bakani (software), Epi Mito (IT)"
+      - leadership: "Stephen Brell (MD), Andrew Tunks (COO), Helen (CFO), Tom Bakani (software), Epitacio Neto (IT)"
     part_2_software_strategy:
       - investment: "$12-14M over 9-14 years"
       - timeline: "Near completion, end 2026 target"
@@ -799,6 +799,42 @@ version_history:
 
     next_phase: "Commit v1.9.1 and update page counts in email document 00"
     recommendation: "v1.9.1 strengthens expertise claims with concrete, verifiable evidence. Screenshot provides independent validation of production-scale usage."
+
+  - version: "1.9.2"
+    date: "2025-11-10"
+    changes: "Factual corrections - name and date accuracy"
+    status: "completed"
+    scope: "Correct Epi Mito to Epitacio Neto, and July 2024 to July 2025"
+    git_commit: "pending"
+
+    corrections_made:
+      correction_1_name:
+        issue: "IT Infrastructure head listed as 'Epi Mito' - incorrect name"
+        fix: "Updated to correct name 'Epitacio Neto'"
+        locations:
+          - "03-netstrata-research.md line 64"
+          - "materials-plan.yml line 104"
+        pdf_regenerated: "03-netstrata-research.pdf (9 pages, 58K)"
+
+      correction_2_date:
+        issue: "Usage attestation listed as 'since July 2024' - incorrect year"
+        fix: "Updated to correct year 'since July 2025'"
+        location: "01b-ai-augmented-development-methodology.md line 16"
+        pdf_regenerated: "01b-ai-augmented-development-methodology.pdf (9 pages, 65K)"
+
+    document_metrics:
+      all_documents:
+        word_counts: "unchanged (no content changes, only factual corrections)"
+        page_counts: "unchanged (28 pages total: 6+9+4+9)"
+        status: "PDFs regenerated with corrected information"
+
+    validation:
+      correctness: "Both corrections verified - Epitacio Neto (correct full name), July 2025 (matches usage dashboard timeframe)"
+      observability: "v1.9.2 entry documents all corrections with locations and rationale"
+      maintainability: "Factual accuracy maintained without structural changes"
+
+    next_phase: "Commit v1.9.2 corrections"
+    recommendation: "v1.9.2 ensures factual accuracy of key personnel names and usage timeline attestation."
 
 success_criteria:
   - folder_created: "/Users/terryli/own/netstrata/materials-for-ted/"

@@ -61,7 +61,7 @@ This vertical integration creates operational efficiencies and revenue diversifi
 
 - **Tom Bakani**: Head of Software Operations (Philippines)
   - Manages proprietary software development team
-- **Epi Mito**: Head of IT Infrastructure (Brazil)
+- **Epitacio Neto**: Head of IT Infrastructure (Brazil)
   - Manages hardware, cloud systems, office migration
 
 **HR Contact**:
