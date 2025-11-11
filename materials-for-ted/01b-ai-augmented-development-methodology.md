@@ -2,7 +2,7 @@
 
 ## Introduction: State of the Art Meets Production Reality
 
-Modern software development has reached an inflection point. AI coding agents—particularly Anthropic's Claude Code CLI and similar tools—have transitioned from experimental curiosities to production-grade development accelerators. However, the gap between casual experimentation and effective production usage is measured in thousands of hours of practice, not blog posts written after weekend trials.
+Modern software development has reached an inflection point. AI coding agents—particularly Anthropic's [Claude Code](https://www.claude.com/product/claude-code) CLI and similar tools—have transitioned from experimental curiosities to production-grade development accelerators. However, the gap between casual experimentation and effective production usage is measured in thousands of hours of practice, not blog posts written after weekend trials.
 
 This document outlines my approach to AI-augmented development workflows, the economic rationale behind systematic tooling adoption, and the professional requirements necessary for these methodologies to succeed in team environments.
 
@@ -12,22 +12,22 @@ This document outlines my approach to AI-augmented development workflows, the ec
 
 **Thousands of hours of hands-on practice** across multiple AI coding platforms:
 
-- **Claude Code CLI**: Extensive [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) development, custom workflow design, and adoption advocacy
+- **[Claude Code](https://www.claude.com/product/claude-code) CLI**: Extensive [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) development, custom workflow design, and adoption advocacy
   - **Usage attestation**: 60,374+ sessions since July 2025 (https://share.cleanshot.com/xN1DCR9X)
   - 5.28 billion tokens processed, $2,953 API costs demonstrating systematic production usage
 - **Production deployment**: Not prototyping or experimentation—these tools run critical business workflows daily
-- **Cross-platform experience**: Claude Code, GitHub Copilot, Cursor, and other AI-augmented IDEs
+- **Cross-platform experience**: [Claude Code](https://www.claude.com/product/claude-code), GitHub Copilot, [Codex](https://openai.com/codex/), Cursor, and other AI-augmented IDEs
 - **Production systems built**: Multiple business-critical systems developed entirely using AI-augmented workflows
 
 **Contrast with industry discourse**: Most commentary about AI coding agents comes from developers who've used them casually for days or weeks. The noise-to-signal ratio is extremely high—many strong opinions based on minimal practice. Thousands of hours reveal capabilities and limitations that aren't visible in surface-level usage.
 
-### Claude Code CLI Specialization
+### [Claude Code](https://www.claude.com/product/claude-code) CLI Specialization
 
-**[Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) Development**: Active contribution to Claude Code ecosystem through:
+**[Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) Development**: Active contribution to [Claude Code](https://www.claude.com/product/claude-code) ecosystem through:
 
 - Custom [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) creation for specialized workflows
 - Internal popularization at Eon Labs (team adoption and training)
-- Deep understanding of Claude Code's tool use patterns, context window management, and autonomous agent capabilities
+- Deep understanding of [Claude Code](https://www.claude.com/product/claude-code)'s tool use patterns, context window management, and autonomous agent capabilities
 - Experience with both successful and failed automation attempts—knowing when AI tools add value vs. when they introduce unnecessary complexity
 
 **What "mastery" actually means**:
@@ -126,7 +126,7 @@ For software engineering agents working toward the end-2026 completion deadline:
 
 **Onboarding Workshops**: Structured introduction to AI-augmented workflows:
 
-- Tool installation and configuration (Claude Code CLI setup)
+- Tool installation and configuration ([Claude Code](https://www.claude.com/product/claude-code) CLI setup)
 - Basic prompt engineering patterns for common development tasks
 - Context window management strategies
 - Integration with existing development workflows
@@ -166,7 +166,7 @@ For software engineering agents working toward the end-2026 completion deadline:
 
 I understand the common view that AI coding tools are proof-of-concept only. Most industry commentary—blog posts, YouTube reviews, conference talks—shares this skepticism. Many practitioners have experimented casually and concluded these tools aren't production-ready.
 
-This skepticism is reasonable given surface-level usage. Developers who spend a weekend with Copilot or try Claude Code for a few hours often encounter limitations that reinforce doubts about production readiness. The tools CAN be frustrating when used naively.
+This skepticism is reasonable given surface-level usage. Developers who spend a weekend with Copilot or try [Claude Code](https://www.claude.com/product/claude-code) for a few hours often encounter limitations that reinforce doubts about production readiness. The tools CAN be frustrating when used naively.
 
 However, thousands of hours of deep practice reveal different patterns: these tools ARE production-ready when integrated systematically into team workflows. The gap between "tried it casually" and "production mastery" is substantial—similar to the difference between writing your first Python script and architecting production systems.
 

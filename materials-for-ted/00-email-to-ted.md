@@ -6,7 +6,7 @@ Thanks for taking the time to talk on November 4. I've been reflecting on our co
 
 I'd welcome the opportunity to demonstrate AI-augmented workflows to Tom Bakani's team during Phase 1 work. You can assess value based on measurable results—time savings, code quality improvements, velocity gains on real Netstrata challenges.
 
-My AI methodology details (thousands of hours with Claude Code CLI, systematic workflow integration, demonstration-first approach) are in the attached document (02).
+My AI methodology details (thousands of hours with [Claude Code](https://www.claude.com/product/claude-code) CLI, systematic workflow integration, demonstration-first approach) are in the attached document (02).
 
 ## The Three-Phase Opportunity
 
