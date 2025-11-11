@@ -1,0 +1,1 @@
+/Users/terryli/.claude/skills/pandoc-pdf-generation/assets/build-pdf.sh

@@ -52,6 +52,7 @@ Through 1000+ hours of production usage, my workflow has evolved to maximize AI 
 **AI Role—All Discretionary Implementation Decisions**:
 
 In my practice, AI agents handle:
+
 - Complete implementation (code generation, testing, documentation)
 - Architecture execution and detailed design decisions
 - Requirements analysis and technical specification
