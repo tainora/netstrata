@@ -253,7 +253,7 @@ pdftotext OUTPUT.pdf - | grep -E '^\w.*: -'
 - Lists following paragraphs with colons are especially vulnerable
 - `\raggedright` disables justification, preserving formatting
 
-**Reference:** See `materials-for-ted/PDF_BULLET_RENDERING_ANALYSIS.md` for detailed analysis.
+**Reference:** See `~/.claude/skills/pandoc-pdf-generation/references/troubleshooting-pandoc.md` → "Bullet Lists Rendering as Inline Text" section for detailed analysis.
 
 ### Font Warnings During Generation
 

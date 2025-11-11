@@ -222,7 +222,7 @@ open output.pdf
 - Always use canonical build script with `\raggedright`
 - Add post-generation verification for inline dashes
 
-**Reference:** See `materials-for-ted/PDF_BULLET_RENDERING_ANALYSIS.md` for detailed analysis.
+**Reference:** See `~/.claude/skills/pandoc-pdf-generation/references/troubleshooting-pandoc.md` → "Bullet Lists Rendering as Inline Text" section for detailed analysis.
 
 ### Issue: Font Warnings
 
