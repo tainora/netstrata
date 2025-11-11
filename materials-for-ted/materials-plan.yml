@@ -899,7 +899,7 @@ version_history:
     changes: "Add hyperlinks to Agent Skills references throughout documents"
     status: "completed"
     scope: "Convert all 'Agent Skills' text references to clickable hyperlinks in PDFs"
-    git_commit: "pending"
+    git_commit: "111d2bb"
 
     hyperlinks_added:
       url: "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills"
