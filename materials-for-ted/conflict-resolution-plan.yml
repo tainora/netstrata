@@ -3,7 +3,11 @@ plan:
   name: ted-materials-conflict-resolution
   version: 0.0.0
   created: 2025-11-11
+  updated: 2025-11-11T01:11:00-08:00
   source: audit-agents-2025-11-11
+  status:
+    phase_1: completed_local_blocked_remote
+    blocker: github_repository_does_not_exist
 
 slos:
   availability:
