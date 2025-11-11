@@ -1,12 +1,6 @@
 Hi Ted,
 
-Thanks for taking the time to talk on November 4. I've been reflecting on our conversation about the three-phase opportunity and wanted to share my approach to software development that could help Netstrata accelerate toward the end-2026 completion milestone.
-
-## AI-Augmented Development Approach
-
-I'd welcome the opportunity to demonstrate AI-augmented workflows to Tom Bakani's team during Phase 1 work. You can assess value based on measurable results—time savings, code quality improvements, velocity gains on real Netstrata challenges.
-
-My AI methodology details (1000+ hours with [Claude Code](https://www.claude.com/product/claude-code) CLI, systematic workflow integration, demonstration-first approach) are in the attached document (02).
+Thanks for taking the time to talk on November 4. I've been reflecting on our conversation about the three-phase opportunity and how I could contribute to Netstrata's software completion and rollout strategy.
 
 ## The Three-Phase Opportunity
 
@@ -17,6 +11,12 @@ My AI methodology details (1000+ hours with [Claude Code](https://www.claude.com
 **Phase 3 (Post-2026):** Broader external offering to non-NSW markets using your "give it away with strings" freemium strategy.
 
 My interest is contributing across all three phases, starting with software completion. Detailed analysis of each phase and my contribution areas is in the attached research summary (04).
+
+## My Development Approach
+
+I work with modern development practices including AI-augmented workflows. I'd welcome the opportunity to demonstrate these approaches to Tom Bakani's team during Phase 1 work—you can assess value based on measurable results (time savings, code quality improvements, velocity gains on real Netstrata challenges).
+
+Technical competencies summary (01) and methodology details (02) are attached for reference.
 
 ## The Three Obstacles
 

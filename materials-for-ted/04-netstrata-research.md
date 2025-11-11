@@ -91,7 +91,7 @@ From 292 blog posts analyzed:
 
 ### The Proprietary Software Investment
 
-**Investment**: $12-14 million over approximately 10 years (2006-2025)
+**Investment**: $12-14 million over approximately 19 years (2006-2025, with ~10 years intensive development)
 
 **Development Timeline**:
 

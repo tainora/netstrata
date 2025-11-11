@@ -1,0 +1,172 @@
+---
+plan:
+  name: ted-materials-conflict-resolution
+  version: 0.0.0
+  created: 2025-11-11
+  source: audit-agents-2025-11-11
+
+slos:
+  availability:
+    target: all documents readable and parseable by pandoc
+    validation: pandoc --from=markdown --to=plain --fail-if-warnings
+
+  correctness:
+    target: zero factual errors, zero impossible dates, zero math contradictions
+    validation:
+      - grep -E "July 2025|since.*2025" materials-for-ted/*.md
+      - python3 -c "assert 5.28 * 1000 > 2953"  # verify API math plausibility
+      - grep -E "over.*10 years.*2006.*2025" materials-for-ted/*.md
+
+  observability:
+    target: all changes tracked in git with conventional commits
+    validation: git log --oneline -1 --format="%s" | grep -E "^(fix|feat|docs|refactor):"
+
+  maintainability:
+    target: plan file synced with TodoWrite state, version tracked
+    validation: test -f conflict-resolution-plan.yml && git diff --quiet conflict-resolution-plan.yml
+
+phases:
+  phase_1_critical:
+    description: block sending until complete
+    estimated_hours: 2-3
+    tasks:
+      - id: p1t1
+        description: fix date impossibility in Doc 02
+        file: 02-ai-augmented-development-methodology.md
+        search: "since July 2025"
+        replace: "since July 2024"
+        validation: "! grep -q 'July 2025' 02-ai-augmented-development-methodology.md"
+        status: pending
+
+      - id: p1t2
+        description: verify API cost/token math in Doc 02
+        file: 02-ai-augmented-development-methodology.md
+        search: "5.28 billion tokens processed, \\$2,953"
+        action: verify screenshot https://share.cleanshot.com/xN1DCR9X or fix to 528 million tokens
+        validation: manual screenshot inspection
+        status: pending
+
+      - id: p1t3
+        description: restructure email opening to lead with business value
+        file: 00-email-to-ted.md
+        action: move Three-Phase Opportunity section before AI methodology section
+        validation: "head -20 00-email-to-ted.md | grep -q 'Three-Phase Opportunity'"
+        status: pending
+
+      - id: p1t4
+        description: fix timeline contradiction in Doc 04
+        file: 04-netstrata-research.md
+        search: "over approximately 10 years \\(2006-2025\\)"
+        replace: "over approximately 19 years (2006-2025, with ~10 years intensive development)"
+        validation: "! grep -q 'over approximately 10 years (2006-2025)' 04-netstrata-research.md"
+        status: pending
+
+  phase_2_high_priority:
+    description: strongly recommended before sending
+    estimated_hours: 4-6
+    tasks:
+      - id: p2t1
+        description: moderate Doc 02 tone - remove dismissive language
+        file: 02-ai-augmented-development-methodology.md
+        targets:
+          - "noise-to-signal ratio"
+          - "contrast with industry discourse"
+          - "most commentary comes from developers who've used them casually"
+        action: reframe from confrontational to explanatory
+        validation: "! grep -qi 'noise-to-signal\\|casually' 02-ai-augmented-development-methodology.md"
+        status: pending
+
+      - id: p2t2
+        description: reduce 1000+ hours repetition in Doc 02
+        file: 02-ai-augmented-development-methodology.md
+        current_count: 13
+        target_count: 3
+        validation: test $(grep -o '1000+' 02-ai-augmented-development-methodology.md | wc -l) -le 3
+        status: pending
+
+      - id: p2t3
+        description: add paraphrased disclaimer to Ted quotes in Doc 04
+        file: 04-netstrata-research.md
+        action: add disclaimer before quoted sections
+        text: "Note: Quotes paraphrased from conversation notes (2025-11-04)"
+        validation: grep -q 'paraphrased from conversation' 04-netstrata-research.md
+        status: pending
+
+      - id: p2t4
+        description: compress Doc 02 from 284 to ~120 lines
+        file: 02-ai-augmented-development-methodology.md
+        current_lines: 284
+        target_lines: 120
+        target_distribution:
+          theory: 15%
+          evidence: 35%
+          demonstration: 50%
+        validation: test $(wc -l < 02-ai-augmented-development-methodology.md) -le 140
+        status: pending
+
+  phase_3_medium_priority:
+    description: polish if time permits
+    estimated_hours: 1-2
+    tasks:
+      - id: p3t1
+        description: restructure Doc 04 - move contribution section forward
+        file: 04-netstrata-research.md
+        action: move Part 3 (lines 219-323) to become Part 1
+        validation: head -50 04-netstrata-research.md | grep -q 'Where I Could Contribute'
+        status: pending
+
+      - id: p3t2
+        description: add career background verification note to Doc 01
+        file: 01-technical-competencies.md
+        search: "100+ employees across Hong Kong, Shanghai, and Macau"
+        action: add footnote or soften claim
+        validation: grep -q 'grew team' 01-technical-competencies.md || grep -q 'footnote' 01-technical-competencies.md
+        status: pending
+
+      - id: p3t3
+        description: fix cross-reference error in Doc 01
+        file: 01-technical-competencies.md
+        search: "attached document \\(01b\\)"
+        replace: "attached document (02)"
+        validation: "! grep -q '(01b)' 01-technical-competencies.md"
+        status: pending
+
+      - id: p3t4
+        description: standardize name format Epitacio Neto vs Epi Mito
+        files:
+          - 04-netstrata-research.md
+        action: use full name Epitacio Neto consistently
+        validation: "! grep -q 'Epi Mito' 04-netstrata-research.md"
+        status: pending
+
+      - id: p3t5
+        description: verify or remove Helen Wong surname
+        file: 04-netstrata-research.md
+        action: verify surname or change to "Helen (surname TBC)"
+        validation: grep -Eq 'Helen Wong|Helen \\(surname' 04-netstrata-research.md
+        status: pending
+
+validation:
+  tools:
+    markdown_lint: markdownlint-cli2
+    link_check: lychee
+    pandoc_check: pandoc --fail-if-warnings
+
+  per_phase:
+    - verify all SLOs pass
+    - verify git working tree clean
+    - verify conventional commit format
+    - invoke semantic-release skill
+
+  final:
+    - all documents pass pandoc conversion
+    - all links resolve (lychee)
+    - all factual claims verified or hedged
+    - git log shows phase-based commit history
+
+metadata:
+  workdir: /Users/terryli/own/netstrata/materials-for-ted
+  plan_file: conflict-resolution-plan.yml
+  sync_with: TodoWrite tool state
+  version_strategy: semantic-release with conventional commits
+  release_notes: auto-generated from commits
