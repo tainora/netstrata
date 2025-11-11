@@ -1,0 +1,32 @@
+{
+  "name": "netstrata-materials",
+  "version": "0.0.0-development",
+  "description": "Strategic technology advisory materials for Netstrata",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tainora/netstrata.git"
+  },
+  "keywords": [
+    "netstrata",
+    "strategic-advisory",
+    "documentation"
+  ],
+  "author": "Terry Li",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.6",
+    "@semantic-release/release-notes-generator": "^14.1.0",
+    "semantic-release": "^25.0.2"
+  },
+  "scripts": {
+    "release": "semantic-release"
+  },
+  "engines": {
+    "node": ">=22.14.0"
+  }
+}
