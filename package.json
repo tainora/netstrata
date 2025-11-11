@@ -24,7 +24,9 @@
     "semantic-release": "^25.0.2"
   },
   "scripts": {
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "release:auto": "~/.claude/skills/semantic-release/scripts/release_with_1password.sh",
+    "release:dry": "~/.claude/skills/semantic-release/scripts/release_with_1password.sh --dry-run"
   },
   "engines": {
     "node": ">=22.14.0"

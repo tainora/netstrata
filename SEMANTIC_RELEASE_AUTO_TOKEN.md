@@ -2,7 +2,14 @@
 
 ## Overview
 
-This project uses **Git conditional includes** to automatically select the correct GitHub token for semantic-release based on the current directory path. Different directories use different GitHub accounts with different tokens.
+This project uses the **semantic-release skill's 1Password integration** (`~/.claude/skills/semantic-release/`) for automatic GitHub token selection based on directory path.
+
+The system combines:
+- **Git conditional includes** (directory-based config selection)
+- **1Password CLI** (secure token retrieval)
+- **Skill SSoT script** (`release_with_1password.sh`)
+
+See: `~/.claude/skills/semantic-release/references/authentication.md` (Priority 3)
 
 ## Directory → Account Mapping
 
@@ -55,13 +62,15 @@ Each included config file stores the 1Password item ID and vault ID:
     username = terrylica
 ```
 
-### 3. Wrapper Script (`npm-release.sh`)
+### 3. Skill Script (`~/.claude/skills/semantic-release/scripts/release_with_1password.sh`)
 
-The wrapper script:
+The universal skill script:
 1. Reads `user.githubToken1PasswordID` and `user.githubToken1PasswordVault` from git config
-2. Retrieves the GitHub token from 1Password using `op` CLI
+2. Retrieves the GitHub token from 1Password using `op item get --reveal`
 3. Exports `GITHUB_TOKEN` environment variable
-4. Runs `npm run release` with the correct token
+4. Runs `npx semantic-release` with the correct token
+
+**SSoT**: Script lives in semantic-release skill, not duplicated per-project
 
 ## Usage
 
