@@ -85,6 +85,12 @@ The script checks:
 5. Orphaned bullets or list markers
 6. Document structure (sections, TOC)
 
+**Additional quick check for bullet rendering:**
+```bash
+# Check for inline dashes (expect 0 matches)
+pdftotext OUTPUT.pdf - | grep -E '^\w.*: -'
+```
+
 **Review the verification report:**
 - ✓ marks indicate passing checks
 - ⚠ marks indicate warnings requiring review
@@ -103,6 +109,7 @@ evince OUTPUT.pdf
 ```
 
 **Check these critical elements:**
+- **Bullet lists render as bullets (•), not inline dashes** (CRITICAL)
 - Tables render without text overflow
 - All hyperlinks are clickable
 - No visible bare URLs
@@ -218,6 +225,35 @@ pdftotext OUTPUT.pdf - | grep -c "https://"
 **Expected result:** 0 (all URLs should be embedded as clickable links)
 
 ## Troubleshooting
+
+### Bullet Lists Rendering as Inline Text (CRITICAL)
+
+**Symptom:** Bullet lists appear as inline text with dashes instead of proper bullets (•)
+
+```
+Multi-layer validation frameworks: - HTTP/API layer validation - Schema validation...
+```
+
+**Root Cause:** LaTeX's default justified text alignment breaks Pandoc-generated bullet lists.
+
+**Solutions:**
+1. **Always use `\raggedright` in LaTeX preamble** (see references/pdf-best-practices.md)
+2. Use canonical build script: `~/.claude/skills/pandoc-pdf-generation/assets/build-pdf.sh`
+3. Never create ad-hoc Pandoc commands without LaTeX preamble
+
+**Verification:**
+```bash
+# Check for inline dashes (expect 0 matches)
+pdftotext OUTPUT.pdf - | grep -E '^\w.*: -'
+```
+
+**Why This Happens:**
+- Justified text tries to make lines equal width
+- LaTeX may reflow text, breaking list structures
+- Lists following paragraphs with colons are especially vulnerable
+- `\raggedright` disables justification, preserving formatting
+
+**Reference:** See `materials-for-ted/PDF_BULLET_RENDERING_ANALYSIS.md` for detailed analysis.
 
 ### Font Warnings During Generation
 

@@ -69,12 +69,14 @@ Demonstrates operational reliability patterns applicable to business-critical sy
 ### Migration Infrastructure Expertise
 
 **Dual-pipeline migration architecture** enabling zero-downtime system transitions:
+
 - Run legacy and modern systems in parallel with automatic deduplication
 - Idempotent operations allowing safe re-runs during failures
 - Chunked processing patterns preventing memory failures on large datasets
 - Rollback mechanisms for quick recovery from migration issues
 
 **Zero-gap data validation frameworks**:
+
 - Automated completeness verification across entire datasets
 - Database-level constraints (CHECK, PRIMARY KEY) enforcing data integrity
 - Structured audit trails providing queryable migration history
@@ -85,6 +87,7 @@ Demonstrates operational reliability patterns applicable to business-critical sy
 ### Data Quality & Integrity Systems
 
 **Multi-layer validation frameworks** for production data pipelines:
+
 - HTTP/API layer validation (status codes, rate limits, authentication)
 - Schema validation (Pydantic, type checking)
 - Sanity checks (database constraints, business rule validation)
@@ -92,6 +95,7 @@ Demonstrates operational reliability patterns applicable to business-critical sy
 - Anomaly detection (outlier identification, statistical validation)
 
 **Reliability patterns**:
+
 - Atomic file operations preventing partial writes and data corruption
 - INSERT OR REPLACE for idempotent database operations
 - Structured audit trails stored in compressed formats (Parquet, Arrow)
