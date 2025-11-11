@@ -2,7 +2,7 @@
 
 ## Introduction: State of the Art Meets Production Reality
 
-Modern software development has reached an inflection point. AI coding agents—particularly Anthropic's [Claude Code](https://www.claude.com/product/claude-code) CLI and similar tools—have transitioned from experimental curiosities to production-grade development accelerators. However, the gap between casual experimentation and effective production usage is measured in thousands of hours of practice, not blog posts written after weekend trials.
+Modern software development has reached an inflection point. AI coding agents—particularly Anthropic's [Claude Code](https://www.claude.com/product/claude-code) CLI and similar tools—have transitioned from experimental curiosities to production-grade development accelerators. However, the gap between casual experimentation and effective production usage is measured in 1000+ hours of practice, not blog posts written after weekend trials.
 
 This document outlines my approach to AI-augmented development workflows, the economic rationale behind systematic tooling adoption, and the professional requirements necessary for these methodologies to succeed in team environments.
 
@@ -10,7 +10,7 @@ This document outlines my approach to AI-augmented development workflows, the ec
 
 ### Investment Profile
 
-**Thousands of hours of hands-on practice** across multiple AI coding platforms:
+**1000+ hours of hands-on practice** across multiple AI coding platforms:
 
 - **[Claude Code](https://www.claude.com/product/claude-code) CLI**: Extensive [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) development, custom workflow design, and adoption advocacy
   - **Usage attestation**: 60,374+ sessions since July 2025 (https://share.cleanshot.com/xN1DCR9X)
@@ -19,7 +19,7 @@ This document outlines my approach to AI-augmented development workflows, the ec
 - **Cross-platform experience**: [Claude Code](https://www.claude.com/product/claude-code), GitHub Copilot, [Codex](https://openai.com/codex/), Cursor, and other AI-augmented IDEs
 - **Production systems built**: Multiple business-critical systems developed entirely using AI-augmented workflows
 
-**Contrast with industry discourse**: Most commentary about AI coding agents comes from developers who've used them casually for days or weeks. The noise-to-signal ratio is extremely high—many strong opinions based on minimal practice. Thousands of hours reveal capabilities and limitations that aren't visible in surface-level usage.
+**Contrast with industry discourse**: Most commentary about AI coding agents comes from developers who've used them casually for days or weeks. The noise-to-signal ratio is extremely high—many strong opinions based on minimal practice. 1000+ hours reveal capabilities and limitations that aren't visible in surface-level usage.
 
 ### [Claude Code](https://www.claude.com/product/claude-code) CLI Specialization
 
@@ -61,7 +61,7 @@ This document outlines my approach to AI-augmented development workflows, the ec
 - Real-time code review and refactoring suggestions
 - Documentation generation that reflects actual implementation
 
-**Critical insight**: These aren't separate techniques—they're integrated practices that compound over time. The developer who's spent thousands of hours develops intuition about which patterns work in which contexts.
+**Critical insight**: These aren't separate techniques—they're integrated practices that compound over time. The developer who's spent 1000+ hours develops intuition about which patterns work in which contexts.
 
 ## Part 2: Strategic Framework—Why Software Robustness Requires Different Principles than Business Advantage
 
@@ -83,7 +83,7 @@ So while business advantage is often _bespoke_, software robustness and maintain
 
 ### The Three-Axis Framework for AI-Augmented Development
 
-Through thousands of hours of production AI agent usage, I've identified three critical tensions not adequately addressed in current industry discourse.
+Through 1000+ hours of production AI agent usage, I've identified three critical tensions not adequately addressed in current industry discourse.
 
 We write **A ⊣ B** to mean: "A is constrained / bounded by B."
 
@@ -168,7 +168,7 @@ I understand the common view that AI coding tools are proof-of-concept only. Mos
 
 This skepticism is reasonable given surface-level usage. Developers who spend a weekend with Copilot or try [Claude Code](https://www.claude.com/product/claude-code) for a few hours often encounter limitations that reinforce doubts about production readiness. The tools CAN be frustrating when used naively.
 
-However, thousands of hours of deep practice reveal different patterns: these tools ARE production-ready when integrated systematically into team workflows. The gap between "tried it casually" and "production mastery" is substantial—similar to the difference between writing your first Python script and architecting production systems.
+However, 1000+ hours of deep practice reveal different patterns: these tools ARE production-ready when integrated systematically into team workflows. The gap between "tried it casually" and "production mastery" is substantial—similar to the difference between writing your first Python script and architecting production systems.
 
 ### Demonstration-First Approach
 

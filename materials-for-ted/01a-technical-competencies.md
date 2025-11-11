@@ -87,7 +87,7 @@ Created workflow automation systems that:
 
 Extensive production experience with AI coding agents:
 
-- **[Claude Code](https://www.claude.com/product/claude-code) CLI**: Thousands of hours with [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) development, custom workflow design
+- **[Claude Code](https://www.claude.com/product/claude-code) CLI**: 1000+ hours with [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) development, custom workflow design
 - **GitHub Copilot**: AI-assisted code completion and suggestion patterns
 - **[Codex](https://openai.com/codex/)**: OpenAI's code generation model for AI-powered development
 - **Cursor**: AI-augmented IDE with context-aware code generation
