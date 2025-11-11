@@ -35,9 +35,9 @@ I don't want that to be part of your calculation—this should be about capabili
 I'm attaching four documents:
 
 1. Technical competencies summary (6 pages)
-2. AI-augmented development methodology details (9 pages)
+2. AI-augmented development methodology details (8 pages)
 3. Work visa pathway summary (4 pages)
-4. Netstrata research summary (9 pages)
+4. Netstrata research summary (10 pages)
 
 When you're available after November 27, I'd appreciate an introduction to Cheryl Williams to discuss employment fit. During that conversation, I'd also welcome the chance to discuss demonstration approaches with Tom Bakani's team—letting results speak rather than making theoretical claims about capabilities.
 
