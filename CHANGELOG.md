@@ -1,3 +1,13 @@
+## [2.0.1](https://github.com/tainora/netstrata/compare/v2.0.0...v2.0.1) (2025-11-11)
+
+
+### Bug Fixes
+
+* **phase-2:** add paraphrased disclaimer to Ted quotes in Doc 04 ([30e3ce0](https://github.com/tainora/netstrata/commit/30e3ce06dbc70542cf3904cbfc565cc540374a6c))
+* **phase-2:** compress Doc 02 from 281 to 118 lines (58% reduction) ([cead05a](https://github.com/tainora/netstrata/commit/cead05a8ec9601aa8d9c1447af9bcac4f0e696c6))
+* **phase-2:** reduce 1000+ hours repetition from 10 to 3 occurrences ([f6ed349](https://github.com/tainora/netstrata/commit/f6ed34943a8a436565d898499ea73cce5d09da37))
+* **phase-2:** remove dismissive language from Doc 02 ([6e00cf5](https://github.com/tainora/netstrata/commit/6e00cf5a02ea4f6a2663592483b12dafa276c72d))
+
 # [2.0.0](https://github.com/tainora/netstrata/compare/v1.0.3...v2.0.0) (2025-11-11)
 
 
