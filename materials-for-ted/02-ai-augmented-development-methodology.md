@@ -39,6 +39,8 @@ This document outlines my approach to AI-augmented development workflows, the ec
   - Multi-step workflows spanning sessions succeed when each phase has clear completion signals, not implicit state—allowing the next session to resume from explicit checkpoints rather than reconstructed context
 - Building reliable systems on top of non-deterministic AI outputs
 - Managing API costs through efficient prompt design and caching strategies
+  - Two key techniques for cost-efficient prompt design: [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) (composable, reusable prompt modules that load on-demand) and Progressive Disclosures (revealing information incrementally rather than front-loading entire context)
+  - These patterns substantially reduce token usage compared to monolithic prompts while maintaining or improving output quality
 
 ### My Practice: AI-First Development Methodology
 
