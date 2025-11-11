@@ -55,7 +55,7 @@ This vertical integration creates operational efficiencies and revenue diversifi
   - Previously Training & Development
   - Mandate: "operational efficiency, continuous improvement, innovation"
   - Manages strata management, valuations, and trade services divisions
-- **Helen**: Chief Financial Officer (3rd most senior executive)
+- **Helen Wong**: Chief Financial Officer (3rd most senior executive)
 
 **IT/Software Leadership**:
 
