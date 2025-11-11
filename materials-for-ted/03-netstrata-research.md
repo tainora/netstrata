@@ -24,7 +24,7 @@ Netstrata operates as an integrated service provider across multiple revenue str
 4. **Accounting**: Financial services including tax preparation
 5. **Trade Services**: Building maintenance and repairs (coordinated through 3Reach)
 6. **Valuations**: Property valuation services
-7. **Philippines Office**: Separate company handling non-client-facing operational work
+7. **Offshore Operations**: Separate company handling non-client-facing operational work
 
 This vertical integration creates operational efficiencies and revenue diversification that pure strata managers lack.
 
@@ -59,9 +59,9 @@ This vertical integration creates operational efficiencies and revenue diversifi
 
 **IT/Software Leadership**:
 
-- **Tom Bakani**: Head of Software Operations (Philippines)
+- **Tom Bakani**: Head of Software Operations
   - Manages proprietary software development team
-- **Epitacio Neto**: Head of IT Infrastructure (Brazil)
+- **Epitacio Neto**: Head of IT Infrastructure
   - Manages hardware, cloud systems, office migration
 
 **HR Contact**:

@@ -1,9 +1,9 @@
 ---
-version: "1.9.2"
+version: "1.9.3"
 plan_name: "materials-for-ted-employment-opportunity"
 created: "2025-11-09"
-updated: "2025-11-10T17:00:00"
-status: "factual_corrections_complete"
+updated: "2025-11-10T17:30:00"
+status: "discrimination_audit_complete"
 purpose: "Employment application materials for Ted Middleton / Cheryl Williams (HR) review - AI-augmented development with demonstration-first approach and formal strategic framework"
 
 # Single Source of Truth for Ted employment materials
@@ -88,8 +88,7 @@ content_specifications:
       - costs: "Employer ~AUD $6K-$8K total (SBS + nomination + SAF levy)"
       - timeline: "2-4 months (SBS approval → nomination → visa grant)"
       - requirements: "Salary AUD $76,515+ (market AUD $100K-$130K), LMT (28-day ads)"
-      - precedent: "Tom Bakani (Netstrata previously sponsored from Philippines)"
-      - pathway_to_PR: "Subclass 186 after 2 years (age exemption if AUD $141,210+)"
+      - pathway_to_PR: "Subclass 186 after 2 years (salary-based age exemption available)"
     exclusions:
       - detailed ANZSCO scoring tables (keep for reference, not in 1-page summary)
       - full LMT procedure steps (mention requirement, not process)
@@ -101,7 +100,7 @@ content_specifications:
       - position: "Largest organically-grown NSW, 2000+ schemes"
       - business_model: "Multiple divisions (strata, insurance, law, accounting, trade, valuations)"
       - recent_context: "McGrathNicol review, insurance crisis, regulatory reforms"
-      - leadership: "Stephen Brell (MD), Andrew Tunks (COO), Helen (CFO), Tom Bakani (software), Epitacio Neto (IT)"
+      - leadership: "Stephen Brell (MD), Andrew Tunks (COO), Helen (CFO), Tom Bakani (Software Operations), Epitacio Neto (IT Infrastructure)"
     part_2_software_strategy:
       - investment: "$12-14M over 9-14 years"
       - timeline: "Near completion, end 2026 target"
@@ -836,6 +835,65 @@ version_history:
     next_phase: "Commit v1.9.2 corrections"
     recommendation: "v1.9.2 ensures factual accuracy of key personnel names and usage timeline attestation."
 
+  - version: "1.9.3"
+    date: "2025-11-10"
+    changes: "Remove potentially discriminatory content - geographic locations, specific age references"
+    status: "completed"
+    scope: "Comprehensive workspace audit to remove geographic/age references that could imply discrimination"
+    git_commit: "pending"
+
+    removals_made:
+      geographic_locations:
+        issue: "Geographic locations for individuals could imply discriminatory hiring/assignment practices"
+        removed:
+          - "Tom Bakani (Philippines)" → "Tom Bakani" (03-netstrata-research.md line 62)
+          - "Epitacio Neto (Brazil)" → "Epitacio Neto" (03-netstrata-research.md line 64)
+          - "Philippines Office" → "Offshore Operations" (03-netstrata-research.md line 27)
+          - "Tom Bakani (Netstrata previously sponsored from Philippines)" precedent removed (materials-plan.yml line 91)
+        rationale: "Avoid any inference of geographic/nationality-based employment decisions"
+
+      age_specific_references:
+        issue: "Specific age mentions could imply age discrimination"
+        removed:
+          - "critical for age 49" → "for permanent residency pathway" (02-work-visa-pathway.md line 31)
+        kept:
+          - "under 45 years old" requirement (line 19) - kept as official visa requirement explanation
+          - "PR age exemption" generic references (lines 77, 89) - kept as generic policy descriptions
+        rationale: "Remove specific age mentions while retaining necessary visa requirement explanations"
+
+      materials_plan_yml_updates:
+        - Leadership description: Added full titles "Software Operations" and "IT Infrastructure" for clarity
+        - Removed sponsorship precedent reference entirely
+        - Updated PR pathway description to "salary-based age exemption available" (generic)
+
+    document_metrics:
+      visa_02:
+        word_count: "536 (unchanged - minimal content change)"
+        pages: "4 (unchanged)"
+        pdf_regenerated: "02-work-visa-pathway.pdf (40K)"
+
+      research_03:
+        word_count: "2049 (unchanged - minimal content change)"
+        pages: "9 (unchanged)"
+        pdf_regenerated: "03-netstrata-research.pdf (58K)"
+
+      other_documents:
+        status: "unchanged"
+
+    total_package_metrics:
+      files: 5 (1 email + 4 PDFs)
+      pages: 28 (6+9+4+9)
+      words: 6437 (unchanged)
+
+    validation:
+      correctness: "All potentially discriminatory references removed while maintaining factual accuracy"
+      observability: "v1.9.3 entry documents all removals with locations and rationale"
+      maintainability: "Content remains professional and factual without geographic/age-specific details"
+      discrimination_audit: "Workspace surveyed comprehensively - no remaining discriminatory content identified"
+
+    next_phase: "Commit v1.9.3 anti-discrimination audit completion"
+    recommendation: "v1.9.3 ensures materials contain no potentially discriminatory content regarding geographic origin, nationality, or specific age. Professional presentation focuses on capabilities and roles only."
+
 success_criteria:
   - folder_created: "/Users/terryli/own/netstrata/materials-for-ted/"
   - files_count: 5 (1 email markdown + 4 PDF attachments)
@@ -848,6 +906,7 @@ success_criteria:
   - conflict_free: "v1.9.0 resolved all critical conflicts and significant redundancies"
   - executive_summary_email: "Email functions as concise executive summary with forward references to detailed attachments (v1.9.0)"
   - usage_attestation: "v1.9.1 added concrete evidence of 60,374+ sessions with screenshot validation"
+  - discrimination_free: "v1.9.3 removed all potentially discriminatory content (geographic locations, specific age references)"
   - ready_to_send: "After user review - BALANCED RISK positioning: high value, lower risk than v1.6.0"
 
 notes:

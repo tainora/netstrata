@@ -28,7 +28,7 @@ Replaced the Temporary Skill Shortage visa on December 7, 2024. This is the stan
 
 **Processing Time**: 9-39 days (fast-track)
 
-**Age Exemption for PR**: Bypasses under-45 requirement (critical for age 49)
+**Age Exemption for PR**: Bypasses under-45 age requirement for permanent residency pathway
 
 ## Eligible Occupations for Software/Automation Roles
 
