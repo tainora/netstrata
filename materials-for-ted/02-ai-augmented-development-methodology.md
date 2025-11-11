@@ -2,7 +2,7 @@
 
 ## Introduction: State of the Art Meets Production Reality
 
-Modern software development has reached an inflection point. AI coding agents—particularly Anthropic's [Claude Code](https://www.claude.com/product/claude-code) CLI and similar tools—have transitioned from experimental curiosities to production-grade development accelerators. However, the gap between casual experimentation and effective production usage is measured in 1000+ hours of practice, not blog posts written after weekend trials.
+Modern software development has reached an inflection point. AI coding agents—particularly Anthropic's [Claude Code](https://www.claude.com/product/claude-code) CLI and similar tools—have transitioned from experimental curiosities to production-grade development accelerators. However, the gap between casual experimentation and effective production usage is measured in extensive, sustained practice, not blog posts written after weekend trials.
 
 This document outlines my approach to AI-augmented development workflows, the economic rationale behind systematic tooling adoption, and the professional requirements necessary for these methodologies to succeed in team environments.
 
@@ -40,7 +40,7 @@ This document outlines my approach to AI-augmented development workflows, the ec
 
 ### My Practice: AI-First Development Methodology
 
-Through 1000+ hours of production usage, my workflow has evolved to maximize AI agent capabilities while focusing human effort where it delivers unique value.
+Through extensive production usage, my workflow has evolved to maximize AI agent capabilities while focusing human effort where it delivers unique value.
 
 **Human Role—Bridging Business Reality to AI Implementation**:
 
@@ -63,7 +63,7 @@ In my practice, AI agents handle:
 
 **Why This Works**: The interface between business reality and AI capability is human prompting. My focus is making that bridge as accurate and thorough as possible—not second-guessing technical implementation details that AI agents handle more consistently at scale.
 
-**Important Clarification**: This describes my evolved methodology after 1000+ hours of practice. It's not a universal prescription. Teams adopting AI-augmented development typically progress gradually, and different practitioners find different balances based on their experience level and comfort with agent autonomy.
+**Important Clarification**: This describes my evolved methodology after extensive practice. It's not a universal prescription. Teams adopting AI-augmented development typically progress gradually, and different practitioners find different balances based on their experience level and comfort with agent autonomy.
 
 ## Strategic Framework—Why Software Robustness Requires Different Principles than Business Advantage
 
@@ -85,7 +85,7 @@ So while business advantage is often _bespoke_, software robustness and maintain
 
 ### The Three-Axis Framework for AI-Augmented Development
 
-Through 1000+ hours of production AI agent usage, I've identified three critical tensions not adequately addressed in current industry discourse.
+Through extensive production AI agent usage, I've identified three critical tensions not adequately addressed in current industry discourse.
 
 We write **A ⊣ B** to mean: "A is constrained / bounded by B."
 
@@ -114,7 +114,7 @@ The design rule:
 
 The design rule above suggests maximizing the left side (Exploration, Autonomy, Idiomaticity) while maintaining essential constraints. But how do we know which constraints are essential?
 
-**My practice after 1000+ hours**: Start maximally left, discover boundaries empirically through audit, constrain only when necessary.
+**My practice from extensive usage**: Start maximally left, discover boundaries empirically through audit, constrain only when necessary.
 
 **The Process**:
 
@@ -198,7 +198,7 @@ For software engineering agents working toward the end-2026 completion deadline:
 
 ### Demonstration-First Approach
 
-I know AI-first development works—1000+ hours and multiple production systems provide that evidence. The question isn't whether the methodology is viable. The question is whether Netstrata's team can adopt it effectively and whether the timing aligns with end-2026 completion priorities.
+I know AI-first development works—extensive practice and multiple production systems provide that evidence. The question isn't whether the methodology is viable. The question is whether Netstrata's team can adopt it effectively and whether the timing aligns with end-2026 completion priorities.
 
 Demonstration reveals fit:
 
@@ -240,7 +240,7 @@ Better to identify misalignment through demonstration and data than assume compa
 
 ### No Pressure, Just Results
 
-I've practiced AI-first development for 1000+ hours across production systems. I'm confident in the methodology. But confidence means demonstration, not persuasion.
+I've practiced AI-first development extensively across production systems. I'm confident in the methodology. But confidence means demonstration, not persuasion.
 
 My offer:
 
