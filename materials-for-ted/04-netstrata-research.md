@@ -2,6 +2,8 @@
 
 **Research Methodology**: This summary synthesizes 292 blog posts from Netstrata's website (2009-2025), comprehensive conversation notes from November 4, 2025 meeting, and technical analysis of NSW regulatory requirements. All claims are cross-referenced with source materials.
 
+**Note on Quotes**: Direct quotes appearing in this document are paraphrased from conversation notes (November 4, 2025). While they capture the substance of statements made, they may not reflect exact wording.
+
 ---
 
 ## Part 1: Company Context & Industry Position
