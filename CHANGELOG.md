@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/tainora/netstrata/compare/v2.0.1...v2.0.2) (2025-11-11)
+
+
+### Bug Fixes
+
+* **release:** add --reveal flag to token retrieval in npm-release.sh ([a20f72e](https://github.com/tainora/netstrata/commit/a20f72ee0a1bb87e7cf6b36ad6c4be3bf8b148a3))
+
 ## [2.0.1](https://github.com/tainora/netstrata/compare/v2.0.0...v2.0.1) (2025-11-11)
 
 
