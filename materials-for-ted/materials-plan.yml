@@ -840,7 +840,7 @@ version_history:
     changes: "Remove potentially discriminatory content - geographic locations, specific age references"
     status: "completed"
     scope: "Comprehensive workspace audit to remove geographic/age references that could imply discrimination"
-    git_commit: "pending"
+    git_commit: "709295d"
 
     removals_made:
       geographic_locations:
