@@ -964,7 +964,7 @@ version_history:
     changes: "Add professional navy blue styling to hyperlinks for visual noticeability"
     status: "completed"
     scope: "Configure LaTeX hyperref package to display all hyperlinks in professional navy blue color"
-    git_commit: "TBD"
+    git_commit: "5898d88"
 
     styling_configuration:
       method: "\\AtBeginDocument LaTeX Hook (After Failed Attempts)"
