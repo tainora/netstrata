@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/tainora/netstrata/compare/v2.0.2...v2.1.0) (2025-11-11)
+
+
+### Features
+
+* **doc-02:** add session continuity management explanation ([29c4d04](https://github.com/tainora/netstrata/commit/29c4d04f53a82f47e68a196d6eae7e519d8fa386))
+
 ## [2.0.2](https://github.com/tainora/netstrata/compare/v2.0.1...v2.0.2) (2025-11-11)
 
 ### Bug Fixes
