@@ -29,16 +29,34 @@ Demonstrates operational reliability patterns applicable to business-critical sy
 
 - **Package Management**: `uv` for modern Python dependency management (avoiding legacy pip/conda)
 - **Self-Contained Scripts**: PEP 723 inline dependencies for portable automation tools
-- **Production Deployment**: launchd/systemd service management for unattended operation
+- **Production Deployment**: Cloud Run serverless jobs, systemd service management for unattended operation
+- **Type Safety**: mypy strict mode, PEP 561 compliance for maintainable codebases
+- **Async/Streaming**: Real-time data collection via WebSocket with exponential backoff retry logic
 - **API Integration**: Claude API, web scraping (Playwright + BeautifulSoup), third-party service orchestration
+- **Monitoring**: Dead Man's Switch patterns (Healthchecks.io), mobile alerting (Pushover)
+
+**Cost-efficient infrastructure**: Free-tier optimization across cloud providers (Cloud Run, BigQuery, managed databases)
 
 **Recent Example**: Extracted 292 blog posts from Netstrata website using automated web scraping with AJAX pagination handling, rate limiting, and metadata preservation.
 
 ### Cloud & Container Infrastructure
 
+- **Google Cloud Platform**: Production deployment expertise
+  - Free-tier optimization strategies (Cloud Run, Compute Engine, BigQuery)
+  - Serverless cron orchestration (Cloud Scheduler)
+  - Secret management and zero-downtime credential rotation
 - **Container Runtime**: Colima + Docker CLI on macOS for local development and testing
-- **Cloud Platforms**: Experience with cloud-native deployment patterns
+- **Cloud-native architecture**: Dual-pipeline patterns for zero-downtime migrations
+- **Cost-efficient SaaS**: Free tier mastery across cloud providers maximizing value without budget bloat
 - **Infrastructure as Code**: Configuration management for reproducible deployments
+
+### Data Engineering & Analytics
+
+- **Embedded analytics databases**: DuckDB for in-process analytics (10-100x speedups vs traditional approaches)
+- **Modern Python data tools**: PyArrow for zero-copy data transfers, async/streaming pipelines
+- **Cloud data warehouses**: BigQuery query optimization within free-tier limits
+- **Real-time streaming**: WebSocket-based data collection with automatic reconnection
+- **Performance engineering**: Window functions, ASOF joins, empirical benchmarking methodologies
 
 ### System Programming & Performance
 
@@ -50,25 +68,34 @@ Demonstrates operational reliability patterns applicable to business-critical sy
 
 ### Migration Infrastructure Expertise
 
-Expertise in data transformation patterns, validation systems, and rollback mechanisms for enterprise migrations:
+**Dual-pipeline migration architecture** enabling zero-downtime system transitions:
+- Run legacy and modern systems in parallel with automatic deduplication
+- Idempotent operations allowing safe re-runs during failures
+- Chunked processing patterns preventing memory failures on large datasets
+- Rollback mechanisms for quick recovery from migration issues
 
-- **Data Transformation**: Converting legacy formats to modern schemas with integrity preservation
-- **Validation Frameworks**: Automated testing of data completeness and consistency
-- **Rollback Mechanisms**: Safe deployment strategies with recovery procedures
-- **Documentation Automation**: Systematic migration guide generation
+**Zero-gap data validation frameworks**:
+- Automated completeness verification across entire datasets
+- Database-level constraints (CHECK, PRIMARY KEY) enforcing data integrity
+- Structured audit trails providing queryable migration history
+- Exception-only error handling preventing silent data corruption
 
-**Relevance to Phase 2**: WA customer migration requires similar infrastructure (migration scripts, validation, support documentation).
+**Relevance to Phase 2**: WA customer migration from legacy Netstrata software requires similar dual-pipeline architecture, gap detection, and rollback capabilities.
 
 ### Data Quality & Integrity Systems
 
-Published open-source package (PyPI: gapless-crypto-data v3.3.0) handling large-scale data collection with quality guarantees:
+**Multi-layer validation frameworks** for production data pipelines:
+- HTTP/API layer validation (status codes, rate limits, authentication)
+- Schema validation (Pydantic, type checking)
+- Sanity checks (database constraints, business rule validation)
+- Gap detection (completeness verification across sequences)
+- Anomaly detection (outlier identification, statistical validation)
 
-- **Gap Detection**: Automated identification of missing data in time-series datasets
-- **Atomic File Operations**: Corruption-resistant writes using temporary files and atomic renames
-- **Data Validation**: Integrity checks ensuring completeness and consistency
-- **Corruption Prevention**: Atomic file operations preventing partial writes
-
-**Published Package**: MIT-licensed on PyPI, 22x faster than REST API polling through intelligent failover to Binance public repository with data validation pipelines.
+**Reliability patterns**:
+- Atomic file operations preventing partial writes and data corruption
+- INSERT OR REPLACE for idempotent database operations
+- Structured audit trails stored in compressed formats (Parquet, Arrow)
+- Exception-only error handling (no silent failures, no defaults)
 
 **Relevance to Phase 2**: WA migration requires data integrity assurance across scheme records, financial history, and compliance documents. Gap detection and atomic operations prevent data loss during multi-stage migration.
 
@@ -105,6 +132,9 @@ Extensive production experience with AI coding agents:
 - **Version Control**: Git with pre-commit hooks for code quality
 - **Testing**: Automated test suites with fast feedback loops
 - **Documentation**: Machine-readable specs (OpenAPI, JSON Schema, YAML)
+- **Cloud-Native Deployment**: Serverless cron jobs, auto-scaling VMs, managed secret rotation
+- **Free-Tier Optimization**: Strategic service selection to minimize operating costs
+- **Empirical Validation**: POC frameworks testing assumptions before production commitment
 
 ### Code Quality Standards
 
@@ -176,6 +206,17 @@ Extensive production experience with AI coding agents:
 - Focus on solved problems, not potential future benefits
 - Honest about limitations and trade-offs
 - Measure outcomes (time saved, errors reduced, uptime)
+
+**Prioritize Future-Proof Technologies**:
+
+- **Widely-adopted languages**: Python, Rust, C++ (large ecosystems, strong hiring pools, long-term support)
+- **Cost-efficient SaaS**: Free-tier mastery, serverless architectures, pay-per-use models
+- **Cloud-native patterns**: Idempotent operations, automatic retries, exponential backoff
+- **Type safety**: Static type checking (mypy, rustc) preventing runtime errors
+- **Popular frameworks**: Established tools with large communities ensure maintainability
+- **Open standards**: OpenAPI, JSON Schema, machine-readable specifications
+
+**Rationale**: Popular technologies = larger talent pool + better tooling + longer support lifecycle. Cost efficiency protects $12-14M software investment from operational bloat.
 
 **Join Existing Team**:
 
