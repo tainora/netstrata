@@ -35,6 +35,8 @@ This document outlines my approach to AI-augmented development workflows, the ec
 - Understanding prompt engineering patterns that produce consistent results
 - Structuring prompts to delegate all implementation decisions to AI agents while maintaining human oversight on business requirements
 - Designing context-aware workflows that leverage large context windows effectively
+  - When [Claude Code](https://www.claude.com/product/claude-code) auto-compacts sessions that exceed context limits, maintaining continuity requires explicit state management: single-source-of-truth plan files (YAML/JSON), SLO validation gates tracked in TodoWrite, and success criteria documented in-repository
+  - Multi-step workflows spanning sessions succeed when each phase has clear completion signals, not implicit state—allowing the next session to resume from explicit checkpoints rather than reconstructed context
 - Building reliable systems on top of non-deterministic AI outputs
 - Managing API costs through efficient prompt design and caching strategies
 
