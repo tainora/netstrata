@@ -1,9 +1,9 @@
 ---
-version: "1.9.4"
+version: "1.9.5"
 plan_name: "materials-for-ted-employment-opportunity"
 created: "2025-11-09"
-updated: "2025-11-10T18:00:00"
-status: "agent_skills_hyperlinks_added"
+updated: "2025-11-10T18:30:00"
+status: "professional_hyperlink_styling_added"
 purpose: "Employment application materials for Ted Middleton / Cheryl Williams (HR) review - AI-augmented development with demonstration-first approach and formal strategic framework"
 
 # Single Source of Truth for Ted employment materials
@@ -959,6 +959,66 @@ version_history:
     next_phase: "Commit v1.9.4 hyperlink additions"
     recommendation: "v1.9.4 improves document usability by providing direct access to official Agent Skills documentation, strengthening credibility of expertise claims."
 
+  - version: "1.9.5"
+    date: "2025-11-10"
+    changes: "Add professional navy blue styling to hyperlinks for visual noticeability"
+    status: "completed"
+    scope: "Configure LaTeX hyperref package to display all hyperlinks in professional NavyBlue color"
+    git_commit: "pending"
+
+    styling_configuration:
+      method: "LaTeX Preamble Addition (Method B)"
+      file: "/Users/terryli/.claude/skills/pandoc-pdf-generation/assets/table-spacing-template.tex"
+      lines_added: "92-103 (12 lines)"
+      configuration:
+        package: "hyperref with dvipsnames xcolor"
+        color: "NavyBlue"
+        setting: "allcolors=NavyBlue (unified color for all link types)"
+        border: "pdfborderstyle={} (no border boxes)"
+
+    rationale:
+      problem: "Hyperlinks were invisible in PDFs unless hovering - poor user experience"
+      solution: "Professional navy blue color provides clear affordance while maintaining formal appearance"
+      color_choice: "NavyBlue is sophisticated, print-friendly (readable in B&W), and universally compatible"
+
+    benefits:
+      - "Hyperlinks immediately visible to readers"
+      - "Professional appearance suitable for employment materials"
+      - "Works in all PDF viewers (Preview, Adobe Reader, Chrome)"
+      - "Print-friendly - dark enough to read in black & white printing"
+      - "Centralized configuration - reusable across all future PDFs"
+
+    document_metrics:
+      technical_01a:
+        hyperlinks: 2
+        word_count: "1166 (unchanged)"
+        pages: "6 (unchanged)"
+        pdf_regenerated: "01a-technical-competencies.pdf (49K)"
+
+      methodology_01b:
+        hyperlinks: 4
+        word_count: "2295 (unchanged)"
+        pages: "9 (unchanged)"
+        pdf_regenerated: "01b-ai-augmented-development-methodology.pdf (65K)"
+
+      other_documents:
+        status: "unchanged"
+
+    total_package_metrics:
+      files: 5 (1 email + 4 PDFs)
+      pages: 28 (6+9+4+9)
+      words: 6437 (unchanged)
+      total_hyperlinks: 6 (all now visible in NavyBlue)
+
+    validation:
+      correctness: "LaTeX preamble configuration correct, PDFs regenerate without errors"
+      observability: "v1.9.5 entry documents styling implementation with full rationale"
+      maintainability: "Centralized hyperref config in LaTeX preamble - easy to modify color if needed"
+      usability: "All Agent Skills hyperlinks now clearly visible without hovering"
+
+    next_phase: "Commit v1.9.5 hyperlink styling implementation"
+    recommendation: "v1.9.5 completes the hyperlink implementation with professional visual styling. All Agent Skills references are now both clickable (v1.9.4) and visually noticeable (v1.9.5)."
+
 success_criteria:
   - folder_created: "/Users/terryli/own/netstrata/materials-for-ted/"
   - files_count: 5 (1 email markdown + 4 PDF attachments)
@@ -973,6 +1033,7 @@ success_criteria:
   - usage_attestation: "v1.9.1 added concrete evidence of 60,374+ sessions with screenshot validation"
   - discrimination_free: "v1.9.3 removed all potentially discriminatory content (geographic locations, specific age references)"
   - agent_skills_hyperlinked: "v1.9.4 added clickable hyperlinks to official Anthropic Agent Skills documentation (6 instances)"
+  - hyperlinks_visible: "v1.9.5 added professional NavyBlue styling - all hyperlinks now visually noticeable"
   - ready_to_send: "After user review - BALANCED RISK positioning: high value, lower risk than v1.6.0"
 
 notes:
