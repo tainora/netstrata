@@ -16,22 +16,24 @@
 
 ### Strategic Objective
 
-Position user as **Strategic Technology Advisor** to help Netstrata navigate:
+**UPDATED (2025-11-04)**: Exploring employment opportunity at Netstrata to contribute to:
 
-- McGrathNicol review aftermath (16/22 recommendations completed by May 2025)
-- 2025 NSW law reforms requiring enhanced transparency
-- 20%+ annual insurance premium increases
-- Operational scaling across 2000+ schemes
-- PropTech disruption threats
+- Proprietary software completion (expected end 2026, $12-14M invested)
+- External software rollout strategy (Western Australia test case pending)
+- AI/automation integration with practical business value
+- Core business operations across multiple divisions
+
+Previous research focus: Strategic Technology Advisor positioning for compliance/automation challenges
 
 ### Ethical Framework
 
-This is NOT a job application. It's a family-connected advisory opportunity requiring:
+Employment opportunity with family connection requiring:
 
-- Integrity-first approach
+- Capability-first approach (not relationship leverage)
 - Objective value delivery
 - No hype or overselling
-- Focus on business fundamentals over relationship leverage
+- Focus on business fundamentals and practical results
+- Address obstacles directly (work visa, age/timeline, relocation)
 
 ---
 
@@ -57,15 +59,41 @@ This is NOT a job application. It's a family-connected advisory opportunity requ
 2. **NETSTRATA_PITCH_STRATEGY.md** - 10 ranked automation opportunities with ROI analysis
 3. **ETHICAL_FRAMEWORK_FAMILY_BUSINESS.md** - Integrity-first advisory approach
 
+### Direct Conversations
+
+- **[Ted Middleton Conversation - November 4, 2025](/Users/terryli/own/netstrata/conversations/ted-middleton-2025-11-04.md)** - Comprehensive notes on:
+  - Proprietary software development history (2006-2025, $12-14M investment)
+  - Company structure and multiple business divisions
+  - Key personnel (executive, IT leadership, HR)
+  - Employment opportunity assessment and obstacles
+  - Work visa requirements and process
+  - Next steps and timeline (post-November 27 AGM)
+
 ---
 
 ## Key Findings
 
+### Proprietary Software Development (NEW - from Ted conversation)
+
+- **Investment**: $12-14M over ~10 years (2006-2025)
+- **Timeline**: Expected completion end of 2026
+- **Current State**: "Fully functional" - running in tandem with legacy system
+- **Major Milestone**: 2024 - "very expensive and very disruptive" change, began capitalizing costs
+- **History**:
+  - 2006-2011: External contractor (ran out of money)
+  - 2011: Hostile takeover - acquired software company
+  - 2015-2016: Complete rebuild decision (cloud-based)
+  - 2025: Operational but not ready for external customers
+- **Competitive Advantage**: Only software written by practitioners (not external vendors)
+- **Market Strategy**: Give away cut-down version (with strings) to non-NSW competitors
+- **First External User**: Western Australia company waiting to migrate from old Netstrata software
+
 ### Technology Readiness
 
-- Heavy investment in digital infrastructure (virtual meetings, financial portals)
+- Heavy investment in digital infrastructure (virtual meetings, financial portals, Zoom phone system)
+- Recent office migration: Junked all servers, full cloud migration
 - COO Andrew Tunks mandate: "operational efficiency, continuous improvement, innovation"
-- Culture receptive to technical innovation
+- Culture receptive to technical innovation but skeptical of AI hype
 
 ### Urgent Compliance Pressures
 
@@ -90,9 +118,32 @@ This is NOT a job application. It's a family-connected advisory opportunity requ
 
 ## Leadership Structure (CORRECTED)
 
+### Executive Leadership
+
 - **Ted Middleton** - Founder and Chairman of the Board (family connection)
-- **Stephen Brell** - Managing Director (resigned from SCA NSW Presidency March 2024)
-- **Andrew Tunks** - Chief Operating Officer (innovation mandate, operational efficiency)
+- **Stephen Brell** - Managing Director (oversees all business divisions)
+- **Andrew Tunks** - Chief Operating Officer (promoted 2025, previously Training & Development, manages strata/valuations/trade services)
+- **Helen Wong** - Chief Financial Officer (3rd most senior executive)
+
+### IT/Software Leadership
+
+- **Tom Bakani** (Philippines) - Head of Software Operations (originally sponsored visa, returned ~2024)
+- **Epi Mito** (Brazil) - Head of IT Infrastructure (hardware, cloud systems)
+
+### Other Key Personnel
+
+- **Cheryl Williams** - HR Manager (primary contact for employment discussions)
+- **Dan [Last Name]** - Compliance Manager (external hire, consultancy-imposed role)
+
+### Business Divisions
+
+1. Strata Management (core)
+2. Insurance
+3. Law Firm (in-house)
+4. Accounting (including tax)
+5. Trade Services
+6. Valuations
+7. Philippines Office (separate company, non-client-facing work)
 
 ---
 
@@ -192,17 +243,46 @@ Scale to strategic initiatives:
 
 ## Status
 
-**Current Date**: 2025-11-03
-**McGrathNicol Deadline**: July 1, 2025 (4 months past - need follow-up research)
-**Next Action**: Build McGrathNicol Compliance Dashboard POC
-**Decision Point**: Present POCs to Ted Middleton for feedback
+**Current Date**: 2025-11-04
+**Conversation with Ted**: Completed November 4, 2025
+**Next Action**: Send materials to Ted this week (before November 11)
+**Ted's Availability**: Limited until post-AGM (after November 27, 2025)
+**Primary Contact**: Cheryl Williams (HR Manager) - Ted will facilitate introduction
+**Key Obstacles Identified**:
+
+- Work visa sponsorship requirements (critical)
+- Age/time horizon (49 years old, 15-year career runway)
+- Family relocation considerations
 
 ---
 
 ## Notes
 
-- This is a **family-connected strategic advisory** opportunity, not a traditional job application
-- The founder (Ted Middleton) has ultimate decision-making authority as chairman
-- Andrew Tunks (COO) is excellent initial contact for operational projects
-- Integrity and objective value delivery are paramount
-- Focus on protecting and future-proofing the company Ted built
+### Opportunity Type (UPDATED)
+
+- **Employment opportunity** (not advisory contract) with family connection
+- Ted is open: "I'm happy to do what I can for you"
+- Mutual benefit approach: "You can help out our company and we can use your skills"
+- Process: Materials → Cheryl Williams (HR) → Formal assessment
+
+### Critical Success Factors
+
+1. **Work Visa**: Research Australian sponsorship requirements for specialized IT/software roles
+2. **Capability Demonstration**: Show practical value, not AI hype (Ted skeptical of AI)
+3. **Software Completion Focus**: Align with end-2026 completion timeline
+4. **Business Fundamentals**: Industry "not sophisticated" - focus on efficiency, not marketability
+5. **Cultural Fit**: "More about capability of people... nothing else"
+
+### Ted's Software Vision
+
+- "One of our most valuable assets... will be our software" ($12-14M invested)
+- Competitive advantage: "Only software written by people who do the work"
+- Not for local NSW market: "Don't want to share with competitors"
+- Western Australia test case pending when ready
+
+### Key Contacts for Follow-up
+
+1. **Cheryl Williams** (HR Manager) - first formal discussion
+2. **Tom Bakani** (Software Operations) - technical stakeholder
+3. **Epi Mito** (IT Infrastructure) - technical stakeholder
+4. **Andrew Tunks** (COO) - operational decision maker
