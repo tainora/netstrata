@@ -13,6 +13,8 @@ This document outlines my approach to AI-augmented development workflows, the ec
 **Thousands of hours of hands-on practice** across multiple AI coding platforms:
 
 - **Claude Code CLI**: Extensive Agent Skills development, custom workflow design, and adoption advocacy
+  - **Usage attestation**: 60,374+ sessions since July 2024 (https://share.cleanshot.com/xN1DCR9X)
+  - 5.28 billion tokens processed, $2,953 API costs demonstrating systematic production usage
 - **Production deployment**: Not prototyping or experimentation—these tools run critical business workflows daily
 - **Cross-platform experience**: Claude Code, GitHub Copilot, Cursor, and other AI-augmented IDEs
 - **Production systems built**: Multiple business-critical systems developed entirely using AI-augmented workflows

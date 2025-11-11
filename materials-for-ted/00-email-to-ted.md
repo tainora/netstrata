@@ -35,7 +35,7 @@ I don't want that to be part of your calculation—this should be about capabili
 I'm attaching four documents:
 
 1. Technical competencies summary (6 pages)
-2. AI-augmented development methodology details (8 pages)
+2. AI-augmented development methodology details (9 pages)
 3. Work visa pathway summary (4 pages)
 4. Netstrata research summary (9 pages)
 

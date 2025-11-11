@@ -1,18 +1,18 @@
 ---
-version: "1.9.0"
+version: "1.9.1"
 plan_name: "materials-for-ted-employment-opportunity"
 created: "2025-11-09"
-updated: "2025-11-10T14:30:00"
-status: "conflict_remediation_complete"
+updated: "2025-11-10T16:30:00"
+status: "usage_attestation_added"
 purpose: "Employment application materials for Ted Middleton / Cheryl Williams (HR) review - AI-augmented development with demonstration-first approach and formal strategic framework"
 
 # Single Source of Truth for Ted employment materials
 # Five documents: 1 email + 4 PDF attachments (split technical background into two parts)
-# Actual page count: 27 pages (6+8+4+9) with TOC and section numbering
+# Actual page count: 28 pages (6+9+4+9) with TOC and section numbering
 
 constraints:
-  total_pages: 27  # actual with TOC, section numbering, landscape format
-  total_words: 6416  # actual word count (391 + 1166 + 2274 + 536 + 2049)
+  total_pages: 28  # actual with TOC, section numbering, landscape format
+  total_words: 6437  # actual word count (391 + 1166 + 2295 + 536 + 2049)
   format: "markdown → PDF (via build-pdf.sh)"
   tone: "direct, technical, factual"
   prohibited_language:
@@ -755,17 +755,63 @@ version_history:
     next_phase: "Commit v1.9.0 changes, then proceed with semantic-release workflow"
     recommendation: "v1.9.0 resolves all critical conflicts and significant redundancies. Email now functions as concise executive summary with proper forward references to detailed attachments. Ready for user review and final approval."
 
+  - version: "1.9.1"
+    date: "2025-11-10"
+    changes: "Add usage attestation screenshot to validate expertise claims"
+    status: "completed"
+    scope: "Add concrete evidence of 60,374+ Claude Code CLI sessions with screenshot link"
+    git_commit: "pending"
+
+    addition_details:
+      location: "01b-ai-augmented-development-methodology.md lines 16-17"
+      content_added:
+        - "Usage attestation: 60,374+ sessions since July 2024"
+        - "Screenshot link: https://share.cleanshot.com/xN1DCR9X"
+        - "Metrics: 5.28 billion tokens processed, $2,953 API costs"
+      rationale: "Provides concrete validation of 'thousands of hours' claim with verifiable usage data from Claude Code CLI usage dashboard"
+
+    document_metrics:
+      methodology_01b:
+        word_count_before: 2274
+        word_count_after: 2295
+        delta: "+21 words"
+        pages_before: 8
+        pages_after: 9
+        delta_pages: "+1 page"
+        pdf_size: "65K (up from 64K)"
+
+      other_documents:
+        status: "unchanged"
+
+    total_package_update:
+      files: 5 (1 email + 4 PDFs)
+      pages_before: 27 (6+8+4+9)
+      pages_after: 28 (6+9+4+9)
+      delta_pages: "+1 page"
+      words_before: 6416
+      words_after: 6437
+      delta: "+21 words"
+
+    validation:
+      correctness: "Screenshot data accurate (60,374 sessions, 5.28B tokens, $2,952.85)"
+      observability: "v1.9.1 entry documents addition with metrics and rationale"
+      maintainability: "Attestation strengthens credibility without altering structure"
+
+    next_phase: "Commit v1.9.1 and update page counts in email document 00"
+    recommendation: "v1.9.1 strengthens expertise claims with concrete, verifiable evidence. Screenshot provides independent validation of production-scale usage."
+
 success_criteria:
   - folder_created: "/Users/terryli/own/netstrata/materials-for-ted/"
   - files_count: 5 (1 email markdown + 4 PDF attachments)
-  - total_pages: 27 (6+8+4+9 for PDFs with TOC and section numbering)
-  - total_words: 6416 (391 email + 1166 + 2274 + 536 + 2049 PDFs)
+  - total_pages: 28 (6+9+4+9 for PDFs with TOC and section numbering)
+  - total_words: 6437 (391 email + 1166 + 2295 + 536 + 2049 PDFs)
   - no_promotional_language: true
   - strategic_alignment: "Three-phase understanding + AI methodology integration"
   - factual_accuracy: "All claims cross-referenced with source materials"
   - authentic_positioning: "Demonstrates expertise depth with demonstration-first approach (v1.7.0)"
-  - conflict_free: "v1.9.0 resolved all critical conflicts and significant redundancies (v1.9.0)"
+  - conflict_free: "v1.9.0 resolved all critical conflicts and significant redundancies"
   - executive_summary_email: "Email functions as concise executive summary with forward references to detailed attachments (v1.9.0)"
+  - usage_attestation: "v1.9.1 added concrete evidence of 60,374+ sessions with screenshot validation"
   - ready_to_send: "After user review - BALANCED RISK positioning: high value, lower risk than v1.6.0"
 
 notes:
