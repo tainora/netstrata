@@ -2,8 +2,8 @@
 version: "1.9.5"
 plan_name: "materials-for-ted-employment-opportunity"
 created: "2025-11-09"
-updated: "2025-11-10T18:30:00"
-status: "professional_hyperlink_styling_added"
+updated: "2025-11-10T19:00:00"
+status: "professional_hyperlink_styling_completed"
 purpose: "Employment application materials for Ted Middleton / Cheryl Williams (HR) review - AI-augmented development with demonstration-first approach and formal strategic framework"
 
 # Single Source of Truth for Ted employment materials
@@ -963,23 +963,41 @@ version_history:
     date: "2025-11-10"
     changes: "Add professional navy blue styling to hyperlinks for visual noticeability"
     status: "completed"
-    scope: "Configure LaTeX hyperref package to display all hyperlinks in professional NavyBlue color"
-    git_commit: "534640b"
+    scope: "Configure LaTeX hyperref package to display all hyperlinks in professional navy blue color"
+    git_commit: "TBD"
 
     styling_configuration:
-      method: "LaTeX Preamble Addition (Method B)"
+      method: "\\AtBeginDocument LaTeX Hook (After Failed Attempts)"
       file: "/Users/terryli/.claude/skills/pandoc-pdf-generation/assets/table-spacing-template.tex"
-      lines_added: "92-103 (12 lines)"
+      lines_added: "92-107 (16 lines)"
       configuration:
-        package: "hyperref with dvipsnames xcolor"
-        color: "NavyBlue"
-        setting: "allcolors=NavyBlue (unified color for all link types)"
-        border: "pdfborderstyle={} (no border boxes)"
+        color_definition: "\\definecolor{navyblue}{RGB}{0,51,102}"
+        hook: "\\AtBeginDocument{\\hypersetup{colorlinks=true, allcolors=navyblue, pdfborderstyle={}}}"
+        why_hook_needed: "Pandoc loads hyperref AFTER preamble - direct config gets overridden"
+        why_rgb_color: "xcolor loaded without dvipsnames option - NavyBlue undefined, RGB explicit"
+
+    implementation_challenges:
+      failed_attempt_1:
+        approach: "Added hyperref config directly in LaTeX preamble"
+        result: "No effect - hyperlinks remained invisible"
+        root_cause: "Pandoc loads hyperref AFTER preamble inclusion, overriding settings"
+
+      failed_attempt_2:
+        approach: "Added -V colorlinks flags to build-pdf.sh command line"
+        result: "CRITICAL - Completely broke layout (landscape→portrait, fonts changed)"
+        root_cause: "NavyBlue color undefined (xcolor loaded without dvipsnames), LaTeX errors cascaded"
+        recovery: "Reverted both build-pdf.sh and preamble to original state"
+
+      successful_solution:
+        approach: "\\AtBeginDocument hook with RGB-defined color"
+        why_it_works: "Hook executes AFTER Pandoc loads hyperref, RGB definition avoids dvipsnames dependency"
+        result: "Navy blue hyperlinks visible, layout preserved (landscape, fonts, spacing intact)"
 
     rationale:
       problem: "Hyperlinks were invisible in PDFs unless hovering - poor user experience"
-      solution: "Professional navy blue color provides clear affordance while maintaining formal appearance"
-      color_choice: "NavyBlue is sophisticated, print-friendly (readable in B&W), and universally compatible"
+      solution: "Professional navy blue color via \\AtBeginDocument hook to override Pandoc defaults"
+      color_choice: "RGB(0,51,102) navy blue is sophisticated, print-friendly, and doesn't require dvipsnames"
+      technical_requirement: "Must not break existing landscape layout or fonts"
 
     benefits:
       - "Hyperlinks immediately visible to readers"
@@ -1033,7 +1051,7 @@ success_criteria:
   - usage_attestation: "v1.9.1 added concrete evidence of 60,374+ sessions with screenshot validation"
   - discrimination_free: "v1.9.3 removed all potentially discriminatory content (geographic locations, specific age references)"
   - agent_skills_hyperlinked: "v1.9.4 added clickable hyperlinks to official Anthropic Agent Skills documentation (6 instances)"
-  - hyperlinks_visible: "v1.9.5 added professional NavyBlue styling - all hyperlinks now visually noticeable"
+  - hyperlinks_visible: "v1.9.5 added professional navy blue styling via \\AtBeginDocument hook - all hyperlinks now visually noticeable while preserving landscape layout"
   - ready_to_send: "After user review - BALANCED RISK positioning: high value, lower risk than v1.6.0"
 
 notes:
