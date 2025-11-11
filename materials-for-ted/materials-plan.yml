@@ -1,9 +1,9 @@
 ---
-version: "1.9.3"
+version: "1.9.4"
 plan_name: "materials-for-ted-employment-opportunity"
 created: "2025-11-09"
-updated: "2025-11-10T17:30:00"
-status: "discrimination_audit_complete"
+updated: "2025-11-10T18:00:00"
+status: "agent_skills_hyperlinks_added"
 purpose: "Employment application materials for Ted Middleton / Cheryl Williams (HR) review - AI-augmented development with demonstration-first approach and formal strategic framework"
 
 # Single Source of Truth for Ted employment materials
@@ -894,6 +894,71 @@ version_history:
     next_phase: "Commit v1.9.3 anti-discrimination audit completion"
     recommendation: "v1.9.3 ensures materials contain no potentially discriminatory content regarding geographic origin, nationality, or specific age. Professional presentation focuses on capabilities and roles only."
 
+  - version: "1.9.4"
+    date: "2025-11-10"
+    changes: "Add hyperlinks to Agent Skills references throughout documents"
+    status: "completed"
+    scope: "Convert all 'Agent Skills' text references to clickable hyperlinks in PDFs"
+    git_commit: "pending"
+
+    hyperlinks_added:
+      url: "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills"
+      instances:
+        - location: "01a-technical-competencies.md line 5"
+          text: "Claude Code Agent Skills popularization"
+          updated: "Claude Code [Agent Skills](URL) popularization"
+
+        - location: "01a-technical-competencies.md line 90"
+          text: "Agent Skills development"
+          updated: "[Agent Skills](URL) development"
+
+        - location: "01b-ai-augmented-development-methodology.md line 15"
+          text: "Agent Skills development"
+          updated: "[Agent Skills](URL) development"
+
+        - location: "01b-ai-augmented-development-methodology.md line 26"
+          text: "Agent Skills Development"
+          updated: "[Agent Skills](URL) Development"
+
+        - location: "01b-ai-augmented-development-methodology.md line 28"
+          text: "Custom Agent Skills creation"
+          updated: "Custom [Agent Skills](URL) creation"
+
+        - location: "01b-ai-augmented-development-methodology.md line 144"
+          text: "custom Agent Skills for recurring tasks"
+          updated: "custom [Agent Skills](URL) for recurring tasks"
+
+      total_hyperlinks: 6
+      rationale: "Provide direct access to Anthropic's official Agent Skills documentation for credibility and context"
+
+    document_metrics:
+      technical_01a:
+        word_count: "1166 (unchanged - hyperlinks don't add words)"
+        pages: "6 (unchanged)"
+        pdf_regenerated: "01a-technical-competencies.pdf (49K)"
+
+      methodology_01b:
+        word_count: "2295 (unchanged - hyperlinks don't add words)"
+        pages: "9 (unchanged)"
+        pdf_regenerated: "01b-ai-augmented-development-methodology.pdf (65K)"
+
+      other_documents:
+        status: "unchanged"
+
+    total_package_metrics:
+      files: 5 (1 email + 4 PDFs)
+      pages: 28 (6+9+4+9)
+      words: 6437 (unchanged)
+
+    validation:
+      correctness: "All Agent Skills references now hyperlinked to official Anthropic documentation"
+      observability: "v1.9.4 entry documents all hyperlink locations and rationale"
+      maintainability: "Markdown hyperlinks render as clickable links in PDF output"
+      usability: "Readers can directly access Agent Skills documentation for context"
+
+    next_phase: "Commit v1.9.4 hyperlink additions"
+    recommendation: "v1.9.4 improves document usability by providing direct access to official Agent Skills documentation, strengthening credibility of expertise claims."
+
 success_criteria:
   - folder_created: "/Users/terryli/own/netstrata/materials-for-ted/"
   - files_count: 5 (1 email markdown + 4 PDF attachments)
@@ -907,6 +972,7 @@ success_criteria:
   - executive_summary_email: "Email functions as concise executive summary with forward references to detailed attachments (v1.9.0)"
   - usage_attestation: "v1.9.1 added concrete evidence of 60,374+ sessions with screenshot validation"
   - discrimination_free: "v1.9.3 removed all potentially discriminatory content (geographic locations, specific age references)"
+  - agent_skills_hyperlinked: "v1.9.4 added clickable hyperlinks to official Anthropic Agent Skills documentation (6 instances)"
   - ready_to_send: "After user review - BALANCED RISK positioning: high value, lower risk than v1.6.0"
 
 notes:

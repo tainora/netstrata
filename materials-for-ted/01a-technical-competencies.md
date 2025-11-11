@@ -2,7 +2,7 @@
 
 ## Current Role & Production Systems
 
-Director of Operations at Eon Labs Ltd. (www.eonlabs.com), handling administration, HR, SR&ED (Scientific Research and Experimental Development), feature engineering for quantitative trading systems, and AI agent coding tool adoption across the team. Focus areas include Claude Code Agent Skills popularization, automation workflows, and cloud infrastructure for financial technology systems.
+Director of Operations at Eon Labs Ltd. (www.eonlabs.com), handling administration, HR, SR&ED (Scientific Research and Experimental Development), feature engineering for quantitative trading systems, and AI agent coding tool adoption across the team. Focus areas include Claude Code [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) popularization, automation workflows, and cloud infrastructure for financial technology systems.
 
 Seeking final career opportunity in team environment at established business, transitioning from independent operations role to hands-on technical contribution.
 
@@ -87,7 +87,7 @@ Created workflow automation systems that:
 
 Extensive production experience with AI coding agents:
 
-- **Claude Code CLI**: Thousands of hours with Agent Skills development, custom workflow design
+- **Claude Code CLI**: Thousands of hours with [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) development, custom workflow design
 - **GitHub Copilot**: AI-assisted code completion and suggestion patterns
 - **Cursor**: AI-augmented IDE with context-aware code generation
 - **Claude API**: Large-scale document processing (200,000 tokens), tool use integration, production automation

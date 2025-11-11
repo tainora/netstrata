@@ -12,7 +12,7 @@ This document outlines my approach to AI-augmented development workflows, the ec
 
 **Thousands of hours of hands-on practice** across multiple AI coding platforms:
 
-- **Claude Code CLI**: Extensive Agent Skills development, custom workflow design, and adoption advocacy
+- **Claude Code CLI**: Extensive [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) development, custom workflow design, and adoption advocacy
   - **Usage attestation**: 60,374+ sessions since July 2025 (https://share.cleanshot.com/xN1DCR9X)
   - 5.28 billion tokens processed, $2,953 API costs demonstrating systematic production usage
 - **Production deployment**: Not prototyping or experimentation—these tools run critical business workflows daily
@@ -23,9 +23,9 @@ This document outlines my approach to AI-augmented development workflows, the ec
 
 ### Claude Code CLI Specialization
 
-**Agent Skills Development**: Active contribution to Claude Code ecosystem through:
+**[Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) Development**: Active contribution to Claude Code ecosystem through:
 
-- Custom Agent Skills creation for specialized workflows
+- Custom [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) creation for specialized workflows
 - Internal popularization at Eon Labs (team adoption and training)
 - Deep understanding of Claude Code's tool use patterns, context window management, and autonomous agent capabilities
 - Experience with both successful and failed automation attempts—knowing when AI tools add value vs. when they introduce unnecessary complexity
@@ -141,7 +141,7 @@ For software engineering agents working toward the end-2026 completion deadline:
 **Custom Workflow Design**: Tailoring AI tools to Netstrata's specific needs:
 
 - Identifying high-value automation opportunities in current development process
-- Building custom Agent Skills for recurring tasks
+- Building custom [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) for recurring tasks
 - Establishing team conventions for AI tool usage
 - Creating feedback loops for continuous improvement
 
