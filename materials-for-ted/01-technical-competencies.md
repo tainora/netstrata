@@ -32,7 +32,7 @@ Demonstrates operational reliability patterns applicable to business-critical sy
 - **Production Deployment**: Cloud Run serverless jobs, systemd service management for unattended operation
 - **Type Safety**: mypy strict mode, PEP 561 compliance for maintainable codebases
 - **Async/Streaming**: Real-time data collection via WebSocket with exponential backoff retry logic
-- **API Integration**: Claude API, web scraping (Playwright + BeautifulSoup), third-party service orchestration
+- **API Integration**: Web scraping (Playwright + BeautifulSoup), third-party service orchestration
 - **Monitoring**: Dead Man's Switch patterns (Healthchecks.io), mobile alerting (Pushover)
 
 **Cost-efficient infrastructure**: Free-tier optimization across cloud providers (Cloud Run, BigQuery, managed databases)
@@ -119,10 +119,9 @@ Created workflow automation systems that:
 Extensive production experience with AI coding agents:
 
 - **[Claude Code](https://www.claude.com/product/claude-code) CLI**: 1000+ hours with [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) development, custom workflow design
-- **GitHub Copilot**: AI-assisted code completion and suggestion patterns
+- **Anthropic's Claude Code (headless mode)**: Programmatic agent orchestration for automated workflows
 - **[Codex](https://openai.com/codex/)**: OpenAI's code generation model for AI-powered development
 - **Cursor**: AI-augmented IDE with context-aware code generation
-- **Claude API**: Large-scale document processing (200,000 tokens), tool use integration, production automation
 
 **Focus areas**: Prompt engineering, context window management, systematic workflow integration, reliability patterns, cost management
 

@@ -16,7 +16,7 @@ This document outlines my approach to AI-augmented development workflows, the ec
   - **Usage attestation**: 60,374+ sessions since July 2025 (https://share.cleanshot.com/xN1DCR9X)
   - 5.28 billion tokens processed, $2,953 API costs demonstrating systematic production usage
 - **Production deployment**: Not prototyping or experimentation—these tools run critical business workflows daily
-- **Cross-platform experience**: [Claude Code](https://www.claude.com/product/claude-code), GitHub Copilot, [Codex](https://openai.com/codex/), Cursor, and other AI-augmented IDEs
+- **Cross-platform experience**: [Claude Code](https://www.claude.com/product/claude-code), [Codex](https://openai.com/codex/), Cursor, and other AI-augmented IDEs
 - **Production systems built**: Multiple business-critical systems developed entirely using AI-augmented workflows
 
 **Contrast with industry discourse**: Most commentary about AI coding agents comes from developers who've used them casually for days or weeks. The noise-to-signal ratio is extremely high—many strong opinions based on minimal practice. 1000+ hours reveal capabilities and limitations that aren't visible in surface-level usage.
