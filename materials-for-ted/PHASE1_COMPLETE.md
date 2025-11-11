@@ -158,5 +158,5 @@ Semantic-release automatically created/updated:
 
 1. **Proceed to Phase 2**: High-priority tone/content refinements
 2. **Run Phase 2 validation**: After completing 4 tasks
-3. **Create Phase 2 release**: `CI=true GITHUB_TOKEN=$(op item get ... --fields label=token) npm run release`
+3. **Create Phase 2 release**: `npm run release:auto`
 4. **Continue to Phase 3**: Medium-priority polish tasks
