@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/tainora/netstrata/compare/v2.1.0...v2.2.0) (2025-11-11)
+
+
+### Features
+
+* **doc-02:** add session continuity and API cost optimization techniques ([eed919a](https://github.com/tainora/netstrata/commit/eed919a0a74e0049ff3f120741b4971b0dcca6cd))
+
 # [2.1.0](https://github.com/tainora/netstrata/compare/v2.0.2...v2.1.0) (2025-11-11)
 
 
