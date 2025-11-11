@@ -27,6 +27,10 @@ grep -P "[\x{1F300}-\x{1F9FF}]|[\x{2600}-\x{26FF}]|[\x{2700}-\x{27BF}]" INPUT.md
 
 **Action if found:** Remove emoji, replace with text bullets or standard characters (- instead of ✅)
 
+**Check for manual section numbering:**
+- ❌ Manual numbers in headings (`## 1. Introduction`)
+- ✅ Use semantic levels only (`## Introduction`) + `--number-sections` flag
+
 **Check for bare URLs:**
 ```bash
 # Find unlinked URLs

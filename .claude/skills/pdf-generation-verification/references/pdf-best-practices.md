@@ -127,6 +127,7 @@ pandoc INPUT.md -o OUTPUT.pdf \
 
 - [ ] Remove all emoji from source markdown
 - [ ] Embed all URLs as markdown links `[text](url)`
+- [ ] Remove manual section numbering - use `--number-sections` instead
 - [ ] Test table formatting with pdftotext before final generation
 - [ ] Ensure font is installed and supports characters used
 
