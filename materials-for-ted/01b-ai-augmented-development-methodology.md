@@ -6,7 +6,7 @@ Modern software development has reached an inflection point. AI coding agents—
 
 This document outlines my approach to AI-augmented development workflows, the economic rationale behind systematic tooling adoption, and the professional requirements necessary for these methodologies to succeed in team environments.
 
-## Part 1: Depth of Expertise vs. Internet Noise
+## Depth of Expertise vs. Internet Noise
 
 ### Investment Profile
 
@@ -38,32 +38,8 @@ This document outlines my approach to AI-augmented development workflows, the ec
 - Building reliable systems on top of non-deterministic AI outputs
 - Managing API costs through efficient prompt design and caching strategies
 
-### AI Prompt Engineering, Context Coding, and "AI Vibing"
 
-**Prompt Engineering**: Systematic approaches to eliciting specific behaviors:
-
-- Task decomposition for complex multi-step operations
-- Constraint specification (style guides, architectural patterns, testing requirements)
-- Examples-based learning (few-shot prompting with representative cases)
-- Iterative refinement based on output quality metrics
-
-**Context Coding**: Leveraging large context windows (200,000+ tokens):
-
-- Feeding entire codebases into context for architectural consistency
-- Processing full specification documents during implementation
-- Analyzing large log files or datasets for debugging
-- Maintaining conversation state across extended development sessions
-
-**AI Vibing**: Collaborative development patterns where AI suggestions guide exploration:
-
-- Rapid prototyping through conversational iteration
-- Exploration of alternative implementations
-- Real-time code review and refactoring suggestions
-- Documentation generation that reflects actual implementation
-
-**Critical insight**: These aren't separate techniques—they're integrated practices that compound over time. The developer who's spent 1000+ hours develops intuition about which patterns work in which contexts.
-
-## Part 2: Strategic Framework—Why Software Robustness Requires Different Principles than Business Advantage
+## Strategic Framework—Why Software Robustness Requires Different Principles than Business Advantage
 
 ### Classical Strategy vs. Modern Software Engineering
 
@@ -120,7 +96,7 @@ For software engineering agents working toward the end-2026 completion deadline:
 
 **The insight**: Netstrata's moat is the NSW strata management knowledge embedded in the software, not the technical implementation patterns. Letting AI agents apply idiomatic, state-of-the-art software engineering practices protects that investment better than insisting on bespoke technical approaches.
 
-## Part 3: Knowledge Transfer and Team Capability Building
+## Knowledge Transfer and Team Capability Building
 
 ### Training Offerings for Netstrata's Software Team
 
@@ -160,7 +136,7 @@ For software engineering agents working toward the end-2026 completion deadline:
 
 **Cultural fit matters**: Some developers embrace these tools quickly; others resist. Effective adoption requires collective buy-in.
 
-## Part 4: Assessment and Adoption Strategy
+## Assessment and Adoption Strategy
 
 ### Acknowledging Industry Skepticism
 
