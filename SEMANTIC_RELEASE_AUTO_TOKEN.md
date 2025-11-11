@@ -5,6 +5,7 @@
 This project uses the **semantic-release skill's 1Password integration** (`~/.claude/skills/semantic-release/`) for automatic GitHub token selection based on directory path.
 
 The system combines:
+
 - **Git conditional includes** (directory-based config selection)
 - **1Password CLI** (secure token retrieval)
 - **Skill SSoT script** (`release_with_1password.sh`)
@@ -13,11 +14,11 @@ See: `~/.claude/skills/semantic-release/references/authentication.md` (Priority 
 
 ## Directory → Account Mapping
 
-| Directory Pattern | GitHub Account | Git Config File | 1Password Item |
-|-------------------|----------------|-----------------|----------------|
-| `/Users/terryli/own/` | `tainora` | `~/.gitconfig-tainora` | GitHub Tainora Semantic-Release |
-| `/Users/terryli/scripts/` | `tainora` | `~/.gitconfig-tainora` | GitHub Tainora Semantic-Release |
-| `/Users/terryli/eon/` | `terrylica` | `~/.gitconfig-terrylica` | GitHub Terrylica Semantic-Release |
+| Directory Pattern         | GitHub Account | Git Config File          | 1Password Item                    |
+| ------------------------- | -------------- | ------------------------ | --------------------------------- |
+| `/Users/terryli/own/`     | `tainora`      | `~/.gitconfig-tainora`   | GitHub Tainora Semantic-Release   |
+| `/Users/terryli/scripts/` | `tainora`      | `~/.gitconfig-tainora`   | GitHub Tainora Semantic-Release   |
+| `/Users/terryli/eon/`     | `terrylica`    | `~/.gitconfig-terrylica` | GitHub Terrylica Semantic-Release |
 
 ## How It Works
 
@@ -41,6 +42,7 @@ The global git config uses `includeIf` directives to load directory-specific con
 Each included config file stores the 1Password item ID and vault ID:
 
 **`~/.gitconfig-tainora`** (for `/own/` and `/scripts/`):
+
 ```gitconfig
 [user]
     name  = tainora
@@ -53,6 +55,7 @@ Each included config file stores the 1Password item ID and vault ID:
 ```
 
 **`~/.gitconfig-terrylica`** (for `/eon/`):
+
 ```gitconfig
 [user]
     githubToken1PasswordID = 53evlbkz3udnykztzir77wg7ku
@@ -65,6 +68,7 @@ Each included config file stores the 1Password item ID and vault ID:
 ### 3. Skill Script (`~/.claude/skills/semantic-release/scripts/release_with_1password.sh`)
 
 The universal skill script:
+
 1. Reads `user.githubToken1PasswordID` and `user.githubToken1PasswordVault` from git config
 2. Retrieves the GitHub token from 1Password using `op item get --reveal`
 3. Exports `GITHUB_TOKEN` environment variable
@@ -81,6 +85,7 @@ npm run release:auto
 ```
 
 This automatically:
+
 - Detects the current directory
 - Loads the appropriate git config via conditional includes
 - Retrieves the correct GitHub token from 1Password
@@ -113,6 +118,7 @@ git config --get user.githubToken1PasswordVault
 ```
 
 **Example in `/Users/terryli/own/netstrata`**:
+
 ```bash
 $ git config --get user.name
 tainora
@@ -122,6 +128,7 @@ $ git config --get user.githubToken1PasswordID
 ```
 
 **Example in `/Users/terryli/eon/some-project`**:
+
 ```bash
 $ git config --get user.name
 terrylica
@@ -135,12 +142,14 @@ $ git config --get user.githubToken1PasswordID
 To add a new directory pattern:
 
 1. **Add conditional include to `~/.gitconfig`**:
+
    ```gitconfig
    [includeIf "gitdir:/Users/terryli/new-directory/"]
        path = /Users/terryli/.gitconfig-<account>
    ```
 
 2. **Create or update the account-specific config**:
+
    ```gitconfig
    [user]
        name = <github-username>
@@ -166,6 +175,7 @@ To add a new directory pattern:
 **Cause**: The current directory is not matched by any conditional include, or the matched config file doesn't have the required values.
 
 **Solution**:
+
 1. Check current directory: `pwd`
 2. Check which git config is loaded: `git config --get user.name`
 3. Verify conditional includes in `~/.gitconfig`
@@ -176,6 +186,7 @@ To add a new directory pattern:
 **Cause**: 1Password CLI (`op`) is not authenticated, or the item ID/vault ID is incorrect.
 
 **Solution**:
+
 1. Authenticate with 1Password CLI: `op signin`
 2. Verify item exists: `op item get <item-id> --vault <vault-id>`
 3. Check the item has a field labeled "token"

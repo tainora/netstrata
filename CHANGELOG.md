@@ -1,41 +1,36 @@
 ## [2.0.2](https://github.com/tainora/netstrata/compare/v2.0.1...v2.0.2) (2025-11-11)
 
-
 ### Bug Fixes
 
-* **release:** add --reveal flag to token retrieval in npm-release.sh ([a20f72e](https://github.com/tainora/netstrata/commit/a20f72ee0a1bb87e7cf6b36ad6c4be3bf8b148a3))
+- **release:** add --reveal flag to token retrieval in npm-release.sh ([a20f72e](https://github.com/tainora/netstrata/commit/a20f72ee0a1bb87e7cf6b36ad6c4be3bf8b148a3))
 
 ## [2.0.1](https://github.com/tainora/netstrata/compare/v2.0.0...v2.0.1) (2025-11-11)
 
-
 ### Bug Fixes
 
-* **phase-2:** add paraphrased disclaimer to Ted quotes in Doc 04 ([30e3ce0](https://github.com/tainora/netstrata/commit/30e3ce06dbc70542cf3904cbfc565cc540374a6c))
-* **phase-2:** compress Doc 02 from 281 to 118 lines (58% reduction) ([cead05a](https://github.com/tainora/netstrata/commit/cead05a8ec9601aa8d9c1447af9bcac4f0e696c6))
-* **phase-2:** reduce 1000+ hours repetition from 10 to 3 occurrences ([f6ed349](https://github.com/tainora/netstrata/commit/f6ed34943a8a436565d898499ea73cce5d09da37))
-* **phase-2:** remove dismissive language from Doc 02 ([6e00cf5](https://github.com/tainora/netstrata/commit/6e00cf5a02ea4f6a2663592483b12dafa276c72d))
+- **phase-2:** add paraphrased disclaimer to Ted quotes in Doc 04 ([30e3ce0](https://github.com/tainora/netstrata/commit/30e3ce06dbc70542cf3904cbfc565cc540374a6c))
+- **phase-2:** compress Doc 02 from 281 to 118 lines (58% reduction) ([cead05a](https://github.com/tainora/netstrata/commit/cead05a8ec9601aa8d9c1447af9bcac4f0e696c6))
+- **phase-2:** reduce 1000+ hours repetition from 10 to 3 occurrences ([f6ed349](https://github.com/tainora/netstrata/commit/f6ed34943a8a436565d898499ea73cce5d09da37))
+- **phase-2:** remove dismissive language from Doc 02 ([6e00cf5](https://github.com/tainora/netstrata/commit/6e00cf5a02ea4f6a2663592483b12dafa276c72d))
 
 # [2.0.0](https://github.com/tainora/netstrata/compare/v1.0.3...v2.0.0) (2025-11-11)
 
-
 ### Bug Fixes
 
-* Correct Claude Code usage from 'thousands of hours' to '1000+ hours' ([b94b4a2](https://github.com/tainora/netstrata/commit/b94b4a242090cd43c6cbed7a2cc5f09504c934bc))
-* **materials:** correct factual errors - name and date (v1.9.2) ([3fdfbd0](https://github.com/tainora/netstrata/commit/3fdfbd0b3064068086cb3dff4d56b5d3dfab75a0))
-* **materials:** resolve conflicts and redundancies from parallel audit (v1.9.0) ([c3c1e73](https://github.com/tainora/netstrata/commit/c3c1e73ae3867e297ec4418a62fc64fe372d4b57))
-* **phase-1:** resolve critical factual errors and strategic lead-in ([aae0cfa](https://github.com/tainora/netstrata/commit/aae0cfac397f5858509a07afa7fdebfa53fa3cd9))
-
+- Correct Claude Code usage from 'thousands of hours' to '1000+ hours' ([b94b4a2](https://github.com/tainora/netstrata/commit/b94b4a242090cd43c6cbed7a2cc5f09504c934bc))
+- **materials:** correct factual errors - name and date (v1.9.2) ([3fdfbd0](https://github.com/tainora/netstrata/commit/3fdfbd0b3064068086cb3dff4d56b5d3dfab75a0))
+- **materials:** resolve conflicts and redundancies from parallel audit (v1.9.0) ([c3c1e73](https://github.com/tainora/netstrata/commit/c3c1e73ae3867e297ec4418a62fc64fe372d4b57))
+- **phase-1:** resolve critical factual errors and strategic lead-in ([aae0cfa](https://github.com/tainora/netstrata/commit/aae0cfac397f5858509a07afa7fdebfa53fa3cd9))
 
 ### Features
 
-* Add Codex and Claude Code hyperlinks, fix TOC pagination ([74148cf](https://github.com/tainora/netstrata/commit/74148cfbb4bac00f11958ec023dd58795264c58c))
-* Add professional navy blue styling to hyperlinks in PDFs ([5898d88](https://github.com/tainora/netstrata/commit/5898d887ba3a4f240f2c49322529d909205e2ddf))
-* **materials:** integrate strategic framework with A ⊣ B notation (v1.8.0) ([f1ab1e9](https://github.com/tainora/netstrata/commit/f1ab1e9eb19d67c551f1c57ae7f13b0467a55bdf))
-
+- Add Codex and Claude Code hyperlinks, fix TOC pagination ([74148cf](https://github.com/tainora/netstrata/commit/74148cfbb4bac00f11958ec023dd58795264c58c))
+- Add professional navy blue styling to hyperlinks in PDFs ([5898d88](https://github.com/tainora/netstrata/commit/5898d887ba3a4f240f2c49322529d909205e2ddf))
+- **materials:** integrate strategic framework with A ⊣ B notation (v1.8.0) ([f1ab1e9](https://github.com/tainora/netstrata/commit/f1ab1e9eb19d67c551f1c57ae7f13b0467a55bdf))
 
 ### BREAKING CHANGES
 
-* **materials:** Document structure shift from economic rationale to strategic framework
+- **materials:** Document structure shift from economic rationale to strategic framework
 
 # Changelog
 

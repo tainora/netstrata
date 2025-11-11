@@ -106,6 +106,7 @@ npm run release:auto
 **Expected Release**: v2.0.1 (PATCH - 4 bug fixes)
 
 **Release will include**:
+
 - Automatic CHANGELOG.md update
 - Git tag v2.0.1
 - GitHub release with release notes
@@ -142,6 +143,7 @@ npm run release:auto
 ## Summary
 
 Phase 2 successfully addressed all high-priority tone and content issues:
+
 - ✅ Removed confrontational positioning (dismissive language)
 - ✅ Reduced repetitive credential claims (1000+ hours)
 - ✅ Added ethical attribution (paraphrased disclaimer)

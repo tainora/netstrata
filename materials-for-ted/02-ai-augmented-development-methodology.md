@@ -72,6 +72,7 @@ In my practice, AI agents handle:
 Through extensive production usage, I've learned to let AI agents handle all discretionary technical decisions using idiomatic, modern patterns—while reserving human judgment for business requirements and domain-specific NSW regulatory knowledge.
 
 **Practical approach**:
+
 - Start with minimal constraints, audit outputs systematically
 - Let agents discover current best practices rather than prescribing outdated approaches
 - Add constraints only where audit reveals actual problems, not pre-emptively
@@ -90,6 +91,7 @@ Through extensive production usage, I've learned to let AI agents handle all dis
 **My approach**: Work on real Phase 1 completion tasks using AI-first workflows, document measurable outcomes, let the team assess value based on evidence from their actual codebase—not theoretical arguments.
 
 **30-60 Day Trial Period**:
+
 - Pair programming sessions on actual Netstrata codebase challenges
 - Document time savings, code quality improvements, velocity gains
 - Results-based decision: if methodology accelerates Phase 1 completion, explore broader adoption; if fit isn't there, we have clear evidence
@@ -97,8 +99,9 @@ Through extensive production usage, I've learned to let AI agents handle all dis
 **Why timing matters**: Early adoption provides 12-24 months of velocity advantage before these tools become industry standard. By the time broader adoption occurs, Netstrata will have integrated AI-first development into end-2026 completion timeline.
 
 **Mutual assessment process**:
-- *Netstrata assesses*: Do AI-augmented workflows deliver measurable value? Does velocity improvement justify learning investment?
-- *I assess*: Is team open to modern development practices? Will leadership support capability building?
+
+- _Netstrata assesses_: Do AI-augmented workflows deliver measurable value? Does velocity improvement justify learning investment?
+- _I assess_: Is team open to modern development practices? Will leadership support capability building?
 - Better to identify alignment or misalignment through demonstration and data
 
 **Team adoption approach**: Gradual and organic—start with demonstrations, let interested team members experiment, build capability progressively. Not forcing adoption, but creating environment where exploration is encouraged with leadership support. Proficiency takes weeks/months of practice.

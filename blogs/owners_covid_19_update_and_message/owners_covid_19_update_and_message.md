@@ -24,7 +24,7 @@ We know that everyone is experiencing increased email alerts and business commun
 
 As always we trust this information proves helpful.
 
-For all strata related enquiries, please direct these to your Strata Manager or email admin@netstrata.com.au
+For all strata related enquiries, please direct these to your Strata Manager or email admin@netstrata.com.au
 
 ### Cleaning & Maintenance
 
