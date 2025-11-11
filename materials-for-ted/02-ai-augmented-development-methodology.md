@@ -128,7 +128,7 @@ The design rule above suggests maximizing the left side (Exploration, Autonomy, 
 
 5. **Iterate as models improve**: As AI models get smarter (new versions, better training), loosen constraints and re-test boundaries. Yesterday's necessary constraint may be tomorrow's unnecessary restriction.
 
-**Key Insight**: Each AI model (Claude 3.5 Sonnet, GPT-4, etc.) has unique capability boundaries. You discover these through practice, not prediction. Start loose, audit carefully, constrain precisely.
+**Key Insight**: Each AI model (Anthropic's Sonnet 4.5 Thinking for coding, OpenAI's GPT-5 Thinking for holistic reasoning, OpenAI's GPT-5 Deep Research for comprehensive analysis, etc.) has unique capability boundaries. You discover these through practice, not prediction. Start loose, audit carefully, constrain precisely.
 
 **Why This Works**: Pre-emptive restriction limits what agents can accomplish. Empirical boundary discovery maximizes agent capabilities while maintaining quality through systematic audit. You only pay the supervision cost where it demonstrably adds value.
 
