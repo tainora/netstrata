@@ -12,12 +12,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 **Migrated from Pandoc footnotes to BibTeX bibliography** for academic/professional standard
 
 **Previous approach** (Pandoc footnotes):
+
 ```markdown
 [^andrew-tunks-coo]: [Netstrata Appoints Andrew Tunks...](https://...)
+
 [^strata-defects-2023]: [Research on serious building defects...](https://...)
 ```
 
 **New approach** (BibTeX):
+
 ```bibtex
 @online{andrew-tunks-coo,
   title = {Netstrata Appoints Andrew Tunks as Chief Operating Officer},
@@ -48,6 +51,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Technical Implementation
 
 **Build script changes**:
+
 ```bash
 pandoc STRATEGIC_TECHNOLOGY_ADVISORY_PROPOSAL.md \
   --citeproc \
@@ -56,11 +60,13 @@ pandoc STRATEGIC_TECHNOLOGY_ADVISORY_PROPOSAL.md \
 ```
 
 **Markdown citation conversion**:
+
 - `[^andrew-tunks-coo]` → `[@andrew-tunks-coo]`
 - `[^strata-defects-2023]` → `[@strata-defects-2023]`
 - All 27 citations converted systematically
 
 **BibTeX entry types used**:
+
 - `@online`: Web articles and blog posts (majority of citations)
 - `@techreport`: Government/academic technical reports
 - `@report`: Industry market research reports
@@ -88,6 +94,7 @@ pandoc STRATEGIC_TECHNOLOGY_ADVISORY_PROPOSAL.md \
 User observation: "is the markdown reference dry enough? We are necessarily having the same thing set over and over again... We don't need additional reference section."
 
 **Problem with Pandoc footnotes**: Each citation required two pieces of information in markdown:
+
 1. Citation marker in text: `[^footnote-id]`
 2. Definition at bottom: `[^footnote-id]: Full citation text with URL...`
 

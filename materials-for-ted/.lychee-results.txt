@@ -2,11 +2,11 @@
 
 | Status         | Count |
 |----------------|-------|
-| 🔍 Total       | 1     |
+| 🔍 Total       | 8     |
 | ✅ Successful  | 0     |
 | ⏳ Timeouts    | 0     |
 | 🔀 Redirected  | 0     |
-| 👻 Excluded    | 1     |
+| 👻 Excluded    | 8     |
 | ❓ Unknown     | 0     |
 | 🚫 Errors      | 0     |
 | ⛔ Unsupported | 0     |
