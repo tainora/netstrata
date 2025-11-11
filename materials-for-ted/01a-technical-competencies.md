@@ -83,16 +83,18 @@ Created workflow automation systems that:
 
 **Relevance to Phase 1**: Andrew Tunks' operational efficiency mandate aligns with automation capabilities.
 
-### 4. AI/Claude API Integration (Production Context)
+### 4. AI-Augmented Development Tools (Production Context)
 
-Deployed Claude API for business operations with focus on:
+Extensive production experience with AI coding agents:
 
-- **Context Windows**: Processing large documents (200,000 tokens = entire legislative bills)
-- **Tool Use Integration**: Combining AI reasoning with code execution and API calls
-- **Reliability Patterns**: Error handling, retry logic, fallback mechanisms
-- **Cost Management**: Efficient prompt design to minimize API costs
+- **Claude Code CLI**: Thousands of hours with Agent Skills development, custom workflow design
+- **GitHub Copilot**: AI-assisted code completion and suggestion patterns
+- **Cursor**: AI-augmented IDE with context-aware code generation
+- **Claude API**: Large-scale document processing (200,000 tokens), tool use integration, production automation
 
-**NOT speculative AI hype** - this is production experience with measurable outcomes (hours saved, errors reduced, processing speed).
+**Focus areas**: Prompt engineering, context window management, systematic workflow integration, reliability patterns, cost management
+
+**NOT speculative AI hype** - this is production experience with measurable outcomes (hours saved, errors reduced, processing speed). Detailed AI methodology described in attached document (01b).
 
 ## Technical Environment & Practices
 
