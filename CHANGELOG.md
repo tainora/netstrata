@@ -1,3 +1,25 @@
+# [2.0.0](https://github.com/tainora/netstrata/compare/v1.0.3...v2.0.0) (2025-11-11)
+
+
+### Bug Fixes
+
+* Correct Claude Code usage from 'thousands of hours' to '1000+ hours' ([b94b4a2](https://github.com/tainora/netstrata/commit/b94b4a242090cd43c6cbed7a2cc5f09504c934bc))
+* **materials:** correct factual errors - name and date (v1.9.2) ([3fdfbd0](https://github.com/tainora/netstrata/commit/3fdfbd0b3064068086cb3dff4d56b5d3dfab75a0))
+* **materials:** resolve conflicts and redundancies from parallel audit (v1.9.0) ([c3c1e73](https://github.com/tainora/netstrata/commit/c3c1e73ae3867e297ec4418a62fc64fe372d4b57))
+* **phase-1:** resolve critical factual errors and strategic lead-in ([aae0cfa](https://github.com/tainora/netstrata/commit/aae0cfac397f5858509a07afa7fdebfa53fa3cd9))
+
+
+### Features
+
+* Add Codex and Claude Code hyperlinks, fix TOC pagination ([74148cf](https://github.com/tainora/netstrata/commit/74148cfbb4bac00f11958ec023dd58795264c58c))
+* Add professional navy blue styling to hyperlinks in PDFs ([5898d88](https://github.com/tainora/netstrata/commit/5898d887ba3a4f240f2c49322529d909205e2ddf))
+* **materials:** integrate strategic framework with A ⊣ B notation (v1.8.0) ([f1ab1e9](https://github.com/tainora/netstrata/commit/f1ab1e9eb19d67c551f1c57ae7f13b0467a55bdf))
+
+
+### BREAKING CHANGES
+
+* **materials:** Document structure shift from economic rationale to strategic framework
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
