@@ -805,7 +805,7 @@ version_history:
     changes: "Factual corrections - name and date accuracy"
     status: "completed"
     scope: "Correct Epi Mito to Epitacio Neto, and July 2024 to July 2025"
-    git_commit: "pending"
+    git_commit: "3fdfbd0"
 
     corrections_made:
       correction_1_name:
