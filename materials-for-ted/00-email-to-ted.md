@@ -1,3 +1,5 @@
+# Email to Ted Middleton
+
 Hi Ted,
 
 Thanks for taking the time to talk on November 4. I've been reflecting on our conversation about the three-phase opportunity and how I could contribute to Netstrata's software completion and rollout strategy.
