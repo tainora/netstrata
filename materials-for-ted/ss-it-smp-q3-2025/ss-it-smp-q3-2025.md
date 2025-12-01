@@ -1,5 +1,6 @@
 ---
-title: "11 SS, IT & SMP Tom" date: "2025-12-01"
+title: "11 SS, IT & SMP Tom"
+date: "2025-12-01"
 ---
 
 # 11 SS, IT & SMP Tom
@@ -13,28 +14,21 @@ title: "11 SS, IT & SMP Tom" date: "2025-12-01"
 
 ### STRATA SPACE, IT AND SMP
 
-
 ### QUARTERLY BOARD UPDATE
-
 
 ### JUL - SEPT 2025
 
-
 ### PREPARED FOR: TED MIDDLETON, STEPHEN BRELL & EXECS
-
 
 ### PREPARED BY: TOM BACANI
 
-
 ### NOV 2025
-
 
 ---
 
 ## Page 2
 
 ### STRATA SPACE
-
 
 ### EXECUTIVE SUMMARY
 
@@ -90,6 +84,7 @@ The team’s morale is strong, and for the first time in a while, there are no a
 All schemes have now completed a full year of reporting via Strata Space, marking a significant milestone in the system’s maturity and reliability. The platform now consistently delivers auditable financial data and is fully embedded in our operational processes. Notably, the finance team received favourable reviews from our two new auditors, who commended the quality of our reports and underlying business processes. All schemes have now completed a full year of reporting via Strata Space, marking a significant milestone in the system’s maturity and reliability. The platform now consistently delivers auditable financial data and is fully embedded in our operational processes. Notably, the finance team received favourable reviews from our two new auditors, feedback that was shared publicly via Google reviews, commending the quality of our reports and underlying business processes.
 The most impactful advancement this quarter was the implementation of the new management fee schedule, with dedicated resources ensuring a seamless rollout. The revised structure provides greater flexibility in our fee models while maintaining transparency and consistency across the portfolio.
 Ged has continued to expand our Power BI footprint, positioning it as our strategic tool for management reporting. His work has delivered tangible business visibility without the cost of external consultancy. Key dashboards include:
+
 - Cash-Strapped Schemes: Identifies financially vulnerable schemes across the portfolio, highlighting trends and common strata manager links.
 - Arrears Dashboard: Equips the admin team with sharper tools to manage owners in arrears.
 - Manager Dashboards: Tracks work orders, invoices, and compliance metrics to support accountability and performance monitoring.
@@ -99,16 +94,15 @@ Ged has continued to expand our Power BI footprint, positioning it as our strate
 ## Page 5
 
 - Trade Compliance Charges, enables the periodic collection of trade compliance charges in accordance with the schemes financial year, as well as the ad hoc creation of charges for terminated schemes, thereby addressing potential revenue leakage.
-A key focus area this quarter was the arrears process, where enhancements to both systems and procedures were implemented to optimise arrears management. This included new tools in Power BI and refined workflows across Strata Space and MYOB. While the process is now stable, opportunities for further efficiency remain, and additional automation initiatives are already scheduled for the new year.
-Following the reporting period, further adjustments were made to accommodate legislative changes introduced in late October regarding payment plan provisions for lot owners and the allocation of payments across receivables. While compliance is currently managed through business processes, a scalable solution leveraging MYOB’s functionality has been designed should transaction volumes increase.
-On the development side, the Strata Space team has launched an Aged Payables report, now available both as a standalone tool and within the year-end reporting package. Additionally, the re-strike process has been streamlined, enabling the Development and Finance teams to respond more quickly and effectively to the diverse needs of each scheme.
+  A key focus area this quarter was the arrears process, where enhancements to both systems and procedures were implemented to optimise arrears management. This included new tools in Power BI and refined workflows across Strata Space and MYOB. While the process is now stable, opportunities for further efficiency remain, and additional automation initiatives are already scheduled for the new year.
+  Following the reporting period, further adjustments were made to accommodate legislative changes introduced in late October regarding payment plan provisions for lot owners and the allocation of payments across receivables. While compliance is currently managed through business processes, a scalable solution leveraging MYOB’s functionality has been designed should transaction volumes increase.
+  On the development side, the Strata Space team has launched an Aged Payables report, now available both as a standalone tool and within the year-end reporting package. Additionally, the re-strike process has been streamlined, enabling the Development and Finance teams to respond more quickly and effectively to the diverse needs of each scheme.
 
 ---
 
 ## Page 6
 
 ### DEVELOPMENT
-
 
 ### Web Development
 
@@ -125,19 +119,15 @@ Richardson remains stable and positive in their adoption. Feedback from their us
 
 ### Mobile Development
 
-
 ![Page 7 Figure 1](images/page07_img01.png)
 
-
 ![Page 7 Figure 2](images/page07_img02.png)
-
 
 ---
 
 ## Page 8
 
 ![Page 8 Figure 3](images/page08_img03.png)
-
 
 **What the numbers say**
 
@@ -152,7 +142,6 @@ Richardson remains stable and positive in their adoption. Feedback from their us
 ## Page 9
 
 ### ROADMAP
-
 
 ![Page 9 Figure 4](images/page09_img04.png)
 
@@ -178,7 +167,7 @@ What’s Coming and When
 - Buildings setup, management, and Contacts rework – optimise for Strata Space as the single source of truth.
 - Asset Management – deliver a market-leading module for asset tracking, maintenance scheduling, and lifecycle management.
 - Strata Manager Dashboard – unify key operational insights and metrics in a single view.
-Once complete, 90–95% of a Strata Manager’s workload will be conducted entirely within Strata Space. The roadmap also allows for tactical and ad hoc requests to ensure we can respond quickly to business needs.
+  Once complete, 90–95% of a Strata Manager’s workload will be conducted entirely within Strata Space. The roadmap also allows for tactical and ad hoc requests to ensure we can respond quickly to business needs.
 
 ---
 
@@ -190,13 +179,11 @@ Planning for post-2026 initiatives is underway and will build on this foundation
 
 ![Page 11 Figure 5](images/page11_img05.png)
 
-
 ---
 
 ## Page 12
 
 ### INFORMATION TECHNOLOGY (IT)
-
 
 ### EXECUTIVE SUMMARY
 
@@ -210,7 +197,6 @@ To support the growing scope of work, particularly around AI, Sydney (a Business
 
 ### COMPLETED
 
-
 **Integration of ACS with Microsoft Identity (Entra ID)**
 
 - Completed integration linking building access control with Microsoft Entra ID.
@@ -218,7 +204,6 @@ To support the growing scope of work, particularly around AI, Sydney (a Business
 - Strengthens security, reduces manual admin overhead, and ensures real-time access governance across all sites.
 
 **Guest Sign-In Kiosk (Reception)**
-
 
 ---
 
@@ -232,16 +217,13 @@ To support the growing scope of work, particularly around AI, Sydney (a Business
 
 ![Page 13 Figure 6](images/page13_img06.png)
 
-
 ![Page 13 Figure 7](images/page13_img07.png)
-
 
 ---
 
 ## Page 14
 
 ### IN PROGRESS
-
 
 **AWS Modernisation (Strata Space)**
 
@@ -262,7 +244,6 @@ To support the growing scope of work, particularly around AI, Sydney (a Business
 - The first proof-of-concept builds will target measurable outcomes such as time saved, accuracy, and automation impact, setting the foundation for broader rollout in FY26.
 
 ### PLANNED INITIATIVES 25-26
-
 
 **AD Decommissioning → Entra ID**
 
@@ -305,6 +286,7 @@ Netstrata’s AI program has moved from exploration to execution, with a roadmap
 **Program Overview**
 
 The first phase will focus exclusively on Use Case 1 – the AI Training & Knowledge Bot, designed to convert internal training materials and trusted public sources into a searchable, conversational knowledge tool for staff. The pilot is underway, with delivery planned for end of January 2026. This phase will demonstrate the value of AI through a simple internal chatbot hosted on the Netstrata website. It will answer everyday operational and legislative queries drawn from approved datasets such as Netstrata training materials, NSW Fair Trading, and NCAT. Post-pilot, the Exec will review outcomes and decide whether to:
+
 - Extend and scale Use Case 1, or
 - Commence Use Case 2
 
@@ -314,9 +296,7 @@ The first phase will focus exclusively on Use Case 1 – the AI Training & Knowl
 
 **Pilot project plan**
 
-
 ![Page 16 Figure 8](images/page16_img08.png)
-
 
 **Key dates from above are:**
 
@@ -335,7 +315,6 @@ The first phase will focus exclusively on Use Case 1 – the AI Training & Knowl
 ## Page 17
 
 ### SMP
-
 
 ### EXECUTIVE SUMMARY
 

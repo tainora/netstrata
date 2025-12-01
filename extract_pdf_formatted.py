@@ -293,14 +293,27 @@ def join_wrapped_lines(md_text: str) -> str:
     lines = md_text.split('\n')
     result = []
     i = 0
+    in_frontmatter = False
 
     while i < len(lines):
         line = lines[i]
 
+        # Track YAML front matter
+        if line.strip() == '---':
+            in_frontmatter = not in_frontmatter
+            result.append(line)
+            i += 1
+            continue
+
+        # Skip YAML front matter content
+        if in_frontmatter:
+            result.append(line)
+            i += 1
+            continue
+
         # Skip structural elements
         if (not line.strip() or
             line.startswith('#') or
-            line.startswith('---') or
             line.startswith('![') or
             line.startswith('**') and line.rstrip().endswith('**')):
             result.append(line)
