@@ -49,3 +49,12 @@ Thumbs.db
 *.fls
 *.synctex.gz
 node_modules/
+
+# Lychee link checker
+.lychee-results.json
+.lychee-results.txt
+.lycheecache
+**/.lychee-results.json
+**/.lychee-results.txt
+**/.lycheecache
+.lint-relative-paths-results.txt
