@@ -1,3 +1,10 @@
+## [2.3.3](https://github.com/tainora/netstrata/compare/v2.3.2...v2.3.3) (2025-12-01)
+
+
+### Bug Fixes
+
+* preserve Ted's original phrasing in context notes ([bddc61b](https://github.com/tainora/netstrata/commit/bddc61b667c07c3524a55390a9a730d29608c2f4))
+
 ## [2.3.2](https://github.com/tainora/netstrata/compare/v2.3.1...v2.3.2) (2025-12-01)
 
 
