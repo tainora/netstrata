@@ -1,3 +1,10 @@
+## [2.3.1](https://github.com/tainora/netstrata/compare/v2.3.0...v2.3.1) (2025-12-01)
+
+
+### Bug Fixes
+
+* preserve YAML front matter in line joining ([0a4dd39](https://github.com/tainora/netstrata/commit/0a4dd39a6afb5880c1cd259c840c89e53bbebb7a))
+
 # [2.3.0](https://github.com/tainora/netstrata/compare/v2.2.0...v2.3.0) (2025-12-01)
 
 
