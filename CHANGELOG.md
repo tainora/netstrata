@@ -1,3 +1,10 @@
+## [2.3.2](https://github.com/tainora/netstrata/compare/v2.3.1...v2.3.2) (2025-12-01)
+
+
+### Bug Fixes
+
+* add paragraph breaks between sentences for proper GFM rendering ([c207f4a](https://github.com/tainora/netstrata/commit/c207f4a041263e660e19cf5ea339f27517b8e89c))
+
 ## [2.3.1](https://github.com/tainora/netstrata/compare/v2.3.0...v2.3.1) (2025-12-01)
 
 
