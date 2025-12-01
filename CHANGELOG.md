@@ -1,3 +1,17 @@
+# [2.3.0](https://github.com/tainora/netstrata/compare/v2.2.0...v2.3.0) (2025-12-01)
+
+
+### Bug Fixes
+
+* **doc-00:** add H1 heading to enable TOC page separation ([a1a29b5](https://github.com/tainora/netstrata/commit/a1a29b5413de3d432af4763b8e704cc9b17fa6e3))
+
+
+### Features
+
+* **doc-04:** add GTM readiness and competitive moat strategy analysis ([d766a41](https://github.com/tainora/netstrata/commit/d766a4194e0ebaa086ce017977e11600c6946966))
+* **materials:** extract Tom Bacani's Q3 2025 board report ([48d8bcb](https://github.com/tainora/netstrata/commit/48d8bcb279cbe887d4c4e882b37d23cbe4709833))
+* **tools:** add format-aware PDF extractor with font metadata analysis ([14e8e82](https://github.com/tainora/netstrata/commit/14e8e825cb7592e229d751061d452d60401461dd))
+
 # [2.2.0](https://github.com/tainora/netstrata/compare/v2.1.0...v2.2.0) (2025-11-11)
 
 
