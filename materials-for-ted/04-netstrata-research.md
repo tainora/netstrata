@@ -416,21 +416,25 @@ Expanding from 2,000 NSW schemes to 5,000+ multi-state schemes creates a **2.5X 
 **Concrete Data Moat Use Cases**:
 
 **Insurance Premium Negotiation**:
+
 - Portfolio-wide claims data (incident frequency, building defect correlation, fire safety compliance patterns) enables actuarial risk modeling
 - During 20%+ annual premium increase crisis, data-driven negotiations secure better rates than competitors operating blind
 - External rollout strengthens this: more schemes = more claims data = better predictive models = stronger negotiating position
 
 **Compliance Risk Prediction**:
+
 - Identify which schemes are likely to miss AGM + 3-month Strata Hub deadline based on historical patterns (late levy payments, unresponsive committees, high turnover)
 - Proactive intervention prevents $110,000 penalties
 - Multi-state expansion: Cross-state compliance pattern comparison (e.g., "VIC schemes with X characteristic have Y% higher risk")
 
 **Building Defect Intelligence**:
+
 - 2,000+ buildings reveal common defect patterns (waterproofing failures in 2010-2015 construction, cladding issues, fire safety non-compliance)
 - Preventative maintenance recommendations based on portfolio-wide trends
 - External rollout: National building defect database (competitive intelligence asset)
 
 **Operational Efficiency Benchmarking**:
+
 - Compare scheme performance metrics (levy collection rates, maintenance response times, committee engagement levels)
 - Identify best practices; scale learnings across portfolio
 - Multi-state: "WA schemes achieve X% better outcomes using Y approach vs. NSW average"
@@ -454,11 +458,13 @@ These are business development needs beyond software completion and outside my t
 While GTM strategy and moat preservation are business leadership decisions (Ted/Stephen Brell/Andrew Tunks), my technical contribution can be **moat-aware** in execution:
 
 **Phase 2 WA Migration**:
+
 - Build data collection infrastructure into migration tooling (customer operational data flows into portfolio intelligence from day one)
 - Instrument migration process for learning extraction (time tracking, pain point documentation, cost analysis)
 - Create reproducible migration playbook (strengthens migration pain moat for future customers by proving systematic, reliable process)
 
 **Phase 3 External Rollout Infrastructure**:
+
 - Design customer onboarding automation that tracks behavior patterns and operational data (compounds data moat with every new customer)
 - Build deployment tooling that preserves NSW-specific capabilities in separate modules (protects geographic moat through architecture)
 - Create customer-facing tools that demonstrate outcomes without exposing technical capabilities (supports moat-aware marketing)

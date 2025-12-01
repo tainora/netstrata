@@ -86,11 +86,13 @@ Pre-emptive restriction limits what agents can accomplish. Empirical boundary di
 ## Summary: The Left-Right Balance
 
 **Maximize LEFT** (agent capabilities):
+
 - Exploration (let agents discover state-of-the-art solutions)
 - Autonomy (reduce human intervention frequency)
 - Idiomatic patterns (embrace community-tested approaches)
 
 **Minimize RIGHT** (human constraints):
+
 - Specification (avoid prescriptive implementation details)
 - Supervision (intervene only when audit reveals issues)
 - Bespoke constraints (avoid custom frameworks and house styles)
@@ -106,6 +108,7 @@ Pre-emptive restriction limits what agents can accomplish. Empirical boundary di
 During Phase 2 document compression (commit cead05a), Doc 02 was reduced from 281 to 118 lines (58% reduction) to address repetition and improve conciseness. This three-axis framework, while conceptually valuable, was deemed too detailed for the strategic materials being sent to Ted Middleton.
 
 However, the principle remains valuable for:
+
 - Personal AI coding methodology reference
 - Future technical documentation
 - Training materials for teams adopting AI-augmented development

@@ -34,13 +34,9 @@ This document outlines my approach to AI-augmented development workflows, the ec
 
 - Understanding prompt engineering patterns that produce consistent results
 - Structuring prompts to delegate all implementation decisions to AI agents while maintaining human oversight on business requirements
-- Designing context-aware workflows that leverage large context windows effectively
-  - When [Claude Code](https://www.claude.com/product/claude-code) auto-compacts sessions that exceed context limits, maintaining continuity requires explicit state management: single-source-of-truth plan files (YAML/JSON), SLO validation gates tracked in TodoWrite, and success criteria documented in-repository
-  - Multi-step workflows spanning sessions succeed when each phase has clear completion signals, not implicit state—allowing the next session to resume from explicit checkpoints rather than reconstructed context
+- Designing context-aware workflows that leverage context window rollover (i.e. auto-compacting) effectively
 - Building reliable systems on top of non-deterministic AI outputs
-- Managing API costs through efficient prompt design and caching strategies
-  - Two key techniques for cost-efficient prompt design: [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) (composable, reusable prompt modules that load on-demand) and Progressive Disclosures (revealing information incrementally rather than front-loading entire context)
-  - These patterns substantially reduce token usage compared to monolithic prompts while maintaining or improving output quality
+- Managing context window usage through efficient prompt design
 
 ### My Practice: AI-First Development Methodology
 
@@ -79,7 +75,7 @@ Through extensive production usage, I've learned to let AI agents handle all dis
 
 - Start with minimal constraints, audit outputs systematically
 - Let agents discover current best practices rather than prescribing outdated approaches
-- Add constraints only where audit reveals actual problems, not pre-emptively
+- Add constraints only where audit reveals actual problems, not preemptively
 - Trust agents for routine implementation, reserve human judgment for architecture and NSW compliance
 
 **For Netstrata's $12-14M software investment**: Competitive advantage comes from the decade of NSW strata management expertise embedded in the system, not from custom technical patterns. Using standard, well-supported tools maximizes maintainability and protects that investment.
