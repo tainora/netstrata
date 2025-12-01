@@ -334,14 +334,13 @@ def join_wrapped_lines(md_text: str) -> str:
                 next_line.startswith('---')):
                 break
 
-            # Check if current line needs continuation
+            # Check if current line ends a sentence (don't join paragraphs)
             current_stripped = current.rstrip()
-            if current_stripped.endswith(('.', ':', '!', '?', ')')):
-                # Ends with terminator - don't join unless next starts lowercase
-                if next_line and next_line[0].isupper():
-                    break
+            if current_stripped.endswith(('.', '!', '?')):
+                # Sentence ended - this is likely a paragraph break
+                break
 
-            # Join with next line
+            # Join with next line (continuation of same sentence/paragraph)
             current = current.rstrip() + ' ' + next_line
             i += 1
 
@@ -351,10 +350,49 @@ def join_wrapped_lines(md_text: str) -> str:
     return '\n'.join(result)
 
 
+def add_paragraph_breaks(md_text: str) -> str:
+    """
+    Add blank lines between paragraphs.
+
+    If a line ends with sentence terminator and next line starts with uppercase,
+    insert a blank line to create proper GFM paragraph separation.
+    """
+    lines = md_text.split('\n')
+    result = []
+
+    for i, line in enumerate(lines):
+        result.append(line)
+
+        # Skip if this is last line or line is empty/structural
+        if i + 1 >= len(lines):
+            continue
+        if not line.strip():
+            continue
+        if line.startswith('#') or line.startswith('-') or line.startswith('!') or line.startswith('**'):
+            continue
+
+        next_line = lines[i + 1].strip()
+        if not next_line:
+            continue
+
+        # If current ends sentence and next starts new sentence, add blank line
+        if (line.rstrip().endswith(('.', '!', '?')) and
+            next_line and next_line[0].isupper() and
+            not next_line.startswith('#') and
+            not next_line.startswith('-') and
+            not next_line.startswith('**')):
+            result.append('')  # Insert blank line for paragraph break
+
+    return '\n'.join(result)
+
+
 def clean_markdown(md_text: str) -> str:
     """Final markdown cleanup."""
     # Join wrapped lines first
     md_text = join_wrapped_lines(md_text)
+
+    # Add paragraph breaks
+    md_text = add_paragraph_breaks(md_text)
 
     # Collapse 3+ blank lines to 2
     md_text = re.sub(r"\n{4,}", "\n\n\n", md_text)
