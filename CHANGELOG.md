@@ -1,3 +1,10 @@
+## [2.3.5](https://github.com/terrylica/netstrata/compare/v2.3.4...v2.3.5) (2025-12-02)
+
+
+### Bug Fixes
+
+* **materials:** add citations and correct AI program details per audit ([cf3b9d7](https://github.com/terrylica/netstrata/commit/cf3b9d7dfe5f2382a93ea676dba66f7f938933f5))
+
 ## [2.3.4](https://github.com/terrylica/netstrata/compare/v2.3.3...v2.3.4) (2025-12-02)
 
 
