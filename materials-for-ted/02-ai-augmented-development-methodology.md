@@ -86,11 +86,11 @@ Through extensive production usage, I've learned to let AI agents handle all dis
 
 **Netstrata's AI Program** (Epi Neto's domain - business automation):
 
-- **AI Training & Knowledge Bot** (pilot Jan 2026): Internal chatbot for operational/legislative queries
+- **AI Training & Knowledge Bot** (pilot underway, showcase end Jan 2026): Internal chatbot for operational/legislative queries, drawing from Netstrata training materials, NSW Fair Trading, and NCAT sources [Tom Q3 Report, p.16]
 - **Fire Asset Quote Pricing Comparison**: AI-driven analysis for competitive quotes
-- **Meeting Minutes Action Extraction**: Automated processing of meeting outputs
+- **Meeting Minutes Action Extraction**: Automated extraction of actions from meeting minutes and compliance documentation [Tom Q3 Report, p.16] — Tom's highest-priority use case for "efficiency and compliance across broader range of business"
 
-These use cases require deep understanding of Netstrata's operations, NSW regulations, and business context—Epi's domain expertise.
+These use cases require deep understanding of Netstrata's operations, NSW regulations, and business context—Epi's domain expertise. Sydney (Business Analyst from the Strata Space team) has joined to assist Epi in project managing the AI program [Tom Q3 Report, p.12].
 
 **My AI Expertise** (development tooling and practice):
 

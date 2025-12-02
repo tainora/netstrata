@@ -67,8 +67,10 @@ This vertical integration creates operational efficiencies and revenue diversifi
 
 - **Tom Bacani**: Head of Software Operations
   - Manages proprietary software development team
-- **Epitacio Neto**: Head of IT Infrastructure
-  - Manages hardware, cloud systems, office migration
+- **Epitacio Neto (Epi)**: IT Administrator [Ted context notes]
+  - Recently completed postgraduate Masters in AI [Ted, Nov 30 call]
+  - Leading Netstrata's AI program ("baby steps, for now") with Sydney (BA) as project manager [Tom Q3 Report, p.12]
+  - Manages IT infrastructure, hardware, cloud systems
 
 **HR Contact**:
 

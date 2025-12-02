@@ -175,7 +175,7 @@ Extensive production experience with AI coding agents:
 
 ### December 2025 Milestone Contribution
 
-Support DMS, Tasks, Time Recording release - "biggest operational shift since Financials went live":
+Support DMS, Tasks, Time Recording release - "biggest operational shift since Financials went live" [Tom Q3 Report, p.6]:
 
 - **Modern Tooling**: Python/uv, Rust for performance-critical components
 - **Automation Expertise**: Reducing manual operational overhead
@@ -185,7 +185,7 @@ Support DMS, Tasks, Time Recording release - "biggest operational shift since Fi
 
 ### July 2026 Milestone Contribution
 
-Support Buildings, Asset Management, Strata Manager Dashboard - targeting "90-95% of workload in Strata Space":
+Support Buildings, Asset Management, Strata Manager Dashboard - targeting "90-95% of workload in Strata Space" [Tom Q3 Report, p.10]:
 
 - **Data Systems**: Asset management workflow automation
 - **Dashboard Development**: Production monitoring interfaces
