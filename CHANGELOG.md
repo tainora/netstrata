@@ -1,3 +1,10 @@
+## [2.3.4](https://github.com/terrylica/netstrata/compare/v2.3.3...v2.3.4) (2025-12-02)
+
+
+### Bug Fixes
+
+* update repository URL to terrylica/netstrata ([81aaaaa](https://github.com/terrylica/netstrata/commit/81aaaaa180bb817bd89605e06961ba278f24d6c9))
+
 ## [2.3.3](https://github.com/tainora/netstrata/compare/v2.3.2...v2.3.3) (2025-12-01)
 
 
