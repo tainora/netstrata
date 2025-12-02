@@ -10,7 +10,7 @@ Seeking final career opportunity in team environment at established business, tr
 
 **25 years of SaaS development experience** including founding and scaling internet solutions company (2000) to 100+ employees across Hong Kong, Shanghai, and Macau. Built first-generation web analytics tools (pre-Google Analytics era). Understand both scaling challenges and market positioning importance from operator perspective.
 
-Learned critical lessons about technology adoption patterns, market timing, and the importance of established markets with proven customer bases—which directly informs interest in contributing to Netstrata's established position in NSW strata management with proprietary software completing 2026.
+Learned critical lessons about technology adoption patterns, market timing, and the importance of established markets with proven customer bases—which directly informs interest in contributing to Netstrata's established position in NSW strata management with proprietary software approaching major milestones (December 2025, July 2026).
 
 ## Key Production System
 
@@ -82,7 +82,7 @@ Demonstrates operational reliability patterns applicable to business-critical sy
 - Structured audit trails providing queryable migration history
 - Exception-only error handling preventing silent data corruption
 
-**Relevance to Phase 2**: WA customer migration from legacy Netstrata software requires similar dual-pipeline architecture, gap detection, and rollback capabilities.
+**Relevance to Future Migrations**: External customer migrations (when needed) require similar dual-pipeline architecture, gap detection, and rollback capabilities. Richardson (WA) is currently stable on existing modules.
 
 ### Data Quality & Integrity Systems
 
@@ -101,7 +101,7 @@ Demonstrates operational reliability patterns applicable to business-critical sy
 - Structured audit trails stored in compressed formats (Parquet, Arrow)
 - Exception-only error handling (no silent failures, no defaults)
 
-**Relevance to Phase 2**: WA migration requires data integrity assurance across scheme records, financial history, and compliance documents. Gap detection and atomic operations prevent data loss during multi-stage migration.
+**Relevance to Core Development**: Data integrity assurance applies across scheme records, financial history, and compliance documents—critical for the December 2025 DMS migration and ongoing Strata Space development.
 
 ### Internal Automation Tools
 
@@ -161,7 +161,7 @@ Extensive production experience with AI coding agents:
 - Version-tracked algorithm specs with breaking change history
 - Comprehensive testing validating conformance to specifications
 
-**Relevance to Phase 1**: Software completion requires documentation discipline and specification rigor. Authoritative spec patterns prevent divergence between code, tests, and documentation across Tom Bakani's team.
+**Relevance to December 2025 + July 2026 Milestones**: Software completion requires documentation discipline and specification rigor. Authoritative spec patterns prevent divergence between code, tests, and documentation across Tom Bacani's team (3 squads working in parallel).
 
 ### Rapid Prototyping Capability
 
@@ -173,26 +173,30 @@ Extensive production experience with AI coding agents:
 
 ## What This Means for Netstrata
 
-### Phase 1 Contribution (Software Completion)
+### December 2025 Milestone Contribution
+
+Support DMS, Tasks, Time Recording release - "biggest operational shift since Financials went live":
 
 - **Modern Tooling**: Python/uv, Rust for performance-critical components
 - **Automation Expertise**: Reducing manual operational overhead
 - **Production Reliability**: Experience with 24/7 supervised systems
 - **Fast Iteration**: Quick turnaround on features and bug fixes
+- **Squad Support**: Experience supporting parallel workstreams
 
-### Phase 2 Contribution (WA Migration Readiness)
+### July 2026 Milestone Contribution
 
-- **Migration Infrastructure**: Tools for data conversion, validation, rollback
-- **Support Systems**: Documentation generation, training materials
-- **Testing Frameworks**: Automated validation of migration accuracy
-- **Deployment Automation**: Reproducible rollout procedures
+Support Buildings, Asset Management, Strata Manager Dashboard - targeting "90-95% of workload in Strata Space":
 
-### Phase 3 Contribution (External Rollout - if still contributing post-2026)
+- **Data Systems**: Asset management workflow automation
+- **Dashboard Development**: Production monitoring interfaces
+- **Testing Frameworks**: Automated validation
+- **Documentation**: Technical documentation generation
 
-- **Packaging**: Deployment automation for external customers
-- **Distribution Systems**: Update mechanisms, version management
+### Post-2026 Contribution (if still contributing)
+
+- **Commercialisation Support**: Deployment automation for external customers
+- **Automation Enhancement**: Continued workflow optimization
 - **Support Infrastructure**: Issue tracking, documentation, monitoring
-- **Freemium Mechanics**: Usage limits, feature gating, upgrade paths
 
 ## Technical Philosophy
 
@@ -223,7 +227,8 @@ Extensive production experience with AI coding agents:
 
 **Join Existing Team**:
 
-- Work with Tom Bakani's software operations team
+- Work with Tom Bacani's software operations team (3 squads)
 - Support Andrew Tunks' operational efficiency mandate
-- Contribute to end-2026 completion milestone
+- Contribute to December 2025 and July 2026 milestones
 - Team member, not external auditor
+- Collaborate with Epi Neto's IT team (AI initiatives are his domain)

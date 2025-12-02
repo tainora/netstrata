@@ -80,6 +80,29 @@ Through extensive production usage, I've learned to let AI agents handle all dis
 
 **For Netstrata's $12-14M software investment**: Competitive advantage comes from the decade of NSW strata management expertise embedded in the system, not from custom technical patterns. Using standard, well-supported tools maximizes maintainability and protects that investment.
 
+## Non-Overlapping AI Contributions
+
+**Critical Context**: Netstrata already has an AI program led by Epi Neto (IT Administrator, Masters in AI). My AI expertise is in a **different domain** that doesn't compete with or overlap his initiatives.
+
+**Netstrata's AI Program** (Epi Neto's domain - business automation):
+
+- **AI Training & Knowledge Bot** (pilot Jan 2026): Internal chatbot for operational/legislative queries
+- **Fire Asset Quote Pricing Comparison**: AI-driven analysis for competitive quotes
+- **Meeting Minutes Action Extraction**: Automated processing of meeting outputs
+
+These use cases require deep understanding of Netstrata's operations, NSW regulations, and business context—Epi's domain expertise.
+
+**My AI Expertise** (development tooling and practice):
+
+- AI coding assistants (Claude Code CLI, Cursor) for rapid implementation
+- Production automation workflows using AI agents
+- Standard pattern generation and testing
+- Prompt engineering for software development velocity
+
+**Why These Don't Overlap**: Business automation (chatbots, document processing, pricing analysis) requires deep company knowledge and regulatory context. Development tooling accelerates software delivery through AI-assisted coding. These are **complementary domains**, not competing efforts.
+
+**Positioning**: I would support Tom Bacani's software development team with AI-augmented development practices, while Epi leads business automation initiatives. No overlap, no competition.
+
 ## Knowledge Transfer Approach
 
 **Training methods**: Onboarding workshops ([Claude Code](https://www.claude.com/product/claude-code) CLI setup, prompt engineering basics), pair programming sessions (hands-on problem solving on actual codebase), custom workflow design (building [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) for recurring tasks), ongoing assessment and iteration.
@@ -88,15 +111,15 @@ Through extensive production usage, I've learned to let AI agents handle all dis
 
 ## Demonstration-First Assessment
 
-**My approach**: Work on real Phase 1 completion tasks using AI-first workflows, document measurable outcomes, let the team assess value based on evidence from their actual codebase—not theoretical arguments.
+**My approach**: Work on real December 2025 milestone tasks using AI-first workflows, document measurable outcomes, let the team assess value based on evidence from their actual codebase—not theoretical arguments.
 
 **30-60 Day Trial Period**:
 
 - Pair programming sessions on actual Netstrata codebase challenges
 - Document time savings, code quality improvements, velocity gains
-- Results-based decision: if methodology accelerates Phase 1 completion, explore broader adoption; if fit isn't there, we have clear evidence
+- Results-based decision: if methodology accelerates milestone delivery, explore broader adoption; if fit isn't there, we have clear evidence
 
-**Why timing matters**: Early adoption provides 12-24 months of velocity advantage before these tools become industry standard. By the time broader adoption occurs, Netstrata will have integrated AI-first development into end-2026 completion timeline.
+**Why timing matters**: December 2025 milestone (DMS, Tasks, Time Recording) is imminent. Early adoption provides velocity advantage when it matters most. By July 2026, team will have months of AI-augmented development experience.
 
 **Mutual assessment process**:
 
@@ -106,16 +129,33 @@ Through extensive production usage, I've learned to let AI agents handle all dis
 
 **Team adoption approach**: Gradual and organic—start with demonstrations, let interested team members experiment, build capability progressively. Not forcing adoption, but creating environment where exploration is encouraged with leadership support. Proficiency takes weeks/months of practice.
 
-## Conclusion: Methodology Informs Contribution
+## Conclusion: Contribution Aligned with Roadmap Milestones
 
-This AI-first methodology directly shapes how I'd contribute to Netstrata's three phases:
+This AI-first methodology directly shapes how I'd contribute to Tom Bacani's team across the actual development roadmap:
 
-**Phase 1 (Software Completion)**: Apply AI-first workflows to Phase 1 completion tasks, document measurable velocity gains, transfer knowledge to interested team members, accelerate progress toward end-2026 deadline through systematic agent orchestration.
+### December 2025 Release Support
 
-**Phase 2 (WA Migration)**: AI agents excel at migration infrastructure—documentation generation, validation scripts, data transformation pipelines. Apply AI-first development to WA customer rollout preparation.
+"Biggest operational shift since Financials went live" - DMS, Tasks, Time Recording:
 
-**Phase 3 (External Rollout)**: If Phase 1-2 demonstrations prove value, scale AI-first practices across broader external rollout efforts. Let results from earlier phases inform adoption decisions.
+- Apply AI-first workflows to accelerate delivery
+- Document measurable velocity gains for the team
+- Support three squads working in parallel
+- Transfer knowledge to interested team members
 
-**The core insight**: Early adoption of evolved methodologies provides competitive advantage. For a $12-14M software investment approaching end-2026 completion, AI-first development offers measurable velocity gains at the most critical moment.
+### July 2026 Combined Delivery
 
-Early adoption provides 12-24 months of practical advantage before these tools become industry standard. Let production results on Netstrata's actual codebase demonstrate value.
+Buildings, Asset Management, Strata Manager Dashboard - targeting "90-95% of workload in Strata Space":
+
+- Continue AI-augmented development support
+- Scale practices across squad workstreams
+- Build on December 2025 learnings
+
+### Post-2026 Commercialization
+
+If earlier milestone demonstrations prove value:
+
+- Support automation and user experience enhancement
+- Apply AI-first practices to external customer readiness (when needed)
+- Let results from earlier milestones inform adoption decisions
+
+**The core insight**: December 2025 is imminent. AI-first development offers measurable velocity gains at the most critical moment. Let production results on Netstrata's actual codebase demonstrate value.

@@ -26,7 +26,11 @@ Netstrata operates as an integrated service provider across multiple revenue str
 - **Accounting**: Financial services including tax preparation
 - **Trade Services**: Building maintenance and repairs (coordinated through 3Reach)
 - **Valuations**: Property valuation services
-- **Offshore Operations**: Separate company handling non-client-facing operational work
+- **Manila Office** (Philippines): Separate company employing staff for non-client-facing work
+  - Ted: "A lot of our coding is done in Manila... through the family of one of our directors"
+  - "They do no client-facing work at all"
+  - "Doing such a good job... 15 years now"
+  - Structure: Legally separate Philippine company, not direct Netstrata subsidiary
 
 This vertical integration creates operational efficiencies and revenue diversification that pure strata managers lack.
 
@@ -61,7 +65,7 @@ This vertical integration creates operational efficiencies and revenue diversifi
 
 **IT/Software Leadership**:
 
-- **Tom Bakani**: Head of Software Operations
+- **Tom Bacani**: Head of Software Operations
   - Manages proprietary software development team
 - **Epitacio Neto**: Head of IT Infrastructure
   - Manages hardware, cloud systems, office migration
@@ -97,12 +101,17 @@ From 292 blog posts analyzed:
 
 **Development Timeline**:
 
-- **2006-2011**: External contractor development (ran out of money)
-- **2011**: Hostile takeover - acquired the failing software company
-- **2015-2016**: Decision to completely rebuild (cloud-based architecture)
-- **2024**: Major milestone - "very expensive and very disruptive" change, began capitalizing costs
-- **2025**: Fully functional, running in tandem with legacy system
-- **2026**: Expected completion (end of year target)
+- **2006-2008**: Initial investment pooled from multiple investors including Ted; external software company contracted
+- **2008-2009**: Software company underestimated complexity, ran out of money; Ted kept providing financial support while other investors (except one) dropped out
+- **2011**: Discovered contractor trying to sell business on the side; Netstrata foreclosed on mortgage and acquired company ("hostile takeover"); ~4-5 staff joined Netstrata
+- **2011-2013**: First software version developed under Netstrata ownership; SMP (Strata Manager Pro) integration completed
+- **2015**: Recognized structural limitations in existing software; decision made to completely rebuild
+- **2016**: Cloud-based rebuild commenced (cloud was "still fairly new" at the time); original estimate was 4 years
+- **October 2024**: Office relocation; "junked all the servers" for full cloud migration; major milestone - "very expensive and very disruptive" change; began capitalizing costs as software treated as finished product
+- **2025**: Fully functional, running in tandem with legacy SMP system
+- **December 2025**: DMS, Tasks, Time Recording release scheduled
+- **July 2026**: Buildings, Asset Management, Strata Manager Dashboard targeted
+- **Early 2027**: SMP retirement planned (per Ted's context notes)
 
 **Current Operational Status**:
 
@@ -147,22 +156,39 @@ Analysis of Ted's comment about competitors wondering "how the hell are they doi
 
 ### Three-Phase External Rollout Strategy
 
-**Phase 1 (Priority through 2026): Complete the Software**
+**Current Development Focus: Two Major Milestones**
 
-- Hit end-2026 completion milestone
-- Tom Bakani's software team finalizing development
-- Support Andrew Tunks' operational efficiency mandate
-- Get to "ready for external customers" state
+Per Tom Bacani's Q3 2025 Board Report, Strata Space development follows two key milestones:
 
-**Phase 2 (Current Blocker): Western Australia Migration Readiness**
+**December 2025 Release** ("biggest operational shift since Financials went live"):
 
-- **WA Customer Context**: Former user of old Netstrata software "hell-bent" to migrate to new platform
-- **Current Blocker**: "We're not ready for them yet"
-- **Readiness Requirements**:
-  - Migration infrastructure (data conversion, validation, rollback)
-  - Training materials and documentation
-  - Support systems for external customers
-  - Onboarding workflows
+- Document Management System (DMS) migration from SMP to Strata Space
+- Tasks module
+- Time Recording module
+- Three squads working in parallel toward this delivery
+
+**July 2026 Combined Delivery** (targeting "90-95% of workload in Strata Space"):
+
+- Buildings setup/management
+- Asset Management
+- Strata Manager Dashboard
+
+**Post-July 2026**: Commercialisation, automation, and continued user experience enhancement
+
+**Key Context**: Development is structured around squads (3 parallel workstreams), not phases. The "end-2026 completion" framing understates that major milestones are happening NOW (December 2025).
+
+**Richardson (Western Australia): Stable External Customer**
+
+Richardson, a strata management company in Perth, is currently the only external user of Netstrata software. Per Ted's context notes and Tom Bacani's Q3 2025 Board Report:
+
+- **Current Status**: "Remains stable and positive in their adoption"
+- **User Feedback**: "Feedback from their users has been encouraging"
+- **Pace**: "Kyra appears to have paused plans for further module rollouts for now, which suits us well"
+- **Gap**: "Probably 5 years behind SS's coalface" (Ted's context notes)
+- **Risk Assessment**: "No indication or risk of them seeking alternatives"
+- **Reality Check**: Ted noted they "had a bit of indigestion" adopting current modules—they're "happy with what they've got"
+
+**Key Insight**: Richardson is NOT a "current blocker" or urgent priority. Netstrata is comfortable with the gradual pace. Future migration readiness is a distant consideration, not an immediate workstream.
 
 **Phase 3 (Post-2026): Broader External Offering**
 
@@ -193,7 +219,17 @@ Analysis of Ted's comment about competitors wondering "how the hell are they doi
 
 **Current State of Strata Software Market**:
 
-The strata management software landscape is dominated by generic property management systems built by external vendors without domain expertise. Competitors like Strata Master, :Different, and others face the same challenge: software built "for them" rather than "by them."
+The strata management software landscape is dominated by generic property management systems built by external vendors without domain expertise.
+
+**Industry competitors** (from research): Strata Master, :Different, MRI/StrataMax, Property IQ
+
+**Ted's characterization of the major players**:
+
+- "One of them is owned by a bank" (likely Macquarie/Property IQ)
+- "The other one's essentially a banking operation... a big accounting operation"
+- "Rockin [Rockend]... real estate software, but Strata was never really a big part of their operation"
+
+All competitors face the same challenge: software built "for them" rather than "by them." Netstrata's software is "the only management software actually created by a management company."
 
 **Netstrata's Existing Advantage**: Software written by practicing strata managers who understand NSW compliance deeply. This is already a significant moat.
 
@@ -201,21 +237,21 @@ The strata management software landscape is dominated by generic property manage
 
 **Why This Matters Now**:
 
-- **Acceleration Toward End-2026 Completion**: AI coding agents can significantly accelerate development velocity on remaining features, testing, and documentation. Tasks that historically took days can be completed in hours with systematic AI-augmented workflows.
+- **Acceleration Toward December 2025 and July 2026 Milestones**: AI coding agents can significantly accelerate development velocity on remaining features, testing, and documentation. Tasks that historically took days can be completed in hours with systematic AI-augmented workflows.
 
-- **Code Quality Protection for $12-14M Investment**: AI-assisted code review, test generation, and refactoring help maintain consistency across Tom Bakani's team. As the codebase approaches completion, quality assurance becomes critical—AI tools excel at catching edge cases and maintaining architectural consistency.
+- **Code Quality Protection for $12-14M Investment**: AI-assisted code review, test generation, and refactoring help maintain consistency across Tom Bacani's team. As the codebase approaches completion, quality assurance becomes critical—AI tools excel at catching edge cases and maintaining architectural consistency.
 
 - **Documentation and Knowledge Transfer**: AI-assisted documentation generation ensures the decade of encoded NSW regulatory knowledge is systematically captured. This protects institutional knowledge and facilitates team scaling.
 
 - **Competitive Timing Advantage**: Strata software competitors are unlikely to be using cutting-edge AI development practices. By adopting these methodologies now (2025-2026), Netstrata gains 12-24 months of velocity advantage while competitors catch up to tools that are still emerging.
 
-- **WA Migration Readiness Acceleration**: Phase 2 migration infrastructure (validation scripts, documentation, training materials) benefits significantly from AI-augmented workflows. Tasks like migration guide generation, edge case testing, and support documentation creation are ideal AI tool applications.
+- **Future External Customer Readiness**: When external customers are ready (Richardson is currently stable), migration infrastructure benefits from AI-augmented workflows. Tasks like documentation generation, edge case testing, and support materials are ideal AI tool applications.
 
 **Industry Sophistication Reality**: Ted's observation that "it's not a very sophisticated industry" actually strengthens this opportunity. Strata management isn't about cutting-edge features—it's about operational efficiency, compliance accuracy, and reliability. AI coding agents excel precisely at these fundamentals: systematic testing, consistent documentation, thorough validation, and rapid iteration on operational workflows.
 
 **Risk Mitigation**: Unlike speculative AI features for end-users (which would be hype), AI-augmented **development practices** are proven methodologies with measurable productivity gains. This isn't about adding AI capabilities to the software—it's about using AI tools to build better, faster, and more reliably.
 
-**Team Capability Building**: Knowledge transfer on modern development practices strengthens Tom Bakani's team long-term. Even after software completion, these capabilities accelerate future maintenance, feature additions, and external rollout work.
+**Team Capability Building**: Knowledge transfer on modern development practices strengthens Tom Bacani's team long-term. Even after software completion, these capabilities accelerate future maintenance, feature additions, and external rollout work.
 
 ---
 
@@ -223,11 +259,11 @@ The strata management software landscape is dominated by generic property manage
 
 ### Understanding the Opportunity
 
-This is **employment** to join Tom Bakani's software operations team, not external advisory consulting. The focus is on **capability and business fit**, contributing to existing priorities rather than proposing new directions.
+This is **employment** to join Tom Bacani's software operations team, not external advisory consulting. The focus is on **capability and business fit**, contributing to existing priorities rather than proposing new directions.
 
-### Phase 1 Contribution (2026 Priority): Software Completion
+### December 2025 Milestone Support
 
-**Objective**: Help Tom Bakani's team hit end-2026 completion milestone on time
+**Objective**: Support Tom Bacani's team through the December 2025 release (DMS, Tasks, Time Recording)
 
 **Relevant Expertise**:
 
@@ -238,33 +274,32 @@ This is **employment** to join Tom Bakani's software operations team, not extern
 
 **Potential Support Areas**:
 
+- Support three squads working in parallel toward December delivery
 - Accelerate feature development velocity (Tom's team bandwidth)
-- Improve deployment automation (cloud migration completed 2024)
+- Improve deployment automation (cloud migration completed October 2024)
 - Support Andrew Tunks' operational efficiency mandate with workflow automation
-- Modern Python patterns (uv package management, PEP 723 self-contained scripts)
 
 **Approach**: Team member joining existing efforts, not auditor evaluating work
 
-### Phase 2 Contribution (Current Blocker): WA Migration Readiness
+### July 2026 Milestone Support
 
-**Objective**: Solve the "we're not ready yet" blocker for WA customer migration
+**Objective**: Support Buildings, Asset Management, and Strata Manager Dashboard delivery
 
 **Relevant Experience**:
 
-- **Migration Infrastructure**: Built customer migration tools at previous roles
-  - Data transformation (legacy formats → modern schemas)
-  - Validation systems (automated integrity testing)
-  - Rollback mechanisms (safe deployment with recovery)
-  - Documentation generation (automated migration guides)
+- **Data Systems**: Experience with asset management data models and workflow automation
+- **Dashboard Development**: Production systems with real-time monitoring interfaces
+- **Validation Systems**: Automated integrity testing frameworks
+- **Documentation Generation**: Automated technical documentation workflows
 
-**Specific Contribution Areas**:
+**Potential Contribution Areas**:
 
-- **WA Data Migration Scripts**: Convert WA customer's legacy data to new platform schema
-- **Validation Framework**: Automated testing of migration accuracy (scheme data, financial records, historical minutes)
-- **Support Documentation**: Training materials for WA customer onboarding
-- **Deployment Automation**: Reproducible rollout procedures
+- Buildings setup/management module support
+- Asset Management workflow automation
+- Strata Manager Dashboard development support
+- Post-release support and iteration
 
-**Success Metric**: WA customer successfully migrated and operational (test case for Phase 3 expansion)
+**Success Metric**: July 2026 milestone achieved, reaching "90-95% of workload in Strata Space"
 
 ### Phase 3 Contribution (Post-2026 - if still contributing): External Rollout Infrastructure
 
@@ -292,7 +327,7 @@ This IS about:
 - Enabling the "give it away with strings" distribution strategy
 - Protecting NSW competitive advantage while expanding influence
 
-**Timing**: Post-2026, after Phase 1 completion and Phase 2 WA validation
+**Timing**: Post-July 2026, after major development milestones achieved
 
 ### Technical Philosophy Match
 
@@ -315,11 +350,11 @@ My technical background (production systems, automation, Python/Rust tooling) co
 
 ### Team Contribution Indicators
 
-**Phase 1 Contribution**: Support end-2026 completion milestone achievement
+**December 2025 Contribution**: Support DMS, Tasks, Time Recording release - "biggest operational shift since Financials went live"
 
-**Phase 2 Contribution**: Enable WA customer migration to operational status
+**July 2026 Contribution**: Support Buildings, Asset Management, Strata Manager Dashboard - achieving "90-95% of workload in Strata Space"
 
-**Phase 3 Contribution**: Support cut-down version deployment to non-NSW market with necessary infrastructure
+**Post-2026 Contribution**: Support commercialisation, automation, and continued user experience enhancement as needed
 
 **Overall Team Success**: Help Netstrata protect its $12-14M software investment and competitive moat while enabling strategic expansion to non-competing markets
 
@@ -344,18 +379,19 @@ Netstrata has built **six distinct competitive moats** over 19 years:
 
 **Key strategic question for Phase 3**: How much capability disclosure is acceptable in non-NSW markets to enable customer acquisition without teaching NSW competitors what Netstrata can do?
 
-### Phase 2 WA Migration as GTM Learning Lab
+### Richardson as External Customer Baseline
 
-The Western Australia customer waiting to migrate from old Netstrata software represents more than a technical challenge—it's the first test case for external rollout strategy.
+Richardson (WA) is currently the only external user of Netstrata software—providing valuable learnings for future external rollout without requiring urgent migration work.
 
-**Moat-Aware Execution Approach**:
+**Current State** (per Tom Bacani's Q3 2025 Board Report):
 
-- **Instrument the migration process**: Track time investment, cost, pain points, and operational data collection methods
-- **Validate migration pain moat**: Measure switching difficulty to confirm retention advantage post-acquisition
-- **Build data collection infrastructure**: Ensure WA customer operational data feeds into portfolio-wide intelligence from day one (strengthens data moat immediately)
-- **Document learnings systematically**: Every challenge encountered informs Phase 3 scaling strategy
+- "Remains stable and positive in their adoption"
+- "Feedback from their users has been encouraging"
+- "Kyra appears to have paused plans for further module rollouts for now, which suits us well"
 
-WA migration success metric: Customer operational **and** contributing to Netstrata's data/scale advantage through systematic operational intelligence capture.
+**Strategic Value**: Richardson's gradual adoption provides real-world learnings about external customer support needs, onboarding challenges, and operational data integration—without the pressure of a "current blocker" timeline.
+
+**Future Readiness** (when/if they want more modules): Migration infrastructure and support documentation can be developed in parallel with core Strata Space milestones, not as a competing priority.
 
 ### Service Bundle Viability Question
 
@@ -386,7 +422,7 @@ Netstrata's "impossible capabilities" are NSW-specific: Strata Hub bulk upload a
 
 **Potential Architecture Strategy**: State-agnostic core platform + pluggable state-specific compliance modules. This preserves NSW moat (proprietary modules not shared externally) while enabling expansion.
 
-**Observation**: If helpful, happy to contribute to state-agnostic architecture design given experience with modular automation systems. However, this is Tom Bakani's software team decision—just flagging the strategic trade-off.
+**Observation**: If helpful, happy to contribute to state-agnostic architecture design given experience with modular automation systems. However, this is Tom Bacani's software team decision—just flagging the strategic trade-off.
 
 ### Capability Disclosure Trade-Off
 
@@ -457,11 +493,11 @@ These are business development needs beyond software completion and outside my t
 
 While GTM strategy and moat preservation are business leadership decisions (Ted/Stephen Brell/Andrew Tunks), my technical contribution can be **moat-aware** in execution:
 
-**Phase 2 WA Migration**:
+**Future External Customer Support** (when needed):
 
-- Build data collection infrastructure into migration tooling (customer operational data flows into portfolio intelligence from day one)
-- Instrument migration process for learning extraction (time tracking, pain point documentation, cost analysis)
-- Create reproducible migration playbook (strengthens migration pain moat for future customers by proving systematic, reliable process)
+- Build data collection infrastructure into any migration tooling (customer operational data flows into portfolio intelligence from day one)
+- Document Richardson learnings for future external customers
+- Create reproducible onboarding playbook (strengthens migration pain moat for future customers by proving systematic, reliable process)
 
 **Phase 3 External Rollout Infrastructure**:
 

@@ -317,7 +317,7 @@ This context positions automation advisory services as **high-leverage opportuni
 
 ### IT Leadership
 
-1. **Tom Bacani**[^tom-bacani] (Speech-to-text transcribed as "Tom Bakani"):
+1. **Tom Bacani**[^tom-bacani] (Speech-to-text transcribed as "Tom Bacani"):
    - From Philippines
    - Official title: Product & Delivery Lead IT
    - Heads software operations ("All the software operations")
@@ -326,7 +326,7 @@ This context positions automation advisory services as **high-leverage opportuni
    - **Ted's Note**: "I'm never quite sure what Tom actually does, but, you know, I mean, it's his crew that do all the work, I expect"
    - **Visa History**: Originally came to Australia on Netstrata-sponsored visa (Philippines)
    - "Then he went off and worked for somebody else and, you know, backwards and forwards. And finally, you know, he came back to us, I think maybe a year or so ago"
-2. **Epi Mito**[^epi-mito-unverified]:
+2. **Epi Neto**[^epi-neto]:
    - From Brazil (per Ted's recollection)
    - Heads IT/hardware infrastructure ("IT or the hardware and everything connected to everything else")
    - "Runs all the nuts and bolts"
@@ -478,7 +478,7 @@ This context positions automation advisory services as **high-leverage opportuni
 - **Current Belief**: "I don't believe we have any sponsored employees working for us now"
 - **Historical Precedent**:
   - Have sponsored employees in the past
-  - Tom Bakani (software operations head) was originally sponsored from Philippines
+  - Tom Bacani (software operations head) was originally sponsored from Philippines
   - "And there may have been others, I think"
   - **Field Limitation**: "It's only ever been in the IT field, IT or software field, where we've sponsored people"
   - Geographic source: Philippines (mentioned specifically)
@@ -930,8 +930,8 @@ Ted's cryptic comment about competitors looking at their software and thinking "
 ### Key People to Research Further
 
 1. **Cheryl Williams** (HR Manager) - primary contact
-2. **Tom Bakani** (Software Operations) - potential stakeholder
-3. **Epi Mito** (IT Infrastructure) - potential stakeholder
+2. **Tom Bacani** (Software Operations) - potential stakeholder
+3. **Epi Neto** (IT Infrastructure) - potential stakeholder
 4. **Andrew Tunks** (COO) - operational decision maker
 
 ### Questions to Explore
@@ -1205,7 +1205,7 @@ The Australian strata management sector is a **$7+ billion fragmented industry**
 
 [^jessica-middleton]: Jessica Middleton - Licensed Strata Manager (License #20141350), Netstrata. Source: [Netstrata Our Team](https://netstrata.com.au/our-team/). At Netstrata since 2007; started at reception desk; dedicated to client education. One of Ted Middleton's daughters.
 
-[^epi-mito-unverified]: **UNVERIFIED**: "Epi Mito" - This name could not be verified through Netstrata's official team page or web searches. This may be: (1) a nickname or shortened version of a longer name, (2) a speech-to-text transcription error, (3) someone not publicly listed on the website, or (4) Ted misremembering the name. The role description (IT/hardware infrastructure manager from Brazil) was provided by Ted during the conversation but remains unconfirmed.
+[^epi-neto]: **Epi Neto** (full name: Epitacio Neto) - IT Administrator, Netstrata. Source: Ted Middleton's context notes (December 2025): "Epi — The name Epi Neto, is our IT administrator. Epi recently completed a post-grad masters in AI and is, apart from his routine administrator duties, leading our (baby steps, for now) into the AI environment." Previously transcribed as "Epi Mito" in November 2025 speech-to-text.
 
 [^strata-management]: Netstrata Strata Management Services. Source: [Netstrata Our Story](https://netstrata.com.au/our-story/). Founded 1996 by Ted Middleton as Network Strata Services, initially managing 118 lots. Now manages 1,000+ buildings with ~30,000 apartments. Over 100 fully qualified staff, 50+ licensed strata managers. "Largest organically grown strata management business in NSW." Services include residential, commercial, industrial, BMC management, community management, and new development strata setup.
 
