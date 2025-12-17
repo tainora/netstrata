@@ -13,6 +13,10 @@ You were right that the research document (04) had basic errors from internet re
 - AI positioning clarified (development tooling, not competing with Epi's business automation work)
 - Name spellings fixed (Tom Bacani, Epi Neto)
 
+## Additional Material for Tom
+
+I've also prepared a new document (05) on development philosophy that might interest Tom specifically. It covers iterative release practices with evidence from my GitHub history—42 architecture decision records, 64 releases in 9 days during a recent sprint, and how semantic versioning can support 3 parallel squads coordinating toward December and July milestones.
+
 The revised documents are ready for whenever makes sense to share with Cheryl or Tom.
 
 Best,

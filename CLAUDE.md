@@ -59,6 +59,7 @@ Employment opportunity at Netstrata to contribute to:
 | [02-ai-augmented-development-methodology.md](/materials-for-ted/02-ai-augmented-development-methodology.md) | AI development approach          |
 | [03-work-visa-pathway.md](/materials-for-ted/03-work-visa-pathway.md)                                       | Subclass 482 visa details        |
 | [04-netstrata-research.md](/materials-for-ted/04-netstrata-research.md)                                     | Company research summary         |
+| [05-development-philosophy.md](/materials-for-ted/05-development-philosophy.md)                             | Development methodology          |
 
 **Q3 2025 Board Report**: [/materials-for-ted/ss-it-smp-q3-2025/](/materials-for-ted/ss-it-smp-q3-2025/) - Tom's report with Ted's context notes
 
@@ -160,4 +161,4 @@ Employment opportunity at Netstrata to contribute to:
 ./build-pdf.sh <file.md>  # Uses canonical landscape format
 ```
 
-Symlink to: `~/.claude/skills/pandoc-pdf-generation/assets/build-pdf.sh`
+Symlink to: `~/eon/cc-skills/plugins/doc-build-tools/skills/pandoc-pdf-generation/assets/build-pdf.sh`
