@@ -1,3 +1,16 @@
+# [2.4.0](https://github.com/tainora/netstrata/compare/v2.3.3...v2.4.0) (2025-12-17)
+
+
+### Bug Fixes
+
+* **materials:** add citations and correct AI program details per audit ([cf3b9d7](https://github.com/tainora/netstrata/commit/cf3b9d7dfe5f2382a93ea676dba66f7f938933f5))
+* update repository URL to terrylica/netstrata ([81aaaaa](https://github.com/tainora/netstrata/commit/81aaaaa180bb817bd89605e06961ba278f24d6c9))
+
+
+### Features
+
+* **materials:** add Doc 05 development philosophy for Tom Bacani ([8ace038](https://github.com/tainora/netstrata/commit/8ace038cc48d9b32f041acae83cab7a0e4560500))
+
 ## [2.3.5](https://github.com/terrylica/netstrata/compare/v2.3.4...v2.3.5) (2025-12-02)
 
 
