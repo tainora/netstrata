@@ -10,7 +10,7 @@ Seeking final career opportunity in team environment at established business, tr
 
 **25 years of SaaS development experience** including founding and scaling internet solutions company (2000) to 100+ employees across Hong Kong, Shanghai, and Macau. Built first-generation web analytics tools (pre-Google Analytics era). Understand both scaling challenges and market positioning importance from operator perspective.
 
-Learned critical lessons about technology adoption patterns, market timing, and the importance of established markets with proven customer bases—which directly informs interest in contributing to Netstrata's established position in NSW strata management with proprietary software approaching major milestones (December 2025, July 2026).
+Learned critical lessons about technology adoption patterns, market timing, and the importance of established markets with proven customer bases—which directly informs interest in contributing to Netstrata's established position in NSW strata management with proprietary software at major milestones (December 2025 complete, July 2026 next).
 
 ## Key Production System
 
@@ -238,6 +238,6 @@ Support Buildings, Asset Management, Strata Manager Dashboard - targeting "90-95
 
 - Work with Tom Bacani's software operations team (3 squads)
 - Support Andrew Tunks' operational efficiency mandate
-- Contribute to December 2025 and July 2026 milestones
+- Contribute to July 2026 milestone (December 2025 complete)
 - Team member, not external auditor
 - Collaborate with Epi Neto's IT team (AI initiatives are his domain)

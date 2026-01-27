@@ -4,7 +4,7 @@
 
 This document outlines a development philosophy centered on **disciplined iteration**, **semantic versioning**, and **team coordination**. Rather than theoretical principles, it presents evidence from 3.5+ years of sustained GitHub activity demonstrating production-oriented software development.
 
-The core thesis: **small, frequent releases with automated versioning reduce coordination overhead and deployment risk**—directly applicable to Strata Space's December 2025 and July 2026 milestones with 3 parallel squads.
+The core thesis: **small, frequent releases with automated versioning reduce coordination overhead and deployment risk**—directly applicable to Strata Space's July 2026 milestone with 3 parallel squads (December 2025 complete).
 
 ---
 

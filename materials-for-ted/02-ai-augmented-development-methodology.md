@@ -129,7 +129,7 @@ These use cases require deep understanding of Netstrata's operations, NSW regula
 - Document time savings, code quality improvements, velocity gains
 - Results-based decision: if methodology accelerates milestone delivery, explore broader adoption; if fit isn't there, we have clear evidence
 
-**Timeline Context**: December 2025 milestone (DMS, Tasks, Time Recording) should now be complete—Tom's team has emerged from crunch period. July 2026 milestone (Buildings, Asset Management, Dashboard) provides the next velocity demonstration opportunity. Post-crunch stabilization is ideal timing for adopting new development practices.
+**Timeline Context**: December 2025 milestone (DMS, Tasks, Time Recording) is now complete—Tom's team has emerged from crunch period. July 2026 milestone (Buildings, Asset Management, Dashboard) provides the next velocity demonstration opportunity. Post-crunch stabilization (January 2026) is ideal timing for adopting new development practices.
 
 **Mutual assessment process**:
 

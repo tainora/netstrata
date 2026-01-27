@@ -1,6 +1,6 @@
 # Netstrata Research Summary
 
-**Research Methodology**: This summary synthesizes 292 blog posts from Netstrata's website (2009-2025), comprehensive conversation notes from November 4, 2025 meeting, and technical analysis of NSW regulatory requirements. All claims are cross-referenced with source materials.
+**Research Methodology**: This summary synthesizes 292 blog posts from Netstrata's website (2009-2025), comprehensive conversation notes from November 2025 meetings, and technical analysis of NSW regulatory requirements. All claims are cross-referenced with source materials. Updated January 2026.
 
 **Note on Quotes**: Direct quotes appearing in this document are paraphrased from conversation notes (November 4, 2025). While they capture the substance of statements made, they may not reflect exact wording.
 
@@ -111,7 +111,7 @@ From 292 blog posts analyzed:
 - **2016**: Cloud-based rebuild commenced (cloud was "still fairly new" at the time); original estimate was 4 years
 - **October 2024**: Office relocation; "junked all the servers" for full cloud migration; major milestone - "very expensive and very disruptive" change; began capitalizing costs as software treated as finished product
 - **2025**: Fully functional, running in tandem with legacy SMP system
-- **December 2025**: DMS, Tasks, Time Recording release scheduled
+- **December 2025**: DMS, Tasks, Time Recording released (complete)
 - **July 2026**: Buildings, Asset Management, Strata Manager Dashboard targeted
 - **Early 2027**: SMP retirement planned (per Ted's context notes)
 
@@ -162,12 +162,12 @@ Analysis of Ted's comment about competitors wondering "how the hell are they doi
 
 Per Tom Bacani's Q3 2025 Board Report, Strata Space development follows two key milestones:
 
-**December 2025 Release** ("biggest operational shift since Financials went live"):
+**December 2025 Release** (Complete - "biggest operational shift since Financials went live"):
 
 - Document Management System (DMS) migration from SMP to Strata Space
 - Tasks module
 - Time Recording module
-- Three squads working in parallel toward this delivery
+- Delivered by three squads working in parallel
 
 **July 2026 Combined Delivery** (targeting "90-95% of workload in Strata Space"):
 
@@ -177,7 +177,7 @@ Per Tom Bacani's Q3 2025 Board Report, Strata Space development follows two key 
 
 **Post-July 2026**: Commercialisation, automation, and continued user experience enhancement
 
-**Key Context**: Development is structured around squads (3 parallel workstreams), not phases. The "end-2026 completion" framing understates that major milestones are happening NOW (December 2025).
+**Key Context**: Development is structured around squads (3 parallel workstreams), not phases. December 2025 milestone is now complete; July 2026 is the next major delivery.
 
 **Richardson (Western Australia): Stable External Customer**
 
@@ -239,13 +239,13 @@ All competitors face the same challenge: software built "for them" rather than "
 
 **Why This Matters Now**:
 
-- **Acceleration Toward December 2025 and July 2026 Milestones**: AI coding agents can significantly accelerate development velocity on remaining features, testing, and documentation. Tasks that historically took days can be completed in hours with systematic AI-augmented workflows.
+- **Acceleration Toward July 2026 Milestone**: With December 2025 complete, AI coding agents can significantly accelerate development velocity on remaining features, testing, and documentation for the July 2026 release. Tasks that historically took days can be completed in hours with systematic AI-augmented workflows.
 
 - **Code Quality Protection for $12-14M Investment**: AI-assisted code review, test generation, and refactoring help maintain consistency across Tom Bacani's team. As the codebase approaches completion, quality assurance becomes critical—AI tools excel at catching edge cases and maintaining architectural consistency.
 
 - **Documentation and Knowledge Transfer**: AI-assisted documentation generation ensures the decade of encoded NSW regulatory knowledge is systematically captured. This protects institutional knowledge and facilitates team scaling.
 
-- **Competitive Timing Advantage**: Strata software competitors are unlikely to be using cutting-edge AI development practices. By adopting these methodologies now (2025-2026), Netstrata gains 12-24 months of velocity advantage while competitors catch up to tools that are still emerging.
+- **Competitive Timing Advantage**: Strata software competitors are unlikely to be using cutting-edge AI development practices. By adopting these methodologies now (2026), Netstrata gains 12-24 months of velocity advantage while competitors catch up to tools that are still emerging.
 
 - **Future External Customer Readiness**: When external customers are ready (Richardson is currently stable), migration infrastructure benefits from AI-augmented workflows. Tasks like documentation generation, edge case testing, and support materials are ideal AI tool applications.
 
@@ -263,9 +263,9 @@ All competitors face the same challenge: software built "for them" rather than "
 
 This is **employment** to join Tom Bacani's software operations team, not external advisory consulting. The focus is on **capability and business fit**, contributing to existing priorities rather than proposing new directions.
 
-### December 2025 Milestone Support
+### Post-December 2025 Stabilization Support
 
-**Objective**: Support Tom Bacani's team through the December 2025 release (DMS, Tasks, Time Recording)
+**Objective**: Support Tom Bacani's team during post-release stabilization (DMS, Tasks, Time Recording now live)
 
 **Relevant Expertise**:
 
@@ -276,8 +276,8 @@ This is **employment** to join Tom Bacani's software operations team, not extern
 
 **Potential Support Areas**:
 
-- Support three squads working in parallel toward December delivery
-- Accelerate feature development velocity (Tom's team bandwidth)
+- Support post-release stabilization and bug fixes
+- Accelerate feature development velocity toward July 2026
 - Improve deployment automation (cloud migration completed October 2024)
 - Support Andrew Tunks' operational efficiency mandate with workflow automation
 
@@ -352,7 +352,7 @@ My technical background (production systems, automation, Python/Rust tooling) co
 
 ### Team Contribution Indicators
 
-**December 2025 Contribution**: Support DMS, Tasks, Time Recording release - "biggest operational shift since Financials went live"
+**Post-December 2025 Contribution**: Support stabilization of DMS, Tasks, Time Recording - "biggest operational shift since Financials went live" (now live)
 
 **July 2026 Contribution**: Support Buildings, Asset Management, Strata Manager Dashboard - achieving "90-95% of workload in Strata Space"
 
