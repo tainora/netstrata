@@ -2,7 +2,7 @@
 
 ## Current Role & Production Systems
 
-Director of Operations at Eon Labs Ltd. (www.eonlabs.com), handling administration, HR, SR&ED (Scientific Research and Experimental Development), feature engineering for quantitative trading systems, and AI agent coding tool adoption across the team. Focus areas include [Claude Code](https://www.claude.com/product/claude-code) [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) popularization, automation workflows, and cloud infrastructure for financial technology systems.
+Director of Operations at Eon Labs Ltd. (<www.eonlabs.com>), handling administration, HR, SR&ED (Scientific Research and Experimental Development), feature engineering, and AI agent coding tool adoption across the team. Focus areas include [Claude Code](https://www.claude.com/product/claude-code) [Agent Skills](https://code.claude.com/docs/en/skills) development—now an [industry-standard open format](https://laurentkempe.com/2026/01/27/Agent-Skills-From-Claude-to-Open-Standard/) adopted by Claude Code, GitHub Copilot, Cursor, OpenAI Codex, and 5+ other AI coding tools. Developed 18 plugins with 100+ skills in the [cc-skills ecosystem](https://github.com/terrylica/cc-skills) (955+ commits since December 2025).
 
 Seeking final career opportunity in team environment at established business, transitioning from independent operations role to hands-on technical contribution.
 
@@ -101,7 +101,7 @@ Demonstrates operational reliability patterns applicable to business-critical sy
 - Structured audit trails stored in compressed formats (Parquet, Arrow)
 - Exception-only error handling (no silent failures, no defaults)
 
-**Relevance to Core Development**: Data integrity assurance applies across scheme records, financial history, and compliance documents—critical for the December 2025 DMS migration and ongoing Strata Space development.
+**Relevance to Core Development**: Data integrity assurance applies across scheme records, financial history, and compliance documents—critical for the completed December 2025 DMS release and ongoing Strata Space development toward July 2026.
 
 ### Internal Automation Tools
 
@@ -116,12 +116,16 @@ Created workflow automation systems that:
 
 ### AI-Augmented Development Tools (Production Context)
 
-Extensive production experience with AI coding agents:
+Extensive production experience with AI coding agents, powered by [Claude Opus 4.5](https://www.anthropic.com/news/claude-opus-4-5) (November 2025)—Anthropic's most capable model achieving 80.9% on SWE-bench Verified:
 
-- **[Claude Code](https://www.claude.com/product/claude-code) CLI**: 1000+ hours with [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) development, custom workflow design
+- **[Claude Code](https://www.claude.com/product/claude-code) CLI**: 1000+ hours with [Agent Skills](https://code.claude.com/docs/en/skills) development—18 plugins, 100+ skills in [cc-skills ecosystem](https://github.com/terrylica/cc-skills)
 - **Anthropic's Claude Code (headless mode)**: Programmatic agent orchestration for automated workflows
 - **[Codex](https://openai.com/codex/)**: OpenAI's code generation model for AI-powered development
 - **Cursor**: AI-augmented IDE with context-aware code generation
+
+**Agent Skills Industry Standard**: Skills are now adopted by [8+ major AI coding tools](https://laurentkempe.com/2026/01/27/Agent-Skills-From-Claude-to-Open-Standard/) (Claude Code, GitHub Copilot, Cursor, OpenAI Codex, Mistral Vibe, Kiro, OpenCode). Skills written for one tool work across all—no vendor lock-in. If Tom's team later adopts different AI tools, their skills transfer.
+
+**Research Acceleration**: [AI Research Scraping pattern](https://github.com/terrylica/cc-skills/wiki/Pattern-AI-Research-Scraping) using Firecrawl + Gemini 3 Pro Deep Research accelerates research on NSW strata legislation changes, competitor documentation, and technical decision-making.
 
 **Focus areas**: Prompt engineering, context window management, systematic workflow integration, reliability patterns, cost management
 
@@ -132,16 +136,19 @@ Extensive production experience with AI coding agents:
 ### Development Workflow
 
 - **Unix-Like Systems**: macOS/Linux (POSIX shells, standard conventions)
-- **Version Control**: Git with pre-commit hooks for code quality
+- **Version Control**: Git with [git-town workflow enforcement](https://github.com/terrylica/cc-skills/tree/main/plugins/git-town-workflow)—blocks raw `git checkout -b`, `git merge`, `git rebase` commands, requiring standardized equivalents. Ensures 8 new developers + 3 squads follow consistent branching patterns from day 1.
 - **Testing**: Automated test suites with fast feedback loops
 - **Documentation**: Machine-readable specs (OpenAPI, JSON Schema, YAML)
+- **Knowledge Capture**: [Terminal session recording](https://github.com/terrylica/cc-skills/tree/main/plugins/asciinema-tools) with 950:1 compression (3.8GB session → 4MB searchable text). Senior developers record debugging sessions for onboarding materials—"watch how I solved X" with full terminal context.
 - **Cloud-Native Deployment**: Serverless cron jobs, auto-scaling VMs, managed secret rotation
 - **Free-Tier Optimization**: Strategic service selection to minimize operating costs
-- **Empirical Validation**: POC frameworks testing assumptions before production commitment
+- **Task Orchestration**: [mise hub-spoke architecture](https://github.com/terrylica/cc-skills/wiki/Pattern-mise-Configuration)—root `mise.toml` defines Python/Node versions; squad folders define domain tasks (`validate:dms`, `test:buildings`). Squads stay synchronized without stepping on each other.
 
 ### Code Quality Standards
 
 - **Dependency Auditing**: cargo deny check for security vulnerabilities
+- **Silent Failure Detection**: [itp-hooks](https://github.com/terrylica/cc-skills/tree/main/plugins/itp-hooks) catches runtime bugs that fail silently—bare `except:` (hides KeyboardInterrupt), `subprocess` without `check=True` (silent failures). Does NOT flag cosmetic issues (unused imports, PEP8 style)—respects Ted's observation about AI producing "garbage" by focusing only on code correctness.
+- **Cross-Module Validation**: [Symmetric dogfooding](https://github.com/terrylica/cc-skills/tree/main/plugins/quality-tools/skills/symmetric-dogfooding)—DMS module validates against Buildings module before release, and vice versa. Catches integration failures between squads before production.
 - **Automated Testing**: Continuous validation before deployment
 - **Error Handling**: Graceful failure and recovery patterns
 - **Observability**: Logging, monitoring, crash detection
@@ -161,7 +168,9 @@ Extensive production experience with AI coding agents:
 - Version-tracked algorithm specs with breaking change history
 - Comprehensive testing validating conformance to specifications
 
-**Relevance to December 2025 + July 2026 Milestones**: Software completion requires documentation discipline and specification rigor. Authoritative spec patterns prevent divergence between code, tests, and documentation across Tom Bacani's team (3 squads working in parallel).
+**Relevance to December 2025 (Complete) + July 2026 Milestones**: Software completion requires documentation discipline and specification rigor. Authoritative spec patterns prevent divergence between code, tests, and documentation across Tom Bacani's team (3 squads working in parallel).
+
+**Terminology Consistency**: [Vale glossary management](https://github.com/terrylica/cc-skills/tree/main/plugins/doc-tools/skills/glossary-management) enforces consistent terminology across squads—"lot owner" vs "unit holder", "strata plan" vs "scheme", "by-law" vs "bylaw". Single Source of Truth (SSoT) syncs terminology to all project documentation automatically.
 
 ### Rapid Prototyping Capability
 
@@ -173,9 +182,9 @@ Extensive production experience with AI coding agents:
 
 ## What This Means for Netstrata
 
-### December 2025 Milestone Contribution
+### December 2025 Milestone (Complete) + Ongoing Support
 
-Support DMS, Tasks, Time Recording release - "biggest operational shift since Financials went live" [Tom Q3 Report, p.6]:
+DMS, Tasks, Time Recording release delivered - "biggest operational shift since Financials went live" [Tom Q3 Report, p.6]. Post-crunch stabilization underway:
 
 - **Modern Tooling**: Python/uv, Rust for performance-critical components
 - **Automation Expertise**: Reducing manual operational overhead

@@ -1,0 +1,29 @@
+# Netstrata Materials Project
+# Simple configuration for documentation and PDF generation
+
+[tools]
+# Node.js for semantic-release
+node = "22"
+
+[env]
+# GitHub authentication (read from centralized secrets)
+GH_TOKEN = "{{ read_file(path=env.HOME ~ '/.claude/.secrets/gh-token-terrylica') | trim }}"
+GITHUB_TOKEN = "{{ read_file(path=env.HOME ~ '/.claude/.secrets/gh-token-terrylica') | trim }}"
+GH_ACCOUNT = "terrylica"
+
+[tasks.pdf]
+description = "Generate PDF from markdown file"
+run = "./build-pdf.sh {{arg(i=0, name='file')}}"
+
+[tasks."pdf:all"]
+description = "Generate all PDFs in materials-for-ted"
+run = """
+cd materials-for-ted
+for f in *.md; do
+  ../build-pdf.sh "$f"
+done
+"""
+
+[tasks.release]
+description = "Run semantic-release"
+run = "GITHUB_TOKEN=$(cat ~/.claude/.secrets/gh-token-terrylica) npx semantic-release"

@@ -10,11 +10,12 @@ This document outlines my approach to AI-augmented development workflows, the ec
 
 ### Investment Profile
 
-**1000+ hours of hands-on practice** across multiple AI coding platforms:
+**1000+ hours of hands-on practice** across multiple AI coding platforms, now powered by [Claude Opus 4.5](https://www.anthropic.com/news/claude-opus-4-5) (November 2025)—Anthropic's most capable model:
 
-- **[Claude Code](https://www.claude.com/product/claude-code) CLI**: Extensive [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) development, custom workflow design, and adoption advocacy
-  - **Usage attestation**: 60,374+ sessions since July 2024 (https://share.cleanshot.com/xN1DCR9X)
+- **[Claude Code](https://www.claude.com/product/claude-code) CLI**: Extensive [Agent Skills](https://code.claude.com/docs/en/skills) development—18 plugins, 100+ skills in [cc-skills ecosystem](https://github.com/terrylica/cc-skills) (955+ commits since December 2025)
+  - **Usage attestation**: 60,374+ sessions since July 2024 (<https://share.cleanshot.com/xN1DCR9X>)
   - 528 million tokens processed, $2,953 API costs demonstrating systematic production usage
+- **Agent Skills Industry Standard**: Skills are now adopted by [8+ major AI coding tools](https://laurentkempe.com/2026/01/27/Agent-Skills-From-Claude-to-Open-Standard/) (Claude Code, GitHub Copilot, Cursor, OpenAI Codex, Mistral Vibe, Kiro, OpenCode)—no vendor lock-in
 - **Production deployment**: Not prototyping or experimentation—these tools run critical business workflows daily
 - **Cross-platform experience**: [Claude Code](https://www.claude.com/product/claude-code), [Codex](https://openai.com/codex/), Cursor, and other AI-augmented IDEs
 - **Production systems built**: Multiple business-critical systems developed entirely using AI-augmented workflows
@@ -23,10 +24,14 @@ This document outlines my approach to AI-augmented development workflows, the ec
 
 ### [Claude Code](https://www.claude.com/product/claude-code) CLI Specialization
 
-**[Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) Development**: Active contribution to [Claude Code](https://www.claude.com/product/claude-code) ecosystem through:
+**[Agent Skills](https://code.claude.com/docs/en/skills) Development**: Active contribution to [Claude Code](https://www.claude.com/product/claude-code) ecosystem through:
 
-- Custom [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) creation for specialized workflows
-- Internal popularization at Eon Labs (team adoption and training)
+- Custom [Agent Skills](https://code.claude.com/docs/en/skills) creation for specialized workflows (18 plugins, 100+ skills)
+- Production tooling applicable to strata management teams:
+  - [git-town-workflow](https://github.com/terrylica/cc-skills/tree/main/plugins/git-town-workflow): Enforces consistent branching for 8 new developers + 3 squads
+  - [asciinema-tools](https://github.com/terrylica/cc-skills/tree/main/plugins/asciinema-tools): Session recording for onboarding ("watch how I debugged X")
+  - [itp-hooks](https://github.com/terrylica/cc-skills/tree/main/plugins/itp-hooks): Code quality checks catching silent failures (not cosmetic issues)
+  - [symmetric-dogfooding](https://github.com/terrylica/cc-skills/tree/main/plugins/quality-tools/skills/symmetric-dogfooding): Cross-module validation (DMS ↔ Buildings)
 - Deep understanding of [Claude Code](https://www.claude.com/product/claude-code)'s tool use patterns, context window management, and autonomous agent capabilities
 - Experience with both successful and failed automation attempts—understanding each AI model's capability boundaries through iterative audit and constraint refinement
 
@@ -77,6 +82,7 @@ Through extensive production usage, I've learned to let AI agents handle all dis
 - Let agents discover current best practices rather than prescribing outdated approaches
 - Add constraints only where audit reveals actual problems, not preemptively
 - Trust agents for routine implementation, reserve human judgment for architecture and NSW compliance
+- Enforce patterns through tooling: [git-town-workflow](https://github.com/terrylica/cc-skills/wiki/Pattern-Workflow-Sequencing) blocks raw git commands, requiring standardized equivalents—new Manila developers follow consistent branching from day 1
 
 **For Netstrata's $12-14M software investment**: Competitive advantage comes from the decade of NSW strata management expertise embedded in the system, not from custom technical patterns. Using standard, well-supported tools maximizes maintainability and protects that investment.
 
@@ -105,13 +111,17 @@ These use cases require deep understanding of Netstrata's operations, NSW regula
 
 ## Knowledge Transfer Approach
 
-**Training methods**: Onboarding workshops ([Claude Code](https://www.claude.com/product/claude-code) CLI setup, prompt engineering basics), pair programming sessions (hands-on problem solving on actual codebase), custom workflow design (building [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) for recurring tasks), ongoing assessment and iteration.
+**Training methods**: Onboarding workshops ([Claude Code](https://www.claude.com/product/claude-code) CLI setup, prompt engineering basics), pair programming sessions (hands-on problem solving on actual codebase), custom workflow design (building [Agent Skills](https://code.claude.com/docs/en/skills) for recurring tasks), ongoing assessment and iteration.
+
+**Session Recording for Onboarding**: [asciinema-tools](https://github.com/terrylica/cc-skills/tree/main/plugins/asciinema-tools) captures full terminal context with 950:1 compression (3.8GB session → 4MB searchable text). Senior developers record debugging sessions—"watch how I solved the DMS migration issue"—creating permanent onboarding materials that ADRs alone cannot capture.
+
+**Multi-agent Research**: [DCTL research pattern](https://github.com/terrylica/cc-skills/wiki/Pattern-DCTL-Research) accelerates technical spike research before implementing complex features—useful for understanding NSW strata legislation impacts on module design.
 
 **Realistic expectations**: AI agents don't replace engineering judgment—they reallocate it from implementation details to business requirements and architecture. Learning curve is weeks to proficiency, months to mastery. Some developers embrace these tools quickly; others need more time. Effective adoption requires collective buy-in, not forced adoption.
 
 ## Demonstration-First Assessment
 
-**My approach**: Work on real December 2025 milestone tasks using AI-first workflows, document measurable outcomes, let the team assess value based on evidence from their actual codebase—not theoretical arguments.
+**My approach**: Work on real milestone tasks using AI-first workflows, document measurable outcomes, let the team assess value based on evidence from their actual codebase—not theoretical arguments.
 
 **30-60 Day Trial Period**:
 
@@ -119,7 +129,7 @@ These use cases require deep understanding of Netstrata's operations, NSW regula
 - Document time savings, code quality improvements, velocity gains
 - Results-based decision: if methodology accelerates milestone delivery, explore broader adoption; if fit isn't there, we have clear evidence
 
-**Why timing matters**: December 2025 milestone (DMS, Tasks, Time Recording) is imminent. Early adoption provides velocity advantage when it matters most. By July 2026, team will have months of AI-augmented development experience.
+**Timeline Context**: December 2025 milestone (DMS, Tasks, Time Recording) should now be complete—Tom's team has emerged from crunch period. July 2026 milestone (Buildings, Asset Management, Dashboard) provides the next velocity demonstration opportunity. Post-crunch stabilization is ideal timing for adopting new development practices.
 
 **Mutual assessment process**:
 
@@ -133,29 +143,31 @@ These use cases require deep understanding of Netstrata's operations, NSW regula
 
 This AI-first methodology directly shapes how I'd contribute to Tom Bacani's team across the actual development roadmap:
 
-### December 2025 Release Support
+### December 2025 Release (Complete)
 
-"Biggest operational shift since Financials went live" - DMS, Tasks, Time Recording:
+"Biggest operational shift since Financials went live" - DMS, Tasks, Time Recording delivered:
 
-- Apply AI-first workflows to accelerate delivery
-- Document measurable velocity gains for the team
-- Support three squads working in parallel
-- Transfer knowledge to interested team members
+- Post-crunch stabilization underway
+- Ideal timing to adopt new development practices
+- Team has bandwidth for capability building
 
 ### July 2026 Combined Delivery
 
 Buildings, Asset Management, Strata Manager Dashboard - targeting "90-95% of workload in Strata Space":
 
-- Continue AI-augmented development support
-- Scale practices across squad workstreams
-- Build on December 2025 learnings
+- Apply AI-first workflows to accelerate delivery
+- [Symmetric dogfooding](https://github.com/terrylica/cc-skills/tree/main/plugins/quality-tools/skills/symmetric-dogfooding) validates July modules against December modules before release
+- Scale practices across squad workstreams with git-town workflow enforcement
+- Document measurable velocity gains for the team
 
 ### Post-2026 Commercialization
 
 If earlier milestone demonstrations prove value:
 
 - Support automation and user experience enhancement
-- Apply AI-first practices to external customer readiness (when needed)
+- Apply AI-first practices to external customer readiness (Richardson, WA when needed)
 - Let results from earlier milestones inform adoption decisions
 
-**The core insight**: December 2025 is imminent. AI-first development offers measurable velocity gains at the most critical moment. Let production results on Netstrata's actual codebase demonstrate value.
+**Code Quality Assurance**: [itp-hooks](https://github.com/terrylica/cc-skills/tree/main/plugins/itp-hooks) catches silent failures before they reach production—addressing Ted's concern about AI producing "garbage" by focusing only on code correctness (bare `except:`, subprocess without `check=True`), not cosmetic issues.
+
+**The core insight**: With December 2025 delivered and July 2026 on the horizon, post-crunch stabilization provides optimal timing for adopting AI-augmented development practices. Let production results on Netstrata's actual codebase demonstrate value.

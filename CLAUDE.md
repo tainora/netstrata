@@ -6,19 +6,22 @@
 
 ## Current Status
 
-**Last Updated**: 2025-12-01
+**Last Updated**: 2026-01-27
 
-| Milestone                               | Date         | Status    |
-| --------------------------------------- | ------------ | --------- |
-| Initial conversation with Ted           | Nov 4, 2025  | Complete  |
-| Sent materials (Docs 00-04) to Ted      | Nov 5, 2025  | Complete  |
-| Ted's AGM concluded                     | Nov 27, 2025 | Complete  |
-| Ted sent Q3 Board Report                | Nov 29, 2025 | Received  |
-| Follow-up call with Ted                 | Nov 30, 2025 | Complete  |
-| **Revised materials based on feedback** | Dec 1, 2025  | **Ready** |
-| Introduction to Cheryl Williams (HR)    | Pending      | Next step |
+| Milestone                               | Date         | Status       |
+| --------------------------------------- | ------------ | ------------ |
+| Initial conversation with Ted           | Nov 4, 2025  | Complete     |
+| Sent materials (Docs 00-04) to Ted      | Nov 5, 2025  | Complete     |
+| Ted's AGM concluded                     | Nov 27, 2025 | Complete     |
+| Ted sent Q3 Board Report                | Nov 29, 2025 | Received     |
+| Follow-up call with Ted                 | Nov 30, 2025 | Complete     |
+| Revised materials based on feedback     | Dec 1, 2025  | Complete     |
+| December 2025 milestone (DMS, Tasks)    | Dec 2025     | **Complete** |
+| **Updated materials (Jan 2026)**        | Jan 27, 2026 | **Ready**    |
+| Introduction to Cheryl Williams (HR)    | Pending      | Next step    |
+| July 2026 milestone (Buildings, Assets) | Jul 2026     | Design phase |
 
-**Current State**: Revised documents (01, 02, 04) ready for Ted to share with Cheryl or Tom. Follow-up email (00A) drafted acknowledging corrections.
+**Current State**: Updated documents (01, 02, 05) with latest cc-skills ecosystem developments (955+ commits, 18 plugins, 100+ skills). Agent Skills now [industry standard](https://laurentkempe.com/2026/01/27/Agent-Skills-From-Claude-to-Open-Standard/) adopted by 8+ AI coding tools. Ready for Ted to share with Cheryl or Tom.
 
 ---
 
@@ -118,9 +121,10 @@ Employment opportunity at Netstrata to contribute to:
 **Strata Space Development**:
 
 - $12-14M invested over ~15 years
-- December 2025: DMS, Tasks, Time Recording ("biggest operational shift since Financials")
-- July 2026: Buildings, Asset Management, Dashboard (90-95% coverage)
+- December 2025: DMS, Tasks, Time Recording ("biggest operational shift since Financials") - **Complete**
+- July 2026: Buildings, Asset Management, Dashboard (90-95% coverage) - Design phase
 - 3 squads working in parallel (Manila-based team)
+- 8 new hires in Q3 2025
 
 **AI at Netstrata** (Epi Neto's domain):
 
@@ -130,9 +134,10 @@ Employment opportunity at Netstrata to contribute to:
 
 **My AI contribution** (non-overlapping):
 
-- Development tooling (Claude Code, Cursor)
-- Production automation workflows
-- AI-first development velocity
+- Development tooling ([Claude Code](https://www.claude.com/product/claude-code), Cursor) powered by [Claude Opus 4.5](https://www.anthropic.com/news/claude-opus-4-5)
+- [Agent Skills](https://code.claude.com/docs/en/skills) - now [industry standard](https://laurentkempe.com/2026/01/27/Agent-Skills-From-Claude-to-Open-Standard/) (8+ AI coding tools)
+- 18 plugins, 100+ skills in [cc-skills ecosystem](https://github.com/terrylica/cc-skills) (955+ commits)
+- Squad coordination tools: git-town workflow, symmetric-dogfooding, Vale glossary management
 
 ---
 
@@ -141,7 +146,8 @@ Employment opportunity at Netstrata to contribute to:
 - **Build prototypes**, not slide decks
 - **Focus on measurable outcomes** (time saved, costs reduced)
 - **No AI hype** (Ted skeptical after board report disaster)
-- **Demonstrate value** through December 2025 milestone support
+- **Demonstrate value** through July 2026 milestone support (December 2025 complete)
+- **Frame tools in Netstrata context** (strata management, not quant trading)
 
 ---
 
@@ -161,4 +167,4 @@ Employment opportunity at Netstrata to contribute to:
 ./build-pdf.sh <file.md>  # Uses canonical landscape format
 ```
 
-Symlink to: `~/eon/cc-skills/plugins/doc-build-tools/skills/pandoc-pdf-generation/assets/build-pdf.sh`
+Symlink to: `~/.claude/plugins/marketplaces/cc-skills/plugins/doc-tools/skills/pandoc-pdf-generation/assets/build-pdf.sh`
