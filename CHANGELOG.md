@@ -1,3 +1,16 @@
+# [2.5.0](https://github.com/tainora/netstrata/compare/v2.4.0...v2.5.0) (2026-01-27)
+
+
+### Bug Fixes
+
+* **pdf:** add .gitattributes for binary file handling ([6539eea](https://github.com/tainora/netstrata/commit/6539eeacb7207a02777c2bbd19f46c7a3e2f493d))
+* **pdf:** regenerate PDFs with binary attribute ([137de9d](https://github.com/tainora/netstrata/commit/137de9d53d56b2f95b4810b82045d53128b9dacd))
+
+
+### Features
+
+* **materials:** add Agent Skills industry standard and development tools ([b0bd71f](https://github.com/tainora/netstrata/commit/b0bd71f56a91d432d2bd4b2dfd206c82e8bdc068))
+
 # [2.4.0](https://github.com/tainora/netstrata/compare/v2.3.3...v2.4.0) (2025-12-17)
 
 
