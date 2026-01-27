@@ -1,3 +1,10 @@
+## [2.5.1](https://github.com/tainora/netstrata/compare/v2.5.0...v2.5.1) (2026-01-27)
+
+
+### Bug Fixes
+
+* **materials:** update December 2025 references to reflect completion ([83bf7e9](https://github.com/tainora/netstrata/commit/83bf7e9eb2bd08c243835da399d85084ddd633c3))
+
 # [2.5.0](https://github.com/tainora/netstrata/compare/v2.4.0...v2.5.0) (2026-01-27)
 
 
