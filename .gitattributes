@@ -1,0 +1,14 @@
+# Binary files
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+# Text files
+*.md text
+*.txt text
+*.json text
+*.toml text
+*.yaml text
+*.yml text
