@@ -21,7 +21,7 @@
 | Introduction to Cheryl Williams (HR)    | Pending      | Next step    |
 | July 2026 milestone (Buildings, Assets) | Jul 2026     | Design phase |
 
-**Current State**: Updated documents (01, 02, 05) with latest cc-skills ecosystem developments (955+ commits, 18 plugins, 100+ skills). Agent Skills now [industry standard](https://laurentkempe.com/2026/01/27/Agent-Skills-From-Claude-to-Open-Standard/) adopted by 8+ AI coding tools. Ready for Ted to share with Cheryl or Tom.
+**Current State**: Updated documents (01-05) with latest cc-skills ecosystem developments (955+ commits, 18 plugins, 100+ skills). Agent Skills now [industry standard](https://laurentkempe.com/2026/01/27/Agent-Skills-From-Claude-to-Open-Standard/) adopted by 8+ AI coding tools. New trial engagement options (Doc 05) offer zero-risk evaluation paths. Visa info moved to Doc 06 (appendix). Ready for Ted to share with Cheryl or Tom.
 
 ---
 
@@ -54,15 +54,17 @@ Employment opportunity at Netstrata to contribute to:
 
 **Directory**: [/materials-for-ted/](/materials-for-ted/)
 
-| Document                                                                                                    | Purpose                          |
-| ----------------------------------------------------------------------------------------------------------- | -------------------------------- |
-| [00-email-to-ted.md](/materials-for-ted/00-email-to-ted.md)                                                 | Original email (Nov 4 follow-up) |
-| [00A-email-to-ted.md](/materials-for-ted/00A-email-to-ted.md)                                               | Follow-up email (Nov 30 call)    |
-| [01-technical-competencies.md](/materials-for-ted/01-technical-competencies.md)                             | Technical skills summary         |
-| [02-ai-augmented-development-methodology.md](/materials-for-ted/02-ai-augmented-development-methodology.md) | AI development approach          |
-| [03-work-visa-pathway.md](/materials-for-ted/03-work-visa-pathway.md)                                       | Subclass 482 visa details        |
-| [04-netstrata-research.md](/materials-for-ted/04-netstrata-research.md)                                     | Company research summary         |
-| [05-development-philosophy.md](/materials-for-ted/05-development-philosophy.md)                             | Development methodology          |
+| Document                                                                                                    | Purpose                              |
+| ----------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| [00-email-to-ted.md](/materials-for-ted/00-email-to-ted.md)                                                 | Original email (Nov 4 follow-up)     |
+| [00A-email-to-ted.md](/materials-for-ted/00A-email-to-ted.md)                                               | Follow-up email (Nov 30 call)        |
+| [00B-email-to-ted-trial-options.md](/materials-for-ted/00B-email-to-ted-trial-options.md)                   | Trial engagement options (Jan 2026)  |
+| [01-technical-competencies.md](/materials-for-ted/01-technical-competencies.md)                             | Technical skills summary             |
+| [02-ai-augmented-development-methodology.md](/materials-for-ted/02-ai-augmented-development-methodology.md) | AI development approach              |
+| [03-netstrata-research.md](/materials-for-ted/03-netstrata-research.md)                                     | Company research summary             |
+| [04-development-philosophy.md](/materials-for-ted/04-development-philosophy.md)                             | Development methodology              |
+| [05-trial-engagement-options.md](/materials-for-ted/05-trial-engagement-options.md)                         | Zero-risk trial options (detailed)   |
+| [06-work-visa-pathway.md](/materials-for-ted/06-work-visa-pathway.md)                                       | Subclass 482 visa details (appendix) |
 
 **Q3 2025 Board Report**: [/materials-for-ted/ss-it-smp-q3-2025/](/materials-for-ted/ss-it-smp-q3-2025/) - Tom's report with Ted's context notes
 
@@ -91,7 +93,7 @@ Employment opportunity at Netstrata to contribute to:
 
 ## Key Learnings from November 30 Call
 
-**Corrections Applied to Docs 01, 02, 04**:
+**Corrections Applied to Docs 01, 02, 03**:
 
 1. **Timeline**: December 2025 and July 2026 milestones (not vague "end-2026")
 2. **Richardson**: Stable adoption, "happy with what they've got" (not urgent blocker)
