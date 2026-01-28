@@ -91,7 +91,7 @@ If any of these options interest Cheryl, Tom, or other decision-makers, I'm happ
 - Schedule an introductory Claude Code training session
 - Provide additional materials or references
 
-The revised technical documents (01, 02, 04, 05) remain available—now updated to reflect that December 2025 milestone is complete and July 2026 is the next target.
+The revised technical documents (01-04) remain available—now updated to reflect that December 2025 milestone is complete and July 2026 is the next target. Visa pathway details are in Doc 06 (appendix).
 
 Best regards,
 Terry

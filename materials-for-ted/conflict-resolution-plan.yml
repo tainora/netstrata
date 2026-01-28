@@ -59,10 +59,10 @@ phases:
 
       - id: p1t4
         description: fix timeline contradiction in Doc 04
-        file: 04-netstrata-research.md
+        file: 03-netstrata-research.md
         search: "over approximately 10 years \\(2006-2025\\)"
         replace: "over approximately 19 years (2006-2025, with ~10 years intensive development)"
-        validation: "! grep -q 'over approximately 10 years (2006-2025)' 04-netstrata-research.md"
+        validation: "! grep -q 'over approximately 10 years (2006-2025)' 03-netstrata-research.md"
         status: pending
 
   phase_2_high_priority:
@@ -90,10 +90,10 @@ phases:
 
       - id: p2t3
         description: add paraphrased disclaimer to Ted quotes in Doc 04
-        file: 04-netstrata-research.md
+        file: 03-netstrata-research.md
         action: add disclaimer before quoted sections
         text: "Note: Quotes paraphrased from conversation notes (2025-11-04)"
-        validation: grep -q 'paraphrased from conversation' 04-netstrata-research.md
+        validation: grep -q 'paraphrased from conversation' 03-netstrata-research.md
         status: pending
 
       - id: p2t4
@@ -114,9 +114,9 @@ phases:
     tasks:
       - id: p3t1
         description: restructure Doc 04 - move contribution section forward
-        file: 04-netstrata-research.md
+        file: 03-netstrata-research.md
         action: move Part 3 (lines 219-323) to become Part 1
-        validation: head -50 04-netstrata-research.md | grep -q 'Where I Could Contribute'
+        validation: head -50 03-netstrata-research.md | grep -q 'Where I Could Contribute'
         status: pending
 
       - id: p3t2
@@ -138,16 +138,16 @@ phases:
       - id: p3t4
         description: standardize name format Epitacio Neto vs Epi Mito
         files:
-          - 04-netstrata-research.md
+          - 03-netstrata-research.md
         action: use full name Epitacio Neto consistently
-        validation: "! grep -q 'Epi Mito' 04-netstrata-research.md"
+        validation: "! grep -q 'Epi Mito' 03-netstrata-research.md"
         status: pending
 
       - id: p3t5
         description: verify or remove Helen Wong surname
-        file: 04-netstrata-research.md
+        file: 03-netstrata-research.md
         action: verify surname or change to "Helen (surname TBC)"
-        validation: grep -Eq 'Helen Wong|Helen \\(surname' 04-netstrata-research.md
+        validation: grep -Eq 'Helen Wong|Helen \\(surname' 03-netstrata-research.md
         status: pending
 
 validation:
