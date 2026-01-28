@@ -129,7 +129,7 @@ Extensive production experience with AI coding agents, powered by [Claude Opus 4
 
 **Focus areas**: Prompt engineering, context window management, systematic workflow integration, reliability patterns, cost management
 
-**NOT speculative AI hype** - this is production experience with measurable outcomes (hours saved, errors reduced, processing speed). Detailed AI methodology described in attached document (01b).
+**NOT speculative AI hype** - this is production experience with measurable outcomes (hours saved, errors reduced, processing speed). Detailed AI methodology described in attached document (02).
 
 ## Technical Environment & Practices
 

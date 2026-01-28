@@ -6,17 +6,17 @@ Thanks for taking the time to talk on November 4. I've been reflecting on our co
 
 ## The Three-Phase Opportunity
 
-**Phase 1 (Priority through 2026):** Complete the proprietary software - working with Tom Bakani's team on final development, hitting the end-2026 completion milestone.
+**Phase 1 (Priority through 2026):** Complete the proprietary software - working with Tom Bacani's team on final development (December 2025 milestone complete, July 2026 next).
 
 **Phase 2 (Current blocker):** Get ready for Western Australia migration - the WA customer you mentioned is "hell-bent" to migrate but "we're not ready yet." I can help build migration infrastructure, validation frameworks, and support systems.
 
 **Phase 3 (Post-2026):** Broader external offering to non-NSW markets using your "give it away with strings" freemium strategy.
 
-My interest is contributing across all three phases, starting with software completion. Detailed analysis of each phase and my contribution areas is in the attached research summary (04).
+My interest is contributing across all three phases, starting with software completion. Detailed analysis of each phase and my contribution areas is in the attached research summary (03).
 
 ## My Development Approach
 
-I work with modern development practices including AI-augmented workflows. I'd welcome the opportunity to demonstrate these approaches to Tom Bakani's team during Phase 1 work—you can assess value based on measurable results (time savings, code quality improvements, velocity gains on real Netstrata challenges).
+I work with modern development practices including AI-augmented workflows. I'd welcome the opportunity to demonstrate these approaches to Tom Bacani's team during Phase 1 work—you can assess value based on measurable results (time savings, code quality improvements, velocity gains on real Netstrata challenges).
 
 Technical competencies summary (01) and methodology details (02) are attached for reference.
 
@@ -34,14 +34,16 @@ I don't want that to be part of your calculation—this should be about capabili
 
 ## Next Steps
 
-I'm attaching four documents:
+I'm attaching six documents:
 
 1. Technical competencies summary
 2. AI-augmented development methodology details
-3. Work visa pathway summary
-4. Netstrata research summary
+3. Netstrata research summary
+4. Development philosophy
+5. Trial engagement options
+6. Work visa pathway (appendix)
 
-When you're available after November 27, I'd appreciate an introduction to Cheryl Williams to discuss employment fit. During that conversation, I'd also welcome the chance to discuss demonstration approaches with Tom Bakani's team—letting results speak rather than making theoretical claims about capabilities.
+When you're available after November 27, I'd appreciate an introduction to Cheryl Williams to discuss employment fit. During that conversation, I'd also welcome the chance to discuss demonstration approaches with Tom Bacani's team—letting results speak rather than making theoretical claims about capabilities.
 
 No rush—I know you're buried in board work through month-end.
 
