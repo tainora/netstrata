@@ -1,3 +1,17 @@
+# [2.6.0](https://github.com/tainora/netstrata/compare/v2.5.1...v2.6.0) (2026-01-30)
+
+
+### Bug Fixes
+
+* **materials:** correct document references and name spellings ([1aa1a49](https://github.com/tainora/netstrata/commit/1aa1a49930c11f511b22f4caf529a6bf6b162765))
+* **materials:** update all cross-references to new document numbering ([567f477](https://github.com/tainora/netstrata/commit/567f477a46381362c51be647a78aef1bb8e1b4a6))
+
+
+### Features
+
+* **materials:** add iterm2-scripts showcase for team workflow tooling ([fe23a28](https://github.com/tainora/netstrata/commit/fe23a284fed06c6a9105895df3acdd752d3ee48b))
+* **materials:** reorganize document numbering for logical flow ([e26c46a](https://github.com/tainora/netstrata/commit/e26c46ac4c57c5ce644629c2f18c5a201e36c2e5))
+
 ## [2.5.1](https://github.com/tainora/netstrata/compare/v2.5.0...v2.5.1) (2026-01-27)
 
 
