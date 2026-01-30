@@ -12,15 +12,15 @@ The core thesis: **small, frequent releases with automated versioning reduce coo
 
 ### Project History
 
-| Project        | Duration   | Commits | Releases | Pattern                                                                                                                       |
-| -------------- | ---------- | ------- | -------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| rsr-fsa        | 3.5+ years | 34      | -        | Long-term simulation                                                                                                          |
-| claude-code    | 10 months  | 375     | -        | CLI tooling, 288 active days                                                                                                  |
-| scripts        | 6 months   | 205     | -        | macOS automation ecosystem                                                                                                    |
-| cc-skills      | 2+ months  | 955+    | 150+     | 18 plugins, 100+ skills ([industry standard](https://laurentkempe.com/2026/01/27/Agent-Skills-From-Claude-to-Open-Standard/)) |
-| netstrata      | 27 days    | 118     | 34       | Responsive iteration (1.3/day)                                                                                                |
-| gapless-crypto | 73 days    | 187     | 10       | PyPI published, CI/CD automated                                                                                               |
-| alpha-forge    | 42 days    | 81      | -        | 42 ADRs (architecture-first)                                                                                                  |
+| Project                                                       | Duration   | Commits | Releases   | Pattern                                                                                                                       |
+| ------------------------------------------------------------- | ---------- | ------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| rsr-fsa                                                       | 3.5+ years | 34      | -          | Long-term simulation                                                                                                          |
+| claude-code                                                   | 10 months  | 375     | -          | CLI tooling, 288 active days                                                                                                  |
+| [iterm2-scripts](https://github.com/terrylica/iterm2-scripts) | 1 month    | 52      | 9 releases | Terminal automation (5K lines)                                                                                                |
+| cc-skills                                                     | 2+ months  | 955+    | 150+       | 18 plugins, 100+ skills ([industry standard](https://laurentkempe.com/2026/01/27/Agent-Skills-From-Claude-to-Open-Standard/)) |
+| netstrata                                                     | 27 days    | 118     | 34         | Responsive iteration (1.3/day)                                                                                                |
+| gapless-crypto                                                | 73 days    | 187     | 10         | PyPI published, CI/CD automated                                                                                               |
+| alpha-forge                                                   | 42 days    | 81      | -          | 42 ADRs (architecture-first)                                                                                                  |
 
 ### Key Observations
 

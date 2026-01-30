@@ -39,6 +39,20 @@ Demonstrates operational reliability patterns applicable to business-critical sy
 
 **Recent Example**: Extracted 292 blog posts from Netstrata website using automated web scraping with AJAX pagination handling, rate limiting, and metadata preservation.
 
+### Terminal Workflow Standardization
+
+[iterm2-scripts](https://github.com/terrylica/iterm2-scripts) - team-scalable terminal workspace automation:
+
+- **Version-controlled workspace configs**: TOML files define tab layouts, pane ratios, and shell commands per squad. New developer clones repo → gets standardized environment automatically
+- **Git worktree auto-discovery**: Feature branch worktrees appear as tabs without manual configuration. 3 squads with parallel branches stay organized
+- **Shell alias resolution**: Team-wide `.zshrc` aliases resolved at runtime—no hardcoding
+- **Persistent preferences**: Tab names, ordering, and selections remembered across sessions with atomic writes
+- **Migration support**: Config schema changes handled gracefully as team workflow evolves
+
+**Netstrata Application**: Squad A (DMS) commits `workspace-dms.toml` with 10 tabs for their module structure. New Manila developer joins → clones repo → starts iTerm2 → selects "DMS" → gets identical environment to senior developers. Setup time: zero. Scales from 8 new hires (Q3 2025) to 15+ (July 2026) without per-person configuration tax.
+
+**Technical depth**: 5K lines Python, iTerm2 async API, SwiftDialog native UI, 15 modular sources with build-time concatenation (solving AutoLaunch single-file constraint), 4 ADRs documenting design decisions.
+
 ### Cloud & Container Infrastructure
 
 - **Google Cloud Platform**: Production deployment expertise
